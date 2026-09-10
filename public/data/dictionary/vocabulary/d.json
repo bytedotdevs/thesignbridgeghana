@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "gsl-daily",
+    "slug": "daily",
+    "word": "DAILY / EVERYDAY",
+    "primaryWord": "DAILY",
+    "normalizedWord": "daily",
+    "letter": "D",
+    "synonyms": [
+      "EVERYDAY"
+    ],
+    "definition": "With the \"A\" hand at the side of your mouth, push forward slightly twice.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/daily.webp",
+      "alt": "Ghanaian Sign Language for DAILY / EVERYDAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 206,
+      "pdfPage": 217
+    }
+  },
+  {
+    "id": "gsl-dambasamanpiid",
+    "slug": "dambasamanpiid",
+    "word": "DAMBA, SAMANPIID",
+    "primaryWord": "DAMBA, SAMANPIID",
+    "normalizedWord": "damba, samanpiid",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Rest the left arm at your waist with the elbow out and wave the right \"X\" hand back and forth at your arm.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/dambasamanpiid.webp",
+      "alt": "Ghanaian Sign Language for DAMBA, SAMANPIID"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 270,
+      "pdfPage": 281
+    }
+  },
+  {
+    "id": "gsl-dance",
+    "slug": "dance",
+    "word": "DANCE",
+    "primaryWord": "DANCE",
+    "normalizedWord": "dance",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Swing the downturned right \"V\" hand from side-to-side over the left palm.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/dance.webp",
+      "alt": "Ghanaian Sign Language for DANCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 120,
+      "pdfPage": 131
+    }
+  },
+  {
+    "id": "gsl-danger",
+    "slug": "danger",
+    "word": "DANGER",
+    "primaryWord": "DANGER",
+    "normalizedWord": "danger",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Flick the thumb and middle finger at head level.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/danger.webp",
+      "alt": "Ghanaian Sign Language for DANGER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-dark",
+    "slug": "dark",
+    "word": "DARK / DIM",
+    "primaryWord": "DARK",
+    "normalizedWord": "dark",
+    "letter": "D",
+    "synonyms": [
+      "DIM"
+    ],
+    "definition": "Cross both flat hands in front of your face.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/dark.webp",
+      "alt": "Ghanaian Sign Language for DARK / DIM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 87,
+      "pdfPage": 98
+    }
+  },
+  {
+    "id": "gsl-daughter",
+    "slug": "daughter",
+    "word": "DAUGHTER",
+    "primaryWord": "DAUGHTER",
+    "normalizedWord": "daughter",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Make the sign for \"GIRL\" then move the hand to the inner elbow.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/daughter.webp",
+      "alt": "Ghanaian Sign Language for DAUGHTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 9,
+      "pdfPage": 20
+    }
+  },
+  {
+    "id": "gsl-david",
+    "slug": "david",
+    "word": "DAVID",
+    "primaryWord": "DAVID",
+    "normalizedWord": "david",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Move the \"D\" hand from your left shoulder to your right hip",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/david.webp",
+      "alt": "Ghanaian Sign Language for DAVID"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 256,
+      "pdfPage": 267
+    }
+  },
+  {
+    "id": "gsl-day",
+    "slug": "day",
+    "word": "DAY",
+    "primaryWord": "DAY",
+    "normalizedWord": "day",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the right elbow on the back of the left hand with the index finger upward and drop the right hand down.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/day.webp",
+      "alt": "Ghanaian Sign Language for DAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 201,
+      "pdfPage": 212
+    }
+  },
+  {
+    "id": "gsl-dead",
+    "slug": "dead",
+    "word": "DEAD / DEATH",
+    "primaryWord": "DEAD",
+    "normalizedWord": "dead",
+    "letter": "D",
+    "synonyms": [
+      "DEATH"
+    ],
+    "definition": "Place one flat hand facing down and the other facing up, then switch their positions.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/dead.webp",
+      "alt": "Ghanaian Sign Language for DEAD / DEATH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 260,
+      "pdfPage": 271
+    }
+  },
+  {
+    "id": "gsl-deaf",
+    "slug": "deaf",
+    "word": "DEAF",
+    "primaryWord": "DEAF",
+    "normalizedWord": "deaf",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the index finger next to the mouth then move to the ear.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/deaf.webp",
+      "alt": "Ghanaian Sign Language for DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 167,
+      "pdfPage": 178
+    }
+  },
+  {
+    "id": "gsl-deceive",
+    "slug": "deceive",
+    "word": "DECEIVE",
+    "primaryWord": "DECEIVE",
+    "normalizedWord": "deceive",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Circle both \"ILY\" hands around each other alternately in front of you.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/deceive.webp",
+      "alt": "Ghanaian Sign Language for DECEIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 182,
+      "pdfPage": 193
+    }
+  },
+  {
+    "id": "gsl-december",
+    "slug": "december",
+    "word": "DECEMBER",
+    "primaryWord": "DECEMBER",
+    "normalizedWord": "december",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the right elbow on top of the left flat hand and move the \"D\" hand side to side.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/december.webp",
+      "alt": "Ghanaian Sign Language for DECEMBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 206,
+      "pdfPage": 217
+    }
+  },
+  {
+    "id": "gsl-decide",
+    "slug": "decide",
+    "word": "DECIDE",
+    "primaryWord": "DECIDE",
+    "normalizedWord": "decide",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Hold both \"D\" hands facing the body and then flip out at the same time",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/decide.webp",
+      "alt": "Ghanaian Sign Language for DECIDE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 157,
+      "pdfPage": 168
+    }
+  },
+  {
+    "id": "gsl-decline",
+    "slug": "decline",
+    "word": "DECLINE",
+    "primaryWord": "DECLINE",
+    "normalizedWord": "decline",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Move the right flat hand in small arcs down the left arm.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/decline.webp",
+      "alt": "Ghanaian Sign Language for DECLINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 91,
+      "pdfPage": 102
+    }
+  },
+  {
+    "id": "gsl-deep",
+    "slug": "deep",
+    "word": "DEEP",
+    "primaryWord": "DEEP",
+    "normalizedWord": "deep",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Use index finger to draw a straight line down the oppostie hand and arm. Finger pointing down.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/deep.webp",
+      "alt": "Ghanaian Sign Language for DEEP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 98,
+      "pdfPage": 109
+    }
+  },
+  {
+    "id": "gsl-deepkissing",
+    "slug": "deepkissing",
+    "word": "DEEP KISSING",
+    "primaryWord": "DEEP KISSING",
+    "normalizedWord": "deep kissing",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Rock both \"Y\" hands back and forth against each other.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/deepkissing.webp",
+      "alt": "Ghanaian Sign Language for DEEP KISSING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 100,
+      "pdfPage": 111
+    }
+  },
+  {
+    "id": "gsl-deer",
+    "slug": "deer",
+    "word": "DEER",
+    "primaryWord": "DEER",
+    "normalizedWord": "deer",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "With palms facing forward, touch the temples with the thumbs of both open hands.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/deer.webp",
+      "alt": "Ghanaian Sign Language for DEER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 60,
+      "pdfPage": 71
+    }
+  },
+  {
+    "id": "gsl-defeated",
+    "slug": "defeated",
+    "word": "DEFEATED",
+    "primaryWord": "DEFEATED",
+    "normalizedWord": "defeated",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Pinch your index finger and thumb together then slap your wrist in a downward motion.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/defeated.webp",
+      "alt": "Ghanaian Sign Language for DEFEATED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-democracy",
+    "slug": "democracy",
+    "word": "DEMOCRACY",
+    "primaryWord": "DEMOCRACY",
+    "normalizedWord": "democracy",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Cross both \"D\" hands over each other in front of your body then open your arms and rotate hands forward.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/democracy.webp",
+      "alt": "Ghanaian Sign Language for DEMOCRACY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 240,
+      "pdfPage": 251
+    }
+  },
+  {
+    "id": "gsl-demonstrationschoolforthedeaf",
+    "slug": "demonstrationschoolforthedeaf",
+    "word": "DEMONSTRATION SCHOOL FOR THE DEAF",
+    "primaryWord": "DEMONSTRATION SCHOOL FOR THE DEAF",
+    "normalizedWord": "demonstration school for the deaf",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "1. Place the \"D\" hand into the palm and push forward. 2. Clap your hands together.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/demonstrationschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for DEMONSTRATION SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 234,
+      "pdfPage": 245
+    }
+  },
+  {
+    "id": "gsl-denial",
+    "slug": "denial",
+    "word": "DENIAL",
+    "primaryWord": "DENIAL",
+    "normalizedWord": "denial",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Flick the thumbs of both \"A\" hands upward from the chest a few times.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/denial.webp",
+      "alt": "Ghanaian Sign Language for DENIAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 103,
+      "pdfPage": 114
+    }
+  },
+  {
+    "id": "gsl-dentist",
+    "slug": "dentist",
+    "word": "DENTIST",
+    "primaryWord": "DENTIST",
+    "normalizedWord": "dentist",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap your teeth with the fingers of the \"D\" hand.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/dentist.webp",
+      "alt": "Ghanaian Sign Language for DENTIST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 70,
+      "pdfPage": 81
+    }
+  },
+  {
+    "id": "gsl-deny",
+    "slug": "deny",
+    "word": "DENY / DENIAL",
+    "primaryWord": "DENY",
+    "normalizedWord": "deny",
+    "letter": "D",
+    "synonyms": [
+      "DENIAL"
+    ],
+    "definition": "Place both \"A\" hand thumbs on your waist then pull both up together.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/deny.webp",
+      "alt": "Ghanaian Sign Language for DENY / DENIAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 259,
+      "pdfPage": 270
+    }
+  },
+  {
+    "id": "gsl-depend",
+    "slug": "depend",
+    "word": "DEPEND",
+    "primaryWord": "DEPEND",
+    "normalizedWord": "depend",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the right index finger on top of the left and slightly move both hands downward.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/depend.webp",
+      "alt": "Ghanaian Sign Language for DEPEND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 107,
+      "pdfPage": 118
+    }
+  },
+  {
+    "id": "gsl-design",
+    "slug": "design",
+    "word": "DESIGN",
+    "primaryWord": "DESIGN",
+    "normalizedWord": "design",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Wave the right \"D\" hand down the left palm.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/design.webp",
+      "alt": "Ghanaian Sign Language for DESIGN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 105,
+      "pdfPage": 116
+    }
+  },
+  {
+    "id": "gsl-designer",
+    "slug": "designer",
+    "word": "DESIGNER",
+    "primaryWord": "DESIGNER",
+    "normalizedWord": "designer",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "1. Wave the right \"D\" hand down the left palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/designer.webp",
+      "alt": "Ghanaian Sign Language for DESIGNER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 71,
+      "pdfPage": 82
+    }
+  },
+  {
+    "id": "gsl-desire",
+    "slug": "desire",
+    "word": "DESIRE",
+    "primaryWord": "DESIRE",
+    "normalizedWord": "desire",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Pinch your neck with your thumb and index finger.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/desire.webp",
+      "alt": "Ghanaian Sign Language for DESIRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 193,
+      "pdfPage": 204
+    }
+  },
+  {
+    "id": "gsl-destroy",
+    "slug": "destroy",
+    "word": "DESTROY / CONDEMN",
+    "primaryWord": "DESTROY",
+    "normalizedWord": "destroy",
+    "letter": "D",
+    "synonyms": [
+      "CONDEMN"
+    ],
+    "definition": "With both \"A\" hands in front of the body, run both flat hands over each other a few times back and forth.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/destroy.webp",
+      "alt": "Ghanaian Sign Language for DESTROY / CONDEMN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 104,
+      "pdfPage": 115
+    }
+  },
+  {
+    "id": "gsl-develop",
+    "slug": "develop",
+    "word": "DEVELOP",
+    "primaryWord": "DEVELOP",
+    "normalizedWord": "develop",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the right \"D\" hand against the left palm then move the right hand upward.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/develop.webp",
+      "alt": "Ghanaian Sign Language for DEVELOP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 114,
+      "pdfPage": 125
+    }
+  },
+  {
+    "id": "gsl-development",
+    "slug": "development",
+    "word": "DEVELOPMENT",
+    "primaryWord": "DEVELOPMENT",
+    "normalizedWord": "development",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slide the right \"D\" hand up the left palm",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/development.webp",
+      "alt": "Ghanaian Sign Language for DEVELOPMENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  },
+  {
+    "id": "gsl-devil",
+    "slug": "devil",
+    "word": "DEVIL / SATAN",
+    "primaryWord": "DEVIL",
+    "normalizedWord": "devil",
+    "letter": "D",
+    "synonyms": [
+      "SATAN"
+    ],
+    "definition": "Place the clawed \"3\" hand against your right temple.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/devil.webp",
+      "alt": "Ghanaian Sign Language for DEVIL / SATAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 258,
+      "pdfPage": 269
+    }
+  },
+  {
+    "id": "gsl-diamond",
+    "slug": "diamond",
+    "word": "DIAMOND",
+    "primaryWord": "DIAMOND",
+    "normalizedWord": "diamond",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the \"D\" hand by the ear and swing it back and forth.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/diamond.webp",
+      "alt": "Ghanaian Sign Language for DIAMOND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 135,
+      "pdfPage": 146
+    }
+  },
+  {
+    "id": "gsl-diarrhea",
+    "slug": "diarrhea",
+    "word": "DIARRHEA",
+    "primaryWord": "DIARRHEA",
+    "normalizedWord": "diarrhea",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Use the middle finger to flick to the side a few times. Use the pointer finger to motion foreward and back.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/diarrhea.webp",
+      "alt": "Ghanaian Sign Language for DIARRHEA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 168,
+      "pdfPage": 179
+    }
+  },
+  {
+    "id": "gsl-dictionary",
+    "slug": "dictionary",
+    "word": "DICTIONARY",
+    "primaryWord": "DICTIONARY",
+    "normalizedWord": "dictionary",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Brush back against the left palm with the \"D\" hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/dictionary.webp",
+      "alt": "Ghanaian Sign Language for DICTIONARY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 149,
+      "pdfPage": 160
+    }
+  },
+  {
+    "id": "gsl-different",
+    "slug": "different",
+    "word": "DIFFERENT",
+    "primaryWord": "DIFFERENT",
+    "normalizedWord": "different",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Cross both index fingers with palms down then draw them apart to the sides of the body a few times.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/different.webp",
+      "alt": "Ghanaian Sign Language for DIFFERENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 94,
+      "pdfPage": 105
+    }
+  },
+  {
+    "id": "gsl-difficult",
+    "slug": "difficult",
+    "word": "DIFFICULT / HARD",
+    "primaryWord": "DIFFICULT",
+    "normalizedWord": "difficult",
+    "letter": "D",
+    "synonyms": [
+      "HARD"
+    ],
+    "definition": "Knock the curved \"V\" hands against the back of the left hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/difficult.webp",
+      "alt": "Ghanaian Sign Language for DIFFICULT / HARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 92,
+      "pdfPage": 103
+    }
+  },
+  {
+    "id": "gsl-difficulttochange",
+    "slug": "difficulttochange",
+    "word": "DIFFICULT TO CHANGE",
+    "primaryWord": "DIFFICULT TO CHANGE",
+    "normalizedWord": "difficult to change",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slide the \"S\" hand out from under the chin.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/difficulttochange.webp",
+      "alt": "Ghanaian Sign Language for DIFFICULT TO CHANGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 275,
+      "pdfPage": 286
+    }
+  },
+  {
+    "id": "gsl-diploma",
+    "slug": "diploma",
+    "word": "DIPLOMA / DEGREE",
+    "primaryWord": "DIPLOMA",
+    "normalizedWord": "diploma",
+    "letter": "D",
+    "synonyms": [
+      "DEGREE"
+    ],
+    "definition": "Touch the fingers of both \"D\" hands with index fingers forward then slide them away in opposite directions.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/diploma.webp",
+      "alt": "Ghanaian Sign Language for DIPLOMA / DEGREE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-dirty",
+    "slug": "dirty",
+    "word": "DIRTY",
+    "primaryWord": "DIRTY",
+    "normalizedWord": "dirty",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the back of the right hand under the chin and wiggle the fingers.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/dirty.webp",
+      "alt": "Ghanaian Sign Language for DIRTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-disabled",
+    "slug": "disabled",
+    "word": "DISABLED",
+    "primaryWord": "DISABLED",
+    "normalizedWord": "disabled",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap the fingers of the \"D\" hand against your inner thumb twice.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/disabled.webp",
+      "alt": "Ghanaian Sign Language for DISABLED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 171,
+      "pdfPage": 182
+    }
+  },
+  {
+    "id": "gsl-disappear",
+    "slug": "disappear",
+    "word": "DISAPPEAR",
+    "primaryWord": "DISAPPEAR",
+    "normalizedWord": "disappear",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slide your right index finger down from between the left index and middle fingers.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/disappear.webp",
+      "alt": "Ghanaian Sign Language for DISAPPEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 223,
+      "pdfPage": 234
+    }
+  },
+  {
+    "id": "gsl-disappointed",
+    "slug": "disappointed",
+    "word": "DISAPPOINTED",
+    "primaryWord": "DISAPPOINTED",
+    "normalizedWord": "disappointed",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Press your index finger into your chin.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/disappointed.webp",
+      "alt": "Ghanaian Sign Language for DISAPPOINTED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 191,
+      "pdfPage": 202
+    }
+  },
+  {
+    "id": "gsl-disease",
+    "slug": "disease",
+    "word": "DISEASE",
+    "primaryWord": "DISEASE",
+    "normalizedWord": "disease",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap both \"D\" hands against your body twice with one hand at your head and the other at your abdomen.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/disease.webp",
+      "alt": "Ghanaian Sign Language for DISEASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 167,
+      "pdfPage": 178
+    }
+  },
+  {
+    "id": "gsl-disgrace",
+    "slug": "disgrace",
+    "word": "DISGRACE",
+    "primaryWord": "DISGRACE",
+    "normalizedWord": "disgrace",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Draw both \"D\" hands downward from your eyes.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/disgrace.webp",
+      "alt": "Ghanaian Sign Language for DISGRACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 191,
+      "pdfPage": 202
+    }
+  },
+  {
+    "id": "gsl-district",
+    "slug": "district",
+    "word": "DISTRICT",
+    "primaryWord": "DISTRICT",
+    "normalizedWord": "district",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "With both \"D\" hand fingertips touching, curve both hands back to the same position.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/district.webp",
+      "alt": "Ghanaian Sign Language for DISTRICT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  },
+  {
+    "id": "gsl-districtassembly",
+    "slug": "districtassembly",
+    "word": "DISTRICT ASSEMBLY",
+    "primaryWord": "DISTRICT ASSEMBLY",
+    "normalizedWord": "district assembly",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "1. Curve both \"D\" hands backwards to meet. 2. Press all fingertips together twice.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/districtassembly.webp",
+      "alt": "Ghanaian Sign Language for DISTRICT ASSEMBLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  },
+  {
+    "id": "gsl-divide",
+    "slug": "divide",
+    "word": "DIVIDE",
+    "primaryWord": "DIVIDE",
+    "normalizedWord": "divide",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Rock the right flat hand back and forth between the middle and index fingers of the left hand.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/divide.webp",
+      "alt": "Ghanaian Sign Language for DIVIDE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 78,
+      "pdfPage": 89
+    }
+  },
+  {
+    "id": "gsl-divorced",
+    "slug": "divorced",
+    "word": "DIVORCED",
+    "primaryWord": "DIVORCED",
+    "normalizedWord": "divorced",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Hold both \"D\" hands with fingertips touching, then slide both hands apart.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/divorced.webp",
+      "alt": "Ghanaian Sign Language for DIVORCED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 13,
+      "pdfPage": 24
+    }
+  },
+  {
+    "id": "gsl-dizzy",
+    "slug": "dizzy",
+    "word": "DIZZY",
+    "primaryWord": "DIZZY",
+    "normalizedWord": "dizzy",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Wave the clawed hand in front of your face in small circles.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/dizzy.webp",
+      "alt": "Ghanaian Sign Language for DIZZY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 168,
+      "pdfPage": 179
+    }
+  },
+  {
+    "id": "gsl-do",
+    "slug": "do",
+    "word": "DO",
+    "primaryWord": "DO",
+    "normalizedWord": "do",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Swing both \"D\" hands from left to right with palms facing down.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/do.webp",
+      "alt": "Ghanaian Sign Language for DO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  },
+  {
+    "id": "gsl-doctor",
+    "slug": "doctor",
+    "word": "DOCTOR",
+    "primaryWord": "DOCTOR",
+    "normalizedWord": "doctor",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap the left wrist with the fingers of the \"D\" hand.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/doctor.webp",
+      "alt": "Ghanaian Sign Language for DOCTOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 70,
+      "pdfPage": 81
+    }
+  },
+  {
+    "id": "gsl-document",
+    "slug": "document",
+    "word": "DOCUMENT",
+    "primaryWord": "DOCUMENT",
+    "normalizedWord": "document",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Stamp the left palm with the \"A\" hand.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/document.webp",
+      "alt": "Ghanaian Sign Language for DOCUMENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 246,
+      "pdfPage": 257
+    }
+  },
+  {
+    "id": "gsl-dog",
+    "slug": "dog",
+    "word": "DOG",
+    "primaryWord": "DOG",
+    "normalizedWord": "dog",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slap the right hand against your waist and snap your middle finger.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/dog.webp",
+      "alt": "Ghanaian Sign Language for DOG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-dontbotherme",
+    "slug": "dontbotherme",
+    "word": "DON'T BOTHER ME",
+    "primaryWord": "DON'T BOTHER ME",
+    "normalizedWord": "don't bother me",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slap your right fist into the left palm a few times.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/dontbotherme.webp",
+      "alt": "Ghanaian Sign Language for DON'T BOTHER ME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-dontcare",
+    "slug": "dontcare",
+    "word": "DON'T CARE",
+    "primaryWord": "DON'T CARE",
+    "normalizedWord": "don't care",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Cup the ear with the \"C\" hand and curve it forward to the temple so that the hand faces back.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/dontcare.webp",
+      "alt": "Ghanaian Sign Language for DON'T CARE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 284,
+      "pdfPage": 295
+    }
+  },
+  {
+    "id": "gsl-dontknow",
+    "slug": "dontknow",
+    "word": "DON'T KNOW",
+    "primaryWord": "DON'T KNOW",
+    "normalizedWord": "don't know",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Touch your forehead with the flat hand and rotate it forward.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/dontknow.webp",
+      "alt": "Ghanaian Sign Language for DON'T KNOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 180,
+      "pdfPage": 191
+    }
+  },
+  {
+    "id": "gsl-dontlikeyou",
+    "slug": "dontlikeyou",
+    "word": "DON'T LIKE YOU",
+    "primaryWord": "DON'T LIKE YOU",
+    "normalizedWord": "don't like you",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "With the modified A\" hand, rotate your wrist back and forth slightly.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/dontlikeyou.webp",
+      "alt": "Ghanaian Sign Language for DON'T LIKE YOU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 285,
+      "pdfPage": 296
+    }
+  },
+  {
+    "id": "gsl-dontwanttrouble",
+    "slug": "dontwanttrouble",
+    "word": "DON'T WANT TROUBLE",
+    "primaryWord": "DON'T WANT TROUBLE",
+    "normalizedWord": "don't want trouble",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap the fingers of your right hand in the left palm.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/dontwanttrouble.webp",
+      "alt": "Ghanaian Sign Language for DON'T WANT TROUBLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 285,
+      "pdfPage": 296
+    }
+  },
+  {
+    "id": "gsl-donkey",
+    "slug": "donkey",
+    "word": "DONKEY",
+    "primaryWord": "DONKEY",
+    "normalizedWord": "donkey",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the \"U\" hands on your temples with palms facing forward and bend the fingers a few times.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/donkey.webp",
+      "alt": "Ghanaian Sign Language for DONKEY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 60,
+      "pdfPage": 71
+    }
+  },
+  {
+    "id": "gsl-door",
+    "slug": "door",
+    "word": "DOOR",
+    "primaryWord": "DOOR",
+    "normalizedWord": "door",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Align both \"B\" hands and twist the right hand to the left while the left remains.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/door.webp",
+      "alt": "Ghanaian Sign Language for DOOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 29,
+      "pdfPage": 40
+    }
+  },
+  {
+    "id": "gsl-dormitory",
+    "slug": "dormitory",
+    "word": "DORMITORY",
+    "primaryWord": "DORMITORY",
+    "normalizedWord": "dormitory",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Place the fingertips of the \"D\" hand first at the mouth then at the temple.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/dormitory.webp",
+      "alt": "Ghanaian Sign Language for DORMITORY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 28,
+      "pdfPage": 39
+    }
+  },
+  {
+    "id": "gsl-doubt",
+    "slug": "doubt",
+    "word": "DOUBT / DISBELIEF",
+    "primaryWord": "DOUBT",
+    "normalizedWord": "doubt",
+    "letter": "D",
+    "synonyms": [
+      "DISBELIEF"
+    ],
+    "definition": "Move both \"S\" hands alternately up and down in front of the body.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/doubt.webp",
+      "alt": "Ghanaian Sign Language for DOUBT / DISBELIEF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-down",
+    "slug": "down",
+    "word": "DOWN",
+    "primaryWord": "DOWN",
+    "normalizedWord": "down",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Use the right index finger to point down to the floor.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/down.webp",
+      "alt": "Ghanaian Sign Language for DOWN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 88,
+      "pdfPage": 99
+    }
+  },
+  {
+    "id": "gsl-drandrewfoster",
+    "slug": "drandrewfoster",
+    "word": "DR. ANDREW FOSTER",
+    "primaryWord": "DR. ANDREW FOSTER",
+    "normalizedWord": "dr. andrew foster",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap the \"A\" hand flat against the side of your neck twice.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/drandrewfoster.webp",
+      "alt": "Ghanaian Sign Language for DR. ANDREW FOSTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-drhillalimann",
+    "slug": "drhillalimann",
+    "word": "DR. HILLA LIMANN",
+    "primaryWord": "DR. HILLA LIMANN",
+    "normalizedWord": "dr. hilla limann",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tap the \"L\" hand to the forehead twice.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/drhillalimann.webp",
+      "alt": "Ghanaian Sign Language for DR. HILLA LIMANN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 242,
+      "pdfPage": 253
+    }
+  },
+  {
+    "id": "gsl-drama",
+    "slug": "drama",
+    "word": "DRAMA",
+    "primaryWord": "DRAMA",
+    "normalizedWord": "drama",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Alternate circling both \"D\" hands against your body.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/drama.webp",
+      "alt": "Ghanaian Sign Language for DRAMA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 121,
+      "pdfPage": 132
+    }
+  },
+  {
+    "id": "gsl-dream",
+    "slug": "dream",
+    "word": "DREAM",
+    "primaryWord": "DREAM",
+    "normalizedWord": "dream",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "With the index finger at your temple, bounce the \"X\" hand forward a few times.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/dream.webp",
+      "alt": "Ghanaian Sign Language for DREAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 182,
+      "pdfPage": 193
+    }
+  },
+  {
+    "id": "gsl-dress",
+    "slug": "dress",
+    "word": "DRESS",
+    "primaryWord": "DRESS",
+    "normalizedWord": "dress",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slide both \"D\" hands down the body, stopping at the waist.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/dress.webp",
+      "alt": "Ghanaian Sign Language for DRESS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 35,
+      "pdfPage": 46
+    }
+  },
+  {
+    "id": "gsl-drink",
+    "slug": "drink",
+    "word": "DRINK",
+    "primaryWord": "DRINK",
+    "normalizedWord": "drink",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Tilt the \"C\" hand in a short arc toward the mouth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/drink.webp",
+      "alt": "Ghanaian Sign Language for DRINK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 39,
+      "pdfPage": 50
+    }
+  },
+  {
+    "id": "gsl-driver",
+    "slug": "driver",
+    "word": "DRIVER",
+    "primaryWord": "DRIVER",
+    "normalizedWord": "driver",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "1. Twist both \"S\" hands up and down. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/driver.webp",
+      "alt": "Ghanaian Sign Language for DRIVER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 70,
+      "pdfPage": 81
+    }
+  },
+  {
+    "id": "gsl-drop",
+    "slug": "drop",
+    "word": "DROP",
+    "primaryWord": "DROP",
+    "normalizedWord": "drop",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Move the right \"S\" hand down into the open hand at your side.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/drop.webp",
+      "alt": "Ghanaian Sign Language for DROP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 111,
+      "pdfPage": 122
+    }
+  },
+  {
+    "id": "gsl-drums",
+    "slug": "drums",
+    "word": "DRUMS / DRUMMING",
+    "primaryWord": "DRUMS",
+    "normalizedWord": "drums",
+    "letter": "D",
+    "synonyms": [
+      "DRUMMING"
+    ],
+    "definition": "Alternate moving both index fingers down from the sides of the body.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/drums.webp",
+      "alt": "Ghanaian Sign Language for DRUMS / DRUMMING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 120,
+      "pdfPage": 131
+    }
+  },
+  {
+    "id": "gsl-dry",
+    "slug": "dry",
+    "word": "DRY",
+    "primaryWord": "DRY",
+    "normalizedWord": "dry",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Slide the right \"D\" hand across your chin from left to right.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/dry.webp",
+      "alt": "Ghanaian Sign Language for DRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 86,
+      "pdfPage": 97
+    }
+  },
+  {
+    "id": "gsl-duck",
+    "slug": "duck",
+    "word": "DUCK",
+    "primaryWord": "DUCK",
+    "normalizedWord": "duck",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Point the \"N\" fingers and thumb forward in front of the mouth and open and close the fingers and thumb.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/duck.webp",
+      "alt": "Ghanaian Sign Language for DUCK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 59,
+      "pdfPage": 70
+    }
+  },
+  {
+    "id": "gsl-duty",
+    "slug": "duty",
+    "word": "DUTY",
+    "primaryWord": "DUTY",
+    "normalizedWord": "duty",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Move the \"D\" hand back and forth along the back of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/duty.webp",
+      "alt": "Ghanaian Sign Language for DUTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 115,
+      "pdfPage": 126
+    }
+  },
+  {
+    "id": "gsl-dvd",
+    "slug": "dvd",
+    "word": "DVD",
+    "primaryWord": "DVD",
+    "normalizedWord": "dvd",
+    "letter": "D",
+    "synonyms": [],
+    "definition": "Circle the \"D\" hand in your left palm.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/dvd.webp",
+      "alt": "Ghanaian Sign Language for DVD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 292,
+      "pdfPage": 303
+    }
+  }
+]

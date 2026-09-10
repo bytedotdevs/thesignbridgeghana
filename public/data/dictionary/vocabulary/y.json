@@ -1,0 +1,233 @@
+[
+  {
+    "id": "gsl-yam",
+    "slug": "yam",
+    "word": "YAM",
+    "primaryWord": "YAM",
+    "normalizedWord": "yam",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Bring the right flat hand down against the back of the left forearm a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/yam.webp",
+      "alt": "Ghanaian Sign Language for YAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 46,
+      "pdfPage": 57
+    }
+  },
+  {
+    "id": "gsl-year",
+    "slug": "year",
+    "word": "YEAR",
+    "primaryWord": "YEAR",
+    "normalizedWord": "year",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "With both \"S\" hands in front of your body, circle the right hand around the left.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/year.webp",
+      "alt": "Ghanaian Sign Language for YEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 202,
+      "pdfPage": 213
+    }
+  },
+  {
+    "id": "gsl-yellow",
+    "slug": "yellow",
+    "word": "YELLOW",
+    "primaryWord": "YELLOW",
+    "normalizedWord": "yellow",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Shake the \"Y\" hand at the wrist.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/yellow.webp",
+      "alt": "Ghanaian Sign Language for YELLOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 5,
+      "pdfPage": 16
+    }
+  },
+  {
+    "id": "gsl-yes",
+    "slug": "yes",
+    "word": "YES",
+    "primaryWord": "YES",
+    "normalizedWord": "yes",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Nod the right \"S\" hand up and down with knuckles facing forward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/yes.webp",
+      "alt": "Ghanaian Sign Language for YES"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-yesterday",
+    "slug": "yesterday",
+    "word": "YESTERDAY",
+    "primaryWord": "YESTERDAY",
+    "normalizedWord": "yesterday",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Touch the thumb of the \"Y\" hand to your cheek then to the ear.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/yesterday.webp",
+      "alt": "Ghanaian Sign Language for YESTERDAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 203,
+      "pdfPage": 214
+    }
+  },
+  {
+    "id": "gsl-you",
+    "slug": "you",
+    "word": "YOU",
+    "primaryWord": "YOU",
+    "normalizedWord": "you",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Point the index finger at the person being addressed.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/you.webp",
+      "alt": "Ghanaian Sign Language for YOU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  },
+  {
+    "id": "gsl-youareinterfering",
+    "slug": "youareinterfering",
+    "word": "YOU ARE INTERFERING",
+    "primaryWord": "YOU ARE INTERFERING",
+    "normalizedWord": "you are interfering",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Place the right forearm between the thumb and index finger of the left hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/youareinterfering.webp",
+      "alt": "Ghanaian Sign Language for YOU ARE INTERFERING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 284,
+      "pdfPage": 295
+    }
+  },
+  {
+    "id": "gsl-yourefunny",
+    "slug": "yourefunny",
+    "word": "YOU'RE FUNNY",
+    "primaryWord": "YOU'RE FUNNY",
+    "normalizedWord": "you're funny",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Draw the \"V\" hand from the tip of your nose forward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/yourefunny.webp",
+      "alt": "Ghanaian Sign Language for YOU'RE FUNNY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-young",
+    "slug": "young",
+    "word": "YOUNG",
+    "primaryWord": "YOUNG",
+    "normalizedWord": "young",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "With palms facing up and turned into to your body, tap the fingers at each hip.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/young.webp",
+      "alt": "Ghanaian Sign Language for YOUNG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 12,
+      "pdfPage": 23
+    }
+  },
+  {
+    "id": "gsl-your",
+    "slug": "your",
+    "word": "YOUR",
+    "primaryWord": "YOUR",
+    "normalizedWord": "your",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Place the flat hand in front of the body with your palm facing the person being addressed.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/your.webp",
+      "alt": "Ghanaian Sign Language for YOUR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  },
+  {
+    "id": "gsl-yourself",
+    "slug": "yourself",
+    "word": "YOURSELF",
+    "primaryWord": "YOURSELF",
+    "normalizedWord": "yourself",
+    "letter": "Y",
+    "synonyms": [],
+    "definition": "Hold the right \"A\" hand thumb up, and move the hand forward in the direction of the person being addressed.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/yourself.webp",
+      "alt": "Ghanaian Sign Language for YOURSELF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  }
+]

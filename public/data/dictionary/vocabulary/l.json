@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "gsl-laboratory",
+    "slug": "laboratory",
+    "word": "LABORATORY",
+    "primaryWord": "LABORATORY",
+    "normalizedWord": "laboratory",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Alternate dropping the \"L\" hands in front of your chest.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/laboratory.webp",
+      "alt": "Ghanaian Sign Language for LABORATORY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 172,
+      "pdfPage": 183
+    }
+  },
+  {
+    "id": "gsl-lady",
+    "slug": "lady",
+    "word": "LADY",
+    "primaryWord": "LADY",
+    "normalizedWord": "lady",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "1. Make the sign for \"GIRL. \" 2. Place the thumb of the open hand on your chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/lady.webp",
+      "alt": "Ghanaian Sign Language for LADY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-lake",
+    "slug": "lake",
+    "word": "LAKE",
+    "primaryWord": "LAKE",
+    "normalizedWord": "lake",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Touch the thumbs of both 'L\" hands together then curve them backward into the same position.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/lake.webp",
+      "alt": "Ghanaian Sign Language for LAKE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-language",
+    "slug": "language",
+    "word": "LANGUAGE",
+    "primaryWord": "LANGUAGE",
+    "normalizedWord": "language",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "With both \"L\" hand thumbs facing each other, pull hands away in front of your body.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/language.webp",
+      "alt": "Ghanaian Sign Language for LANGUAGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 146,
+      "pdfPage": 157
+    }
+  },
+  {
+    "id": "gsl-laptop",
+    "slug": "laptop",
+    "word": "LAPTOP",
+    "primaryWord": "LAPTOP",
+    "normalizedWord": "laptop",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the right flat hand on the palm of the left flat hand and rotate the right hand upward.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/laptop.webp",
+      "alt": "Ghanaian Sign Language for LAPTOP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 289,
+      "pdfPage": 300
+    }
+  },
+  {
+    "id": "gsl-large",
+    "slug": "large",
+    "word": "LARGE / GREAT / BIG / HUGE",
+    "primaryWord": "LARGE",
+    "normalizedWord": "large",
+    "letter": "L",
+    "synonyms": [
+      "GREAT",
+      "BIG",
+      "HUGE"
+    ],
+    "definition": "Hold both \"L\" hands to the front with palms inward then move them outward simultaneously.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/large.webp",
+      "alt": "Ghanaian Sign Language for LARGE / GREAT / BIG / HUGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 87,
+      "pdfPage": 98
+    }
+  },
+  {
+    "id": "gsl-last",
+    "slug": "last",
+    "word": "LAST",
+    "primaryWord": "LAST",
+    "normalizedWord": "last",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Using both \"I\" hands, strike the little fingers together.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/last.webp",
+      "alt": "Ghanaian Sign Language for LAST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-late",
+    "slug": "late",
+    "word": "LATE",
+    "primaryWord": "LATE",
+    "normalizedWord": "late",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Pull the \"L\" hand backward at your waist.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/late.webp",
+      "alt": "Ghanaian Sign Language for LATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-later",
+    "slug": "later",
+    "word": "LATER",
+    "primaryWord": "LATER",
+    "normalizedWord": "later",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the \"L\" hand at the side of your face and draw it forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/later.webp",
+      "alt": "Ghanaian Sign Language for LATER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 208,
+      "pdfPage": 219
+    }
+  },
+  {
+    "id": "gsl-laugh",
+    "slug": "laugh",
+    "word": "LAUGH",
+    "primaryWord": "LAUGH",
+    "normalizedWord": "laugh",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place both flat hands with palms down at opposite sides of your mouth and lift the hands up in arcs.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/laugh.webp",
+      "alt": "Ghanaian Sign Language for LAUGH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 100,
+      "pdfPage": 111
+    }
+  },
+  {
+    "id": "gsl-law",
+    "slug": "law",
+    "word": "LAW",
+    "primaryWord": "LAW",
+    "normalizedWord": "law",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the \"L\" hand from your fingertips to your palm.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/law.webp",
+      "alt": "Ghanaian Sign Language for LAW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 246,
+      "pdfPage": 257
+    }
+  },
+  {
+    "id": "gsl-lawyer",
+    "slug": "lawyer",
+    "word": "LAWYER",
+    "primaryWord": "LAWYER",
+    "normalizedWord": "lawyer",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "1. Move the \"L\" hand from the left fingertips to palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/lawyer.webp",
+      "alt": "Ghanaian Sign Language for LAWYER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 69,
+      "pdfPage": 80
+    }
+  },
+  {
+    "id": "gsl-lazy",
+    "slug": "lazy",
+    "word": "LAZY",
+    "primaryWord": "LAZY",
+    "normalizedWord": "lazy",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Tap your left shoulder with the \"L\" hand twice.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/lazy.webp",
+      "alt": "Ghanaian Sign Language for LAZY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 196,
+      "pdfPage": 207
+    }
+  },
+  {
+    "id": "gsl-lead",
+    "slug": "lead",
+    "word": "LEAD / GUIDE / DIRECT",
+    "primaryWord": "LEAD",
+    "normalizedWord": "lead",
+    "letter": "L",
+    "synonyms": [
+      "GUIDE",
+      "DIRECT"
+    ],
+    "definition": "Place the right fingertips into the palm of the left flat hand then move hands forward from the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/lead.webp",
+      "alt": "Ghanaian Sign Language for LEAD / GUIDE / DIRECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 102,
+      "pdfPage": 113
+    }
+  },
+  {
+    "id": "gsl-leaf",
+    "slug": "leaf",
+    "word": "LEAF",
+    "primaryWord": "LEAF",
+    "normalizedWord": "leaf",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Grasp the right wrist and swing the right open hand back and forth.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/leaf.webp",
+      "alt": "Ghanaian Sign Language for LEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 134,
+      "pdfPage": 145
+    }
+  },
+  {
+    "id": "gsl-learn",
+    "slug": "learn",
+    "word": "LEARN",
+    "primaryWord": "LEARN",
+    "normalizedWord": "learn",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the right open hand on the left palm and pull the right hand up to your forehead into \"AND\" hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/learn.webp",
+      "alt": "Ghanaian Sign Language for LEARN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 146,
+      "pdfPage": 157
+    }
+  },
+  {
+    "id": "gsl-leaveonebyone",
+    "slug": "leaveonebyone",
+    "word": "LEAVE ONE BY ONE",
+    "primaryWord": "LEAVE ONE BY ONE",
+    "normalizedWord": "leave one by one",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Pop your index fingers up and outward in an alternating pattern.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/leaveonebyone.webp",
+      "alt": "Ghanaian Sign Language for LEAVE ONE BY ONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 279,
+      "pdfPage": 290
+    }
+  },
+  {
+    "id": "gsl-left",
+    "slug": "left",
+    "word": "LEFT",
+    "primaryWord": "LEFT",
+    "normalizedWord": "left",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Slide the left \"L\" hand to the left.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/left.webp",
+      "alt": "Ghanaian Sign Language for LEFT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 217,
+      "pdfPage": 228
+    }
+  },
+  {
+    "id": "gsl-lemon",
+    "slug": "lemon",
+    "word": "LEMON",
+    "primaryWord": "LEMON",
+    "normalizedWord": "lemon",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"L\" hand on the corner of the mouth and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/lemon.webp",
+      "alt": "Ghanaian Sign Language for LEMON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 51,
+      "pdfPage": 62
+    }
+  },
+  {
+    "id": "gsl-lend",
+    "slug": "lend",
+    "word": "LEND / LOAN",
+    "primaryWord": "LEND",
+    "normalizedWord": "lend",
+    "letter": "L",
+    "synonyms": [
+      "LOAN"
+    ],
+    "definition": "Place the right \"G\" hand on top of the left \"G\" and lift both hands forward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/lend.webp",
+      "alt": "Ghanaian Sign Language for LEND / LOAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 76,
+      "pdfPage": 87
+    }
+  },
+  {
+    "id": "gsl-lesbian",
+    "slug": "lesbian",
+    "word": "LESBIAN",
+    "primaryWord": "LESBIAN",
+    "normalizedWord": "lesbian",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the \"L\" hand on your chin.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/lesbian.webp",
+      "alt": "Ghanaian Sign Language for LESBIAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 173,
+      "pdfPage": 184
+    }
+  },
+  {
+    "id": "gsl-lesson",
+    "slug": "lesson",
+    "word": "LESSON",
+    "primaryWord": "LESSON",
+    "normalizedWord": "lesson",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Tap the right \"L\" hand up your arm a few times.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/lesson.webp",
+      "alt": "Ghanaian Sign Language for LESSON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-letdown",
+    "slug": "letdown",
+    "word": "LET DOWN",
+    "primaryWord": "LET DOWN",
+    "normalizedWord": "let down",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Draw the \"V\" hand from the tip of your nose forward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/letdown.webp",
+      "alt": "Ghanaian Sign Language for LET DOWN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-lettuce",
+    "slug": "lettuce",
+    "word": "LETTUCE",
+    "primaryWord": "LETTUCE",
+    "normalizedWord": "lettuce",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the right arm on the flat left hand and swing the \"L\" hand back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/lettuce.webp",
+      "alt": "Ghanaian Sign Language for LETTUCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 53,
+      "pdfPage": 64
+    }
+  },
+  {
+    "id": "gsl-libation",
+    "slug": "libation",
+    "word": "LIBATION",
+    "primaryWord": "LIBATION",
+    "normalizedWord": "libation",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the modified \"G\" hand at your waist and tip forward as if pouring something.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/libation.webp",
+      "alt": "Ghanaian Sign Language for LIBATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 267,
+      "pdfPage": 278
+    }
+  },
+  {
+    "id": "gsl-library",
+    "slug": "library",
+    "word": "LIBRARY",
+    "primaryWord": "LIBRARY",
+    "normalizedWord": "library",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Circle the \"L\" hand in front of your body.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/library.webp",
+      "alt": "Ghanaian Sign Language for LIBRARY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 141,
+      "pdfPage": 152
+    }
+  },
+  {
+    "id": "gsl-license",
+    "slug": "license",
+    "word": "LICENSE",
+    "primaryWord": "LICENSE",
+    "normalizedWord": "license",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Tap the thumbs of both \"L\" hands together twice.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/license.webp",
+      "alt": "Ghanaian Sign Language for LICENSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 216,
+      "pdfPage": 227
+    }
+  },
+  {
+    "id": "gsl-lie",
+    "slug": "lie",
+    "word": "LIE",
+    "primaryWord": "LIE",
+    "normalizedWord": "lie",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Draw your index finger across your chin.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/lie.webp",
+      "alt": "Ghanaian Sign Language for LIE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 182,
+      "pdfPage": 193
+    }
+  },
+  {
+    "id": "gsl-liedown",
+    "slug": "liedown",
+    "word": "LIE DOWN",
+    "primaryWord": "LIE DOWN",
+    "normalizedWord": "lie down",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the upturned \"V\" hand into the left palm and slide back off palm.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/liedown.webp",
+      "alt": "Ghanaian Sign Language for LIE DOWN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 165,
+      "pdfPage": 176
+    }
+  },
+  {
+    "id": "gsl-light",
+    "slug": "light",
+    "word": "LIGHT",
+    "primaryWord": "LIGHT",
+    "normalizedWord": "light",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place both middle fingers on your waist and lift both hands up your body simultaneoulsy.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/light.webp",
+      "alt": "Ghanaian Sign Language for LIGHT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 86,
+      "pdfPage": 97
+    }
+  },
+  {
+    "id": "gsl-lightening",
+    "slug": "lightening",
+    "word": "LIGHTENING",
+    "primaryWord": "LIGHTENING",
+    "normalizedWord": "lightening",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Draw a zig-zag in the air with your index finger.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/lightening.webp",
+      "alt": "Ghanaian Sign Language for LIGHTENING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 130,
+      "pdfPage": 141
+    }
+  },
+  {
+    "id": "gsl-like",
+    "slug": "like",
+    "word": "LIKE",
+    "primaryWord": "LIKE",
+    "normalizedWord": "like",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the right open hand on your chest and draw forward while meeting the thumb and middle finger.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/like.webp",
+      "alt": "Ghanaian Sign Language for LIKE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 179,
+      "pdfPage": 190
+    }
+  },
+  {
+    "id": "gsl-line",
+    "slug": "line",
+    "word": "LINE",
+    "primaryWord": "LINE",
+    "normalizedWord": "line",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the little fingertips together and pull away in opposite directions.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/line.webp",
+      "alt": "Ghanaian Sign Language for LINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 150,
+      "pdfPage": 161
+    }
+  },
+  {
+    "id": "gsl-lineup",
+    "slug": "lineup",
+    "word": "LINE UP / ASSEMBLE",
+    "primaryWord": "LINE UP",
+    "normalizedWord": "line up",
+    "letter": "L",
+    "synonyms": [
+      "ASSEMBLE"
+    ],
+    "definition": "Place the right \"B\" hand behind the left then move the right hand back while the left hand remains still.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/lineup.webp",
+      "alt": "Ghanaian Sign Language for LINE UP / ASSEMBLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 112,
+      "pdfPage": 123
+    }
+  },
+  {
+    "id": "gsl-lion",
+    "slug": "lion",
+    "word": "LION",
+    "primaryWord": "LION",
+    "normalizedWord": "lion",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the clawed hand backward over the head.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/lion.webp",
+      "alt": "Ghanaian Sign Language for LION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 62,
+      "pdfPage": 73
+    }
+  },
+  {
+    "id": "gsl-liquid",
+    "slug": "liquid",
+    "word": "LIQUID / WATER",
+    "primaryWord": "LIQUID",
+    "normalizedWord": "liquid",
+    "letter": "L",
+    "synonyms": [
+      "WATER"
+    ],
+    "definition": "Place the index finger of the \"W\" hand to your lips a few times.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/liquid.webp",
+      "alt": "Ghanaian Sign Language for LIQUID / WATER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 131,
+      "pdfPage": 142
+    }
+  },
+  {
+    "id": "gsl-liquor",
+    "slug": "liquor",
+    "word": "LIQUOR / ALCOHOL",
+    "primaryWord": "LIQUOR",
+    "normalizedWord": "liquor",
+    "letter": "L",
+    "synonyms": [
+      "ALCOHOL"
+    ],
+    "definition": "Strike the right \"ILY\" hand against the left wrist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/liquor.webp",
+      "alt": "Ghanaian Sign Language for LIQUOR / ALCOHOL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 43,
+      "pdfPage": 54
+    }
+  },
+  {
+    "id": "gsl-list",
+    "slug": "list",
+    "word": "LIST",
+    "primaryWord": "LIST",
+    "normalizedWord": "list",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the fingertips of the right bent hand on the left palm and move down in several short arcs.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/list.webp",
+      "alt": "Ghanaian Sign Language for LIST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 81,
+      "pdfPage": 92
+    }
+  },
+  {
+    "id": "gsl-listen",
+    "slug": "listen",
+    "word": "LISTEN",
+    "primaryWord": "LISTEN",
+    "normalizedWord": "listen",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the right \"L\" hand to the ear a few times.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/listen.webp",
+      "alt": "Ghanaian Sign Language for LISTEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 114,
+      "pdfPage": 125
+    }
+  },
+  {
+    "id": "gsl-live",
+    "slug": "live",
+    "word": "LIVE / LIFE",
+    "primaryWord": "LIVE",
+    "normalizedWord": "live",
+    "letter": "L",
+    "synonyms": [
+      "LIFE"
+    ],
+    "definition": "Draw both \"L\" hands up your body from the waist.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/live.webp",
+      "alt": "Ghanaian Sign Language for LIVE / LIFE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 159,
+      "pdfPage": 170
+    }
+  },
+  {
+    "id": "gsl-lizard",
+    "slug": "lizard",
+    "word": "LIZARD",
+    "primaryWord": "LIZARD",
+    "normalizedWord": "lizard",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the \"U\" hand at the mouth fingertips facing the lips then move the \"U\" hand to the back of the wrist.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/lizard.webp",
+      "alt": "Ghanaian Sign Language for LIZARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 64,
+      "pdfPage": 75
+    }
+  },
+  {
+    "id": "gsl-local",
+    "slug": "local",
+    "word": "LOCAL",
+    "primaryWord": "LOCAL",
+    "normalizedWord": "local",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Place the right \"L\" hand on the left index finger and swing it forward and around.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/local.webp",
+      "alt": "Ghanaian Sign Language for LOCAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-locality",
+    "slug": "locality",
+    "word": "LOCALITY",
+    "primaryWord": "LOCALITY",
+    "normalizedWord": "locality",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Circle the area in front of you with an open hand facing down.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/locality.webp",
+      "alt": "Ghanaian Sign Language for LOCALITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 276,
+      "pdfPage": 287
+    }
+  },
+  {
+    "id": "gsl-lonely",
+    "slug": "lonely",
+    "word": "LONELY / LONESOME / ONLY / ALONE",
+    "primaryWord": "LONELY",
+    "normalizedWord": "lonely",
+    "letter": "L",
+    "synonyms": [
+      "LONESOME",
+      "ONLY",
+      "ALONE"
+    ],
+    "definition": "With very little motion, spin your right index finger in a small circle.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/lonely.webp",
+      "alt": "Ghanaian Sign Language for LONELY / LONESOME / ONLY / ALONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 192,
+      "pdfPage": 203
+    }
+  },
+  {
+    "id": "gsl-long",
+    "slug": "long",
+    "word": "LONG / PAST / AGO",
+    "primaryWord": "LONG",
+    "normalizedWord": "long",
+    "letter": "L",
+    "synonyms": [
+      "PAST",
+      "AGO"
+    ],
+    "definition": "Pull the right index finger up your arm from the wrist.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/long.webp",
+      "alt": "Ghanaian Sign Language for LONG / PAST / AGO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-longjump",
+    "slug": "longjump",
+    "word": "LONG JUMP",
+    "primaryWord": "LONG JUMP",
+    "normalizedWord": "long jump",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the right \"V\" hand in an upward arc over the fingers of the left hand.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/longjump.webp",
+      "alt": "Ghanaian Sign Language for LONG JUMP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 124,
+      "pdfPage": 135
+    }
+  },
+  {
+    "id": "gsl-lord",
+    "slug": "lord",
+    "word": "LORD",
+    "primaryWord": "LORD",
+    "normalizedWord": "lord",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the \"L\" hand from your left shoulder to your right hip.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/lord.webp",
+      "alt": "Ghanaian Sign Language for LORD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 257,
+      "pdfPage": 268
+    }
+  },
+  {
+    "id": "gsl-lose",
+    "slug": "lose",
+    "word": "LOSE / LOST",
+    "primaryWord": "LOSE",
+    "normalizedWord": "lose",
+    "letter": "L",
+    "synonyms": [
+      "LOST"
+    ],
+    "definition": "Hold the fingertips of both curved hands together then drop both hands and rotate down and into open hands.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/lose.webp",
+      "alt": "Ghanaian Sign Language for LOSE / LOST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 90,
+      "pdfPage": 101
+    }
+  },
+  {
+    "id": "gsl-love",
+    "slug": "love",
+    "word": "LOVE",
+    "primaryWord": "LOVE",
+    "normalizedWord": "love",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Cross both arms with \"S\" hands at your chest.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/love.webp",
+      "alt": "Ghanaian Sign Language for LOVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 193,
+      "pdfPage": 204
+    }
+  },
+  {
+    "id": "gsl-low",
+    "slug": "low",
+    "word": "LOW",
+    "primaryWord": "LOW",
+    "normalizedWord": "low",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Slide the \"L\" hand down the flat left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/low.webp",
+      "alt": "Ghanaian Sign Language for LOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 218,
+      "pdfPage": 229
+    }
+  },
+  {
+    "id": "gsl-lowintelligence",
+    "slug": "lowintelligence",
+    "word": "LOW INTELLIGENCE",
+    "primaryWord": "LOW INTELLIGENCE",
+    "normalizedWord": "low intelligence",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Point to your head then turn outward into the \"Q\" hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/lowintelligence.webp",
+      "alt": "Ghanaian Sign Language for LOW INTELLIGENCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 275,
+      "pdfPage": 286
+    }
+  },
+  {
+    "id": "gsl-lowercaseletter",
+    "slug": "lowercaseletter",
+    "word": "LOWERCASE LETTER",
+    "primaryWord": "LOWERCASE LETTER",
+    "normalizedWord": "lowercase letter",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Hold the \"Q\" hand in front of your body then place the thumb of the \"A\" hand on the left palm.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/lowercaseletter.webp",
+      "alt": "Ghanaian Sign Language for LOWERCASE LETTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 24,
+      "pdfPage": 35
+    }
+  },
+  {
+    "id": "gsl-lucky",
+    "slug": "lucky",
+    "word": "LUCKY",
+    "primaryWord": "LUCKY",
+    "normalizedWord": "lucky",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Touch the middle finger of your right hand to your lips then twist forward with the palm facing outward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/lucky.webp",
+      "alt": "Ghanaian Sign Language for LUCKY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 196,
+      "pdfPage": 207
+    }
+  },
+  {
+    "id": "gsl-ludo",
+    "slug": "ludo",
+    "word": "LUDO",
+    "primaryWord": "LUDO",
+    "normalizedWord": "ludo",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the downturned right \"A\" hand across the body so it becomes the \"Q\" hand.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/ludo.webp",
+      "alt": "Ghanaian Sign Language for LUDO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 119,
+      "pdfPage": 130
+    }
+  },
+  {
+    "id": "gsl-lunch",
+    "slug": "lunch",
+    "word": "LUNCH",
+    "primaryWord": "LUNCH",
+    "normalizedWord": "lunch",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "Move the \"L\" hand up towards the mouth a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/lunch.webp",
+      "alt": "Ghanaian Sign Language for LUNCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 39,
+      "pdfPage": 50
+    }
+  },
+  {
+    "id": "gsl-lutheran",
+    "slug": "lutheran",
+    "word": "LUTHERAN",
+    "primaryWord": "LUTHERAN",
+    "normalizedWord": "lutheran",
+    "letter": "L",
+    "synonyms": [],
+    "definition": "With the left palm turned to the side, tap the thumb of the \"L\" hand into the left palm twice.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/lutheran.webp",
+      "alt": "Ghanaian Sign Language for LUTHERAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 251,
+      "pdfPage": 262
+    }
+  }
+]

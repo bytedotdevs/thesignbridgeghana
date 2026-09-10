@@ -1,0 +1,83 @@
+[
+  {
+    "id": "mampong-demonstration",
+    "name": "Demonstration School for the Deaf",
+    "location": "Mampong-Akuapem",
+    "region": "Eastern Region",
+    "type": "Primary & Junior High School",
+    "details": "The premier and oldest deaf school in Ghana, established in 1957 by Andrew Foster.",
+    "sourcePage": 10
+  },
+  {
+    "id": "bechem-school",
+    "name": "Bechem School for the Deaf",
+    "location": "Bechem",
+    "region": "Ahafo Region",
+    "type": "Primary & Junior High School",
+    "details": "Serving deaf students across the middle belt and Ahafo regions.",
+    "sourcePage": 10
+  },
+  {
+    "id": "cape-coast-school",
+    "name": "Cape Coast School for the Deaf",
+    "location": "Cape Coast",
+    "region": "Central Region",
+    "type": "Primary & Junior High School",
+    "details": "Major educational hub for deaf learners in southern and coastal Ghana.",
+    "sourcePage": 10
+  },
+  {
+    "id": "wa-school",
+    "name": "Wa School for the Deaf",
+    "location": "Wa",
+    "region": "Upper West Region",
+    "type": "Primary & Junior High School",
+    "details": "Provides specialized education and sign language development in north-western Ghana.",
+    "sourcePage": 10
+  },
+  {
+    "id": "savelugu-school",
+    "name": "Savelugu School for the Deaf",
+    "location": "Savelugu",
+    "region": "Northern Region",
+    "type": "Primary & Junior High School",
+    "details": "Key institution supporting deaf children across the Northern Region.",
+    "sourcePage": 10
+  },
+  {
+    "id": "hohoe-school",
+    "name": "Hohoe School for the Deaf",
+    "location": "Hohoe",
+    "region": "Volta Region",
+    "type": "Primary & Junior High School",
+    "details": "Pioneering deaf education and community outreach in the Volta Basin.",
+    "sourcePage": 10
+  },
+  {
+    "id": "gbeogo-school",
+    "name": "Gbeogo School for the Deaf",
+    "location": "Tongo / Gbeogo",
+    "region": "Upper East Region",
+    "type": "Primary & Junior High School",
+    "details": "Specialized school for deaf education in the Upper East Region.",
+    "sourcePage": 10
+  },
+  {
+    "id": "sekondi-school",
+    "name": "Twin-City Special School",
+    "location": "Sekondi-Takoradi",
+    "region": "Western Region",
+    "type": "Primary & Vocational Center",
+    "details": "Provides academic instruction and vocational skills training for deaf learners.",
+    "sourcePage": 10
+  },
+  {
+    "id": "senior-high-technical-mampong",
+    "name": "Secondary Technical School for the Deaf (SEC-TECH)",
+    "location": "Mampong-Akuapem",
+    "region": "Eastern Region",
+    "type": "Senior High Technical School",
+    "details": "The only dedicated Senior High Technical School for the Deaf in West Africa, offering general arts, technical, and visual arts curricula.",
+    "sourcePage": 10
+  }
+]

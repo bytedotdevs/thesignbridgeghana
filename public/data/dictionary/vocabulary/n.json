@@ -1,0 +1,834 @@
+[
+  {
+    "id": "gsl-name",
+    "slug": "name",
+    "word": "NAME",
+    "primaryWord": "NAME",
+    "normalizedWord": "name",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Tap the fingers of both \"H\" hands together twice.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/name.webp",
+      "alt": "Ghanaian Sign Language for NAME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-nation",
+    "slug": "nation",
+    "word": "NATION",
+    "primaryWord": "NATION",
+    "normalizedWord": "nation",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Circle the right \"N\" hand over the left hand then place the fingertips on the wrist.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/nation.webp",
+      "alt": "Ghanaian Sign Language for NATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 226,
+      "pdfPage": 237
+    }
+  },
+  {
+    "id": "gsl-nature",
+    "slug": "nature",
+    "word": "NATURE / NATURAL",
+    "primaryWord": "NATURE",
+    "normalizedWord": "nature",
+    "letter": "N",
+    "synonyms": [
+      "NATURAL"
+    ],
+    "definition": "Encircle the left wrist with the \"N\" hand then touch the fingertips to the wrist.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/nature.webp",
+      "alt": "Ghanaian Sign Language for NATURE / NATURAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 128,
+      "pdfPage": 139
+    }
+  },
+  {
+    "id": "gsl-ndc",
+    "slug": "ndc",
+    "word": "NDC",
+    "primaryWord": "NDC",
+    "normalizedWord": "ndc",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Sign the letters \"N\" \"D\" \"C\" while slightly moving the hand to the right.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/ndc.webp",
+      "alt": "Ghanaian Sign Language for NDC"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-near",
+    "slug": "near",
+    "word": "NEAR",
+    "primaryWord": "NEAR",
+    "normalizedWord": "near",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "With both curved hands, slide the right close to the left hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/near.webp",
+      "alt": "Ghanaian Sign Language for NEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 90,
+      "pdfPage": 101
+    }
+  },
+  {
+    "id": "gsl-necktie",
+    "slug": "necktie",
+    "word": "NECKTIE",
+    "primaryWord": "NECKTIE",
+    "normalizedWord": "necktie",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands together at the neck then pull the right hand down to your waist.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/necktie.webp",
+      "alt": "Ghanaian Sign Language for NECKTIE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 36,
+      "pdfPage": 47
+    }
+  },
+  {
+    "id": "gsl-needle",
+    "slug": "needle",
+    "word": "NEEDLE",
+    "primaryWord": "NEEDLE",
+    "normalizedWord": "needle",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Curl the right \"F\" hand beside the right \"F\" hand a few times.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/needle.webp",
+      "alt": "Ghanaian Sign Language for NEEDLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 32,
+      "pdfPage": 43
+    }
+  },
+  {
+    "id": "gsl-negative",
+    "slug": "negative",
+    "word": "NEGATIVE / MINUS",
+    "primaryWord": "NEGATIVE",
+    "normalizedWord": "negative",
+    "letter": "N",
+    "synonyms": [
+      "MINUS"
+    ],
+    "definition": "Place the right index finger horizontally across the left palm which is facing outward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/negative.webp",
+      "alt": "Ghanaian Sign Language for NEGATIVE / MINUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 93,
+      "pdfPage": 104
+    }
+  },
+  {
+    "id": "gsl-neighbour",
+    "slug": "neighbour",
+    "word": "NEIGHBOUR",
+    "primaryWord": "NEIGHBOUR",
+    "normalizedWord": "neighbour",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "1. Move the right curved hand close to the left hand. 2. Move both hands in a downward motion together.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/neighbour.webp",
+      "alt": "Ghanaian Sign Language for NEIGHBOUR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 15,
+      "pdfPage": 26
+    }
+  },
+  {
+    "id": "gsl-nephew",
+    "slug": "nephew",
+    "word": "NEPHEW",
+    "primaryWord": "NEPHEW",
+    "normalizedWord": "nephew",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Shake the wrist of the \"N\" hand at the side of your head.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/nephew.webp",
+      "alt": "Ghanaian Sign Language for NEPHEW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-nervous",
+    "slug": "nervous",
+    "word": "NERVOUS",
+    "primaryWord": "NERVOUS",
+    "normalizedWord": "nervous",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Hold both hands at your front and wiggle your fingers.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/nervous.webp",
+      "alt": "Ghanaian Sign Language for NERVOUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 192,
+      "pdfPage": 203
+    }
+  },
+  {
+    "id": "gsl-netball",
+    "slug": "netball",
+    "word": "NETBALL / BASKETBALL",
+    "primaryWord": "NETBALL",
+    "normalizedWord": "netball",
+    "letter": "N",
+    "synonyms": [
+      "BASKETBALL"
+    ],
+    "definition": "Bounce both curved hands up and down then hold both hands at head level and flick hands forward.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/netball.webp",
+      "alt": "Ghanaian Sign Language for NETBALL / BASKETBALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 123,
+      "pdfPage": 134
+    }
+  },
+  {
+    "id": "gsl-never",
+    "slug": "never",
+    "word": "NEVER",
+    "primaryWord": "NEVER",
+    "normalizedWord": "never",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Use the flat hand to draw a \"Z\" in front of the body.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/never.webp",
+      "alt": "Ghanaian Sign Language for NEVER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 93,
+      "pdfPage": 104
+    }
+  },
+  {
+    "id": "gsl-new",
+    "slug": "new",
+    "word": "NEW",
+    "primaryWord": "NEW",
+    "normalizedWord": "new",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Sweep the back of the right curved hand across the left palm and toward the body.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/new.webp",
+      "alt": "Ghanaian Sign Language for NEW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 86,
+      "pdfPage": 97
+    }
+  },
+  {
+    "id": "gsl-newspaper",
+    "slug": "newspaper",
+    "word": "NEWSPAPER",
+    "primaryWord": "NEWSPAPER",
+    "normalizedWord": "newspaper",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "1. Slide your right flat hand over left and close to a fist. 2. Tap your flat palms together twice.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/newspaper.webp",
+      "alt": "Ghanaian Sign Language for NEWSPAPER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 156,
+      "pdfPage": 167
+    }
+  },
+  {
+    "id": "gsl-next",
+    "slug": "next",
+    "word": "NEXT",
+    "primaryWord": "NEXT",
+    "normalizedWord": "next",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "With your left hand in \"L\" hand shape, point first to the thumb and then to the index finger.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/next.webp",
+      "alt": "Ghanaian Sign Language for NEXT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-niece",
+    "slug": "niece",
+    "word": "NIECE",
+    "primaryWord": "NIECE",
+    "normalizedWord": "niece",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Shake the wrist of the \"N\" hand at your cheek.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/niece.webp",
+      "alt": "Ghanaian Sign Language for NIECE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-niger",
+    "slug": "niger",
+    "word": "NIGER",
+    "primaryWord": "NIGER",
+    "normalizedWord": "niger",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the \"N\" hand against your temple and flap your fingers up and down.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/niger.webp",
+      "alt": "Ghanaian Sign Language for NIGER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 227,
+      "pdfPage": 238
+    }
+  },
+  {
+    "id": "gsl-nigeria",
+    "slug": "nigeria",
+    "word": "NIGERIA",
+    "primaryWord": "NIGERIA",
+    "normalizedWord": "nigeria",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the \"N\" hand against your cheek and flap your fingers up and down.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/nigeria.webp",
+      "alt": "Ghanaian Sign Language for NIGERIA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 227,
+      "pdfPage": 238
+    }
+  },
+  {
+    "id": "gsl-night",
+    "slug": "night",
+    "word": "NIGHT",
+    "primaryWord": "NIGHT",
+    "normalizedWord": "night",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "With your left arm in front of your body, place the right arm and curved hand pointed downward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/night.webp",
+      "alt": "Ghanaian Sign Language for NIGHT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 202,
+      "pdfPage": 213
+    }
+  },
+  {
+    "id": "gsl-no",
+    "slug": "no",
+    "word": "NO",
+    "primaryWord": "NO",
+    "normalizedWord": "no",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Bring the thumb, index, and middle fingers together of both hands while moving them out to the sides.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/no.webp",
+      "alt": "Ghanaian Sign Language for NO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-noah",
+    "slug": "noah",
+    "word": "NOAH",
+    "primaryWord": "NOAH",
+    "normalizedWord": "noah",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Move the \"N\" hand from your chin to in front of your chest.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/noah.webp",
+      "alt": "Ghanaian Sign Language for NOAH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 256,
+      "pdfPage": 267
+    }
+  },
+  {
+    "id": "gsl-noisy",
+    "slug": "noisy",
+    "word": "NOISY / SOUND / LOUD",
+    "primaryWord": "NOISY",
+    "normalizedWord": "noisy",
+    "letter": "N",
+    "synonyms": [
+      "SOUND",
+      "LOUD"
+    ],
+    "definition": "With open hands facing down, shake hands back and forth beside the ears.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/noisy.webp",
+      "alt": "Ghanaian Sign Language for NOISY / SOUND / LOUD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 96,
+      "pdfPage": 107
+    }
+  },
+  {
+    "id": "gsl-none",
+    "slug": "none",
+    "word": "NONE",
+    "primaryWord": "NONE",
+    "normalizedWord": "none",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Touch the fingertips of both \"AND\" hands together then separate them so that the palms face upward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/none.webp",
+      "alt": "Ghanaian Sign Language for NONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 80,
+      "pdfPage": 91
+    }
+  },
+  {
+    "id": "gsl-noodle",
+    "slug": "noodle",
+    "word": "NOODLE / SPAGHETTI / MACARONI / PASTA",
+    "primaryWord": "NOODLE",
+    "normalizedWord": "noodle",
+    "letter": "N",
+    "synonyms": [
+      "SPAGHETTI",
+      "MACARONI",
+      "PASTA"
+    ],
+    "definition": "Bring both \"R\" hands together at the fingertips then move the hands in opposite wavy lines.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/noodle.webp",
+      "alt": "Ghanaian Sign Language for NOODLE / SPAGHETTI / MACARONI / PASTA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 48,
+      "pdfPage": 59
+    }
+  },
+  {
+    "id": "gsl-north",
+    "slug": "north",
+    "word": "NORTH",
+    "primaryWord": "NORTH",
+    "normalizedWord": "north",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Pull the \"N\" hand up in front of your body.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/north.webp",
+      "alt": "Ghanaian Sign Language for NORTH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 217,
+      "pdfPage": 228
+    }
+  },
+  {
+    "id": "gsl-northernregion",
+    "slug": "northernregion",
+    "word": "NORTHERN REGION",
+    "primaryWord": "NORTHERN REGION",
+    "normalizedWord": "northern region",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the \"N\" hand at shoulder level and wave up twice.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/northernregion.webp",
+      "alt": "Ghanaian Sign Language for NORTHERN REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-nose",
+    "slug": "nose",
+    "word": "NOSE",
+    "primaryWord": "NOSE",
+    "normalizedWord": "nose",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Point to your nose with the index finger.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/nose.webp",
+      "alt": "Ghanaian Sign Language for NOSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 160,
+      "pdfPage": 171
+    }
+  },
+  {
+    "id": "gsl-not",
+    "slug": "not",
+    "word": "NOT",
+    "primaryWord": "NOT",
+    "normalizedWord": "not",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"A\" hand under your chin and pull forward.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/not.webp",
+      "alt": "Ghanaian Sign Language for NOT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-notinterested",
+    "slug": "notinterested",
+    "word": "NOT INTERESTED",
+    "primaryWord": "NOT INTERESTED",
+    "normalizedWord": "not interested",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the index finger of the \"4\" hand against your ear and quickly drop it outward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/notinterested.webp",
+      "alt": "Ghanaian Sign Language for NOT INTERESTED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 284,
+      "pdfPage": 295
+    }
+  },
+  {
+    "id": "gsl-notmyproblem",
+    "slug": "notmyproblem",
+    "word": "NOT MY PROBLEM",
+    "primaryWord": "NOT MY PROBLEM",
+    "normalizedWord": "not my problem",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Grip the right wrist in your left hand and fold your hand forward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/notmyproblem.webp",
+      "alt": "Ghanaian Sign Language for NOT MY PROBLEM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 284,
+      "pdfPage": 295
+    }
+  },
+  {
+    "id": "gsl-notes",
+    "slug": "notes",
+    "word": "NOTES",
+    "primaryWord": "NOTES",
+    "normalizedWord": "notes",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Point the fingertips of the \"N\" to the left palm and wave the hand downward.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/notes.webp",
+      "alt": "Ghanaian Sign Language for NOTES"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 150,
+      "pdfPage": 161
+    }
+  },
+  {
+    "id": "gsl-nothing",
+    "slug": "nothing",
+    "word": "NOTHING",
+    "primaryWord": "NOTHING",
+    "normalizedWord": "nothing",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Cross both \"F\" hands over each other in front of your body then uncross arms and open both hands.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/nothing.webp",
+      "alt": "Ghanaian Sign Language for NOTHING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 81,
+      "pdfPage": 92
+    }
+  },
+  {
+    "id": "gsl-noun",
+    "slug": "noun",
+    "word": "NOUN",
+    "primaryWord": "NOUN",
+    "normalizedWord": "noun",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place the \"N\" hand under the chin and move it forward.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/noun.webp",
+      "alt": "Ghanaian Sign Language for NOUN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 22,
+      "pdfPage": 33
+    }
+  },
+  {
+    "id": "gsl-november",
+    "slug": "november",
+    "word": "NOVEMBER",
+    "primaryWord": "NOVEMBER",
+    "normalizedWord": "november",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Press \"N\" hand into the left palm then the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/november.webp",
+      "alt": "Ghanaian Sign Language for NOVEMBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 206,
+      "pdfPage": 217
+    }
+  },
+  {
+    "id": "gsl-npp",
+    "slug": "npp",
+    "word": "NPP",
+    "primaryWord": "NPP",
+    "normalizedWord": "npp",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Sign the letters \"N\" \"P\" \"P\" while slightly moving the hand to the right.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/npp.webp",
+      "alt": "Ghanaian Sign Language for NPP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-nun",
+    "slug": "nun",
+    "word": "NUN",
+    "primaryWord": "NUN",
+    "normalizedWord": "nun",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Place both flat hands at your forehead then move them down to your shoulders.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/nun.webp",
+      "alt": "Ghanaian Sign Language for NUN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 253,
+      "pdfPage": 264
+    }
+  },
+  {
+    "id": "gsl-nurse",
+    "slug": "nurse",
+    "word": "NURSE",
+    "primaryWord": "NURSE",
+    "normalizedWord": "nurse",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Tap the left wrist with the fingers of the \"N\" hand.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/nurse.webp",
+      "alt": "Ghanaian Sign Language for NURSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 70,
+      "pdfPage": 81
+    }
+  },
+  {
+    "id": "gsl-nutrition",
+    "slug": "nutrition",
+    "word": "NUTRITION",
+    "primaryWord": "NUTRITION",
+    "normalizedWord": "nutrition",
+    "letter": "N",
+    "synonyms": [],
+    "definition": "Use the \"H\" hand to touch the bicep top to bottom.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/nutrition.webp",
+      "alt": "Ghanaian Sign Language for NUTRITION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 136,
+      "pdfPage": 147
+    }
+  }
+]

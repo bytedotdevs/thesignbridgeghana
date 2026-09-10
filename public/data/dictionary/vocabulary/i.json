@@ -1,0 +1,828 @@
+[
+  {
+    "id": "gsl-i",
+    "slug": "i",
+    "word": "I",
+    "primaryWord": "I",
+    "normalizedWord": "i",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the \"I\" hand against your chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/i.webp",
+      "alt": "Ghanaian Sign Language for I"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 16,
+      "pdfPage": 27
+    }
+  },
+  {
+    "id": "gsl-iloveyou",
+    "slug": "iloveyou",
+    "word": "I LOVE YOU",
+    "primaryWord": "I LOVE YOU",
+    "normalizedWord": "i love you",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place you hand at shoulder level with little finger, index finger, and thumb out.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/iloveyou.webp",
+      "alt": "Ghanaian Sign Language for I LOVE YOU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 278,
+      "pdfPage": 289
+    }
+  },
+  {
+    "id": "gsl-itoldyouso",
+    "slug": "itoldyouso",
+    "word": "I TOLD YOU SO",
+    "primaryWord": "I TOLD YOU SO",
+    "normalizedWord": "i told you so",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Point to your eye and lean forward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/itoldyouso.webp",
+      "alt": "Ghanaian Sign Language for I TOLD YOU SO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 286,
+      "pdfPage": 297
+    }
+  },
+  {
+    "id": "gsl-ice",
+    "slug": "ice",
+    "word": "ICE",
+    "primaryWord": "ICE",
+    "normalizedWord": "ice",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Sign the letters \"I\" \"C\" and \"E\" while moving the hand slightly to the right.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/ice.webp",
+      "alt": "Ghanaian Sign Language for ICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-idea",
+    "slug": "idea",
+    "word": "IDEA",
+    "primaryWord": "IDEA",
+    "normalizedWord": "idea",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Touch the little finger of the \"I\" hand to your temple then draw it forward.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/idea.webp",
+      "alt": "Ghanaian Sign Language for IDEA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 179,
+      "pdfPage": 190
+    }
+  },
+  {
+    "id": "gsl-if",
+    "slug": "if",
+    "word": "IF",
+    "primaryWord": "IF",
+    "normalizedWord": "if",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Point the two \"F\" hands forward and move them up and down alternatively with palms facing each other.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/if.webp",
+      "alt": "Ghanaian Sign Language for IF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  },
+  {
+    "id": "gsl-illiterate",
+    "slug": "illiterate",
+    "word": "ILLITERATE",
+    "primaryWord": "ILLITERATE",
+    "normalizedWord": "illiterate",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Move the \"I\" hand in a circular motion at the forehead.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/illiterate.webp",
+      "alt": "Ghanaian Sign Language for ILLITERATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 196,
+      "pdfPage": 207
+    }
+  },
+  {
+    "id": "gsl-imagine",
+    "slug": "imagine",
+    "word": "IMAGINE",
+    "primaryWord": "IMAGINE",
+    "normalizedWord": "imagine",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Starting at your temple, bounce the \"I\" hand forward a few times.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/imagine.webp",
+      "alt": "Ghanaian Sign Language for IMAGINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 183,
+      "pdfPage": 194
+    }
+  },
+  {
+    "id": "gsl-immunesystem",
+    "slug": "immunesystem",
+    "word": "IMMUNE SYSTEM",
+    "primaryWord": "IMMUNE SYSTEM",
+    "normalizedWord": "immune system",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "1. Tap little fingers of \"I\" hands on your chest and waist. 2. Wave both \"S\" hands down your body.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/immunesystem.webp",
+      "alt": "Ghanaian Sign Language for IMMUNE SYSTEM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 168,
+      "pdfPage": 179
+    }
+  },
+  {
+    "id": "gsl-implementation",
+    "slug": "implementation",
+    "word": "IMPLEMENTATION",
+    "primaryWord": "IMPLEMENTATION",
+    "normalizedWord": "implementation",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the right index finger on the left \"I\" hand and twist the wrist.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/implementation.webp",
+      "alt": "Ghanaian Sign Language for IMPLEMENTATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  },
+  {
+    "id": "gsl-important",
+    "slug": "important",
+    "word": "IMPORTANT",
+    "primaryWord": "IMPORTANT",
+    "normalizedWord": "important",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "With both \"F\" hands vertically pointing forward, curve them upward and touch thumbs and index fingers.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/important.webp",
+      "alt": "Ghanaian Sign Language for IMPORTANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 194,
+      "pdfPage": 205
+    }
+  },
+  {
+    "id": "gsl-improve",
+    "slug": "improve",
+    "word": "IMPROVE",
+    "primaryWord": "IMPROVE",
+    "normalizedWord": "improve",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Move the right flat hand in small arcs up the left arm.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/improve.webp",
+      "alt": "Ghanaian Sign Language for IMPROVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 91,
+      "pdfPage": 102
+    }
+  },
+  {
+    "id": "gsl-in",
+    "slug": "in",
+    "word": "IN",
+    "primaryWord": "IN",
+    "normalizedWord": "in",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Insert the right \"AND\" hand into the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/in.webp",
+      "alt": "Ghanaian Sign Language for IN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 220,
+      "pdfPage": 231
+    }
+  },
+  {
+    "id": "gsl-in-law",
+    "slug": "in-law",
+    "word": "IN-LAW",
+    "primaryWord": "IN-LAW",
+    "normalizedWord": "in-law",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "1. Insert the right \"AND\" hand into the left open hand. 2. Move the \"L\" hand from the fingertips to the palm.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/in-law.webp",
+      "alt": "Ghanaian Sign Language for IN-LAW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 13,
+      "pdfPage": 24
+    }
+  },
+  {
+    "id": "gsl-inactive",
+    "slug": "inactive",
+    "word": "INACTIVE",
+    "primaryWord": "INACTIVE",
+    "normalizedWord": "inactive",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Rest both relaxed hands in front of your body.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/inactive.webp",
+      "alt": "Ghanaian Sign Language for INACTIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-income",
+    "slug": "income",
+    "word": "INCOME / SALARY / EARN",
+    "primaryWord": "INCOME",
+    "normalizedWord": "income",
+    "letter": "I",
+    "synonyms": [
+      "SALARY",
+      "EARN"
+    ],
+    "definition": "With the left index finger up, point the right index finger at the left finger and move it up and down.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/income.webp",
+      "alt": "Ghanaian Sign Language for INCOME / SALARY / EARN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 77,
+      "pdfPage": 88
+    }
+  },
+  {
+    "id": "gsl-increase",
+    "slug": "increase",
+    "word": "INCREASE",
+    "primaryWord": "INCREASE",
+    "normalizedWord": "increase",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "With both \"H\" hands turned in opposite directions, lift the right hand up and over to rest on the left.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/increase.webp",
+      "alt": "Ghanaian Sign Language for INCREASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 76,
+      "pdfPage": 87
+    }
+  },
+  {
+    "id": "gsl-independence",
+    "slug": "independence",
+    "word": "INDEPENDENCE",
+    "primaryWord": "INDEPENDENCE",
+    "normalizedWord": "independence",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Cross both \"I\" hands over each other in front of your body then open your arms and rotate hands forward.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/independence.webp",
+      "alt": "Ghanaian Sign Language for INDEPENDENCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-india",
+    "slug": "india",
+    "word": "INDIA",
+    "primaryWord": "INDIA",
+    "normalizedWord": "india",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"A\" hand in the centre of your forehead and wiggle the hand side-to-side.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/india.webp",
+      "alt": "Ghanaian Sign Language for INDIA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 230,
+      "pdfPage": 241
+    }
+  },
+  {
+    "id": "gsl-individual",
+    "slug": "individual",
+    "word": "INDIVIDUAL",
+    "primaryWord": "INDIVIDUAL",
+    "normalizedWord": "individual",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Drop both \"I\" hands together in front of the body.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/individual.webp",
+      "alt": "Ghanaian Sign Language for INDIVIDUAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-infection",
+    "slug": "infection",
+    "word": "INFECTION",
+    "primaryWord": "INFECTION",
+    "normalizedWord": "infection",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Tap both \"I\" hands against your body twice with one hand at your head and the other at your abdomen.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/infection.webp",
+      "alt": "Ghanaian Sign Language for INFECTION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 167,
+      "pdfPage": 178
+    }
+  },
+  {
+    "id": "gsl-inform",
+    "slug": "inform",
+    "word": "INFORM",
+    "primaryWord": "INFORM",
+    "normalizedWord": "inform",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "With both \"O\" hands at your mouth, open both hands and lift up slightly.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/inform.webp",
+      "alt": "Ghanaian Sign Language for INFORM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 184,
+      "pdfPage": 195
+    }
+  },
+  {
+    "id": "gsl-injection",
+    "slug": "injection",
+    "word": "INJECTION",
+    "primaryWord": "INJECTION",
+    "normalizedWord": "injection",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Squeeze the \"G\" hand at your shoulder by pulling the index finger back and pushing the thumb forward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/injection.webp",
+      "alt": "Ghanaian Sign Language for INJECTION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 172,
+      "pdfPage": 183
+    }
+  },
+  {
+    "id": "gsl-innocent",
+    "slug": "innocent",
+    "word": "INNOCENT",
+    "primaryWord": "INNOCENT",
+    "normalizedWord": "innocent",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Touch the fingertips of both \"U\" hands to your chin, then twist both hands out in front of you.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/innocent.webp",
+      "alt": "Ghanaian Sign Language for INNOCENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 259,
+      "pdfPage": 270
+    }
+  },
+  {
+    "id": "gsl-insect",
+    "slug": "insect",
+    "word": "INSECT / BUG",
+    "primaryWord": "INSECT",
+    "normalizedWord": "insect",
+    "letter": "I",
+    "synonyms": [
+      "BUG"
+    ],
+    "definition": "Touch the nose with the thumb of the \"3\" hand and bend the fingers a few times.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/insect.webp",
+      "alt": "Ghanaian Sign Language for INSECT / BUG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 64,
+      "pdfPage": 75
+    }
+  },
+  {
+    "id": "gsl-insurance",
+    "slug": "insurance",
+    "word": "INSURANCE",
+    "primaryWord": "INSURANCE",
+    "normalizedWord": "insurance",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Bring \"I\" hands together until pinkies are touching. Repeat two or three times.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/insurance.webp",
+      "alt": "Ghanaian Sign Language for INSURANCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 172,
+      "pdfPage": 183
+    }
+  },
+  {
+    "id": "gsl-intercourse",
+    "slug": "intercourse",
+    "word": "INTERCOURSE",
+    "primaryWord": "INTERCOURSE",
+    "normalizedWord": "intercourse",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Tap both \"V\" hands into each other with fingers facing forward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/intercourse.webp",
+      "alt": "Ghanaian Sign Language for INTERCOURSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 173,
+      "pdfPage": 184
+    }
+  },
+  {
+    "id": "gsl-interest",
+    "slug": "interest",
+    "word": "INTEREST",
+    "primaryWord": "INTEREST",
+    "normalizedWord": "interest",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Rub both flat hands together.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/interest.webp",
+      "alt": "Ghanaian Sign Language for INTEREST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 179,
+      "pdfPage": 190
+    }
+  },
+  {
+    "id": "gsl-international",
+    "slug": "international",
+    "word": "INTERNATIONAL",
+    "primaryWord": "INTERNATIONAL",
+    "normalizedWord": "international",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Using both \"I\" hands, encircle the left with the right in a forward motion.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/international.webp",
+      "alt": "Ghanaian Sign Language for INTERNATIONAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 226,
+      "pdfPage": 237
+    }
+  },
+  {
+    "id": "gsl-internet",
+    "slug": "internet",
+    "word": "INTERNET",
+    "primaryWord": "INTERNET",
+    "normalizedWord": "internet",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Touch both middle fingers together and twist back and forth.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/internet.webp",
+      "alt": "Ghanaian Sign Language for INTERNET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 291,
+      "pdfPage": 302
+    }
+  },
+  {
+    "id": "gsl-interpret",
+    "slug": "interpret",
+    "word": "INTERPRET",
+    "primaryWord": "INTERPRET",
+    "normalizedWord": "interpret",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the fingertips of both \"F\" hands together and rotate the right hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/interpret.webp",
+      "alt": "Ghanaian Sign Language for INTERPRET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 155,
+      "pdfPage": 166
+    }
+  },
+  {
+    "id": "gsl-interpreter",
+    "slug": "interpreter",
+    "word": "INTERPRETER",
+    "primaryWord": "INTERPRETER",
+    "normalizedWord": "interpreter",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "1. Rotate right \"F\" hand against left \"F\" hand. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/interpreter.webp",
+      "alt": "Ghanaian Sign Language for INTERPRETER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-intoxicated",
+    "slug": "intoxicated",
+    "word": "INTOXICATED / DRUNK",
+    "primaryWord": "INTOXICATED",
+    "normalizedWord": "intoxicated",
+    "letter": "I",
+    "synonyms": [
+      "DRUNK"
+    ],
+    "definition": "Cross both \"AND\" hands in front of your face while making an intoxicated expression.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/intoxicated.webp",
+      "alt": "Ghanaian Sign Language for INTOXICATED / DRUNK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 275,
+      "pdfPage": 286
+    }
+  },
+  {
+    "id": "gsl-introduce",
+    "slug": "introduce",
+    "word": "INTRODUCE",
+    "primaryWord": "INTRODUCE",
+    "normalizedWord": "introduce",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Move both flat hands in from the sides with palms up and touch the fingertips.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/introduce.webp",
+      "alt": "Ghanaian Sign Language for INTRODUCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 102,
+      "pdfPage": 113
+    }
+  },
+  {
+    "id": "gsl-iron",
+    "slug": "iron",
+    "word": "IRON",
+    "primaryWord": "IRON",
+    "normalizedWord": "iron",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Hold the flat left hand up and slide the \"A\" hand back and forth over the palm with knuckles down.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/iron.webp",
+      "alt": "Ghanaian Sign Language for IRON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 32,
+      "pdfPage": 43
+    }
+  },
+  {
+    "id": "gsl-is",
+    "slug": "is",
+    "word": "IS",
+    "primaryWord": "IS",
+    "normalizedWord": "is",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the \"I\" hand at the lips and move it forward.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/is.webp",
+      "alt": "Ghanaian Sign Language for IS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  },
+  {
+    "id": "gsl-island",
+    "slug": "island",
+    "word": "ISLAND",
+    "primaryWord": "ISLAND",
+    "normalizedWord": "island",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Place the little finger of the \"I\" hand on the downturned left hand and rotate it in a circle.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/island.webp",
+      "alt": "Ghanaian Sign Language for ISLAND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-it",
+    "slug": "it",
+    "word": "IT",
+    "primaryWord": "IT",
+    "normalizedWord": "it",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Touch the little finger of the right \"I\" hand into the left palm.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/it.webp",
+      "alt": "Ghanaian Sign Language for IT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  },
+  {
+    "id": "gsl-italy",
+    "slug": "italy",
+    "word": "ITALY",
+    "primaryWord": "ITALY",
+    "normalizedWord": "italy",
+    "letter": "I",
+    "synonyms": [],
+    "definition": "Using the \"I\" hand, draw a cross on your forehead with the little finger.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/italy.webp",
+      "alt": "Ghanaian Sign Language for ITALY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 229,
+      "pdfPage": 240
+    }
+  }
+]

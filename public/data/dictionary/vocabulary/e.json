@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "gsl-e-mail",
+    "slug": "e-mail",
+    "word": "E-MAIL",
+    "primaryWord": "E-MAIL",
+    "normalizedWord": "e-mail",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"E\" hand on the left index finger and draw it forward.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/e-mail.webp",
+      "alt": "Ghanaian Sign Language for E-MAIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 291,
+      "pdfPage": 302
+    }
+  },
+  {
+    "id": "gsl-ear",
+    "slug": "ear",
+    "word": "EAR",
+    "primaryWord": "EAR",
+    "normalizedWord": "ear",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Point to your ear with the index finger.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/ear.webp",
+      "alt": "Ghanaian Sign Language for EAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 160,
+      "pdfPage": 171
+    }
+  },
+  {
+    "id": "gsl-early",
+    "slug": "early",
+    "word": "EARLY",
+    "primaryWord": "EARLY",
+    "normalizedWord": "early",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Touch the right middle finger to the back of your left hand and flick the hand forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/early.webp",
+      "alt": "Ghanaian Sign Language for EARLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-earth",
+    "slug": "earth",
+    "word": "EARTH",
+    "primaryWord": "EARTH",
+    "normalizedWord": "earth",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Grasp the left wrist with the thumb and middle finger then rock the right hand back and forth slightly.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/earth.webp",
+      "alt": "Ghanaian Sign Language for EARTH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 128,
+      "pdfPage": 139
+    }
+  },
+  {
+    "id": "gsl-east",
+    "slug": "east",
+    "word": "EAST",
+    "primaryWord": "EAST",
+    "normalizedWord": "east",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Slide the right \"E\" hand to the right.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/east.webp",
+      "alt": "Ghanaian Sign Language for EAST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 217,
+      "pdfPage": 228
+    }
+  },
+  {
+    "id": "gsl-easter",
+    "slug": "easter",
+    "word": "EASTER",
+    "primaryWord": "EASTER",
+    "normalizedWord": "easter",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place both \"E\" hands at shoulder level and circle them in opposite directions.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/easter.webp",
+      "alt": "Ghanaian Sign Language for EASTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 266,
+      "pdfPage": 277
+    }
+  },
+  {
+    "id": "gsl-easternregion",
+    "slug": "easternregion",
+    "word": "EASTERN REGION",
+    "primaryWord": "EASTERN REGION",
+    "normalizedWord": "eastern region",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Sign the letters \"E\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/easternregion.webp",
+      "alt": "Ghanaian Sign Language for EASTERN REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 236,
+      "pdfPage": 247
+    }
+  },
+  {
+    "id": "gsl-easy",
+    "slug": "easy",
+    "word": "EASY / SIMPLE",
+    "primaryWord": "EASY",
+    "normalizedWord": "easy",
+    "letter": "E",
+    "synonyms": [
+      "SIMPLE"
+    ],
+    "definition": "Brush the right open hand against the back of the left fingertips a few times.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/easy.webp",
+      "alt": "Ghanaian Sign Language for EASY / SIMPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 92,
+      "pdfPage": 103
+    }
+  },
+  {
+    "id": "gsl-easytalk",
+    "slug": "easytalk",
+    "word": "EASY TALK",
+    "primaryWord": "EASY TALK",
+    "normalizedWord": "easy talk",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Tap the thumb of the \"Y\" hand on the cheek.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/easytalk.webp",
+      "alt": "Ghanaian Sign Language for EASY TALK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 278,
+      "pdfPage": 289
+    }
+  },
+  {
+    "id": "gsl-eat",
+    "slug": "eat",
+    "word": "EAT",
+    "primaryWord": "EAT",
+    "normalizedWord": "eat",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Move the \"AND\" hand toward the mouth a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/eat.webp",
+      "alt": "Ghanaian Sign Language for EAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 39,
+      "pdfPage": 50
+    }
+  },
+  {
+    "id": "gsl-ebola",
+    "slug": "ebola",
+    "word": "EBOLA",
+    "primaryWord": "EBOLA",
+    "normalizedWord": "ebola",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Slide the right \"S\" hand in an outward circular motion while simultaneously forming the \"3\" hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/ebola.webp",
+      "alt": "Ghanaian Sign Language for EBOLA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 170,
+      "pdfPage": 181
+    }
+  },
+  {
+    "id": "gsl-economics",
+    "slug": "economics",
+    "word": "ECONOMICS",
+    "primaryWord": "ECONOMICS",
+    "normalizedWord": "economics",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Wiggle the upturned \"E\" hand in the palm of the left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/economics.webp",
+      "alt": "Ghanaian Sign Language for ECONOMICS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 144,
+      "pdfPage": 155
+    }
+  },
+  {
+    "id": "gsl-education",
+    "slug": "education",
+    "word": "EDUCATION",
+    "primaryWord": "EDUCATION",
+    "normalizedWord": "education",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place both \"E\" hands at your shoulders and slightly move the hands upward into \"D\" hands.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/education.webp",
+      "alt": "Ghanaian Sign Language for EDUCATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-edwardakufo-addo",
+    "slug": "edwardakufo-addo",
+    "word": "EDWARD AKUFO-ADDO",
+    "primaryWord": "EDWARD AKUFO-ADDO",
+    "normalizedWord": "edward akufo-addo",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Tap the thumb and index fingers of the \"G\" hand to the chin twice.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/edwardakufo-addo.webp",
+      "alt": "Ghanaian Sign Language for EDWARD AKUFO-ADDO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 242,
+      "pdfPage": 253
+    }
+  },
+  {
+    "id": "gsl-effect",
+    "slug": "effect",
+    "word": "EFFECT",
+    "primaryWord": "EFFECT",
+    "normalizedWord": "effect",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Draw you right middle finger accross the left hand and slide your right hand in front of the body.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/effect.webp",
+      "alt": "Ghanaian Sign Language for EFFECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 186,
+      "pdfPage": 197
+    }
+  },
+  {
+    "id": "gsl-egg",
+    "slug": "egg",
+    "word": "EGG",
+    "primaryWord": "EGG",
+    "normalizedWord": "egg",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the fingers of both \"H\" hands together as you move both hands down at the wrists.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/egg.webp",
+      "alt": "Ghanaian Sign Language for EGG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 49,
+      "pdfPage": 60
+    }
+  },
+  {
+    "id": "gsl-egypt",
+    "slug": "egypt",
+    "word": "EGYPT",
+    "primaryWord": "EGYPT",
+    "normalizedWord": "egypt",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place one \"E\" hand at your head and the other at your abdomen, then cross arms and touch both shoulders.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/egypt.webp",
+      "alt": "Ghanaian Sign Language for EGYPT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 227,
+      "pdfPage": 238
+    }
+  },
+  {
+    "id": "gsl-ejaculation",
+    "slug": "ejaculation",
+    "word": "EJACULATION",
+    "primaryWord": "EJACULATION",
+    "normalizedWord": "ejaculation",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the right index finger in the middle of the left fist and open and close a few times.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/ejaculation.webp",
+      "alt": "Ghanaian Sign Language for EJACULATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 176,
+      "pdfPage": 187
+    }
+  },
+  {
+    "id": "gsl-elder",
+    "slug": "elder",
+    "word": "ELDER",
+    "primaryWord": "ELDER",
+    "normalizedWord": "elder",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"S\" hand on your chin then swing down and out to the side with the \"A\" hand.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/elder.webp",
+      "alt": "Ghanaian Sign Language for ELDER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 68,
+      "pdfPage": 79
+    }
+  },
+  {
+    "id": "gsl-electricity",
+    "slug": "electricity",
+    "word": "ELECTRICITY",
+    "primaryWord": "ELECTRICITY",
+    "normalizedWord": "electricity",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Tap the knuckles of both bent \"V\" hands together a few times.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/electricity.webp",
+      "alt": "Ghanaian Sign Language for ELECTRICITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 136,
+      "pdfPage": 147
+    }
+  },
+  {
+    "id": "gsl-elephant",
+    "slug": "elephant",
+    "word": "ELEPHANT",
+    "primaryWord": "ELEPHANT",
+    "normalizedWord": "elephant",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"S\" hand at the mouth and move it down and forward in a wavy motion.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/elephant.webp",
+      "alt": "Ghanaian Sign Language for ELEPHANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 63,
+      "pdfPage": 74
+    }
+  },
+  {
+    "id": "gsl-embarrassed",
+    "slug": "embarrassed",
+    "word": "EMBARRASSED",
+    "primaryWord": "EMBARRASSED",
+    "normalizedWord": "embarrassed",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Circle both flat hands against your cheeks alternately.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/embarrassed.webp",
+      "alt": "Ghanaian Sign Language for EMBARRASSED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 199,
+      "pdfPage": 210
+    }
+  },
+  {
+    "id": "gsl-embarrassed-2",
+    "slug": "embarrassed-2",
+    "word": "EMBARRASSED",
+    "primaryWord": "EMBARRASSED",
+    "normalizedWord": "embarrassed",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Face both \"E\" hands forward and swing them around to point at your face.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/embarrassed-2.webp",
+      "alt": "Ghanaian Sign Language for EMBARRASSED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-emergency",
+    "slug": "emergency",
+    "word": "EMERGENCY",
+    "primaryWord": "EMERGENCY",
+    "normalizedWord": "emergency",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "With two \"E\" hands staggered and facing eachother bounce them forward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/emergency.webp",
+      "alt": "Ghanaian Sign Language for EMERGENCY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-emotion",
+    "slug": "emotion",
+    "word": "EMOTION",
+    "primaryWord": "EMOTION",
+    "normalizedWord": "emotion",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Circle both \"E\" hands in front of your body alternately.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/emotion.webp",
+      "alt": "Ghanaian Sign Language for EMOTION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 190,
+      "pdfPage": 201
+    }
+  },
+  {
+    "id": "gsl-empty",
+    "slug": "empty",
+    "word": "EMPTY",
+    "primaryWord": "EMPTY",
+    "normalizedWord": "empty",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the right middle finger on the back of the downturned hand and slide the right hand to the side.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/empty.webp",
+      "alt": "Ghanaian Sign Language for EMPTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 79,
+      "pdfPage": 90
+    }
+  },
+  {
+    "id": "gsl-emptyheaded",
+    "slug": "emptyheaded",
+    "word": "EMPTY HEADED",
+    "primaryWord": "EMPTY HEADED",
+    "normalizedWord": "empty headed",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Trace the top of your head with the middle finger.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/emptyheaded.webp",
+      "alt": "Ghanaian Sign Language for EMPTY HEADED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-emptythebowl",
+    "slug": "emptythebowl",
+    "word": "EMPTY THE BOWL",
+    "primaryWord": "EMPTY THE BOWL",
+    "normalizedWord": "empty the bowl",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Pull the clawed hand into the palm of the opposite hand while transitioning to the \"and\" hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/emptythebowl.webp",
+      "alt": "Ghanaian Sign Language for EMPTY THE BOWL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 279,
+      "pdfPage": 290
+    }
+  },
+  {
+    "id": "gsl-encourage",
+    "slug": "encourage",
+    "word": "ENCOURAGE",
+    "primaryWord": "ENCOURAGE",
+    "normalizedWord": "encourage",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place both open hands facing forward at the sides of the body and slightly dip them forward a few times.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/encourage.webp",
+      "alt": "Ghanaian Sign Language for ENCOURAGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 110,
+      "pdfPage": 121
+    }
+  },
+  {
+    "id": "gsl-end",
+    "slug": "end",
+    "word": "END",
+    "primaryWord": "END",
+    "normalizedWord": "end",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Strike the knuckles of both \"E\" hands together by moving the right hand down.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/end.webp",
+      "alt": "Ghanaian Sign Language for END"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 221,
+      "pdfPage": 232
+    }
+  },
+  {
+    "id": "gsl-enemy",
+    "slug": "enemy",
+    "word": "ENEMY / FOE",
+    "primaryWord": "ENEMY",
+    "normalizedWord": "enemy",
+    "letter": "E",
+    "synonyms": [
+      "FOE"
+    ],
+    "definition": "Point the two index fingers toward each other and move them outward sharply in opposite directions.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/enemy.webp",
+      "alt": "Ghanaian Sign Language for ENEMY / FOE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 15,
+      "pdfPage": 26
+    }
+  },
+  {
+    "id": "gsl-energy",
+    "slug": "energy",
+    "word": "ENERGY",
+    "primaryWord": "ENERGY",
+    "normalizedWord": "energy",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Bring the \"E\" hand from the shoulder to the forearm in an arched motion.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/energy.webp",
+      "alt": "Ghanaian Sign Language for ENERGY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 135,
+      "pdfPage": 146
+    }
+  },
+  {
+    "id": "gsl-engaged",
+    "slug": "engaged",
+    "word": "ENGAGED",
+    "primaryWord": "ENGAGED",
+    "normalizedWord": "engaged",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Circle the right \"E\" hand over the left hand, then place it on the left ring finger.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/engaged.webp",
+      "alt": "Ghanaian Sign Language for ENGAGED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 11,
+      "pdfPage": 22
+    }
+  },
+  {
+    "id": "gsl-england",
+    "slug": "england",
+    "word": "ENGLAND",
+    "primaryWord": "ENGLAND",
+    "normalizedWord": "england",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Cradle the flat left hand in your right and pull both hands back toward your body.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/england.webp",
+      "alt": "Ghanaian Sign Language for ENGLAND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 229,
+      "pdfPage": 240
+    }
+  },
+  {
+    "id": "gsl-english",
+    "slug": "english",
+    "word": "ENGLISH",
+    "primaryWord": "ENGLISH",
+    "normalizedWord": "english",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Cradle the flat left hand in your right and pull both hands back toward your body.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/english.webp",
+      "alt": "Ghanaian Sign Language for ENGLISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 145,
+      "pdfPage": 156
+    }
+  },
+  {
+    "id": "gsl-enter",
+    "slug": "enter",
+    "word": "ENTER",
+    "primaryWord": "ENTER",
+    "normalizedWord": "enter",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "While holding the left curved hand in front of you, slide the right hand underneath it.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/enter.webp",
+      "alt": "Ghanaian Sign Language for ENTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 221,
+      "pdfPage": 232
+    }
+  },
+  {
+    "id": "gsl-envelope",
+    "slug": "envelope",
+    "word": "ENVELOPE",
+    "primaryWord": "ENVELOPE",
+    "normalizedWord": "envelope",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "1. Pull the open hand from the chest into \"AND\" hand. 2. Slide the \"C\" hand over the flat left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/envelope.webp",
+      "alt": "Ghanaian Sign Language for ENVELOPE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 148,
+      "pdfPage": 159
+    }
+  },
+  {
+    "id": "gsl-environment",
+    "slug": "environment",
+    "word": "ENVIRONMENT",
+    "primaryWord": "ENVIRONMENT",
+    "normalizedWord": "environment",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Swing the \"E\" hand around the left index finger.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/environment.webp",
+      "alt": "Ghanaian Sign Language for ENVIRONMENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 131,
+      "pdfPage": 142
+    }
+  },
+  {
+    "id": "gsl-equal",
+    "slug": "equal",
+    "word": "EQUAL / EVEN",
+    "primaryWord": "EQUAL",
+    "normalizedWord": "equal",
+    "letter": "E",
+    "synonyms": [
+      "EVEN"
+    ],
+    "definition": "Bring the fingertips of both bent hands together with palms facing down.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/equal.webp",
+      "alt": "Ghanaian Sign Language for EQUAL / EVEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 78,
+      "pdfPage": 89
+    }
+  },
+  {
+    "id": "gsl-eraser",
+    "slug": "eraser",
+    "word": "ERASER / ERASE",
+    "primaryWord": "ERASER",
+    "normalizedWord": "eraser",
+    "letter": "E",
+    "synonyms": [
+      "ERASE"
+    ],
+    "definition": "Rub the \"AND\" hand across the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/eraser.webp",
+      "alt": "Ghanaian Sign Language for ERASER / ERASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-escape",
+    "slug": "escape",
+    "word": "ESCAPE",
+    "primaryWord": "ESCAPE",
+    "normalizedWord": "escape",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Move the right index finger out from between the index and middle fingers of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/escape.webp",
+      "alt": "Ghanaian Sign Language for ESCAPE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 112,
+      "pdfPage": 123
+    }
+  },
+  {
+    "id": "gsl-europe",
+    "slug": "europe",
+    "word": "EUROPE",
+    "primaryWord": "EUROPE",
+    "normalizedWord": "europe",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Circle the face with the \"E\" hand.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/europe.webp",
+      "alt": "Ghanaian Sign Language for EUROPE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 231,
+      "pdfPage": 242
+    }
+  },
+  {
+    "id": "gsl-evangelist",
+    "slug": "evangelist",
+    "word": "EVANGELIST",
+    "primaryWord": "EVANGELIST",
+    "normalizedWord": "evangelist",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Strike the \"E\" hand forward from the shoulder.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/evangelist.webp",
+      "alt": "Ghanaian Sign Language for EVANGELIST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 250,
+      "pdfPage": 261
+    }
+  },
+  {
+    "id": "gsl-eve",
+    "slug": "eve",
+    "word": "EVE",
+    "primaryWord": "EVE",
+    "normalizedWord": "eve",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"E\" hand at the right side of your jaw.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/eve.webp",
+      "alt": "Ghanaian Sign Language for EVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 255,
+      "pdfPage": 266
+    }
+  },
+  {
+    "id": "gsl-evening",
+    "slug": "evening",
+    "word": "EVENING",
+    "primaryWord": "EVENING",
+    "normalizedWord": "evening",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "With your left arm in front of your body, place the right arm and flat hand pointed forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/evening.webp",
+      "alt": "Ghanaian Sign Language for EVENING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 202,
+      "pdfPage": 213
+    }
+  },
+  {
+    "id": "gsl-every",
+    "slug": "every",
+    "word": "EVERY",
+    "primaryWord": "EVERY",
+    "normalizedWord": "every",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Hold both \"A\" hands to the front then strike the knuckles of the right hand against the left thumb.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/every.webp",
+      "alt": "Ghanaian Sign Language for EVERY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 24,
+      "pdfPage": 35
+    }
+  },
+  {
+    "id": "gsl-everyone",
+    "slug": "everyone",
+    "word": "EVERYONE",
+    "primaryWord": "EVERYONE",
+    "normalizedWord": "everyone",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "1. Pull right \"A\" hand down left \"A\" hand toward body. 2. Make the sign for \"1.\"",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/everyone.webp",
+      "alt": "Ghanaian Sign Language for EVERYONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 19,
+      "pdfPage": 30
+    }
+  },
+  {
+    "id": "gsl-evict",
+    "slug": "evict",
+    "word": "EVICT",
+    "primaryWord": "EVICT",
+    "normalizedWord": "evict",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Push the clawed hand across the flat left hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/evict.webp",
+      "alt": "Ghanaian Sign Language for EVICT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 281,
+      "pdfPage": 292
+    }
+  },
+  {
+    "id": "gsl-evil",
+    "slug": "evil",
+    "word": "EVIL",
+    "primaryWord": "EVIL",
+    "normalizedWord": "evil",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"E\" hand against your nose then push it down and to the left.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/evil.webp",
+      "alt": "Ghanaian Sign Language for EVIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 258,
+      "pdfPage": 269
+    }
+  },
+  {
+    "id": "gsl-examine",
+    "slug": "examine",
+    "word": "EXAMINE",
+    "primaryWord": "EXAMINE",
+    "normalizedWord": "examine",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Point the fingertips of both \"V\" hands at each other then bend the fingers as you pull each hand away.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/examine.webp",
+      "alt": "Ghanaian Sign Language for EXAMINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 108,
+      "pdfPage": 119
+    }
+  },
+  {
+    "id": "gsl-example",
+    "slug": "example",
+    "word": "EXAMPLE",
+    "primaryWord": "EXAMPLE",
+    "normalizedWord": "example",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the fingers of the \"E\" hand in the left palm and push both hands forward.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/example.webp",
+      "alt": "Ghanaian Sign Language for EXAMPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 154,
+      "pdfPage": 165
+    }
+  },
+  {
+    "id": "gsl-exchange",
+    "slug": "exchange",
+    "word": "EXCHANGE",
+    "primaryWord": "EXCHANGE",
+    "normalizedWord": "exchange",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place one modified \"A\" hand slightly in front of the other then switch positions a few times.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/exchange.webp",
+      "alt": "Ghanaian Sign Language for EXCHANGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 108,
+      "pdfPage": 119
+    }
+  },
+  {
+    "id": "gsl-excite",
+    "slug": "excite",
+    "word": "EXCITE / EXCITING / THRILL",
+    "primaryWord": "EXCITE",
+    "normalizedWord": "excite",
+    "letter": "E",
+    "synonyms": [
+      "EXCITING",
+      "THRILL"
+    ],
+    "definition": "Touch the middle fingers of both hands to the chest and drag up the body alternately.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/excite.webp",
+      "alt": "Ghanaian Sign Language for EXCITE / EXCITING / THRILL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-excuse",
+    "slug": "excuse",
+    "word": "EXCUSE",
+    "primaryWord": "EXCUSE",
+    "normalizedWord": "excuse",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Slide the right the \"E\" hand across the left palm.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/excuse.webp",
+      "alt": "Ghanaian Sign Language for EXCUSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  },
+  {
+    "id": "gsl-executive",
+    "slug": "executive",
+    "word": "EXECUTIVE",
+    "primaryWord": "EXECUTIVE",
+    "normalizedWord": "executive",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place the \"E\" hand on your right chest then move it to the left chest.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/executive.webp",
+      "alt": "Ghanaian Sign Language for EXECUTIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 241,
+      "pdfPage": 252
+    }
+  },
+  {
+    "id": "gsl-experience",
+    "slug": "experience",
+    "word": "EXPERIENCE",
+    "primaryWord": "EXPERIENCE",
+    "normalizedWord": "experience",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Place your fingers on your head and thumbs on your ears then pull hands down while closing the fingers.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/experience.webp",
+      "alt": "Ghanaian Sign Language for EXPERIENCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 179,
+      "pdfPage": 190
+    }
+  },
+  {
+    "id": "gsl-eye",
+    "slug": "eye",
+    "word": "EYE",
+    "primaryWord": "EYE",
+    "normalizedWord": "eye",
+    "letter": "E",
+    "synonyms": [],
+    "definition": "Point to each eye with the index finger.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/eye.webp",
+      "alt": "Ghanaian Sign Language for EYE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 160,
+      "pdfPage": 171
+    }
+  }
+]

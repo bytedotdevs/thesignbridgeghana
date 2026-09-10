@@ -1,0 +1,615 @@
+[
+  {
+    "id": "gsl-keep",
+    "slug": "keep",
+    "word": "KEEP",
+    "primaryWord": "KEEP",
+    "normalizedWord": "keep",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Bring the right \"K\" hand down onto the left \"K\" hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/keep.webp",
+      "alt": "Ghanaian Sign Language for KEEP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 111,
+      "pdfPage": 122
+    }
+  },
+  {
+    "id": "gsl-keepforrevenge",
+    "slug": "keepforrevenge",
+    "word": "KEEP FOR REVENGE",
+    "primaryWord": "KEEP FOR REVENGE",
+    "normalizedWord": "keep for revenge",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Tap both \"K\" hands together at the wrists.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/keepforrevenge.webp",
+      "alt": "Ghanaian Sign Language for KEEP FOR REVENGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 287,
+      "pdfPage": 298
+    }
+  },
+  {
+    "id": "gsl-keepinmind1",
+    "slug": "keepinmind1",
+    "word": "KEEP IN MIND 1",
+    "primaryWord": "KEEP IN MIND 1",
+    "normalizedWord": "keep in mind 1",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Tap both \"K\" hands onto forehead.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/keepinmind1.webp",
+      "alt": "Ghanaian Sign Language for KEEP IN MIND 1"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 280,
+      "pdfPage": 291
+    }
+  },
+  {
+    "id": "gsl-keepinmind2",
+    "slug": "keepinmind2",
+    "word": "KEEP IN MIND 2",
+    "primaryWord": "KEEP IN MIND 2",
+    "normalizedWord": "keep in mind 2",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Tap middle finger to forehead and then tap with full hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/keepinmind2.webp",
+      "alt": "Ghanaian Sign Language for KEEP IN MIND 2"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 281,
+      "pdfPage": 292
+    }
+  },
+  {
+    "id": "gsl-kenkey",
+    "slug": "kenkey",
+    "word": "KENKEY",
+    "primaryWord": "KENKEY",
+    "normalizedWord": "kenkey",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Hold the \"S\" hand at the wrist and wiggle it back and forth at the wrist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/kenkey.webp",
+      "alt": "Ghanaian Sign Language for KENKEY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 45,
+      "pdfPage": 56
+    }
+  },
+  {
+    "id": "gsl-kente",
+    "slug": "kente",
+    "word": "KENTE",
+    "primaryWord": "KENTE",
+    "normalizedWord": "kente",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "1. Push both \"X\" hands side-to-side alternately. 2. Swing your right hand over the left shoulder.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/kente.webp",
+      "alt": "Ghanaian Sign Language for KENTE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 268,
+      "pdfPage": 279
+    }
+  },
+  {
+    "id": "gsl-key",
+    "slug": "key",
+    "word": "KEY / LOCK",
+    "primaryWord": "KEY",
+    "normalizedWord": "key",
+    "letter": "K",
+    "synonyms": [
+      "LOCK"
+    ],
+    "definition": "Place the modified \"A\" hand index finger into the palm of the left hand and twist clockwise.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/key.webp",
+      "alt": "Ghanaian Sign Language for KEY / LOCK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 34,
+      "pdfPage": 45
+    }
+  },
+  {
+    "id": "gsl-kibischoolforthedeaf",
+    "slug": "kibischoolforthedeaf",
+    "word": "KIBI SCHOOL FOR THE DEAF",
+    "primaryWord": "KIBI SCHOOL FOR THE DEAF",
+    "normalizedWord": "kibi school for the deaf",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"K\" \"I\" \"B\" \"I\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/kibischoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for KIBI SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 235,
+      "pdfPage": 246
+    }
+  },
+  {
+    "id": "gsl-kickedout",
+    "slug": "kickedout",
+    "word": "KICKED OUT",
+    "primaryWord": "KICKED OUT",
+    "normalizedWord": "kicked out",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Use the right index finger to slap against the left index finger, sending it backward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/kickedout.webp",
+      "alt": "Ghanaian Sign Language for KICKED OUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 287,
+      "pdfPage": 298
+    }
+  },
+  {
+    "id": "gsl-kid",
+    "slug": "kid",
+    "word": "KID",
+    "primaryWord": "KID",
+    "normalizedWord": "kid",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Place the \"ILY\" hand under the nose and wiggle the hand slightly.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/kid.webp",
+      "alt": "Ghanaian Sign Language for KID"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 12,
+      "pdfPage": 23
+    }
+  },
+  {
+    "id": "gsl-kill",
+    "slug": "kill",
+    "word": "KILL",
+    "primaryWord": "KILL",
+    "normalizedWord": "kill",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Slide the right \"K\" hand forward against the palm of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/kill.webp",
+      "alt": "Ghanaian Sign Language for KILL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 109,
+      "pdfPage": 120
+    }
+  },
+  {
+    "id": "gsl-kind",
+    "slug": "kind",
+    "word": "KIND / GRACIOUS",
+    "primaryWord": "KIND",
+    "normalizedWord": "kind",
+    "letter": "K",
+    "synonyms": [
+      "GRACIOUS"
+    ],
+    "definition": "Circle both \"K\" hands around each other at your heart.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/kind.webp",
+      "alt": "Ghanaian Sign Language for KIND / GRACIOUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 196,
+      "pdfPage": 207
+    }
+  },
+  {
+    "id": "gsl-kindergarten",
+    "slug": "kindergarten",
+    "word": "KINDERGARTEN",
+    "primaryWord": "KINDERGARTEN",
+    "normalizedWord": "kindergarten",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"K\" and \"G\" while moving the hand slightly to the right.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/kindergarten.webp",
+      "alt": "Ghanaian Sign Language for KINDERGARTEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 141,
+      "pdfPage": 152
+    }
+  },
+  {
+    "id": "gsl-king",
+    "slug": "king",
+    "word": "KING",
+    "primaryWord": "KING",
+    "normalizedWord": "king",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Move the \"K\" hand from your left shoulder to your right hip.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/king.webp",
+      "alt": "Ghanaian Sign Language for KING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 257,
+      "pdfPage": 268
+    }
+  },
+  {
+    "id": "gsl-kingdom",
+    "slug": "kingdom",
+    "word": "KINGDOM",
+    "primaryWord": "KINGDOM",
+    "normalizedWord": "kingdom",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "1. Move the \"K\" hand from your shoulder to your waist. 2. Circle \"D\" hand over the left hand and touch wrist.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/kingdom.webp",
+      "alt": "Ghanaian Sign Language for KINGDOM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-kiss",
+    "slug": "kiss",
+    "word": "KISS",
+    "primaryWord": "KISS",
+    "normalizedWord": "kiss",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Rock the \"Y\" hand back and forth against your mouth",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/kiss.webp",
+      "alt": "Ghanaian Sign Language for KISS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 100,
+      "pdfPage": 111
+    }
+  },
+  {
+    "id": "gsl-kitchen",
+    "slug": "kitchen",
+    "word": "KITCHEN",
+    "primaryWord": "KITCHEN",
+    "normalizedWord": "kitchen",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Slide the right \"K\" hand back and forth over the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/kitchen.webp",
+      "alt": "Ghanaian Sign Language for KITCHEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 42,
+      "pdfPage": 53
+    }
+  },
+  {
+    "id": "gsl-kloyokisplemi",
+    "slug": "kloyokisplemi",
+    "word": "KLOYOKISPLEMI",
+    "primaryWord": "KLOYOKISPLEMI",
+    "normalizedWord": "kloyokisplemi",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Swing your open \"4\" hands back and forth at your waist.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/kloyokisplemi.webp",
+      "alt": "Ghanaian Sign Language for KLOYOKISPLEMI"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 270,
+      "pdfPage": 281
+    }
+  },
+  {
+    "id": "gsl-kneel",
+    "slug": "kneel",
+    "word": "KNEEL",
+    "primaryWord": "KNEEL",
+    "normalizedWord": "kneel",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Bend your pointer and middle fingers and place them in the left palm.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/kneel.webp",
+      "alt": "Ghanaian Sign Language for KNEEL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 261,
+      "pdfPage": 272
+    }
+  },
+  {
+    "id": "gsl-knife",
+    "slug": "knife",
+    "word": "KNIFE",
+    "primaryWord": "KNIFE",
+    "normalizedWord": "knife",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "With both \"H\" hands, rub the right middle finger back and forth over the left index finger.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/knife.webp",
+      "alt": "Ghanaian Sign Language for KNIFE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 41,
+      "pdfPage": 52
+    }
+  },
+  {
+    "id": "gsl-know",
+    "slug": "know",
+    "word": "KNOW",
+    "primaryWord": "KNOW",
+    "normalizedWord": "know",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Touch the \"AND\" hand to your temple.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/know.webp",
+      "alt": "Ghanaian Sign Language for KNOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 180,
+      "pdfPage": 191
+    }
+  },
+  {
+    "id": "gsl-knust",
+    "slug": "knust",
+    "word": "KNUST",
+    "primaryWord": "KNUST",
+    "normalizedWord": "knust",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "1. Sign the letters \"N\" and \"K\" on the temple. 2. Sweep the right \"U\" hand over the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/knust.webp",
+      "alt": "Ghanaian Sign Language for KNUST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-koforidua",
+    "slug": "koforidua",
+    "word": "KOFORIDUA",
+    "primaryWord": "KOFORIDUA",
+    "normalizedWord": "koforidua",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"K\" and \"A\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/koforidua.webp",
+      "alt": "Ghanaian Sign Language for KOFORIDUA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 232,
+      "pdfPage": 243
+    }
+  },
+  {
+    "id": "gsl-koforiduaschoolforthedeaf",
+    "slug": "koforiduaschoolforthedeaf",
+    "word": "KOFORIDUA SCHOOL FOR THE DEAF",
+    "primaryWord": "KOFORIDUA SCHOOL FOR THE DEAF",
+    "normalizedWord": "koforidua school for the deaf",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"K\" and \"A\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/koforiduaschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for KOFORIDUA SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 235,
+      "pdfPage": 246
+    }
+  },
+  {
+    "id": "gsl-kokonte",
+    "slug": "kokonte",
+    "word": "KOKONTE",
+    "primaryWord": "KOKONTE",
+    "normalizedWord": "kokonte",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "1. Pound both \"S\" hands up and down. 2. Circle the \"B\" hand in your left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/kokonte.webp",
+      "alt": "Ghanaian Sign Language for KOKONTE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 47,
+      "pdfPage": 58
+    }
+  },
+  {
+    "id": "gsl-kontomire",
+    "slug": "kontomire",
+    "word": "KONTOMIRE",
+    "primaryWord": "KONTOMIRE",
+    "normalizedWord": "kontomire",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Place the left flat hand against your forearm and swing the right \"K\" hand back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/kontomire.webp",
+      "alt": "Ghanaian Sign Language for KONTOMIRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 53,
+      "pdfPage": 64
+    }
+  },
+  {
+    "id": "gsl-kumasi",
+    "slug": "kumasi",
+    "word": "KUMASI",
+    "primaryWord": "KUMASI",
+    "normalizedWord": "kumasi",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"K\" and \"I\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/kumasi.webp",
+      "alt": "Ghanaian Sign Language for KUMASI"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 232,
+      "pdfPage": 243
+    }
+  },
+  {
+    "id": "gsl-kundum",
+    "slug": "kundum",
+    "word": "KUNDUM",
+    "primaryWord": "KUNDUM",
+    "normalizedWord": "kundum",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Push your curved hands forward and up slightly from the waist.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/kundum.webp",
+      "alt": "Ghanaian Sign Language for KUNDUM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 270,
+      "pdfPage": 281
+    }
+  },
+  {
+    "id": "gsl-kwamenkrumah",
+    "slug": "kwamenkrumah",
+    "word": "KWAME NKRUMAH",
+    "primaryWord": "KWAME NKRUMAH",
+    "normalizedWord": "kwame nkrumah",
+    "letter": "K",
+    "synonyms": [],
+    "definition": "Sign the letters \"N\" and \"K\" at the forehead.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/kwamenkrumah.webp",
+      "alt": "Ghanaian Sign Language for KWAME NKRUMAH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 241,
+      "pdfPage": 252
+    }
+  }
+]

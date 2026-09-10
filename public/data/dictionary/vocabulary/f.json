@@ -1,0 +1,1686 @@
+[
+  {
+    "id": "gsl-fabric",
+    "slug": "fabric",
+    "word": "FABRIC",
+    "primaryWord": "FABRIC",
+    "normalizedWord": "fabric",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "1. Pinch the right shoulder with the \"F\" hand. 2. Circle both flat hands around each other.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/fabric.webp",
+      "alt": "Ghanaian Sign Language for FABRIC"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 268,
+      "pdfPage": 279
+    }
+  },
+  {
+    "id": "gsl-face",
+    "slug": "face",
+    "word": "FACE",
+    "primaryWord": "FACE",
+    "normalizedWord": "face",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Circle the face with the \"F\" hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/face.webp",
+      "alt": "Ghanaian Sign Language for FACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 160,
+      "pdfPage": 171
+    }
+  },
+  {
+    "id": "gsl-facetoface",
+    "slug": "facetoface",
+    "word": "FACE TO FACE",
+    "primaryWord": "FACE TO FACE",
+    "normalizedWord": "face to face",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Face both flat hands at each other and rotate them in opposite directions.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/facetoface.webp",
+      "alt": "Ghanaian Sign Language for FACE TO FACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-facebook",
+    "slug": "facebook",
+    "word": "FACEBOOK",
+    "primaryWord": "FACEBOOK",
+    "normalizedWord": "facebook",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Pull the right \"F\" hand from your temple to the \"B\" hand at your chin.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/facebook.webp",
+      "alt": "Ghanaian Sign Language for FACEBOOK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 291,
+      "pdfPage": 302
+    }
+  },
+  {
+    "id": "gsl-faeces",
+    "slug": "faeces",
+    "word": "FAECES",
+    "primaryWord": "FAECES",
+    "normalizedWord": "faeces",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Pull the right \"A\" hand thumb out from the bottom of the left \"A\" hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/faeces.webp",
+      "alt": "Ghanaian Sign Language for FAECES"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 163,
+      "pdfPage": 174
+    }
+  },
+  {
+    "id": "gsl-fail",
+    "slug": "fail",
+    "word": "FAIL",
+    "primaryWord": "FAIL",
+    "normalizedWord": "fail",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the upturned \"F\" hand into the left palm and slide it across the fingers.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/fail.webp",
+      "alt": "Ghanaian Sign Language for FAIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 142,
+      "pdfPage": 153
+    }
+  },
+  {
+    "id": "gsl-fair",
+    "slug": "fair",
+    "word": "FAIR",
+    "primaryWord": "FAIR",
+    "normalizedWord": "fair",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Press both \"F\" hands forward at shoulder level.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/fair.webp",
+      "alt": "Ghanaian Sign Language for FAIR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-faith",
+    "slug": "faith",
+    "word": "FAITH",
+    "primaryWord": "FAITH",
+    "normalizedWord": "faith",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Draw the right \"F\" hand forward over the top of the left \"F\" hand.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/faith.webp",
+      "alt": "Ghanaian Sign Language for FAITH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 264,
+      "pdfPage": 275
+    }
+  },
+  {
+    "id": "gsl-fall",
+    "slug": "fall",
+    "word": "FALL",
+    "primaryWord": "FALL",
+    "normalizedWord": "fall",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Stand the right \"V\" fingers in the left palm then flip the hand over so the back of the hand rests in the palm.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/fall.webp",
+      "alt": "Ghanaian Sign Language for FALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 122,
+      "pdfPage": 133
+    }
+  },
+  {
+    "id": "gsl-false",
+    "slug": "false",
+    "word": "FALSE / FAKE / ARTIFICIAL",
+    "primaryWord": "FALSE",
+    "normalizedWord": "false",
+    "letter": "F",
+    "synonyms": [
+      "FAKE",
+      "ARTIFICIAL"
+    ],
+    "definition": "Brush the right index finger across the tip of the nose in a sideways movement across the mouth.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/false.webp",
+      "alt": "Ghanaian Sign Language for FALSE / FAKE / ARTIFICIAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 93,
+      "pdfPage": 104
+    }
+  },
+  {
+    "id": "gsl-family",
+    "slug": "family",
+    "word": "FAMILY",
+    "primaryWord": "FAMILY",
+    "normalizedWord": "family",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both \"F\" hands together with palms facing front and twist forward, bringing the little fingers together.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/family.webp",
+      "alt": "Ghanaian Sign Language for FAMILY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 8,
+      "pdfPage": 19
+    }
+  },
+  {
+    "id": "gsl-fan",
+    "slug": "fan",
+    "word": "FAN",
+    "primaryWord": "FAN",
+    "normalizedWord": "fan",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Use the index finger to make a large circle in the air above your head.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/fan.webp",
+      "alt": "Ghanaian Sign Language for FAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 29,
+      "pdfPage": 40
+    }
+  },
+  {
+    "id": "gsl-fanice",
+    "slug": "fanice",
+    "word": "FANICE",
+    "primaryWord": "FANICE",
+    "normalizedWord": "fanice",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Bring the \"U\" hand in front of the mouth and twist the hand back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/fanice.webp",
+      "alt": "Ghanaian Sign Language for FANICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 56,
+      "pdfPage": 67
+    }
+  },
+  {
+    "id": "gsl-fantekenkey",
+    "slug": "fantekenkey",
+    "word": "FANTE KENKEY",
+    "primaryWord": "FANTE KENKEY",
+    "normalizedWord": "fante kenkey",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Hold the \"F\" hand at the wrist and wiggle it back and forth at the wrist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/fantekenkey.webp",
+      "alt": "Ghanaian Sign Language for FANTE KENKEY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 46,
+      "pdfPage": 57
+    }
+  },
+  {
+    "id": "gsl-far",
+    "slug": "far",
+    "word": "FAR",
+    "primaryWord": "FAR",
+    "normalizedWord": "far",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Pass the right \"A\" hand far ahead of the left \"A\" hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/far.webp",
+      "alt": "Ghanaian Sign Language for FAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 90,
+      "pdfPage": 101
+    }
+  },
+  {
+    "id": "gsl-farm",
+    "slug": "farm",
+    "word": "FARM",
+    "primaryWord": "FARM",
+    "normalizedWord": "farm",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Slide the \"F\" hand from the left side of your chin the the right.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/farm.webp",
+      "alt": "Ghanaian Sign Language for FARM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 133,
+      "pdfPage": 144
+    }
+  },
+  {
+    "id": "gsl-farmer",
+    "slug": "farmer",
+    "word": "FARMER",
+    "primaryWord": "FARMER",
+    "normalizedWord": "farmer",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "1. Slide the \"F\" hand under the mouth. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/farmer.webp",
+      "alt": "Ghanaian Sign Language for FARMER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 68,
+      "pdfPage": 79
+    }
+  },
+  {
+    "id": "gsl-fast",
+    "slug": "fast",
+    "word": "FAST / QUICK / RAPID",
+    "primaryWord": "FAST",
+    "normalizedWord": "fast",
+    "letter": "F",
+    "synonyms": [
+      "QUICK",
+      "RAPID"
+    ],
+    "definition": "Rapidly brush the right fingertips in an upward motion against the left fingertips a few times.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/fast.webp",
+      "alt": "Ghanaian Sign Language for FAST / QUICK / RAPID"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 89,
+      "pdfPage": 100
+    }
+  },
+  {
+    "id": "gsl-fasting",
+    "slug": "fasting",
+    "word": "FASTING",
+    "primaryWord": "FASTING",
+    "normalizedWord": "fasting",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Slide the thumb and index finger of the left\"F\" hand across your lips.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/fasting.webp",
+      "alt": "Ghanaian Sign Language for FASTING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 262,
+      "pdfPage": 273
+    }
+  },
+  {
+    "id": "gsl-fat",
+    "slug": "fat",
+    "word": "FAT / CHUBBY / OBESE",
+    "primaryWord": "FAT",
+    "normalizedWord": "fat",
+    "letter": "F",
+    "synonyms": [
+      "CHUBBY",
+      "OBESE"
+    ],
+    "definition": "Place both curved open hands at your cheeks then move the hands outward in opposite directions.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/fat.webp",
+      "alt": "Ghanaian Sign Language for FAT / CHUBBY / OBESE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 85,
+      "pdfPage": 96
+    }
+  },
+  {
+    "id": "gsl-father",
+    "slug": "father",
+    "word": "FATHER / DAD",
+    "primaryWord": "FATHER",
+    "normalizedWord": "father",
+    "letter": "F",
+    "synonyms": [
+      "DAD"
+    ],
+    "definition": "Touch the forehead with the thumb of your open hand.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/father.webp",
+      "alt": "Ghanaian Sign Language for FATHER / DAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 8,
+      "pdfPage": 19
+    }
+  },
+  {
+    "id": "gsl-favourite",
+    "slug": "favourite",
+    "word": "FAVOURITE",
+    "primaryWord": "FAVOURITE",
+    "normalizedWord": "favourite",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Touch the chin with your middle finger.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/favourite.webp",
+      "alt": "Ghanaian Sign Language for FAVOURITE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 180,
+      "pdfPage": 191
+    }
+  },
+  {
+    "id": "gsl-fear",
+    "slug": "fear",
+    "word": "FEAR / AFRAID / SCARED / FRIGHTENED",
+    "primaryWord": "FEAR",
+    "normalizedWord": "fear",
+    "letter": "F",
+    "synonyms": [
+      "AFRAID",
+      "SCARED",
+      "FRIGHTENED"
+    ],
+    "definition": "Move both open hands side-to-side in front of your body.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/fear.webp",
+      "alt": "Ghanaian Sign Language for FEAR / AFRAID / SCARED / FRIGHTENED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 190,
+      "pdfPage": 201
+    }
+  },
+  {
+    "id": "gsl-february",
+    "slug": "february",
+    "word": "FEBRUARY",
+    "primaryWord": "FEBRUARY",
+    "normalizedWord": "february",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Press \"F\" hand into the left palm then the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/february.webp",
+      "alt": "Ghanaian Sign Language for FEBRUARY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 204,
+      "pdfPage": 215
+    }
+  },
+  {
+    "id": "gsl-fedup",
+    "slug": "fedup",
+    "word": "FED UP",
+    "primaryWord": "FED UP",
+    "normalizedWord": "fed up",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "With the palm facing down, move the right hand from the chest to under the chin.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/fedup.webp",
+      "alt": "Ghanaian Sign Language for FED UP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 286,
+      "pdfPage": 297
+    }
+  },
+  {
+    "id": "gsl-feedback",
+    "slug": "feedback",
+    "word": "FEEDBACK",
+    "primaryWord": "FEEDBACK",
+    "normalizedWord": "feedback",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Hold the \"F\" hand in front of you then with the palm facing you bring the \"B\" hand towards your face.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/feedback.webp",
+      "alt": "Ghanaian Sign Language for FEEDBACK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 157,
+      "pdfPage": 168
+    }
+  },
+  {
+    "id": "gsl-feel",
+    "slug": "feel",
+    "word": "FEEL / FEELING / SENSATION",
+    "primaryWord": "FEEL",
+    "normalizedWord": "feel",
+    "letter": "F",
+    "synonyms": [
+      "FEELING",
+      "SENSATION"
+    ],
+    "definition": "Draw the right middle finger up over your heart.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/feel.webp",
+      "alt": "Ghanaian Sign Language for FEEL / FEELING / SENSATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 190,
+      "pdfPage": 201
+    }
+  },
+  {
+    "id": "gsl-feelstrongly",
+    "slug": "feelstrongly",
+    "word": "FEEL STRONGLY",
+    "primaryWord": "FEEL STRONGLY",
+    "normalizedWord": "feel strongly",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Touch your middle finger to your heart and draw upward a few times.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/feelstrongly.webp",
+      "alt": "Ghanaian Sign Language for FEEL STRONGLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-feet",
+    "slug": "feet",
+    "word": "FEET",
+    "primaryWord": "FEET",
+    "normalizedWord": "feet",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Drop the middle finger to the back of your left hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/feet.webp",
+      "alt": "Ghanaian Sign Language for FEET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 161,
+      "pdfPage": 172
+    }
+  },
+  {
+    "id": "gsl-festival",
+    "slug": "festival",
+    "word": "FESTIVAL",
+    "primaryWord": "FESTIVAL",
+    "normalizedWord": "festival",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both \"F\" hands at your shoulders and circle in opposite directions.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/festival.webp",
+      "alt": "Ghanaian Sign Language for FESTIVAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-fetuafahye",
+    "slug": "fetuafahye",
+    "word": "FETU AFAHYE",
+    "primaryWord": "FETU AFAHYE",
+    "normalizedWord": "fetu afahye",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "With both index fingers pointing upward, alternately bring down each hand into the \"X\" hand.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/fetuafahye.webp",
+      "alt": "Ghanaian Sign Language for FETU AFAHYE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 270,
+      "pdfPage": 281
+    }
+  },
+  {
+    "id": "gsl-filmmaker",
+    "slug": "filmmaker",
+    "word": "FILM MAKER",
+    "primaryWord": "FILM MAKER",
+    "normalizedWord": "film maker",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "1. Circle the \"A\" hand next to the open left palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/filmmaker.webp",
+      "alt": "Ghanaian Sign Language for FILM MAKER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 72,
+      "pdfPage": 83
+    }
+  },
+  {
+    "id": "gsl-financial",
+    "slug": "financial",
+    "word": "FINANCIAL",
+    "primaryWord": "FINANCIAL",
+    "normalizedWord": "financial",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Slide the back of the right \"F\" hand into the upturned palm a few times.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/financial.webp",
+      "alt": "Ghanaian Sign Language for FINANCIAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 75,
+      "pdfPage": 86
+    }
+  },
+  {
+    "id": "gsl-find",
+    "slug": "find",
+    "word": "FIND",
+    "primaryWord": "FIND",
+    "normalizedWord": "find",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Hold the open hand in front with the palm facing down then lift into the \"F\" hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/find.webp",
+      "alt": "Ghanaian Sign Language for FIND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 90,
+      "pdfPage": 101
+    }
+  },
+  {
+    "id": "gsl-fine",
+    "slug": "fine",
+    "word": "FINE",
+    "primaryWord": "FINE",
+    "normalizedWord": "fine",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the thumb of the right open hand against your chest.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/fine.webp",
+      "alt": "Ghanaian Sign Language for FINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 155,
+      "pdfPage": 166
+    }
+  },
+  {
+    "id": "gsl-fingerspell",
+    "slug": "fingerspell",
+    "word": "FINGERSPELL",
+    "primaryWord": "FINGERSPELL",
+    "normalizedWord": "fingerspell",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "With your palm facing down, move the right hand to the right while you wiggle the fingers.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/fingerspell.webp",
+      "alt": "Ghanaian Sign Language for FINGERSPELL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 155,
+      "pdfPage": 166
+    }
+  },
+  {
+    "id": "gsl-finish",
+    "slug": "finish",
+    "word": "FINISH / DONE",
+    "primaryWord": "FINISH",
+    "normalizedWord": "finish",
+    "letter": "F",
+    "synonyms": [
+      "DONE"
+    ],
+    "definition": "Hold both open hands to the front with palms facing each other and shake the hands quickly outward.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/finish.webp",
+      "alt": "Ghanaian Sign Language for FINISH / DONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  },
+  {
+    "id": "gsl-fire",
+    "slug": "fire",
+    "word": "FIRE",
+    "primaryWord": "FIRE",
+    "normalizedWord": "fire",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Wiggle the fingers of both curved hands as you move them up and down.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/fire.webp",
+      "alt": "Ghanaian Sign Language for FIRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 135,
+      "pdfPage": 146
+    }
+  },
+  {
+    "id": "gsl-first",
+    "slug": "first",
+    "word": "FIRST",
+    "primaryWord": "FIRST",
+    "normalizedWord": "first",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Swing your right index finger to tap the left thumb.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/first.webp",
+      "alt": "Ghanaian Sign Language for FIRST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 82,
+      "pdfPage": 93
+    }
+  },
+  {
+    "id": "gsl-fish",
+    "slug": "fish",
+    "word": "FISH",
+    "primaryWord": "FISH",
+    "normalizedWord": "fish",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the fingertips of the left hand at the wrist of the right and swing it back and forth a few times.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/fish.webp",
+      "alt": "Ghanaian Sign Language for FISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 63,
+      "pdfPage": 74
+    }
+  },
+  {
+    "id": "gsl-fit",
+    "slug": "fit",
+    "word": "FIT",
+    "primaryWord": "FIT",
+    "normalizedWord": "fit",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Hold both \"F\" hands in front of the body then switch to both \"T\" hands.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/fit.webp",
+      "alt": "Ghanaian Sign Language for FIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  },
+  {
+    "id": "gsl-fix",
+    "slug": "fix",
+    "word": "FIX / MEND / REPAIR",
+    "primaryWord": "FIX",
+    "normalizedWord": "fix",
+    "letter": "F",
+    "synonyms": [
+      "MEND",
+      "REPAIR"
+    ],
+    "definition": "Place the fingers of the \"R\" hand into the left palm and twist the right hand at the wrist.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/fix.webp",
+      "alt": "Ghanaian Sign Language for FIX / MEND / REPAIR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 107,
+      "pdfPage": 118
+    }
+  },
+  {
+    "id": "gsl-flag",
+    "slug": "flag",
+    "word": "FLAG",
+    "primaryWord": "FLAG",
+    "normalizedWord": "flag",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the right arm and \"F\" hand resting on the left hand and wave the hand back and forth.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/flag.webp",
+      "alt": "Ghanaian Sign Language for FLAG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 226,
+      "pdfPage": 237
+    }
+  },
+  {
+    "id": "gsl-flatulence",
+    "slug": "flatulence",
+    "word": "FLATULENCE",
+    "primaryWord": "FLATULENCE",
+    "normalizedWord": "flatulence",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Strike the middle fingertips of both \"P\" hands together in front of your body.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/flatulence.webp",
+      "alt": "Ghanaian Sign Language for FLATULENCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 163,
+      "pdfPage": 174
+    }
+  },
+  {
+    "id": "gsl-flirting",
+    "slug": "flirting",
+    "word": "FLIRTING",
+    "primaryWord": "FLIRTING",
+    "normalizedWord": "flirting",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the \"X\" hand at your waist and pull back on the index finger a few times.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/flirting.webp",
+      "alt": "Ghanaian Sign Language for FLIRTING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-flood",
+    "slug": "flood",
+    "word": "FLOOD",
+    "primaryWord": "FLOOD",
+    "normalizedWord": "flood",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Tap the \"W\" hand on the chin then lift both open hands up from the waist.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/flood.webp",
+      "alt": "Ghanaian Sign Language for FLOOD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 130,
+      "pdfPage": 141
+    }
+  },
+  {
+    "id": "gsl-floor",
+    "slug": "floor",
+    "word": "FLOOR",
+    "primaryWord": "FLOOR",
+    "normalizedWord": "floor",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both flat hands together with palms down in front of your body and move both outward.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/floor.webp",
+      "alt": "Ghanaian Sign Language for FLOOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 28,
+      "pdfPage": 39
+    }
+  },
+  {
+    "id": "gsl-flower",
+    "slug": "flower",
+    "word": "FLOWER",
+    "primaryWord": "FLOWER",
+    "normalizedWord": "flower",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Slide the \"AND\" hand across your mouth a few times.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/flower.webp",
+      "alt": "Ghanaian Sign Language for FLOWER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 133,
+      "pdfPage": 144
+    }
+  },
+  {
+    "id": "gsl-flyinginsect",
+    "slug": "flyinginsect",
+    "word": "FLYING INSECT",
+    "primaryWord": "FLYING INSECT",
+    "normalizedWord": "flying insect",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Touch the thumbs of both open hands and wiggle the fingers as you move both hands upward and forward.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/flyinginsect.webp",
+      "alt": "Ghanaian Sign Language for FLYING INSECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 64,
+      "pdfPage": 75
+    }
+  },
+  {
+    "id": "gsl-focus",
+    "slug": "focus",
+    "word": "FOCUS / ATTENTION",
+    "primaryWord": "FOCUS",
+    "normalizedWord": "focus",
+    "letter": "F",
+    "synonyms": [
+      "ATTENTION"
+    ],
+    "definition": "Push both flat hands forward from the sides of your head.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/focus.webp",
+      "alt": "Ghanaian Sign Language for FOCUS / ATTENTION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 183,
+      "pdfPage": 194
+    }
+  },
+  {
+    "id": "gsl-follow",
+    "slug": "follow",
+    "word": "FOLLOW",
+    "primaryWord": "FOLLOW",
+    "normalizedWord": "follow",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands facing forward with thumbs up and wave them forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/follow.webp",
+      "alt": "Ghanaian Sign Language for FOLLOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 223,
+      "pdfPage": 234
+    }
+  },
+  {
+    "id": "gsl-food",
+    "slug": "food",
+    "word": "FOOD",
+    "primaryWord": "FOOD",
+    "normalizedWord": "food",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Move the \"F\" hand toward the mouth a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/food.webp",
+      "alt": "Ghanaian Sign Language for FOOD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 39,
+      "pdfPage": 50
+    }
+  },
+  {
+    "id": "gsl-foolish",
+    "slug": "foolish",
+    "word": "FOOLISH",
+    "primaryWord": "FOOLISH",
+    "normalizedWord": "foolish",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Sweep the \"Y\" hand across your forehead.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/foolish.webp",
+      "alt": "Ghanaian Sign Language for FOOLISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-football",
+    "slug": "football",
+    "word": "FOOTBALL",
+    "primaryWord": "FOOTBALL",
+    "normalizedWord": "football",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Tap the right index finger at the wrist of the left \"S\" hand and swing the left hand upward.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/football.webp",
+      "alt": "Ghanaian Sign Language for FOOTBALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 125,
+      "pdfPage": 136
+    }
+  },
+  {
+    "id": "gsl-for",
+    "slug": "for",
+    "word": "FOR",
+    "primaryWord": "FOR",
+    "normalizedWord": "for",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the index finger at the temple then move it forward from the head.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/for.webp",
+      "alt": "Ghanaian Sign Language for FOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 26,
+      "pdfPage": 37
+    }
+  },
+  {
+    "id": "gsl-force",
+    "slug": "force",
+    "word": "FORCE",
+    "primaryWord": "FORCE",
+    "normalizedWord": "force",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Move the right clawed hand over the left wrist.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/force.webp",
+      "alt": "Ghanaian Sign Language for FORCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 110,
+      "pdfPage": 121
+    }
+  },
+  {
+    "id": "gsl-forcetojoin",
+    "slug": "forcetojoin",
+    "word": "FORCE TO JOIN",
+    "primaryWord": "FORCE TO JOIN",
+    "normalizedWord": "force to join",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Use modified \"A\" hands to forcefully pull upward toward yourself.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/forcetojoin.webp",
+      "alt": "Ghanaian Sign Language for FORCE TO JOIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 279,
+      "pdfPage": 290
+    }
+  },
+  {
+    "id": "gsl-foreign",
+    "slug": "foreign",
+    "word": "FOREIGN",
+    "primaryWord": "FOREIGN",
+    "normalizedWord": "foreign",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Circle your left elbow with the \"F\" hand.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/foreign.webp",
+      "alt": "Ghanaian Sign Language for FOREIGN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-forest",
+    "slug": "forest",
+    "word": "FOREST",
+    "primaryWord": "FOREST",
+    "normalizedWord": "forest",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place your right elbow on the left hand and twist the right open hand as you move both arms to the left.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/forest.webp",
+      "alt": "Ghanaian Sign Language for FOREST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 131,
+      "pdfPage": 142
+    }
+  },
+  {
+    "id": "gsl-forever",
+    "slug": "forever",
+    "word": "FOREVER",
+    "primaryWord": "FOREVER",
+    "normalizedWord": "forever",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the right index finger against your temple then circle the \"E\" hand in front of your body.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/forever.webp",
+      "alt": "Ghanaian Sign Language for FOREVER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 210,
+      "pdfPage": 221
+    }
+  },
+  {
+    "id": "gsl-forget",
+    "slug": "forget",
+    "word": "FORGET",
+    "primaryWord": "FORGET",
+    "normalizedWord": "forget",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Wipe your flat hand across your forehead and close into \"A\" hand.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/forget.webp",
+      "alt": "Ghanaian Sign Language for FORGET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-forgive",
+    "slug": "forgive",
+    "word": "FORGIVE",
+    "primaryWord": "FORGIVE",
+    "normalizedWord": "forgive",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Slide the fingertips of one flat hand over the fingertips of the other.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/forgive.webp",
+      "alt": "Ghanaian Sign Language for FORGIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 261,
+      "pdfPage": 272
+    }
+  },
+  {
+    "id": "gsl-fork",
+    "slug": "fork",
+    "word": "FORK",
+    "primaryWord": "FORK",
+    "normalizedWord": "fork",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Bring the \"V\" hand up from your left palm to your mouth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/fork.webp",
+      "alt": "Ghanaian Sign Language for FORK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 41,
+      "pdfPage": 52
+    }
+  },
+  {
+    "id": "gsl-forward",
+    "slug": "forward",
+    "word": "FORWARD",
+    "primaryWord": "FORWARD",
+    "normalizedWord": "forward",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "With both curved hands in front of you, slide both hands forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/forward.webp",
+      "alt": "Ghanaian Sign Language for FORWARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 220,
+      "pdfPage": 231
+    }
+  },
+  {
+    "id": "gsl-fox",
+    "slug": "fox",
+    "word": "FOX",
+    "primaryWord": "FOX",
+    "normalizedWord": "fox",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the circle formed by the thumb and index finger of the \"F\" hand over your nose and twist to the left.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/fox.webp",
+      "alt": "Ghanaian Sign Language for FOX"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 60,
+      "pdfPage": 71
+    }
+  },
+  {
+    "id": "gsl-france",
+    "slug": "france",
+    "word": "FRANCE",
+    "primaryWord": "FRANCE",
+    "normalizedWord": "france",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Turn the right \"F\" hand from facing your cheek out away from the face.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/france.webp",
+      "alt": "Ghanaian Sign Language for FRANCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 229,
+      "pdfPage": 240
+    }
+  },
+  {
+    "id": "gsl-free",
+    "slug": "free",
+    "word": "FREE",
+    "primaryWord": "FREE",
+    "normalizedWord": "free",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Cross both \"F\" hands over each other in front of your body then open your arms and rotate hands forward.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/free.webp",
+      "alt": "Ghanaian Sign Language for FREE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-freedom",
+    "slug": "freedom",
+    "word": "FREEDOM",
+    "primaryWord": "FREEDOM",
+    "normalizedWord": "freedom",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "1. Uncross the \"F\" hands in front of you. 2. Circle the \"D\" hand over the left and place on wrist.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/freedom.webp",
+      "alt": "Ghanaian Sign Language for FREEDOM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-friday",
+    "slug": "friday",
+    "word": "FRIDAY",
+    "primaryWord": "FRIDAY",
+    "normalizedWord": "friday",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "With your wrist pointing toward your body, rotate the \"F\" hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/friday.webp",
+      "alt": "Ghanaian Sign Language for FRIDAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 204,
+      "pdfPage": 215
+    }
+  },
+  {
+    "id": "gsl-friend",
+    "slug": "friend",
+    "word": "FRIEND",
+    "primaryWord": "FRIEND",
+    "normalizedWord": "friend",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Interlock the right and left index fingers and rotate each hand.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/friend.webp",
+      "alt": "Ghanaian Sign Language for FRIEND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-frog",
+    "slug": "frog",
+    "word": "FROG",
+    "primaryWord": "FROG",
+    "normalizedWord": "frog",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Hold the curved \"V\" hand under the chin and flick your fingers open and closed a few times.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/frog.webp",
+      "alt": "Ghanaian Sign Language for FROG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 64,
+      "pdfPage": 75
+    }
+  },
+  {
+    "id": "gsl-from",
+    "slug": "from",
+    "word": "FROM",
+    "primaryWord": "FROM",
+    "normalizedWord": "from",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Touch the \"X\" hand to the left index finger and pull away toward yourself.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/from.webp",
+      "alt": "Ghanaian Sign Language for FROM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 221,
+      "pdfPage": 232
+    }
+  },
+  {
+    "id": "gsl-fruit",
+    "slug": "fruit",
+    "word": "FRUIT",
+    "primaryWord": "FRUIT",
+    "normalizedWord": "fruit",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the thumb and index finger of the \"F\" hand on the cheek and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/fruit.webp",
+      "alt": "Ghanaian Sign Language for FRUIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 50,
+      "pdfPage": 61
+    }
+  },
+  {
+    "id": "gsl-frustrate",
+    "slug": "frustrate",
+    "word": "FRUSTRATE",
+    "primaryWord": "FRUSTRATE",
+    "normalizedWord": "frustrate",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Alternate bringing the \"F\" hands out from the chin.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/frustrate.webp",
+      "alt": "Ghanaian Sign Language for FRUSTRATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 191,
+      "pdfPage": 202
+    }
+  },
+  {
+    "id": "gsl-fufu",
+    "slug": "fufu",
+    "word": "FUFU",
+    "primaryWord": "FUFU",
+    "normalizedWord": "fufu",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both \"S\" hands one over the other and bring them up and down with force.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/fufu.webp",
+      "alt": "Ghanaian Sign Language for FUFU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 47,
+      "pdfPage": 58
+    }
+  },
+  {
+    "id": "gsl-full",
+    "slug": "full",
+    "word": "FULL",
+    "primaryWord": "FULL",
+    "normalizedWord": "full",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Move the flat hand over the thumb edge of the left \"S\" hand.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/full.webp",
+      "alt": "Ghanaian Sign Language for FULL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 80,
+      "pdfPage": 91
+    }
+  },
+  {
+    "id": "gsl-funeral",
+    "slug": "funeral",
+    "word": "FUNERAL",
+    "primaryWord": "FUNERAL",
+    "normalizedWord": "funeral",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place both \"F\" hands in front of your face and bounce them forward.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/funeral.webp",
+      "alt": "Ghanaian Sign Language for FUNERAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 266,
+      "pdfPage": 277
+    }
+  },
+  {
+    "id": "gsl-funny",
+    "slug": "funny",
+    "word": "FUNNY",
+    "primaryWord": "FUNNY",
+    "normalizedWord": "funny",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Wave your index and middle fingers at the tip of your nose.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/funny.webp",
+      "alt": "Ghanaian Sign Language for FUNNY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-future",
+    "slug": "future",
+    "word": "FUTURE",
+    "primaryWord": "FUTURE",
+    "normalizedWord": "future",
+    "letter": "F",
+    "synonyms": [],
+    "definition": "Place the \"F\" hand at the side of your face and draw it forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/future.webp",
+      "alt": "Ghanaian Sign Language for FUTURE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 208,
+      "pdfPage": 219
+    }
+  }
+]

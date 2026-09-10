@@ -1,0 +1,2696 @@
+[
+  {
+    "id": "gsl-cabbage",
+    "slug": "cabbage",
+    "word": "CABBAGE",
+    "primaryWord": "CABBAGE",
+    "normalizedWord": "cabbage",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the fingertips of both curved hands together the tap both wrists together.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cabbage.webp",
+      "alt": "Ghanaian Sign Language for CABBAGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 52,
+      "pdfPage": 63
+    }
+  },
+  {
+    "id": "gsl-calculator",
+    "slug": "calculator",
+    "word": "CALCULATOR",
+    "primaryWord": "CALCULATOR",
+    "normalizedWord": "calculator",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With the left palm facing up, tap the left palm with the middle finger of the right hand a few times.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/calculator.webp",
+      "alt": "Ghanaian Sign Language for CALCULATOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 146,
+      "pdfPage": 157
+    }
+  },
+  {
+    "id": "gsl-calendar",
+    "slug": "calendar",
+    "word": "CALENDAR",
+    "primaryWord": "CALENDAR",
+    "normalizedWord": "calendar",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Swing the \"C\" hand from the left palm over to the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/calendar.webp",
+      "alt": "Ghanaian Sign Language for CALENDAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 204,
+      "pdfPage": 215
+    }
+  },
+  {
+    "id": "gsl-call",
+    "slug": "call",
+    "word": "CALL / SUMMON",
+    "primaryWord": "CALL",
+    "normalizedWord": "call",
+    "letter": "C",
+    "synonyms": [
+      "SUMMON"
+    ],
+    "definition": "Place fingers of the right flat hand on top of the left hand and pull the right hand up into the \"A\" hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/call.webp",
+      "alt": "Ghanaian Sign Language for CALL / SUMMON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 103,
+      "pdfPage": 114
+    }
+  },
+  {
+    "id": "gsl-calm",
+    "slug": "calm",
+    "word": "CALM / PEACEFUL",
+    "primaryWord": "CALM",
+    "normalizedWord": "calm",
+    "letter": "C",
+    "synonyms": [
+      "PEACEFUL"
+    ],
+    "definition": "Place the right index finger pointing up in front of the mouth.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/calm.webp",
+      "alt": "Ghanaian Sign Language for CALM / PEACEFUL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 96,
+      "pdfPage": 107
+    }
+  },
+  {
+    "id": "gsl-camel",
+    "slug": "camel",
+    "word": "CAMEL",
+    "primaryWord": "CAMEL",
+    "normalizedWord": "camel",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Rest the right elbow on the left hand and move the right curved hand back and forth.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/camel.webp",
+      "alt": "Ghanaian Sign Language for CAMEL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 62,
+      "pdfPage": 73
+    }
+  },
+  {
+    "id": "gsl-can",
+    "slug": "can",
+    "word": "CAN / ABLE",
+    "primaryWord": "CAN",
+    "normalizedWord": "can",
+    "letter": "C",
+    "synonyms": [
+      "ABLE"
+    ],
+    "definition": "Hold both \"S\" hands to the front and move them down firmly at the same time.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/can.webp",
+      "alt": "Ghanaian Sign Language for CAN / ABLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 92,
+      "pdfPage": 103
+    }
+  },
+  {
+    "id": "gsl-cant",
+    "slug": "cant",
+    "word": "CAN'T",
+    "primaryWord": "CAN'T",
+    "normalizedWord": "can't",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Strike the right index finger against the left index finger from above.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/cant.webp",
+      "alt": "Ghanaian Sign Language for CAN'T"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 92,
+      "pdfPage": 103
+    }
+  },
+  {
+    "id": "gsl-canada",
+    "slug": "canada",
+    "word": "CANADA",
+    "primaryWord": "CANADA",
+    "normalizedWord": "canada",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the fingertips of the bent hand against your left shoulder then draw forward into \"A\" hand.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/canada.webp",
+      "alt": "Ghanaian Sign Language for CANADA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 228,
+      "pdfPage": 239
+    }
+  },
+  {
+    "id": "gsl-cancer",
+    "slug": "cancer",
+    "word": "CANCER",
+    "primaryWord": "CANCER",
+    "normalizedWord": "cancer",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Wiggle the right clawed hand down the forearm.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/cancer.webp",
+      "alt": "Ghanaian Sign Language for CANCER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 170,
+      "pdfPage": 181
+    }
+  },
+  {
+    "id": "gsl-candle",
+    "slug": "candle",
+    "word": "CANDLE",
+    "primaryWord": "CANDLE",
+    "normalizedWord": "candle",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place your right index finger in the left palm and wiggle the fingers.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/candle.webp",
+      "alt": "Ghanaian Sign Language for CANDLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 33,
+      "pdfPage": 44
+    }
+  },
+  {
+    "id": "gsl-canoeing",
+    "slug": "canoeing",
+    "word": "CANOEING",
+    "primaryWord": "CANOEING",
+    "normalizedWord": "canoeing",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Hold one \"S\" hand over the other \"S\" hand at the side of the body then move them down and backward.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/canoeing.webp",
+      "alt": "Ghanaian Sign Language for CANOEING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 125,
+      "pdfPage": 136
+    }
+  },
+  {
+    "id": "gsl-cap",
+    "slug": "cap",
+    "word": "CAP",
+    "primaryWord": "CAP",
+    "normalizedWord": "cap",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the modified \"A\" hand in front of the forehead and move it slightly downward.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/cap.webp",
+      "alt": "Ghanaian Sign Language for CAP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 37,
+      "pdfPage": 48
+    }
+  },
+  {
+    "id": "gsl-capecoast",
+    "slug": "capecoast",
+    "word": "CAPE COAST",
+    "primaryWord": "CAPE COAST",
+    "normalizedWord": "cape coast",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign the letter \"C\" in front of your abdomen then again at your side.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/capecoast.webp",
+      "alt": "Ghanaian Sign Language for CAPE COAST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 232,
+      "pdfPage": 243
+    }
+  },
+  {
+    "id": "gsl-capecoastschoolforthedeaf",
+    "slug": "capecoastschoolforthedeaf",
+    "word": "CAPE COAST SCHOOL FOR THE DEAF",
+    "primaryWord": "CAPE COAST SCHOOL FOR THE DEAF",
+    "normalizedWord": "cape coast school for the deaf",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign the letter \"C\" in front of your abdomen then again at your side.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/capecoastschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for CAPE COAST SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 234,
+      "pdfPage": 245
+    }
+  },
+  {
+    "id": "gsl-capitalletter",
+    "slug": "capitalletter",
+    "word": "CAPITAL LETTER",
+    "primaryWord": "CAPITAL LETTER",
+    "normalizedWord": "capital letter",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Touch the shoulder with the clawed hand then place the thumb of the \"A\" hand on the left palm.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/capitalletter.webp",
+      "alt": "Ghanaian Sign Language for CAPITAL LETTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-car",
+    "slug": "car",
+    "word": "CAR",
+    "primaryWord": "CAR",
+    "normalizedWord": "car",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Hold both \"A\" hands in front of you and twist back and forth like a steering wheel.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/car.webp",
+      "alt": "Ghanaian Sign Language for CAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 215,
+      "pdfPage": 226
+    }
+  },
+  {
+    "id": "gsl-care",
+    "slug": "care",
+    "word": "CARE",
+    "primaryWord": "CARE",
+    "normalizedWord": "care",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the right \"C\" hand on top of the left \"C\" hand and move them up and down.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/care.webp",
+      "alt": "Ghanaian Sign Language for CARE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 107,
+      "pdfPage": 118
+    }
+  },
+  {
+    "id": "gsl-carpenter",
+    "slug": "carpenter",
+    "word": "CARPENTER",
+    "primaryWord": "CARPENTER",
+    "normalizedWord": "carpenter",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Swing both \"S\" hands forward and backward. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/carpenter.webp",
+      "alt": "Ghanaian Sign Language for CARPENTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 71,
+      "pdfPage": 82
+    }
+  },
+  {
+    "id": "gsl-carrot",
+    "slug": "carrot",
+    "word": "CARROT",
+    "primaryWord": "CARROT",
+    "normalizedWord": "carrot",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the index finger at the corner of the mouth and twist the hand at the wrist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/carrot.webp",
+      "alt": "Ghanaian Sign Language for CARROT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 52,
+      "pdfPage": 63
+    }
+  },
+  {
+    "id": "gsl-carry",
+    "slug": "carry",
+    "word": "CARRY",
+    "primaryWord": "CARRY",
+    "normalizedWord": "carry",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Hold both flat hands with palms up and move both hands out away from the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/carry.webp",
+      "alt": "Ghanaian Sign Language for CARRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 106,
+      "pdfPage": 117
+    }
+  },
+  {
+    "id": "gsl-carryonhead",
+    "slug": "carryonhead",
+    "word": "CARRY ON HEAD",
+    "primaryWord": "CARRY ON HEAD",
+    "normalizedWord": "carry on head",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both open hands at the top of the head.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/carryonhead.webp",
+      "alt": "Ghanaian Sign Language for CARRY ON HEAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 106,
+      "pdfPage": 117
+    }
+  },
+  {
+    "id": "gsl-cassava",
+    "slug": "cassava",
+    "word": "CASSAVA",
+    "primaryWord": "CASSAVA",
+    "normalizedWord": "cassava",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Bring the right flat hand down against both sides of the left forearm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cassava.webp",
+      "alt": "Ghanaian Sign Language for CASSAVA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 47,
+      "pdfPage": 58
+    }
+  },
+  {
+    "id": "gsl-castle",
+    "slug": "castle",
+    "word": "CASTLE",
+    "primaryWord": "CASTLE",
+    "normalizedWord": "castle",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand on your left wrist and bounce both hands up and down.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/castle.webp",
+      "alt": "Ghanaian Sign Language for CASTLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-cat",
+    "slug": "cat",
+    "word": "CAT",
+    "primaryWord": "CAT",
+    "normalizedWord": "cat",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the index fingers and thumb of the \"F\" hands under the nose and move them outward.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/cat.webp",
+      "alt": "Ghanaian Sign Language for CAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-catch",
+    "slug": "catch",
+    "word": "CATCH",
+    "primaryWord": "CATCH",
+    "normalizedWord": "catch",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Move the right clawed hand to the left and curve it into the \"S\" hand near your left shoulder.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/catch.webp",
+      "alt": "Ghanaian Sign Language for CATCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 122,
+      "pdfPage": 133
+    }
+  },
+  {
+    "id": "gsl-cause",
+    "slug": "cause",
+    "word": "CAUSE",
+    "primaryWord": "CAUSE",
+    "normalizedWord": "cause",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Touch the thumbs of both \"C\" hands to your forehead then twist the hands forward.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/cause.webp",
+      "alt": "Ghanaian Sign Language for CAUSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 186,
+      "pdfPage": 197
+    }
+  },
+  {
+    "id": "gsl-cedi",
+    "slug": "cedi",
+    "word": "CEDI",
+    "primaryWord": "CEDI",
+    "normalizedWord": "cedi",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With the left flat hand facing forward, place your right fingers over the left fingers and slide the hand forward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/cedi.webp",
+      "alt": "Ghanaian Sign Language for CEDI"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 74,
+      "pdfPage": 85
+    }
+  },
+  {
+    "id": "gsl-celebrate",
+    "slug": "celebrate",
+    "word": "CELEBRATE / CELEBRATION",
+    "primaryWord": "CELEBRATE",
+    "normalizedWord": "celebrate",
+    "letter": "C",
+    "synonyms": [
+      "CELEBRATION"
+    ],
+    "definition": "Place both \"C\" hands at head level and circle them in opposite directions.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/celebrate.webp",
+      "alt": "Ghanaian Sign Language for CELEBRATE / CELEBRATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 266,
+      "pdfPage": 277
+    }
+  },
+  {
+    "id": "gsl-centralregion",
+    "slug": "centralregion",
+    "word": "CENTRAL REGION",
+    "primaryWord": "CENTRAL REGION",
+    "normalizedWord": "central region",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign the letters \"C\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/centralregion.webp",
+      "alt": "Ghanaian Sign Language for CENTRAL REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 236,
+      "pdfPage": 247
+    }
+  },
+  {
+    "id": "gsl-certificate",
+    "slug": "certificate",
+    "word": "CERTIFICATE / CERTIFICATION",
+    "primaryWord": "CERTIFICATE",
+    "normalizedWord": "certificate",
+    "letter": "C",
+    "synonyms": [
+      "CERTIFICATION"
+    ],
+    "definition": "Tap the thumbs of both \"C\" hands together a few times.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/certificate.webp",
+      "alt": "Ghanaian Sign Language for CERTIFICATE / CERTIFICATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-chain",
+    "slug": "chain",
+    "word": "CHAIN",
+    "primaryWord": "CHAIN",
+    "normalizedWord": "chain",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Interlock both index fingers and thumbs then alternate the position of each hand and repeat.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/chain.webp",
+      "alt": "Ghanaian Sign Language for CHAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 33,
+      "pdfPage": 44
+    }
+  },
+  {
+    "id": "gsl-chair",
+    "slug": "chair",
+    "word": "CHAIR",
+    "primaryWord": "CHAIR",
+    "normalizedWord": "chair",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Touch the fingers of the \"U\" hand to the thumb of the flat hand.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/chair.webp",
+      "alt": "Ghanaian Sign Language for CHAIR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 30,
+      "pdfPage": 41
+    }
+  },
+  {
+    "id": "gsl-chalk",
+    "slug": "chalk",
+    "word": "CHALK",
+    "primaryWord": "CHALK",
+    "normalizedWord": "chalk",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap the thumb and bent index finger of the right hand on your left index finger from above.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/chalk.webp",
+      "alt": "Ghanaian Sign Language for CHALK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-challengeauthority",
+    "slug": "challengeauthority",
+    "word": "CHALLENGE AUTHORITY",
+    "primaryWord": "CHALLENGE AUTHORITY",
+    "normalizedWord": "challenge authority",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Touch the fingertips of both bent hands together a few times with one hand at a higher angle.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/challengeauthority.webp",
+      "alt": "Ghanaian Sign Language for CHALLENGE AUTHORITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-change",
+    "slug": "change",
+    "word": "CHANGE",
+    "primaryWord": "CHANGE",
+    "normalizedWord": "change",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Bring both \"A\" hands together at the wrists then twist your wrists so the hands change positions.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/change.webp",
+      "alt": "Ghanaian Sign Language for CHANGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 105,
+      "pdfPage": 116
+    }
+  },
+  {
+    "id": "gsl-chapter",
+    "slug": "chapter",
+    "word": "CHAPTER",
+    "primaryWord": "CHAPTER",
+    "normalizedWord": "chapter",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand at shoulder level then pull straight down.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/chapter.webp",
+      "alt": "Ghanaian Sign Language for CHAPTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 150,
+      "pdfPage": 161
+    }
+  },
+  {
+    "id": "gsl-character",
+    "slug": "character",
+    "word": "CHARACTER",
+    "primaryWord": "CHARACTER",
+    "normalizedWord": "character",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Rotate the \"C\" hand around your heart.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/character.webp",
+      "alt": "Ghanaian Sign Language for CHARACTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 194,
+      "pdfPage": 205
+    }
+  },
+  {
+    "id": "gsl-cheap",
+    "slug": "cheap",
+    "word": "CHEAP",
+    "primaryWord": "CHEAP",
+    "normalizedWord": "cheap",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With the left palm facing right, brush the right flat hand against the palm a few times.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/cheap.webp",
+      "alt": "Ghanaian Sign Language for CHEAP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 75,
+      "pdfPage": 86
+    }
+  },
+  {
+    "id": "gsl-cheat",
+    "slug": "cheat",
+    "word": "CHEAT",
+    "primaryWord": "CHEAT",
+    "normalizedWord": "cheat",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Straddle your left flat hand with the right index and middle fingers.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/cheat.webp",
+      "alt": "Ghanaian Sign Language for CHEAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 259,
+      "pdfPage": 270
+    }
+  },
+  {
+    "id": "gsl-chemistry",
+    "slug": "chemistry",
+    "word": "CHEMISTRY",
+    "primaryWord": "CHEMISTRY",
+    "normalizedWord": "chemistry",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Alternate circling \"C\" hands in front of your body.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/chemistry.webp",
+      "alt": "Ghanaian Sign Language for CHEMISTRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 145,
+      "pdfPage": 156
+    }
+  },
+  {
+    "id": "gsl-chicken",
+    "slug": "chicken",
+    "word": "CHICKEN",
+    "primaryWord": "CHICKEN",
+    "normalizedWord": "chicken",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Open and close the index finger and thumb in front of the mouth and against the left palm.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/chicken.webp",
+      "alt": "Ghanaian Sign Language for CHICKEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-chickenpox",
+    "slug": "chickenpox",
+    "word": "CHICKEN POX",
+    "primaryWord": "CHICKEN POX",
+    "normalizedWord": "chicken pox",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap the \"F\" hand against your arm a few",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/chickenpox.webp",
+      "alt": "Ghanaian Sign Language for CHICKEN POX"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 169,
+      "pdfPage": 180
+    }
+  },
+  {
+    "id": "gsl-chief",
+    "slug": "chief",
+    "word": "CHIEF",
+    "primaryWord": "CHIEF",
+    "normalizedWord": "chief",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Move the \"C\" hand pointing upward from your right shoulder to your left waist.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/chief.webp",
+      "alt": "Ghanaian Sign Language for CHIEF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 271,
+      "pdfPage": 282
+    }
+  },
+  {
+    "id": "gsl-child",
+    "slug": "child",
+    "word": "CHILD",
+    "primaryWord": "CHILD",
+    "normalizedWord": "child",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the flat, downturned hand in front of the body and press down slightly.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/child.webp",
+      "alt": "Ghanaian Sign Language for CHILD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 12,
+      "pdfPage": 23
+    }
+  },
+  {
+    "id": "gsl-children",
+    "slug": "children",
+    "word": "CHILDREN",
+    "primaryWord": "CHILDREN",
+    "normalizedWord": "children",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the flat, downturned hand in front of the body and motion as if patting the heads of many children.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/children.webp",
+      "alt": "Ghanaian Sign Language for CHILDREN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 12,
+      "pdfPage": 23
+    }
+  },
+  {
+    "id": "gsl-china",
+    "slug": "china",
+    "word": "CHINA",
+    "primaryWord": "CHINA",
+    "normalizedWord": "china",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap the left shoulder, right shoulder, then right waist with the index finger.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/china.webp",
+      "alt": "Ghanaian Sign Language for CHINA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 230,
+      "pdfPage": 241
+    }
+  },
+  {
+    "id": "gsl-christ",
+    "slug": "christ",
+    "word": "CHRIST",
+    "primaryWord": "CHRIST",
+    "normalizedWord": "christ",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Move the \"C\" hand from your left shoulder to your right hip.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/christ.webp",
+      "alt": "Ghanaian Sign Language for CHRIST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 257,
+      "pdfPage": 268
+    }
+  },
+  {
+    "id": "gsl-christmas",
+    "slug": "christmas",
+    "word": "CHRISTMAS",
+    "primaryWord": "CHRISTMAS",
+    "normalizedWord": "christmas",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the right elbow on the left downturned hand and circle the \"C\" hand.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/christmas.webp",
+      "alt": "Ghanaian Sign Language for CHRISTMAS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 266,
+      "pdfPage": 277
+    }
+  },
+  {
+    "id": "gsl-church",
+    "slug": "church",
+    "word": "CHURCH",
+    "primaryWord": "CHURCH",
+    "normalizedWord": "church",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap the left wrist with the \"C\" hand twice.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/church.webp",
+      "alt": "Ghanaian Sign Language for CHURCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 252,
+      "pdfPage": 263
+    }
+  },
+  {
+    "id": "gsl-city",
+    "slug": "city",
+    "word": "CITY",
+    "primaryWord": "CITY",
+    "normalizedWord": "city",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign the letter \"C\" then tap the thumb with your index finger twice.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/city.webp",
+      "alt": "Ghanaian Sign Language for CITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 231,
+      "pdfPage": 242
+    }
+  },
+  {
+    "id": "gsl-class",
+    "slug": "class",
+    "word": "CLASS",
+    "primaryWord": "CLASS",
+    "normalizedWord": "class",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both downturned \"C\" hands in front of your body and curve them forward slightly.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/class.webp",
+      "alt": "Ghanaian Sign Language for CLASS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 140,
+      "pdfPage": 151
+    }
+  },
+  {
+    "id": "gsl-clay",
+    "slug": "clay",
+    "word": "CLAY",
+    "primaryWord": "CLAY",
+    "normalizedWord": "clay",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Make the sign for brown then rub thumbs to fingers on both hands.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/clay.webp",
+      "alt": "Ghanaian Sign Language for CLAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 156,
+      "pdfPage": 167
+    }
+  },
+  {
+    "id": "gsl-clean",
+    "slug": "clean",
+    "word": "CLEAN / NICE",
+    "primaryWord": "CLEAN",
+    "normalizedWord": "clean",
+    "letter": "C",
+    "synonyms": [
+      "NICE"
+    ],
+    "definition": "Move the palm of the right flat hand across the left plam and fingers.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/clean.webp",
+      "alt": "Ghanaian Sign Language for CLEAN / NICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-click",
+    "slug": "click",
+    "word": "CLICK",
+    "primaryWord": "CLICK",
+    "normalizedWord": "click",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Hold the modified \"X\" hand in the left palm and tap the index finger.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/click.webp",
+      "alt": "Ghanaian Sign Language for CLICK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 289,
+      "pdfPage": 300
+    }
+  },
+  {
+    "id": "gsl-climb",
+    "slug": "climb",
+    "word": "CLIMB",
+    "primaryWord": "CLIMB",
+    "normalizedWord": "climb",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Move both bent \"V\" hands upward while alternating one slightly above the other.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/climb.webp",
+      "alt": "Ghanaian Sign Language for CLIMB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 122,
+      "pdfPage": 133
+    }
+  },
+  {
+    "id": "gsl-clock",
+    "slug": "clock",
+    "word": "CLOCK",
+    "primaryWord": "CLOCK",
+    "normalizedWord": "clock",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Draw a circle with your right index finger. 2. Rotate the right index finger on your left wrist.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/clock.webp",
+      "alt": "Ghanaian Sign Language for CLOCK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 211,
+      "pdfPage": 222
+    }
+  },
+  {
+    "id": "gsl-close",
+    "slug": "close",
+    "word": "CLOSE",
+    "primaryWord": "CLOSE",
+    "normalizedWord": "close",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both \"B\" hands at the sides then move them together with palms down.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/close.webp",
+      "alt": "Ghanaian Sign Language for CLOSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 88,
+      "pdfPage": 99
+    }
+  },
+  {
+    "id": "gsl-close-2",
+    "slug": "close-2",
+    "word": "CLOSE",
+    "primaryWord": "CLOSE",
+    "normalizedWord": "close",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With both curved hands in front of you, bring the right hand close to the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/close-2.webp",
+      "alt": "Ghanaian Sign Language for CLOSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 220,
+      "pdfPage": 231
+    }
+  },
+  {
+    "id": "gsl-clothes",
+    "slug": "clothes",
+    "word": "CLOTHES / ATTIRE",
+    "primaryWord": "CLOTHES",
+    "normalizedWord": "clothes",
+    "letter": "C",
+    "synonyms": [
+      "ATTIRE"
+    ],
+    "definition": "Brush the fingertips of both hands down the body.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/clothes.webp",
+      "alt": "Ghanaian Sign Language for CLOTHES / ATTIRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 35,
+      "pdfPage": 46
+    }
+  },
+  {
+    "id": "gsl-cloud",
+    "slug": "cloud",
+    "word": "CLOUD",
+    "primaryWord": "CLOUD",
+    "normalizedWord": "cloud",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both clawed hands above your head in a round shape and repeat a few times.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/cloud.webp",
+      "alt": "Ghanaian Sign Language for CLOUD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 129,
+      "pdfPage": 140
+    }
+  },
+  {
+    "id": "gsl-club",
+    "slug": "club",
+    "word": "CLUB",
+    "primaryWord": "CLUB",
+    "normalizedWord": "club",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both \"C\" hands together with palms facing front and twist forward, bringing the little fingers together.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/club.webp",
+      "alt": "Ghanaian Sign Language for CLUB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 126,
+      "pdfPage": 137
+    }
+  },
+  {
+    "id": "gsl-coach",
+    "slug": "coach",
+    "word": "COACH",
+    "primaryWord": "COACH",
+    "normalizedWord": "coach",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the right \"C\" hand on the back of the left index finger then swing the right hand back and forth.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/coach.webp",
+      "alt": "Ghanaian Sign Language for COACH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 121,
+      "pdfPage": 132
+    }
+  },
+  {
+    "id": "gsl-coalpot",
+    "slug": "coalpot",
+    "word": "COAL POT",
+    "primaryWord": "COAL POT",
+    "normalizedWord": "coal pot",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Use the index fingers to draw a box in the air then fan the air with your right hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/coalpot.webp",
+      "alt": "Ghanaian Sign Language for COAL POT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 42,
+      "pdfPage": 53
+    }
+  },
+  {
+    "id": "gsl-coat",
+    "slug": "coat",
+    "word": "COAT / JACKET",
+    "primaryWord": "COAT",
+    "normalizedWord": "coat",
+    "letter": "C",
+    "synonyms": [
+      "JACKET"
+    ],
+    "definition": "Move both \"Y\" hands downward from shoulders to the abdomen.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/coat.webp",
+      "alt": "Ghanaian Sign Language for COAT / JACKET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 35,
+      "pdfPage": 46
+    }
+  },
+  {
+    "id": "gsl-cock",
+    "slug": "cock",
+    "word": "COCK",
+    "primaryWord": "COCK",
+    "normalizedWord": "cock",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"3\" hand against the forehead.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/cock.webp",
+      "alt": "Ghanaian Sign Language for COCK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-cocoa",
+    "slug": "cocoa",
+    "word": "COCOA",
+    "primaryWord": "COCOA",
+    "normalizedWord": "cocoa",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Drop the right flat hand into the left palm then dip the right hand downward.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cocoa.webp",
+      "alt": "Ghanaian Sign Language for COCOA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 54,
+      "pdfPage": 65
+    }
+  },
+  {
+    "id": "gsl-coconut",
+    "slug": "coconut",
+    "word": "COCONUT",
+    "primaryWord": "COCONUT",
+    "normalizedWord": "coconut",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both curved hands at the ear with palms facing each other and shake back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/coconut.webp",
+      "alt": "Ghanaian Sign Language for COCONUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 50,
+      "pdfPage": 61
+    }
+  },
+  {
+    "id": "gsl-cocoyam",
+    "slug": "cocoyam",
+    "word": "COCOYAM",
+    "primaryWord": "COCOYAM",
+    "normalizedWord": "cocoyam",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Tap the right \"P\" hand to the forehead. 2. Slide the right hand over the left fist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cocoyam.webp",
+      "alt": "Ghanaian Sign Language for COCOYAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 47,
+      "pdfPage": 58
+    }
+  },
+  {
+    "id": "gsl-coffee",
+    "slug": "coffee",
+    "word": "COFFEE",
+    "primaryWord": "COFFEE",
+    "normalizedWord": "coffee",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both \"C\" hands in front of you and circle the right hand over the left hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/coffee.webp",
+      "alt": "Ghanaian Sign Language for COFFEE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 44,
+      "pdfPage": 55
+    }
+  },
+  {
+    "id": "gsl-coins",
+    "slug": "coins",
+    "word": "COINS",
+    "primaryWord": "COINS",
+    "normalizedWord": "coins",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap the right \"Q\" hand against the left palm.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/coins.webp",
+      "alt": "Ghanaian Sign Language for COINS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 74,
+      "pdfPage": 85
+    }
+  },
+  {
+    "id": "gsl-cold",
+    "slug": "cold",
+    "word": "COLD / COOL / CHILLY",
+    "primaryWord": "COLD",
+    "normalizedWord": "cold",
+    "letter": "C",
+    "synonyms": [
+      "COOL",
+      "CHILLY"
+    ],
+    "definition": "Hold your forearms up against your body with \"S\" hands and shake both arms back and forth slightly.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/cold.webp",
+      "alt": "Ghanaian Sign Language for COLD / COOL / CHILLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 88,
+      "pdfPage": 99
+    }
+  },
+  {
+    "id": "gsl-cold-2",
+    "slug": "cold-2",
+    "word": "COLD",
+    "primaryWord": "COLD",
+    "normalizedWord": "cold",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Pull the \"F\" hand downward from the nose.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/cold-2.webp",
+      "alt": "Ghanaian Sign Language for COLD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 169,
+      "pdfPage": 180
+    }
+  },
+  {
+    "id": "gsl-collapse",
+    "slug": "collapse",
+    "word": "COLLAPSE",
+    "primaryWord": "COLLAPSE",
+    "normalizedWord": "collapse",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With both curved hands at shoulder level, lift them both up and then inward in an arc.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/collapse.webp",
+      "alt": "Ghanaian Sign Language for COLLAPSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 281,
+      "pdfPage": 292
+    }
+  },
+  {
+    "id": "gsl-collect",
+    "slug": "collect",
+    "word": "COLLECT",
+    "primaryWord": "COLLECT",
+    "normalizedWord": "collect",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sweep the curved hand back towards yourself over the left hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/collect.webp",
+      "alt": "Ghanaian Sign Language for COLLECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 281,
+      "pdfPage": 292
+    }
+  },
+  {
+    "id": "gsl-college",
+    "slug": "college",
+    "word": "COLLEGE",
+    "primaryWord": "COLLEGE",
+    "normalizedWord": "college",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sweep the \"C\" hand forward over your left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/college.webp",
+      "alt": "Ghanaian Sign Language for COLLEGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 140,
+      "pdfPage": 151
+    }
+  },
+  {
+    "id": "gsl-colour",
+    "slug": "colour",
+    "word": "COLOUR",
+    "primaryWord": "COLOUR",
+    "normalizedWord": "colour",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Wiggle the fingers and move the hand down the face.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/colour.webp",
+      "alt": "Ghanaian Sign Language for COLOUR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 5,
+      "pdfPage": 16
+    }
+  },
+  {
+    "id": "gsl-come",
+    "slug": "come",
+    "word": "COME",
+    "primaryWord": "COME",
+    "normalizedWord": "come",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Point both index fingers outward with palms facing up then bring both hands back toward the body.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/come.webp",
+      "alt": "Ghanaian Sign Language for COME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 89,
+      "pdfPage": 100
+    }
+  },
+  {
+    "id": "gsl-commandments",
+    "slug": "commandments",
+    "word": "COMMANDMENTS",
+    "primaryWord": "COMMANDMENTS",
+    "normalizedWord": "commandments",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Move the \"C\" hand from your fingertips to your palm.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/commandments.webp",
+      "alt": "Ghanaian Sign Language for COMMANDMENTS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 254,
+      "pdfPage": 265
+    }
+  },
+  {
+    "id": "gsl-committee",
+    "slug": "committee",
+    "word": "COMMITTEE",
+    "primaryWord": "COMMITTEE",
+    "normalizedWord": "committee",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand on your right chest then move it to the left chest.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/committee.webp",
+      "alt": "Ghanaian Sign Language for COMMITTEE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 241,
+      "pdfPage": 252
+    }
+  },
+  {
+    "id": "gsl-communion",
+    "slug": "communion",
+    "word": "COMMUNION",
+    "primaryWord": "COMMUNION",
+    "normalizedWord": "communion",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With flat hands, alternate moving them forward and backward.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/communion.webp",
+      "alt": "Ghanaian Sign Language for COMMUNION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 261,
+      "pdfPage": 272
+    }
+  },
+  {
+    "id": "gsl-community",
+    "slug": "community",
+    "word": "COMMUNITY",
+    "primaryWord": "COMMUNITY",
+    "normalizedWord": "community",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Slightly curve both \"C\" hands downward in front of your body, then repeat.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/community.webp",
+      "alt": "Ghanaian Sign Language for COMMUNITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-compare",
+    "slug": "compare",
+    "word": "COMPARE",
+    "primaryWord": "COMPARE",
+    "normalizedWord": "compare",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Dip both \"C\" hands back and forth alternately at your sides.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/compare.webp",
+      "alt": "Ghanaian Sign Language for COMPARE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 183,
+      "pdfPage": 194
+    }
+  },
+  {
+    "id": "gsl-compass",
+    "slug": "compass",
+    "word": "COMPASS",
+    "primaryWord": "COMPASS",
+    "normalizedWord": "compass",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the middle finger of the \"V\" hand against your left palm and rotate the right hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/compass.webp",
+      "alt": "Ghanaian Sign Language for COMPASS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 149,
+      "pdfPage": 160
+    }
+  },
+  {
+    "id": "gsl-complain",
+    "slug": "complain",
+    "word": "COMPLAIN",
+    "primaryWord": "COMPLAIN",
+    "normalizedWord": "complain",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Tap both clawed hands over the heart.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/complain.webp",
+      "alt": "Ghanaian Sign Language for COMPLAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 154,
+      "pdfPage": 165
+    }
+  },
+  {
+    "id": "gsl-computer",
+    "slug": "computer",
+    "word": "COMPUTER",
+    "primaryWord": "COMPUTER",
+    "normalizedWord": "computer",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Swing the \"C\" hand over the left wrist.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/computer.webp",
+      "alt": "Ghanaian Sign Language for COMPUTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 289,
+      "pdfPage": 300
+    }
+  },
+  {
+    "id": "gsl-concept",
+    "slug": "concept",
+    "word": "CONCEPT",
+    "primaryWord": "CONCEPT",
+    "normalizedWord": "concept",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the thumb of the right \"C\" hand near the right temple and twist outward.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/concept.webp",
+      "alt": "Ghanaian Sign Language for CONCEPT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 146,
+      "pdfPage": 157
+    }
+  },
+  {
+    "id": "gsl-confident",
+    "slug": "confident",
+    "word": "CONFIDENT",
+    "primaryWord": "CONFIDENT",
+    "normalizedWord": "confident",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Clasp both hands together. 2. Hold both fists up in front of your body.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/confident.webp",
+      "alt": "Ghanaian Sign Language for CONFIDENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 182,
+      "pdfPage": 193
+    }
+  },
+  {
+    "id": "gsl-confused",
+    "slug": "confused",
+    "word": "CONFUSED",
+    "primaryWord": "CONFUSED",
+    "normalizedWord": "confused",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Point to your temple then circle both clawed hands in opposite directions in front of you.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/confused.webp",
+      "alt": "Ghanaian Sign Language for CONFUSED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-congratulate",
+    "slug": "congratulate",
+    "word": "CONGRATULATE",
+    "primaryWord": "CONGRATULATE",
+    "normalizedWord": "congratulate",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Raise your clasped hands together in front of your chest and shake them back and forth.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/congratulate.webp",
+      "alt": "Ghanaian Sign Language for CONGRATULATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 103,
+      "pdfPage": 114
+    }
+  },
+  {
+    "id": "gsl-consider",
+    "slug": "consider",
+    "word": "CONSIDER",
+    "primaryWord": "CONSIDER",
+    "normalizedWord": "consider",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Circle both index fingers at your temples.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/consider.webp",
+      "alt": "Ghanaian Sign Language for CONSIDER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 183,
+      "pdfPage": 194
+    }
+  },
+  {
+    "id": "gsl-continue",
+    "slug": "continue",
+    "word": "CONTINUE",
+    "primaryWord": "CONTINUE",
+    "normalizedWord": "continue",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both \"A\" hand thumbs together and move them forward and away from the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/continue.webp",
+      "alt": "Ghanaian Sign Language for CONTINUE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  },
+  {
+    "id": "gsl-control",
+    "slug": "control",
+    "word": "CONTROL",
+    "primaryWord": "CONTROL",
+    "normalizedWord": "control",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Pull both modified \"A\" hands back and forth alternately in front of your body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/control.webp",
+      "alt": "Ghanaian Sign Language for CONTROL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 110,
+      "pdfPage": 121
+    }
+  },
+  {
+    "id": "gsl-convince",
+    "slug": "convince",
+    "word": "CONVINCE",
+    "primaryWord": "CONVINCE",
+    "normalizedWord": "convince",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Brush the fingers of the right hand against the left index finger a few times.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/convince.webp",
+      "alt": "Ghanaian Sign Language for CONVINCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 109,
+      "pdfPage": 120
+    }
+  },
+  {
+    "id": "gsl-convulsion",
+    "slug": "convulsion",
+    "word": "CONVULSION",
+    "primaryWord": "CONVULSION",
+    "normalizedWord": "convulsion",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Hold closed hands out from body facing opposite directions. Twist from the wrist.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/convulsion.webp",
+      "alt": "Ghanaian Sign Language for CONVULSION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 169,
+      "pdfPage": 180
+    }
+  },
+  {
+    "id": "gsl-cook",
+    "slug": "cook",
+    "word": "COOK",
+    "primaryWord": "COOK",
+    "normalizedWord": "cook",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Slide both sides of the flat right hand back and forth over the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cook.webp",
+      "alt": "Ghanaian Sign Language for COOK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 42,
+      "pdfPage": 53
+    }
+  },
+  {
+    "id": "gsl-cook-2",
+    "slug": "cook-2",
+    "word": "COOK / CHEF",
+    "primaryWord": "COOK",
+    "normalizedWord": "cook",
+    "letter": "C",
+    "synonyms": [
+      "CHEF"
+    ],
+    "definition": "1. Slide the right hand back and forth over the palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/cook-2.webp",
+      "alt": "Ghanaian Sign Language for COOK / CHEF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 72,
+      "pdfPage": 83
+    }
+  },
+  {
+    "id": "gsl-cooldown",
+    "slug": "cooldown",
+    "word": "COOL DOWN",
+    "primaryWord": "COOL DOWN",
+    "normalizedWord": "cool down",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Bring flat hand down from the chest to meet the other flat hand at the torso. Palms facing each other.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/cooldown.webp",
+      "alt": "Ghanaian Sign Language for COOL DOWN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 278,
+      "pdfPage": 289
+    }
+  },
+  {
+    "id": "gsl-copy",
+    "slug": "copy",
+    "word": "COPY",
+    "primaryWord": "COPY",
+    "normalizedWord": "copy",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the open hand fingers in the left palm and pull up into \"AND\" hand.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/copy.webp",
+      "alt": "Ghanaian Sign Language for COPY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 290,
+      "pdfPage": 301
+    }
+  },
+  {
+    "id": "gsl-copyingsomeone",
+    "slug": "copyingsomeone",
+    "word": "COPYING SOMEONE",
+    "primaryWord": "COPYING SOMEONE",
+    "normalizedWord": "copying someone",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With the right thumb and index finger slightly open, pinch from the right eye downward.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/copyingsomeone.webp",
+      "alt": "Ghanaian Sign Language for COPYING SOMEONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 284,
+      "pdfPage": 295
+    }
+  },
+  {
+    "id": "gsl-corrupt",
+    "slug": "corrupt",
+    "word": "CORRUPT",
+    "primaryWord": "CORRUPT",
+    "normalizedWord": "corrupt",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the clawed \"3\" hand against your nose and twist forward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/corrupt.webp",
+      "alt": "Ghanaian Sign Language for CORRUPT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 199,
+      "pdfPage": 210
+    }
+  },
+  {
+    "id": "gsl-cost",
+    "slug": "cost",
+    "word": "COST / PRICE / EXPENSE",
+    "primaryWord": "COST",
+    "normalizedWord": "cost",
+    "letter": "C",
+    "synonyms": [
+      "PRICE",
+      "EXPENSE"
+    ],
+    "definition": "Strike the right \"X\" hand downward against the left palm.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/cost.webp",
+      "alt": "Ghanaian Sign Language for COST / PRICE / EXPENSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 75,
+      "pdfPage": 86
+    }
+  },
+  {
+    "id": "gsl-cotedivoire",
+    "slug": "cotedivoire",
+    "word": "COTE D'IVOIRE",
+    "primaryWord": "COTE D'IVOIRE",
+    "normalizedWord": "cote d'ivoire",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand on your wrist then place the \"I\" hand on your fingertips.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/cotedivoire.webp",
+      "alt": "Ghanaian Sign Language for COTE D'IVOIRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 227,
+      "pdfPage": 238
+    }
+  },
+  {
+    "id": "gsl-cough",
+    "slug": "cough",
+    "word": "COUGH",
+    "primaryWord": "COUGH",
+    "normalizedWord": "cough",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Bounce the claw hand off the chest a couple of times.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/cough.webp",
+      "alt": "Ghanaian Sign Language for COUGH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 164,
+      "pdfPage": 175
+    }
+  },
+  {
+    "id": "gsl-count",
+    "slug": "count",
+    "word": "COUNT",
+    "primaryWord": "COUNT",
+    "normalizedWord": "count",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Slide the thumb and index finger of the \"F\" hand forward against the open left hand a few times.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/count.webp",
+      "alt": "Ghanaian Sign Language for COUNT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 78,
+      "pdfPage": 89
+    }
+  },
+  {
+    "id": "gsl-country",
+    "slug": "country",
+    "word": "COUNTRY",
+    "primaryWord": "COUNTRY",
+    "normalizedWord": "country",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Circle your left elbow with the \"Y\" hand.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/country.webp",
+      "alt": "Ghanaian Sign Language for COUNTRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 226,
+      "pdfPage": 237
+    }
+  },
+  {
+    "id": "gsl-cousin",
+    "slug": "cousin",
+    "word": "COUSIN",
+    "primaryWord": "COUSIN",
+    "normalizedWord": "cousin",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Shake the wrist of the \"C\" hand next to the ear.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/cousin.webp",
+      "alt": "Ghanaian Sign Language for COUSIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-cow",
+    "slug": "cow",
+    "word": "COW",
+    "primaryWord": "COW",
+    "normalizedWord": "cow",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the thumb of both \"Y\" hands against the temples and twist forward.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/cow.webp",
+      "alt": "Ghanaian Sign Language for COW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 60,
+      "pdfPage": 71
+    }
+  },
+  {
+    "id": "gsl-cowry",
+    "slug": "cowry",
+    "word": "COWRY",
+    "primaryWord": "COWRY",
+    "normalizedWord": "cowry",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Draw a zig-zag down the palm of the clawed hand with your pointer finger.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/cowry.webp",
+      "alt": "Ghanaian Sign Language for COWRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 267,
+      "pdfPage": 278
+    }
+  },
+  {
+    "id": "gsl-cpp",
+    "slug": "cpp",
+    "word": "CPP",
+    "primaryWord": "CPP",
+    "normalizedWord": "cpp",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign the letters \"C\" \"P\" \"P\" while slightly moving the hand to the right.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/cpp.webp",
+      "alt": "Ghanaian Sign Language for CPP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-crayon",
+    "slug": "crayon",
+    "word": "CRAYON",
+    "primaryWord": "CRAYON",
+    "normalizedWord": "crayon",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign color then move index finger in a small cirlce in the center of the other hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/crayon.webp",
+      "alt": "Ghanaian Sign Language for CRAYON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 148,
+      "pdfPage": 159
+    }
+  },
+  {
+    "id": "gsl-crayon-2",
+    "slug": "crayon-2",
+    "word": "CRAYON",
+    "primaryWord": "CRAYON",
+    "normalizedWord": "crayon",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Sign color. Move index finger in a small circle in the center of the other hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/crayon-2.webp",
+      "alt": "Ghanaian Sign Language for CRAYON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 157,
+      "pdfPage": 168
+    }
+  },
+  {
+    "id": "gsl-crazy",
+    "slug": "crazy",
+    "word": "CRAZY",
+    "primaryWord": "CRAZY",
+    "normalizedWord": "crazy",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Circle the right index finger next to the side of the head.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/crazy.webp",
+      "alt": "Ghanaian Sign Language for CRAZY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 199,
+      "pdfPage": 210
+    }
+  },
+  {
+    "id": "gsl-create",
+    "slug": "create",
+    "word": "CREATE",
+    "primaryWord": "CREATE",
+    "normalizedWord": "create",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place both \"C\" hands on top of each other, then twist both hands backward and forward at the wrists.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/create.webp",
+      "alt": "Ghanaian Sign Language for CREATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 105,
+      "pdfPage": 116
+    }
+  },
+  {
+    "id": "gsl-creative",
+    "slug": "creative",
+    "word": "CREATIVE",
+    "primaryWord": "CREATIVE",
+    "normalizedWord": "creative",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the index finger of the right \"4\" hand on the temple and move it in forward arcs.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/creative.webp",
+      "alt": "Ghanaian Sign Language for CREATIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 199,
+      "pdfPage": 210
+    }
+  },
+  {
+    "id": "gsl-crippled",
+    "slug": "crippled",
+    "word": "CRIPPLED",
+    "primaryWord": "CRIPPLED",
+    "normalizedWord": "crippled",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Alternate lifting and dropping both index fingers as they point downward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/crippled.webp",
+      "alt": "Ghanaian Sign Language for CRIPPLED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 171,
+      "pdfPage": 182
+    }
+  },
+  {
+    "id": "gsl-crocodile",
+    "slug": "crocodile",
+    "word": "CROCODILE",
+    "primaryWord": "CROCODILE",
+    "normalizedWord": "crocodile",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "With both arms in front of you and wrists touching, bring both clawed hands together.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/crocodile.webp",
+      "alt": "Ghanaian Sign Language for CROCODILE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 63,
+      "pdfPage": 74
+    }
+  },
+  {
+    "id": "gsl-cross",
+    "slug": "cross",
+    "word": "CROSS",
+    "primaryWord": "CROSS",
+    "normalizedWord": "cross",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Draw a cross using the \"C\" hand.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/cross.webp",
+      "alt": "Ghanaian Sign Language for CROSS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 261,
+      "pdfPage": 272
+    }
+  },
+  {
+    "id": "gsl-crucify",
+    "slug": "crucify",
+    "word": "CRUCIFY",
+    "primaryWord": "CRUCIFY",
+    "normalizedWord": "crucify",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Stamp the \"A\" hand in the palm of each hand. 2. Pull both flat hands back near your head.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/crucify.webp",
+      "alt": "Ghanaian Sign Language for CRUCIFY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 261,
+      "pdfPage": 272
+    }
+  },
+  {
+    "id": "gsl-cry",
+    "slug": "cry",
+    "word": "CRY / TEARS / WEEP",
+    "primaryWord": "CRY",
+    "normalizedWord": "cry",
+    "letter": "C",
+    "synonyms": [
+      "TEARS",
+      "WEEP"
+    ],
+    "definition": "Place both \"W\" hands under your eyes and move each hand alternately down your face.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/cry.webp",
+      "alt": "Ghanaian Sign Language for CRY / TEARS / WEEP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 100,
+      "pdfPage": 111
+    }
+  },
+  {
+    "id": "gsl-cucumber",
+    "slug": "cucumber",
+    "word": "CUCUMBER",
+    "primaryWord": "CUCUMBER",
+    "normalizedWord": "cucumber",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "1. Make shape of a cucumber with open \"AND\" hands. 2. Chop the air with the right flat hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cucumber.webp",
+      "alt": "Ghanaian Sign Language for CUCUMBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 52,
+      "pdfPage": 63
+    }
+  },
+  {
+    "id": "gsl-cultural",
+    "slug": "cultural",
+    "word": "CULTURAL",
+    "primaryWord": "CULTURAL",
+    "normalizedWord": "cultural",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Circle the \"C\" hands alternately down your abdomen.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/cultural.webp",
+      "alt": "Ghanaian Sign Language for CULTURAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 267,
+      "pdfPage": 278
+    }
+  },
+  {
+    "id": "gsl-culture",
+    "slug": "culture",
+    "word": "CULTURE",
+    "primaryWord": "CULTURE",
+    "normalizedWord": "culture",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand on top of the opposite fist hand and press down.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/culture.webp",
+      "alt": "Ghanaian Sign Language for CULTURE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 271,
+      "pdfPage": 282
+    }
+  },
+  {
+    "id": "gsl-cup",
+    "slug": "cup",
+    "word": "CUP",
+    "primaryWord": "CUP",
+    "normalizedWord": "cup",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the little finger of the \"C\" hand on the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/cup.webp",
+      "alt": "Ghanaian Sign Language for CUP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 41,
+      "pdfPage": 52
+    }
+  },
+  {
+    "id": "gsl-curious",
+    "slug": "curious",
+    "word": "CURIOUS",
+    "primaryWord": "CURIOUS",
+    "normalizedWord": "curious",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Fan the curved hand back toward your nose a few times.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/curious.webp",
+      "alt": "Ghanaian Sign Language for CURIOUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-curriculum",
+    "slug": "curriculum",
+    "word": "CURRICULUM",
+    "primaryWord": "CURRICULUM",
+    "normalizedWord": "curriculum",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Place the \"C\" hand at the left fingertips then the \"M\" hand at the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/curriculum.webp",
+      "alt": "Ghanaian Sign Language for CURRICULUM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 143,
+      "pdfPage": 154
+    }
+  },
+  {
+    "id": "gsl-cut",
+    "slug": "cut",
+    "word": "CUT",
+    "primaryWord": "CUT",
+    "normalizedWord": "cut",
+    "letter": "C",
+    "synonyms": [],
+    "definition": "Slide the \"H\" hand back and forth across the back of the left hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/cut.webp",
+      "alt": "Ghanaian Sign Language for CUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 168,
+      "pdfPage": 179
+    }
+  }
+]

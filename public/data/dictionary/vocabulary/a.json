@@ -1,0 +1,1908 @@
+[
+  {
+    "id": "gsl-a",
+    "slug": "a",
+    "word": "A",
+    "primaryWord": "A",
+    "normalizedWord": "a",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Hold the \"A\" hand in front of the body.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/a.webp",
+      "alt": "Ghanaian Sign Language for A"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 22,
+      "pdfPage": 33
+    }
+  },
+  {
+    "id": "gsl-aboakyere",
+    "slug": "aboakyere",
+    "word": "ABOAKYERE",
+    "primaryWord": "ABOAKYERE",
+    "normalizedWord": "aboakyere",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"W\" hand against your temple and move upward in an arc.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/aboakyere.webp",
+      "alt": "Ghanaian Sign Language for ABOAKYERE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-abortion",
+    "slug": "abortion",
+    "word": "ABORTION",
+    "primaryWord": "ABORTION",
+    "normalizedWord": "abortion",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both open hands together with palms upward and pull the right hand down into the \"AND\" hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/abortion.webp",
+      "alt": "Ghanaian Sign Language for ABORTION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 176,
+      "pdfPage": 187
+    }
+  },
+  {
+    "id": "gsl-about",
+    "slug": "about",
+    "word": "ABOUT",
+    "primaryWord": "ABOUT",
+    "normalizedWord": "about",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With both \"A\" hands pointing in opposite directions, circle the right hand around the left.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/about.webp",
+      "alt": "Ghanaian Sign Language for ABOUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 219,
+      "pdfPage": 230
+    }
+  },
+  {
+    "id": "gsl-above",
+    "slug": "above",
+    "word": "ABOVE",
+    "primaryWord": "ABOVE",
+    "normalizedWord": "above",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With both flat hands pointing downward, slide the right hand over the left.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/above.webp",
+      "alt": "Ghanaian Sign Language for ABOVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 218,
+      "pdfPage": 229
+    }
+  },
+  {
+    "id": "gsl-abraham",
+    "slug": "abraham",
+    "word": "ABRAHAM",
+    "primaryWord": "ABRAHAM",
+    "normalizedWord": "abraham",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"A\" hand flat against your left elbow.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/abraham.webp",
+      "alt": "Ghanaian Sign Language for ABRAHAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 256,
+      "pdfPage": 267
+    }
+  },
+  {
+    "id": "gsl-absent",
+    "slug": "absent",
+    "word": "ABSENT",
+    "primaryWord": "ABSENT",
+    "normalizedWord": "absent",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With palm facing you, point the index finger up then pull back and touch the thumb and index finger.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/absent.webp",
+      "alt": "Ghanaian Sign Language for ABSENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 142,
+      "pdfPage": 153
+    }
+  },
+  {
+    "id": "gsl-accept",
+    "slug": "accept",
+    "word": "ACCEPT",
+    "primaryWord": "ACCEPT",
+    "normalizedWord": "accept",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Hold both open hands to the front of the body and move them to the chest with \"AND\" hands.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/accept.webp",
+      "alt": "Ghanaian Sign Language for ACCEPT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 103,
+      "pdfPage": 114
+    }
+  },
+  {
+    "id": "gsl-accident",
+    "slug": "accident",
+    "word": "ACCIDENT / CRASH",
+    "primaryWord": "ACCIDENT",
+    "normalizedWord": "accident",
+    "letter": "A",
+    "synonyms": [
+      "CRASH"
+    ],
+    "definition": "Crash the knuckles of both \"A\" hands together.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/accident.webp",
+      "alt": "Ghanaian Sign Language for ACCIDENT / CRASH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 214,
+      "pdfPage": 225
+    }
+  },
+  {
+    "id": "gsl-account",
+    "slug": "account",
+    "word": "ACCOUNT",
+    "primaryWord": "ACCOUNT",
+    "normalizedWord": "account",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the right \"A\" hand against the palm of the left flat hand.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/account.webp",
+      "alt": "Ghanaian Sign Language for ACCOUNT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 77,
+      "pdfPage": 88
+    }
+  },
+  {
+    "id": "gsl-accountant",
+    "slug": "accountant",
+    "word": "ACCOUNTANT",
+    "primaryWord": "ACCOUNTANT",
+    "normalizedWord": "accountant",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "1. Slide the \"A\" hand across the left palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/accountant.webp",
+      "alt": "Ghanaian Sign Language for ACCOUNTANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 69,
+      "pdfPage": 80
+    }
+  },
+  {
+    "id": "gsl-accra",
+    "slug": "accra",
+    "word": "ACCRA",
+    "primaryWord": "ACCRA",
+    "normalizedWord": "accra",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Wave the \"R\" hand up and down at your shoulder.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/accra.webp",
+      "alt": "Ghanaian Sign Language for ACCRA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 231,
+      "pdfPage": 242
+    }
+  },
+  {
+    "id": "gsl-across",
+    "slug": "across",
+    "word": "ACROSS",
+    "primaryWord": "ACROSS",
+    "normalizedWord": "across",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the right open hand over the left wrist.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/across.webp",
+      "alt": "Ghanaian Sign Language for ACROSS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-activity",
+    "slug": "activity",
+    "word": "ACTIVITY",
+    "primaryWord": "ACTIVITY",
+    "normalizedWord": "activity",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"C\" hands with palms down in front of the body and swing both hands back and forth.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/activity.webp",
+      "alt": "Ghanaian Sign Language for ACTIVITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 100,
+      "pdfPage": 111
+    }
+  },
+  {
+    "id": "gsl-actor",
+    "slug": "actor",
+    "word": "ACTOR",
+    "primaryWord": "ACTOR",
+    "normalizedWord": "actor",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "1.Bring both \"C\" hands back and forth accross the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/actor.webp",
+      "alt": "Ghanaian Sign Language for ACTOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 72,
+      "pdfPage": 83
+    }
+  },
+  {
+    "id": "gsl-adaekese",
+    "slug": "adaekese",
+    "word": "ADAEKESE",
+    "primaryWord": "ADAEKESE",
+    "normalizedWord": "adaekese",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands in front of your body and switch positions.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/adaekese.webp",
+      "alt": "Ghanaian Sign Language for ADAEKESE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-adam",
+    "slug": "adam",
+    "word": "ADAM",
+    "primaryWord": "ADAM",
+    "normalizedWord": "adam",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"A\" hand at your right forehead.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/adam.webp",
+      "alt": "Ghanaian Sign Language for ADAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 255,
+      "pdfPage": 266
+    }
+  },
+  {
+    "id": "gsl-add",
+    "slug": "add",
+    "word": "ADD",
+    "primaryWord": "ADD",
+    "normalizedWord": "add",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Bring the right \"AND\" hand down on top of the left \"AND\" hand so the fingertips touch.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/add.webp",
+      "alt": "Ghanaian Sign Language for ADD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 78,
+      "pdfPage": 89
+    }
+  },
+  {
+    "id": "gsl-address",
+    "slug": "address",
+    "word": "ADDRESS",
+    "primaryWord": "ADDRESS",
+    "normalizedWord": "address",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With both \"A\" hands, start at the chest and then move down to the abdomen.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/address.webp",
+      "alt": "Ghanaian Sign Language for ADDRESS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 291,
+      "pdfPage": 302
+    }
+  },
+  {
+    "id": "gsl-adjective",
+    "slug": "adjective",
+    "word": "ADJECTIVE",
+    "primaryWord": "ADJECTIVE",
+    "normalizedWord": "adjective",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"A\" hand at the left side of the mouth then place the \"D\" hand at the right side of the mouth.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/adjective.webp",
+      "alt": "Ghanaian Sign Language for ADJECTIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 22,
+      "pdfPage": 33
+    }
+  },
+  {
+    "id": "gsl-adult",
+    "slug": "adult",
+    "word": "ADULT",
+    "primaryWord": "ADULT",
+    "normalizedWord": "adult",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"A\" hand thumb first at the side of the chin, then at the temple.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/adult.webp",
+      "alt": "Ghanaian Sign Language for ADULT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 13,
+      "pdfPage": 24
+    }
+  },
+  {
+    "id": "gsl-adverb",
+    "slug": "adverb",
+    "word": "ADVERB",
+    "primaryWord": "ADVERB",
+    "normalizedWord": "adverb",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "1. Place the right \"A\" hand thumb near the mouth. 2. Place the \"V\" hand at the nose and draw it down.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/adverb.webp",
+      "alt": "Ghanaian Sign Language for ADVERB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-advertise",
+    "slug": "advertise",
+    "word": "ADVERTISE / PUBLICIZE / COMMERCIAL",
+    "primaryWord": "ADVERTISE",
+    "normalizedWord": "advertise",
+    "letter": "A",
+    "synonyms": [
+      "PUBLICIZE",
+      "COMMERCIAL"
+    ],
+    "definition": "Place the right \"S\" hand in front of the left \"S\" hand at the mouth and pull forward into the \"open\" hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/advertise.webp",
+      "alt": "Ghanaian Sign Language for ADVERTISE / PUBLICIZE / COMMERCIAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 116,
+      "pdfPage": 127
+    }
+  },
+  {
+    "id": "gsl-advise",
+    "slug": "advise",
+    "word": "ADVISE",
+    "primaryWord": "ADVISE",
+    "normalizedWord": "advise",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the right \"S\" hand on the left wrist and open hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/advise.webp",
+      "alt": "Ghanaian Sign Language for ADVISE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 154,
+      "pdfPage": 165
+    }
+  },
+  {
+    "id": "gsl-advocate",
+    "slug": "advocate",
+    "word": "ADVOCATE",
+    "primaryWord": "ADVOCATE",
+    "normalizedWord": "advocate",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the \"S\" hand down the left index finger.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/advocate.webp",
+      "alt": "Ghanaian Sign Language for ADVOCATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-aeroplane",
+    "slug": "aeroplane",
+    "word": "AEROPLANE",
+    "primaryWord": "AEROPLANE",
+    "normalizedWord": "aeroplane",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Glide your right \"ILY\" hand over the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/aeroplane.webp",
+      "alt": "Ghanaian Sign Language for AEROPLANE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 216,
+      "pdfPage": 227
+    }
+  },
+  {
+    "id": "gsl-africa",
+    "slug": "africa",
+    "word": "AFRICA",
+    "primaryWord": "AFRICA",
+    "normalizedWord": "africa",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Circle the face with the \"A\" hand, while keeping the thumb pointed upward.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/africa.webp",
+      "alt": "Ghanaian Sign Language for AFRICA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 230,
+      "pdfPage": 241
+    }
+  },
+  {
+    "id": "gsl-after",
+    "slug": "after",
+    "word": "AFTER",
+    "primaryWord": "AFTER",
+    "normalizedWord": "after",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the right flat hand over the back of the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/after.webp",
+      "alt": "Ghanaian Sign Language for AFTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 219,
+      "pdfPage": 230
+    }
+  },
+  {
+    "id": "gsl-afternoon",
+    "slug": "afternoon",
+    "word": "AFTERNOON",
+    "primaryWord": "AFTERNOON",
+    "normalizedWord": "afternoon",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With your left arm in front of your body, place the right arm and flat hand pointed upward",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/afternoon.webp",
+      "alt": "Ghanaian Sign Language for AFTERNOON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 202,
+      "pdfPage": 213
+    }
+  },
+  {
+    "id": "gsl-again",
+    "slug": "again",
+    "word": "AGAIN / REPEAT",
+    "primaryWord": "AGAIN",
+    "normalizedWord": "again",
+    "letter": "A",
+    "synonyms": [
+      "REPEAT"
+    ],
+    "definition": "Place the fingertips of the right flat hand into the left palm.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/again.webp",
+      "alt": "Ghanaian Sign Language for AGAIN / REPEAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 207,
+      "pdfPage": 218
+    }
+  },
+  {
+    "id": "gsl-agitate",
+    "slug": "agitate",
+    "word": "AGITATE",
+    "primaryWord": "AGITATE",
+    "normalizedWord": "agitate",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Tap the fingertips of the flat right hand into the flat left hand a few times.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/agitate.webp",
+      "alt": "Ghanaian Sign Language for AGITATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-agree",
+    "slug": "agree",
+    "word": "AGREE",
+    "primaryWord": "AGREE",
+    "normalizedWord": "agree",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Touch your temple with your index finger then place both index fingers together in front of your body.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/agree.webp",
+      "alt": "Ghanaian Sign Language for AGREE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 184,
+      "pdfPage": 195
+    }
+  },
+  {
+    "id": "gsl-ahead",
+    "slug": "ahead",
+    "word": "AHEAD",
+    "primaryWord": "AHEAD",
+    "normalizedWord": "ahead",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands together with thumbs pointing up then curve the right hand forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/ahead.webp",
+      "alt": "Ghanaian Sign Language for AHEAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-aids",
+    "slug": "aids",
+    "word": "AIDS",
+    "primaryWord": "AIDS",
+    "normalizedWord": "aids",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"S\" hands together then pull the right hand upward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/aids.webp",
+      "alt": "Ghanaian Sign Language for AIDS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 170,
+      "pdfPage": 181
+    }
+  },
+  {
+    "id": "gsl-akpeteshi",
+    "slug": "akpeteshi",
+    "word": "AKPETESHI",
+    "primaryWord": "AKPETESHI",
+    "normalizedWord": "akpeteshi",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the right curved hand under the left arm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/akpeteshi.webp",
+      "alt": "Ghanaian Sign Language for AKPETESHI"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 43,
+      "pdfPage": 54
+    }
+  },
+  {
+    "id": "gsl-akropong",
+    "slug": "akropong",
+    "word": "AKROPONG",
+    "primaryWord": "AKROPONG",
+    "normalizedWord": "akropong",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the curved \"V\" hand fingers in front of the eyes and rotate the hand outward.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/akropong.webp",
+      "alt": "Ghanaian Sign Language for AKROPONG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 232,
+      "pdfPage": 243
+    }
+  },
+  {
+    "id": "gsl-all",
+    "slug": "all",
+    "word": "ALL",
+    "primaryWord": "ALL",
+    "normalizedWord": "all",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Swing the right flat hand around the left flat hand, ending with both hands together in front of your body.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/all.webp",
+      "alt": "Ghanaian Sign Language for ALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 79,
+      "pdfPage": 90
+    }
+  },
+  {
+    "id": "gsl-allow",
+    "slug": "allow",
+    "word": "ALLOW / LET",
+    "primaryWord": "ALLOW",
+    "normalizedWord": "allow",
+    "letter": "A",
+    "synonyms": [
+      "LET"
+    ],
+    "definition": "Hold both flat hands forward then swing them upward simultaneously so that the fingertips point upward.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/allow.webp",
+      "alt": "Ghanaian Sign Language for ALLOW / LET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 115,
+      "pdfPage": 126
+    }
+  },
+  {
+    "id": "gsl-almost",
+    "slug": "almost",
+    "word": "ALMOST",
+    "primaryWord": "ALMOST",
+    "normalizedWord": "almost",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Brush the fingertips of the right curved hand against the left fingertips as you swing upward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/almost.webp",
+      "alt": "Ghanaian Sign Language for ALMOST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 80,
+      "pdfPage": 91
+    }
+  },
+  {
+    "id": "gsl-also",
+    "slug": "also",
+    "word": "ALSO",
+    "primaryWord": "ALSO",
+    "normalizedWord": "also",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Touch the two index fingers together on the right side of the body then repeat on the left.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/also.webp",
+      "alt": "Ghanaian Sign Language for ALSO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 24,
+      "pdfPage": 35
+    }
+  },
+  {
+    "id": "gsl-altar",
+    "slug": "altar",
+    "word": "ALTAR",
+    "primaryWord": "ALTAR",
+    "normalizedWord": "altar",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With thumbs touching, draw both \"A\" hands apart and down in front of your body.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/altar.webp",
+      "alt": "Ghanaian Sign Language for ALTAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 255,
+      "pdfPage": 266
+    }
+  },
+  {
+    "id": "gsl-always",
+    "slug": "always",
+    "word": "ALWAYS",
+    "primaryWord": "ALWAYS",
+    "normalizedWord": "always",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Point the index finger upward then move it in a large circle.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/always.webp",
+      "alt": "Ghanaian Sign Language for ALWAYS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 93,
+      "pdfPage": 104
+    }
+  },
+  {
+    "id": "gsl-am",
+    "slug": "am",
+    "word": "AM",
+    "primaryWord": "AM",
+    "normalizedWord": "am",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"A\" hand at the lips and move it forward.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/am.webp",
+      "alt": "Ghanaian Sign Language for AM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  },
+  {
+    "id": "gsl-amen",
+    "slug": "amen",
+    "word": "AMEN",
+    "primaryWord": "AMEN",
+    "normalizedWord": "amen",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Stamp your left palm with the right \"A\" hand",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/amen.webp",
+      "alt": "Ghanaian Sign Language for AMEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 263,
+      "pdfPage": 274
+    }
+  },
+  {
+    "id": "gsl-ampe",
+    "slug": "ampe",
+    "word": "AMPE",
+    "primaryWord": "AMPE",
+    "normalizedWord": "ampe",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Clap your hands in front of your body and kick out one of your legs.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/ampe.webp",
+      "alt": "Ghanaian Sign Language for AMPE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 119,
+      "pdfPage": 130
+    }
+  },
+  {
+    "id": "gsl-an",
+    "slug": "an",
+    "word": "AN",
+    "primaryWord": "AN",
+    "normalizedWord": "an",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Spell the letters \"A\" and \"N\" while moving the hand slightly to the right.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/an.webp",
+      "alt": "Ghanaian Sign Language for AN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 22,
+      "pdfPage": 33
+    }
+  },
+  {
+    "id": "gsl-analyze",
+    "slug": "analyze",
+    "word": "ANALYZE",
+    "primaryWord": "ANALYZE",
+    "normalizedWord": "analyze",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"C\" hands in front of your body and circle them in opposite directions.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/analyze.webp",
+      "alt": "Ghanaian Sign Language for ANALYZE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-ancient",
+    "slug": "ancient",
+    "word": "ANCIENT",
+    "primaryWord": "ANCIENT",
+    "normalizedWord": "ancient",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Circle both open hands back over your right shoulder.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/ancient.webp",
+      "alt": "Ghanaian Sign Language for ANCIENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 207,
+      "pdfPage": 218
+    }
+  },
+  {
+    "id": "gsl-and",
+    "slug": "and",
+    "word": "AND",
+    "primaryWord": "AND",
+    "normalizedWord": "and",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Move the right open hand to the right while bringing the fingertips and thumb together.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/and.webp",
+      "alt": "Ghanaian Sign Language for AND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 24,
+      "pdfPage": 35
+    }
+  },
+  {
+    "id": "gsl-angel",
+    "slug": "angel",
+    "word": "ANGEL",
+    "primaryWord": "ANGEL",
+    "normalizedWord": "angel",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Touch your shoulders with flat hands then turn your hands forward.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/angel.webp",
+      "alt": "Ghanaian Sign Language for ANGEL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 258,
+      "pdfPage": 269
+    }
+  },
+  {
+    "id": "gsl-anglican",
+    "slug": "anglican",
+    "word": "ANGLICAN",
+    "primaryWord": "ANGLICAN",
+    "normalizedWord": "anglican",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Using the \"A\" hand, draw a cross over your forehead.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/anglican.webp",
+      "alt": "Ghanaian Sign Language for ANGLICAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 250,
+      "pdfPage": 261
+    }
+  },
+  {
+    "id": "gsl-angry",
+    "slug": "angry",
+    "word": "ANGRY / ANGER / RAGE",
+    "primaryWord": "ANGRY",
+    "normalizedWord": "angry",
+    "letter": "A",
+    "synonyms": [
+      "ANGER",
+      "RAGE"
+    ],
+    "definition": "Pull both clawed hands upward from your waist.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/angry.webp",
+      "alt": "Ghanaian Sign Language for ANGRY / ANGER / RAGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 190,
+      "pdfPage": 201
+    }
+  },
+  {
+    "id": "gsl-animal",
+    "slug": "animal",
+    "word": "ANIMAL",
+    "primaryWord": "ANIMAL",
+    "normalizedWord": "animal",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the fingertips of both bent hands on the chest and rock both hands back and forth.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/animal.webp",
+      "alt": "Ghanaian Sign Language for ANIMAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-announce",
+    "slug": "announce",
+    "word": "ANNOUNCE",
+    "primaryWord": "ANNOUNCE",
+    "normalizedWord": "announce",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both index fingers at your mouth and lift both hands upward simultaneously.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/announce.webp",
+      "alt": "Ghanaian Sign Language for ANNOUNCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 102,
+      "pdfPage": 113
+    }
+  },
+  {
+    "id": "gsl-annual",
+    "slug": "annual",
+    "word": "ANNUAL",
+    "primaryWord": "ANNUAL",
+    "normalizedWord": "annual",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With both \"S\" hands in front of your body, circle the right hand around the left continuously.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/annual.webp",
+      "alt": "Ghanaian Sign Language for ANNUAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 206,
+      "pdfPage": 217
+    }
+  },
+  {
+    "id": "gsl-another",
+    "slug": "another",
+    "word": "ANOTHER",
+    "primaryWord": "ANOTHER",
+    "normalizedWord": "another",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Form \"A\" hand and forearm in front of chest, then turn arm upwards away from chest.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/another.webp",
+      "alt": "Ghanaian Sign Language for ANOTHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 98,
+      "pdfPage": 109
+    }
+  },
+  {
+    "id": "gsl-answer",
+    "slug": "answer",
+    "word": "ANSWER",
+    "primaryWord": "ANSWER",
+    "normalizedWord": "answer",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With one index finger at your mouth and the other in front of you, rotate both hands downward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/answer.webp",
+      "alt": "Ghanaian Sign Language for ANSWER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-anus",
+    "slug": "anus",
+    "word": "ANUS",
+    "primaryWord": "ANUS",
+    "normalizedWord": "anus",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slightly open and squeeze the \"O\" hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/anus.webp",
+      "alt": "Ghanaian Sign Language for ANUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 163,
+      "pdfPage": 174
+    }
+  },
+  {
+    "id": "gsl-apart",
+    "slug": "apart",
+    "word": "APART",
+    "primaryWord": "APART",
+    "normalizedWord": "apart",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Connect both \"F\" hand together then separate both hands by opening the fingers into open hands.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/apart.webp",
+      "alt": "Ghanaian Sign Language for APART"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 90,
+      "pdfPage": 101
+    }
+  },
+  {
+    "id": "gsl-apologize",
+    "slug": "apologize",
+    "word": "APOLOGIZE / SORRY",
+    "primaryWord": "APOLOGIZE",
+    "normalizedWord": "apologize",
+    "letter": "A",
+    "synonyms": [
+      "SORRY"
+    ],
+    "definition": "Circle the thumb of the \"S\" hand agaist your chest.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/apologize.webp",
+      "alt": "Ghanaian Sign Language for APOLOGIZE / SORRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 199,
+      "pdfPage": 210
+    }
+  },
+  {
+    "id": "gsl-apoo",
+    "slug": "apoo",
+    "word": "APOO",
+    "primaryWord": "APOO",
+    "normalizedWord": "apoo",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Alternately swing your \"X\" fingers up and down.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/apoo.webp",
+      "alt": "Ghanaian Sign Language for APOO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-appear",
+    "slug": "appear",
+    "word": "APPEAR",
+    "primaryWord": "APPEAR",
+    "normalizedWord": "appear",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide your right index finger up in between the left index and middle fingers.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/appear.webp",
+      "alt": "Ghanaian Sign Language for APPEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 223,
+      "pdfPage": 234
+    }
+  },
+  {
+    "id": "gsl-applause",
+    "slug": "applause",
+    "word": "APPLAUSE",
+    "primaryWord": "APPLAUSE",
+    "normalizedWord": "applause",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Lift both hands up at the sides of your head and shake both hands at the wrists.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/applause.webp",
+      "alt": "Ghanaian Sign Language for APPLAUSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 116,
+      "pdfPage": 127
+    }
+  },
+  {
+    "id": "gsl-apple",
+    "slug": "apple",
+    "word": "APPLE",
+    "primaryWord": "APPLE",
+    "normalizedWord": "apple",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"A\" hand on the cheek and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/apple.webp",
+      "alt": "Ghanaian Sign Language for APPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 50,
+      "pdfPage": 61
+    }
+  },
+  {
+    "id": "gsl-apply",
+    "slug": "apply",
+    "word": "APPLY",
+    "primaryWord": "APPLY",
+    "normalizedWord": "apply",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Drop the right \"V\" hand down onto the left index finger.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/apply.webp",
+      "alt": "Ghanaian Sign Language for APPLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 116,
+      "pdfPage": 127
+    }
+  },
+  {
+    "id": "gsl-approach",
+    "slug": "approach",
+    "word": "APPROACH",
+    "primaryWord": "APPROACH",
+    "normalizedWord": "approach",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Begin with two fists facing each other and open both to a flat hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/approach.webp",
+      "alt": "Ghanaian Sign Language for APPROACH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 223,
+      "pdfPage": 234
+    }
+  },
+  {
+    "id": "gsl-april",
+    "slug": "april",
+    "word": "APRIL",
+    "primaryWord": "APRIL",
+    "normalizedWord": "april",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Press \"A\" hand into the left palm then the \"P\" hand to the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/april.webp",
+      "alt": "Ghanaian Sign Language for APRIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 205,
+      "pdfPage": 216
+    }
+  },
+  {
+    "id": "gsl-are",
+    "slug": "are",
+    "word": "ARE",
+    "primaryWord": "ARE",
+    "normalizedWord": "are",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"R\" hand at the lips and move it forward.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/are.webp",
+      "alt": "Ghanaian Sign Language for ARE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  },
+  {
+    "id": "gsl-area",
+    "slug": "area",
+    "word": "AREA",
+    "primaryWord": "AREA",
+    "normalizedWord": "area",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Touch the thumbs of both \"A\" hands together then curve them backward into the same position.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/area.webp",
+      "alt": "Ghanaian Sign Language for AREA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 213,
+      "pdfPage": 224
+    }
+  },
+  {
+    "id": "gsl-argue",
+    "slug": "argue",
+    "word": "ARGUE",
+    "primaryWord": "ARGUE",
+    "normalizedWord": "argue",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Move both \"X\" hands back and forth at each other a few times.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/argue.webp",
+      "alt": "Ghanaian Sign Language for ARGUE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 154,
+      "pdfPage": 165
+    }
+  },
+  {
+    "id": "gsl-around",
+    "slug": "around",
+    "word": "AROUND",
+    "primaryWord": "AROUND",
+    "normalizedWord": "around",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With both \"R\" hands pointing in opposite directions, circle the right hand around the left. AMONG Wave the right index finger through the fingers of the open left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/around.webp",
+      "alt": "Ghanaian Sign Language for AROUND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 219,
+      "pdfPage": 230
+    }
+  },
+  {
+    "id": "gsl-arrive",
+    "slug": "arrive",
+    "word": "ARRIVE",
+    "primaryWord": "ARRIVE",
+    "normalizedWord": "arrive",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Move the back of the right flat hand into the left palm.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/arrive.webp",
+      "alt": "Ghanaian Sign Language for ARRIVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 110,
+      "pdfPage": 121
+    }
+  },
+  {
+    "id": "gsl-art",
+    "slug": "art",
+    "word": "ART",
+    "primaryWord": "ART",
+    "normalizedWord": "art",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Draw the little finger of the \"I\" hand down your left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/art.webp",
+      "alt": "Ghanaian Sign Language for ART"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 145,
+      "pdfPage": 156
+    }
+  },
+  {
+    "id": "gsl-artist",
+    "slug": "artist",
+    "word": "ARTIST",
+    "primaryWord": "ARTIST",
+    "normalizedWord": "artist",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "1. Wave the finger of the \"I\" hand down the palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/artist.webp",
+      "alt": "Ghanaian Sign Language for ARTIST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 72,
+      "pdfPage": 83
+    }
+  },
+  {
+    "id": "gsl-ashantiregion",
+    "slug": "ashantiregion",
+    "word": "ASHANTI REGION",
+    "primaryWord": "ASHANTI REGION",
+    "normalizedWord": "ashanti region",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Sign the letters \"A\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/ashantiregion.webp",
+      "alt": "Ghanaian Sign Language for ASHANTI REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-asia",
+    "slug": "asia",
+    "word": "ASIA",
+    "primaryWord": "ASIA",
+    "normalizedWord": "asia",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Circle the \"A\" hand in front of your right shoulder.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/asia.webp",
+      "alt": "Ghanaian Sign Language for ASIA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 231,
+      "pdfPage": 242
+    }
+  },
+  {
+    "id": "gsl-ask",
+    "slug": "ask",
+    "word": "ASK",
+    "primaryWord": "ASK",
+    "normalizedWord": "ask",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both flat hands together with palms touching and move them in a forward arc.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/ask.webp",
+      "alt": "Ghanaian Sign Language for ASK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-assembliesofgod",
+    "slug": "assembliesofgod",
+    "word": "ASSEMBLIES OF GOD",
+    "primaryWord": "ASSEMBLIES OF GOD",
+    "normalizedWord": "assemblies of god",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Start with the thumb of the \"A\" hand on the forehead. Open to a flat hand and slide down the face.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/assembliesofgod.webp",
+      "alt": "Ghanaian Sign Language for ASSEMBLIES OF GOD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 250,
+      "pdfPage": 261
+    }
+  },
+  {
+    "id": "gsl-assist",
+    "slug": "assist",
+    "word": "ASSIST / ASSISTANT",
+    "primaryWord": "ASSIST",
+    "normalizedWord": "assist",
+    "letter": "A",
+    "synonyms": [
+      "ASSISTANT"
+    ],
+    "definition": "Place the right \"A\" hand under the \"S\" hand wrist and push upward.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/assist.webp",
+      "alt": "Ghanaian Sign Language for ASSIST / ASSISTANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 140,
+      "pdfPage": 151
+    }
+  },
+  {
+    "id": "gsl-association",
+    "slug": "association",
+    "word": "ASSOCIATION",
+    "primaryWord": "ASSOCIATION",
+    "normalizedWord": "association",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands together and circle them outwards bringing the wrists together.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/association.webp",
+      "alt": "Ghanaian Sign Language for ASSOCIATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 247,
+      "pdfPage": 258
+    }
+  },
+  {
+    "id": "gsl-at",
+    "slug": "at",
+    "word": "AT",
+    "primaryWord": "AT",
+    "normalizedWord": "at",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Point the right bent hand into the left wrist.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/at.webp",
+      "alt": "Ghanaian Sign Language for AT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-attack",
+    "slug": "attack",
+    "word": "ATTACK",
+    "primaryWord": "ATTACK",
+    "normalizedWord": "attack",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Move the right index finger into the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/attack.webp",
+      "alt": "Ghanaian Sign Language for ATTACK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 104,
+      "pdfPage": 115
+    }
+  },
+  {
+    "id": "gsl-attitude",
+    "slug": "attitude",
+    "word": "ATTITUDE",
+    "primaryWord": "ATTITUDE",
+    "normalizedWord": "attitude",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Rotate the \"A\" hand around your heart with thumb pointing to yourself.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/attitude.webp",
+      "alt": "Ghanaian Sign Language for ATTITUDE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 194,
+      "pdfPage": 205
+    }
+  },
+  {
+    "id": "gsl-august",
+    "slug": "august",
+    "word": "AUGUST",
+    "primaryWord": "AUGUST",
+    "normalizedWord": "august",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Press \"A\" hand into the left palm then the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/august.webp",
+      "alt": "Ghanaian Sign Language for AUGUST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 205,
+      "pdfPage": 216
+    }
+  },
+  {
+    "id": "gsl-aunt",
+    "slug": "aunt",
+    "word": "AUNT",
+    "primaryWord": "AUNT",
+    "normalizedWord": "aunt",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Shake the wrist of the \"A\" hand at your cheek.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/aunt.webp",
+      "alt": "Ghanaian Sign Language for AUNT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-authority",
+    "slug": "authority",
+    "word": "AUTHORITY",
+    "primaryWord": "AUTHORITY",
+    "normalizedWord": "authority",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Place the \"A\" hand flat against your left shoulder then bring it to the left inner elbow with the thumb upward.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/authority.webp",
+      "alt": "Ghanaian Sign Language for AUTHORITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 140,
+      "pdfPage": 151
+    }
+  },
+  {
+    "id": "gsl-avoid",
+    "slug": "avoid",
+    "word": "AVOID",
+    "primaryWord": "AVOID",
+    "normalizedWord": "avoid",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Hold the right arm up with the palm flat and pointing away from the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/avoid.webp",
+      "alt": "Ghanaian Sign Language for AVOID"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 106,
+      "pdfPage": 117
+    }
+  },
+  {
+    "id": "gsl-awake",
+    "slug": "awake",
+    "word": "AWAKE",
+    "primaryWord": "AWAKE",
+    "normalizedWord": "awake",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "With your index finger and thumb touching, place your hands at the eyes and open both index fingers.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/awake.webp",
+      "alt": "Ghanaian Sign Language for AWAKE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 165,
+      "pdfPage": 176
+    }
+  },
+  {
+    "id": "gsl-away",
+    "slug": "away",
+    "word": "AWAY",
+    "primaryWord": "AWAY",
+    "normalizedWord": "away",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Wipe the top of your left hand with the open right hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/away.webp",
+      "alt": "Ghanaian Sign Language for AWAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 219,
+      "pdfPage": 230
+    }
+  },
+  {
+    "id": "gsl-azonto",
+    "slug": "azonto",
+    "word": "AZONTO",
+    "primaryWord": "AZONTO",
+    "normalizedWord": "azonto",
+    "letter": "A",
+    "synonyms": [],
+    "definition": "Slide the right \"S\" hand over the left a few times then bring both hands to the side of your head.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/azonto.webp",
+      "alt": "Ghanaian Sign Language for AZONTO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 120,
+      "pdfPage": 131
+    }
+  }
+]

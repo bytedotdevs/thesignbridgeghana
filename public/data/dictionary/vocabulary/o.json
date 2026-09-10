@@ -1,0 +1,705 @@
+[
+  {
+    "id": "gsl-obey",
+    "slug": "obey",
+    "word": "OBEY",
+    "primaryWord": "OBEY",
+    "normalizedWord": "obey",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place one \"O\" hand at your forehead and one in front of your chest. Move forward and open to flat hands.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/obey.webp",
+      "alt": "Ghanaian Sign Language for OBEY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-ocean",
+    "slug": "ocean",
+    "word": "OCEAN",
+    "primaryWord": "OCEAN",
+    "normalizedWord": "ocean",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place both curved hands together and wave them forward.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/ocean.webp",
+      "alt": "Ghanaian Sign Language for OCEAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-october",
+    "slug": "october",
+    "word": "OCTOBER",
+    "primaryWord": "OCTOBER",
+    "normalizedWord": "october",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Press \"O\" hand into the left palm then the back of the left hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/october.webp",
+      "alt": "Ghanaian Sign Language for OCTOBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 206,
+      "pdfPage": 217
+    }
+  },
+  {
+    "id": "gsl-odwira",
+    "slug": "odwira",
+    "word": "ODWIRA",
+    "primaryWord": "ODWIRA",
+    "normalizedWord": "odwira",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Alternate the \"X\" hands back and forth above your head.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/odwira.webp",
+      "alt": "Ghanaian Sign Language for ODWIRA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-off",
+    "slug": "off",
+    "word": "OFF",
+    "primaryWord": "OFF",
+    "normalizedWord": "off",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Use one flat hand to tap the other flat hand and pull back.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/off.webp",
+      "alt": "Ghanaian Sign Language for OFF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 218,
+      "pdfPage": 229
+    }
+  },
+  {
+    "id": "gsl-office",
+    "slug": "office",
+    "word": "OFFICE",
+    "primaryWord": "OFFICE",
+    "normalizedWord": "office",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place both \"O\" hands together at the fingertips and twist forward, bringing the little fingers together.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/office.webp",
+      "alt": "Ghanaian Sign Language for OFFICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 141,
+      "pdfPage": 152
+    }
+  },
+  {
+    "id": "gsl-often",
+    "slug": "often",
+    "word": "OFTEN / REGULAR / FREQUENTLY",
+    "primaryWord": "OFTEN",
+    "normalizedWord": "often",
+    "letter": "O",
+    "synonyms": [
+      "REGULAR",
+      "FREQUENTLY"
+    ],
+    "definition": "Bounce the fingertips of your flat hand from your left palm to the fingers.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/often.webp",
+      "alt": "Ghanaian Sign Language for OFTEN / REGULAR / FREQUENTLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 207,
+      "pdfPage": 218
+    }
+  },
+  {
+    "id": "gsl-oil",
+    "slug": "oil",
+    "word": "OIL",
+    "primaryWord": "OIL",
+    "normalizedWord": "oil",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Pinch the back of the left hand and palm and pull downward as you bring the fingers together.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/oil.webp",
+      "alt": "Ghanaian Sign Language for OIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 55,
+      "pdfPage": 66
+    }
+  },
+  {
+    "id": "gsl-okro",
+    "slug": "okro",
+    "word": "OKRO",
+    "primaryWord": "OKRO",
+    "normalizedWord": "okro",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Pull the open hand upward from the left palm and close into the \"AND\" hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/okro.webp",
+      "alt": "Ghanaian Sign Language for OKRO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 53,
+      "pdfPage": 64
+    }
+  },
+  {
+    "id": "gsl-old",
+    "slug": "old",
+    "word": "OLD / AGE",
+    "primaryWord": "OLD",
+    "normalizedWord": "old",
+    "letter": "O",
+    "synonyms": [
+      "AGE"
+    ],
+    "definition": "Close the right hand below the chin and move it downward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/old.webp",
+      "alt": "Ghanaian Sign Language for OLD / AGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 86,
+      "pdfPage": 97
+    }
+  },
+  {
+    "id": "gsl-olympics",
+    "slug": "olympics",
+    "word": "OLYMPICS",
+    "primaryWord": "OLYMPICS",
+    "normalizedWord": "olympics",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Interlock the thumbs and index fingers of both \"F\" hands a few times as the hands move to the right.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/olympics.webp",
+      "alt": "Ghanaian Sign Language for OLYMPICS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 121,
+      "pdfPage": 132
+    }
+  },
+  {
+    "id": "gsl-on",
+    "slug": "on",
+    "word": "ON",
+    "primaryWord": "ON",
+    "normalizedWord": "on",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Touch both downturned flat hands together.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/on.webp",
+      "alt": "Ghanaian Sign Language for ON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 218,
+      "pdfPage": 229
+    }
+  },
+  {
+    "id": "gsl-once",
+    "slug": "once",
+    "word": "ONCE",
+    "primaryWord": "ONCE",
+    "normalizedWord": "once",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Twist the \"1\" finger up from the palm of the opposite hand.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/once.webp",
+      "alt": "Ghanaian Sign Language for ONCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 82,
+      "pdfPage": 93
+    }
+  },
+  {
+    "id": "gsl-onceinawhile",
+    "slug": "onceinawhile",
+    "word": "ONCE IN A WHILE",
+    "primaryWord": "ONCE IN A WHILE",
+    "normalizedWord": "once in a while",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Strike the right index finger up the left palm.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/onceinawhile.webp",
+      "alt": "Ghanaian Sign Language for ONCE IN A WHILE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 208,
+      "pdfPage": 219
+    }
+  },
+  {
+    "id": "gsl-onion",
+    "slug": "onion",
+    "word": "ONION",
+    "primaryWord": "ONION",
+    "normalizedWord": "onion",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place the fingers of the \"O\" hand on the cheek and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/onion.webp",
+      "alt": "Ghanaian Sign Language for ONION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 54,
+      "pdfPage": 65
+    }
+  },
+  {
+    "id": "gsl-only",
+    "slug": "only",
+    "word": "ONLY",
+    "primaryWord": "ONLY",
+    "normalizedWord": "only",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "With the palm facing you, hold the index finger up and spin in small circles.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/only.webp",
+      "alt": "Ghanaian Sign Language for ONLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 180,
+      "pdfPage": 191
+    }
+  },
+  {
+    "id": "gsl-open",
+    "slug": "open",
+    "word": "OPEN",
+    "primaryWord": "OPEN",
+    "normalizedWord": "open",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place both \"B\" hands together with palms down then move both hands out to the sides.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/open.webp",
+      "alt": "Ghanaian Sign Language for OPEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 88,
+      "pdfPage": 99
+    }
+  },
+  {
+    "id": "gsl-operation",
+    "slug": "operation",
+    "word": "OPERATION / SURGERY",
+    "primaryWord": "OPERATION",
+    "normalizedWord": "operation",
+    "letter": "O",
+    "synonyms": [
+      "SURGERY"
+    ],
+    "definition": "Swipe the thumb of the \"A\" hand as if creating an incision over the area being addressed.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/operation.webp",
+      "alt": "Ghanaian Sign Language for OPERATION / SURGERY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 172,
+      "pdfPage": 183
+    }
+  },
+  {
+    "id": "gsl-opinion",
+    "slug": "opinion",
+    "word": "OPINION",
+    "primaryWord": "OPINION",
+    "normalizedWord": "opinion",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Tap the \"O\" hand to your temple twice.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/opinion.webp",
+      "alt": "Ghanaian Sign Language for OPINION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 179,
+      "pdfPage": 190
+    }
+  },
+  {
+    "id": "gsl-opportunity",
+    "slug": "opportunity",
+    "word": "OPPORTUNITY",
+    "primaryWord": "OPPORTUNITY",
+    "normalizedWord": "opportunity",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place both \"O\" hands at your shoulders and slightly move the hands upward into \"P\" hands.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/opportunity.webp",
+      "alt": "Ghanaian Sign Language for OPPORTUNITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 139,
+      "pdfPage": 150
+    }
+  },
+  {
+    "id": "gsl-opposite",
+    "slug": "opposite",
+    "word": "OPPOSITE",
+    "primaryWord": "OPPOSITE",
+    "normalizedWord": "opposite",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Start with both index fingers touching then pull away.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/opposite.webp",
+      "alt": "Ghanaian Sign Language for OPPOSITE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 221,
+      "pdfPage": 232
+    }
+  },
+  {
+    "id": "gsl-or",
+    "slug": "or",
+    "word": "OR",
+    "primaryWord": "OR",
+    "normalizedWord": "or",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Sign the letters \"O\" and \"R\" at your side.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/or.webp",
+      "alt": "Ghanaian Sign Language for OR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 24,
+      "pdfPage": 35
+    }
+  },
+  {
+    "id": "gsl-orange",
+    "slug": "orange",
+    "word": "ORANGE",
+    "primaryWord": "ORANGE",
+    "normalizedWord": "orange",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Slightly open and squeeze the \"S\" hand in front of your mouth.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/orange.webp",
+      "alt": "Ghanaian Sign Language for ORANGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 5,
+      "pdfPage": 16
+    }
+  },
+  {
+    "id": "gsl-orange-2",
+    "slug": "orange-2",
+    "word": "ORANGE",
+    "primaryWord": "ORANGE",
+    "normalizedWord": "orange",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Slightly open and squeeze the \"S\" hand in front of your mouth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/orange-2.webp",
+      "alt": "Ghanaian Sign Language for ORANGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 51,
+      "pdfPage": 62
+    }
+  },
+  {
+    "id": "gsl-other",
+    "slug": "other",
+    "word": "OTHER",
+    "primaryWord": "OTHER",
+    "normalizedWord": "other",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Flick \"A\" hand from the wrist.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/other.webp",
+      "alt": "Ghanaian Sign Language for OTHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 19,
+      "pdfPage": 30
+    }
+  },
+  {
+    "id": "gsl-our",
+    "slug": "our",
+    "word": "OUR",
+    "primaryWord": "OUR",
+    "normalizedWord": "our",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Touch the curved hand on the right side of the chest, then rotate it around to the left side of the chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/our.webp",
+      "alt": "Ghanaian Sign Language for OUR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  },
+  {
+    "id": "gsl-ourselves",
+    "slug": "ourselves",
+    "word": "OURSELVES",
+    "primaryWord": "OURSELVES",
+    "normalizedWord": "ourselves",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place the curved hand on the side of the chest, then rotate it around and place the \"A\" hand in the center of the chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/ourselves.webp",
+      "alt": "Ghanaian Sign Language for OURSELVES"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 18,
+      "pdfPage": 29
+    }
+  },
+  {
+    "id": "gsl-out",
+    "slug": "out",
+    "word": "OUT",
+    "primaryWord": "OUT",
+    "normalizedWord": "out",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Remove the right \"AND\" hand from the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/out.webp",
+      "alt": "Ghanaian Sign Language for OUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 220,
+      "pdfPage": 231
+    }
+  },
+  {
+    "id": "gsl-outofhere",
+    "slug": "outofhere",
+    "word": "OUT OF HERE",
+    "primaryWord": "OUT OF HERE",
+    "normalizedWord": "out of here",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Hold an open hand at ear level then snap it back into the \"AND\" hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/outofhere.webp",
+      "alt": "Ghanaian Sign Language for OUT OF HERE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 283,
+      "pdfPage": 294
+    }
+  },
+  {
+    "id": "gsl-ovaries",
+    "slug": "ovaries",
+    "word": "OVARIES",
+    "primaryWord": "OVARIES",
+    "normalizedWord": "ovaries",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Place both \"AND\" hands next to each other at your waist.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/ovaries.webp",
+      "alt": "Ghanaian Sign Language for OVARIES"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 163,
+      "pdfPage": 174
+    }
+  },
+  {
+    "id": "gsl-oware",
+    "slug": "oware",
+    "word": "OWARE",
+    "primaryWord": "OWARE",
+    "normalizedWord": "oware",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Use the downturned \"Q\" hand to make small upward arcs in a straight line.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/oware.webp",
+      "alt": "Ghanaian Sign Language for OWARE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 119,
+      "pdfPage": 130
+    }
+  },
+  {
+    "id": "gsl-owe",
+    "slug": "owe",
+    "word": "OWE / DEBT / DUE",
+    "primaryWord": "OWE",
+    "normalizedWord": "owe",
+    "letter": "O",
+    "synonyms": [
+      "DEBT",
+      "DUE"
+    ],
+    "definition": "Place the right index finger in the left palm and lift both hands back toward the body.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/owe.webp",
+      "alt": "Ghanaian Sign Language for OWE / DEBT / DUE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 77,
+      "pdfPage": 88
+    }
+  },
+  {
+    "id": "gsl-owl",
+    "slug": "owl",
+    "word": "OWL",
+    "primaryWord": "OWL",
+    "normalizedWord": "owl",
+    "letter": "O",
+    "synonyms": [],
+    "definition": "Look through both \"C\" hands and twist them toward the center and back a few times.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/owl.webp",
+      "alt": "Ghanaian Sign Language for OWL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 59,
+      "pdfPage": 70
+    }
+  }
+]

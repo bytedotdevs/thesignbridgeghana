@@ -1,0 +1,527 @@
+[
+  {
+    "id": "gsl-vagina",
+    "slug": "vagina",
+    "word": "VAGINA",
+    "primaryWord": "VAGINA",
+    "normalizedWord": "vagina",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Wave the \"V\" hands back and forth in front of your body.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/vagina.webp",
+      "alt": "Ghanaian Sign Language for VAGINA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 162,
+      "pdfPage": 173
+    }
+  },
+  {
+    "id": "gsl-vain",
+    "slug": "vain",
+    "word": "VAIN",
+    "primaryWord": "VAIN",
+    "normalizedWord": "vain",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Bring both \"V\" hands back and forth towards the face.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/vain.webp",
+      "alt": "Ghanaian Sign Language for VAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 198,
+      "pdfPage": 209
+    }
+  },
+  {
+    "id": "gsl-valley",
+    "slug": "valley",
+    "word": "VALLEY",
+    "primaryWord": "VALLEY",
+    "normalizedWord": "valley",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "With fingertips forward, place both flat hands at head level then swing them down to meet at your waist.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/valley.webp",
+      "alt": "Ghanaian Sign Language for VALLEY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 131,
+      "pdfPage": 142
+    }
+  },
+  {
+    "id": "gsl-vanish",
+    "slug": "vanish",
+    "word": "VANISH",
+    "primaryWord": "VANISH",
+    "normalizedWord": "vanish",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "With middle fingers pointed down, swing the right hand above the left hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/vanish.webp",
+      "alt": "Ghanaian Sign Language for VANISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 283,
+      "pdfPage": 294
+    }
+  },
+  {
+    "id": "gsl-varietyofthings",
+    "slug": "varietyofthings",
+    "word": "VARIETY OF THINGS",
+    "primaryWord": "VARIETY OF THINGS",
+    "normalizedWord": "variety of things",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Alternate up and down movements with both \"V\" hands.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/varietyofthings.webp",
+      "alt": "Ghanaian Sign Language for VARIETY OF THINGS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 279,
+      "pdfPage": 290
+    }
+  },
+  {
+    "id": "gsl-vegetable",
+    "slug": "vegetable",
+    "word": "VEGETABLE",
+    "primaryWord": "VEGETABLE",
+    "normalizedWord": "vegetable",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the index finger of the \"V\" hand on the cheek and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/vegetable.webp",
+      "alt": "Ghanaian Sign Language for VEGETABLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 52,
+      "pdfPage": 63
+    }
+  },
+  {
+    "id": "gsl-verb",
+    "slug": "verb",
+    "word": "VERB",
+    "primaryWord": "VERB",
+    "normalizedWord": "verb",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Slide the \"V\" hand accross the chin.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/verb.webp",
+      "alt": "Ghanaian Sign Language for VERB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-verse",
+    "slug": "verse",
+    "word": "VERSE",
+    "primaryWord": "VERSE",
+    "normalizedWord": "verse",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Slide the right \"V\" hand to the right.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/verse.webp",
+      "alt": "Ghanaian Sign Language for VERSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 254,
+      "pdfPage": 265
+    }
+  },
+  {
+    "id": "gsl-very",
+    "slug": "very",
+    "word": "VERY",
+    "primaryWord": "VERY",
+    "normalizedWord": "very",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Touch the fingertips of both vertical \"V\" hands together and pull them away in opposite directions.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/very.webp",
+      "alt": "Ghanaian Sign Language for VERY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 186,
+      "pdfPage": 197
+    }
+  },
+  {
+    "id": "gsl-verythin",
+    "slug": "verythin",
+    "word": "VERY THIN",
+    "primaryWord": "VERY THIN",
+    "normalizedWord": "very thin",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Point the little fingers of both \"I\" hands at each other vertically and pull them apart in opposite directions.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/verythin.webp",
+      "alt": "Ghanaian Sign Language for VERY THIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 276,
+      "pdfPage": 287
+    }
+  },
+  {
+    "id": "gsl-vicepresident",
+    "slug": "vicepresident",
+    "word": "VICE PRESIDENT",
+    "primaryWord": "VICE PRESIDENT",
+    "normalizedWord": "vice president",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place \"V\" hands at opposite wrist and lift up. top to bottom.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/vicepresident.webp",
+      "alt": "Ghanaian Sign Language for VICE PRESIDENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 248,
+      "pdfPage": 259
+    }
+  },
+  {
+    "id": "gsl-village",
+    "slug": "village",
+    "word": "VILLAGE",
+    "primaryWord": "VILLAGE",
+    "normalizedWord": "village",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place both \"V\" hands together at the fingertips then pull them down from each other in opposite directions.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/village.webp",
+      "alt": "Ghanaian Sign Language for VILLAGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 231,
+      "pdfPage": 242
+    }
+  },
+  {
+    "id": "gsl-violet",
+    "slug": "violet",
+    "word": "VIOLET",
+    "primaryWord": "VIOLET",
+    "normalizedWord": "violet",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the index finger of the \"V\" hand on your temple and tap a few times.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/violet.webp",
+      "alt": "Ghanaian Sign Language for VIOLET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-virgin",
+    "slug": "virgin",
+    "word": "VIRGIN",
+    "primaryWord": "VIRGIN",
+    "normalizedWord": "virgin",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Draw the \"V\" hand down the middle of your face from forehead to chin.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/virgin.webp",
+      "alt": "Ghanaian Sign Language for VIRGIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 258,
+      "pdfPage": 269
+    }
+  },
+  {
+    "id": "gsl-vision",
+    "slug": "vision",
+    "word": "VISION",
+    "primaryWord": "VISION",
+    "normalizedWord": "vision",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place fists together in from of the face. Open each fist to a \"C\" hand while spreading arms.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/vision.webp",
+      "alt": "Ghanaian Sign Language for VISION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 262,
+      "pdfPage": 273
+    }
+  },
+  {
+    "id": "gsl-visit",
+    "slug": "visit",
+    "word": "VISIT",
+    "primaryWord": "VISIT",
+    "normalizedWord": "visit",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Spin both \"V\" hands around each other in a forward motion.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/visit.webp",
+      "alt": "Ghanaian Sign Language for VISIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 225,
+      "pdfPage": 236
+    }
+  },
+  {
+    "id": "gsl-vocabulary",
+    "slug": "vocabulary",
+    "word": "VOCABULARY",
+    "primaryWord": "VOCABULARY",
+    "normalizedWord": "vocabulary",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Tap the \"V\" hand fingertips against your left index finger.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/vocabulary.webp",
+      "alt": "Ghanaian Sign Language for VOCABULARY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 149,
+      "pdfPage": 160
+    }
+  },
+  {
+    "id": "gsl-vocation",
+    "slug": "vocation",
+    "word": "VOCATION",
+    "primaryWord": "VOCATION",
+    "normalizedWord": "vocation",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the \"V\" hand facing forward on the left wrist and shake the \"V\" hand back and forth.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/vocation.webp",
+      "alt": "Ghanaian Sign Language for VOCATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-voice",
+    "slug": "voice",
+    "word": "VOICE",
+    "primaryWord": "VOICE",
+    "normalizedWord": "voice",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the index finger of the \"V\" hand under your chin and pull it forward.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/voice.webp",
+      "alt": "Ghanaian Sign Language for VOICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 160,
+      "pdfPage": 171
+    }
+  },
+  {
+    "id": "gsl-volleyball",
+    "slug": "volleyball",
+    "word": "VOLLEYBALL",
+    "primaryWord": "VOLLEYBALL",
+    "normalizedWord": "volleyball",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "With your right hand rested in the left palm, move both hands up and forward in front of the body.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/volleyball.webp",
+      "alt": "Ghanaian Sign Language for VOLLEYBALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 123,
+      "pdfPage": 134
+    }
+  },
+  {
+    "id": "gsl-voltaregion",
+    "slug": "voltaregion",
+    "word": "VOLTA REGION",
+    "primaryWord": "VOLTA REGION",
+    "normalizedWord": "volta region",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Sign the letters \"V\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/voltaregion.webp",
+      "alt": "Ghanaian Sign Language for VOLTA REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-voltaschoolforthedeaf",
+    "slug": "voltaschoolforthedeaf",
+    "word": "VOLTA SCHOOL FOR THE DEAF",
+    "primaryWord": "VOLTA SCHOOL FOR THE DEAF",
+    "normalizedWord": "volta school for the deaf",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Sign the letters \"V\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/voltaschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for VOLTA SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 234,
+      "pdfPage": 245
+    }
+  },
+  {
+    "id": "gsl-volunteer",
+    "slug": "volunteer",
+    "word": "VOLUNTEER",
+    "primaryWord": "VOLUNTEER",
+    "normalizedWord": "volunteer",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Pinch the right shoulder with the thumb and index finger of the right \"F\" hand and lean forward slightly.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/volunteer.webp",
+      "alt": "Ghanaian Sign Language for VOLUNTEER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 116,
+      "pdfPage": 127
+    }
+  },
+  {
+    "id": "gsl-vomit",
+    "slug": "vomit",
+    "word": "VOMIT",
+    "primaryWord": "VOMIT",
+    "normalizedWord": "vomit",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the upturned \"C\" hand at your throat and move it upward and forward in an arc pattern.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/vomit.webp",
+      "alt": "Ghanaian Sign Language for VOMIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 164,
+      "pdfPage": 175
+    }
+  },
+  {
+    "id": "gsl-vote",
+    "slug": "vote",
+    "word": "VOTE",
+    "primaryWord": "VOTE",
+    "normalizedWord": "vote",
+    "letter": "V",
+    "synonyms": [],
+    "definition": "Place the \"F\" hand fingers into a curved left hand.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/vote.webp",
+      "alt": "Ghanaian Sign Language for VOTE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  }
+]

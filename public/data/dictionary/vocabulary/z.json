@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gsl-zebra",
+    "slug": "zebra",
+    "word": "ZEBRA",
+    "primaryWord": "ZEBRA",
+    "normalizedWord": "zebra",
+    "letter": "Z",
+    "synonyms": [],
+    "definition": "Place both clawed bands against the body and pull away in opposite directions.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/zebra.webp",
+      "alt": "Ghanaian Sign Language for ZEBRA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 62,
+      "pdfPage": 73
+    }
+  },
+  {
+    "id": "gsl-zimbabwe",
+    "slug": "zimbabwe",
+    "word": "ZIMBABWE",
+    "primaryWord": "ZIMBABWE",
+    "normalizedWord": "zimbabwe",
+    "letter": "Z",
+    "synonyms": [],
+    "definition": "Place both flat hands at shoulder level facing out and lightly push them back and forth.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/zimbabwe.webp",
+      "alt": "Ghanaian Sign Language for ZIMBABWE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 228,
+      "pdfPage": 239
+    }
+  },
+  {
+    "id": "gsl-zip",
+    "slug": "zip",
+    "word": "ZIP",
+    "primaryWord": "ZIP",
+    "normalizedWord": "zip",
+    "letter": "Z",
+    "synonyms": [],
+    "definition": "Hold both \"A\" hands together at waist level then slide the right hand straight upward to the chest.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/zip.webp",
+      "alt": "Ghanaian Sign Language for ZIP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 33,
+      "pdfPage": 44
+    }
+  }
+]

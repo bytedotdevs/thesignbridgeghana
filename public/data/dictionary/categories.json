@@ -1,0 +1,362 @@
+[
+  {
+    "name": "ACTIVITIES",
+    "slug": "activities",
+    "count": 103,
+    "icon": "Activity",
+    "sampleWords": [
+      "ACTIVITY",
+      "LAUGH",
+      "KISS",
+      "SMILE",
+      "CRY / TEARS / WEEP",
+      "DEEP KISSING"
+    ],
+    "pageRange": "p.111-129"
+  },
+  {
+    "name": "ANIMALS",
+    "slug": "animals",
+    "count": 48,
+    "icon": "PawPrint",
+    "sampleWords": [
+      "ANIMAL",
+      "DOG",
+      "CHICKEN",
+      "CAT",
+      "BIRD",
+      "COCK"
+    ],
+    "pageRange": "p.69-77"
+  },
+  {
+    "name": "COLORS",
+    "slug": "colors",
+    "count": 12,
+    "icon": "Palette",
+    "sampleWords": [
+      "COLOUR",
+      "BLUE",
+      "GREEN",
+      "RED",
+      "YELLOW",
+      "ORANGE"
+    ],
+    "pageRange": "p.16-18"
+  },
+  {
+    "name": "EDUCATION AND COMMUNICATION",
+    "slug": "educationandcommunication",
+    "count": 105,
+    "icon": "Layers",
+    "sampleWords": [
+      "EDUCATION",
+      "KNUST",
+      "DIPLOMA / DEGREE",
+      "WINNEBA",
+      "DR. ANDREW FOSTER",
+      "CERTIFICATE / CERTIFICATION"
+    ],
+    "pageRange": "p.149-169"
+  },
+  {
+    "name": "EMOTIONS AND CHARACTER",
+    "slug": "emotionsandcharacter",
+    "count": 60,
+    "icon": "Layers",
+    "sampleWords": [
+      "EMOTION",
+      "HAPPY / GLAD / JOY",
+      "FEAR / AFRAID / SCARED / FRIGHTENED",
+      "FEEL / FEELING / SENSATION",
+      "SAD / SORROW",
+      "ANGRY / ANGER / RAGE"
+    ],
+    "pageRange": "p.201-211"
+  },
+  {
+    "name": "FAMILY, PEOPLE AND PRONOUNS",
+    "slug": "familypeopleandpronouns",
+    "count": 75,
+    "icon": "Layers",
+    "sampleWords": [
+      "FAMILY",
+      "FATHER / DAD",
+      "GRANDFATHER",
+      "PARENTS",
+      "MOTHER / MOM",
+      "GRANDMOTHER"
+    ],
+    "pageRange": "p.19-32"
+  },
+  {
+    "name": "FOOD",
+    "slug": "food",
+    "count": 107,
+    "icon": "Utensils",
+    "sampleWords": [
+      "BREAKFAST",
+      "SUPPER",
+      "EAT",
+      "LUNCH",
+      "FOOD",
+      "DRINK"
+    ],
+    "pageRange": "p.50-68"
+  },
+  {
+    "name": "GRAMMAR AND PARTS OF SPEECH",
+    "slug": "grammarandpartsofspeech",
+    "count": 26,
+    "icon": "Layers",
+    "sampleWords": [
+      "A",
+      "THE",
+      "PRONOUN",
+      "AN",
+      "NOUN",
+      "ADJECTIVE"
+    ],
+    "pageRange": "p.33-38"
+  },
+  {
+    "name": "HEALTH",
+    "slug": "health",
+    "count": 102,
+    "icon": "HeartPulse",
+    "sampleWords": [
+      "HEALTH",
+      "LIVE / LIFE",
+      "BRAIN",
+      "HUMAN",
+      "HEAD",
+      "MIND"
+    ],
+    "pageRange": "p.170-189"
+  },
+  {
+    "name": "HOME AND CLOTHING",
+    "slug": "homeandclothing",
+    "count": 60,
+    "icon": "Layers",
+    "sampleWords": [
+      "HOME",
+      "DORMITORY",
+      "FLOOR",
+      "HOUSE",
+      "ROOF",
+      "WALL"
+    ],
+    "pageRange": "p.39-49"
+  },
+  {
+    "name": "IDEAS AND MENTAL ACTION",
+    "slug": "ideasandmentalaction",
+    "count": 55,
+    "icon": "Layers",
+    "sampleWords": [
+      "IDEA",
+      "EXPERIENCE",
+      "LIKE",
+      "OPINION",
+      "SKILL",
+      "INTEREST"
+    ],
+    "pageRange": "p.190-200"
+  },
+  {
+    "name": "IDIOMATIC EXPRESSIONS",
+    "slug": "idiomaticexpressions",
+    "count": 84,
+    "icon": "Layers",
+    "sampleWords": [
+      "CHALLENGE AUTHORITY",
+      "BEING IDLE",
+      "LET DOWN",
+      "CURIOUS",
+      "INACTIVE",
+      "YOU'RE FUNNY"
+    ],
+    "pageRange": "p.285-299"
+  },
+  {
+    "name": "MONEY",
+    "slug": "money",
+    "count": 53,
+    "icon": "Coins",
+    "sampleWords": [
+      "MONEY",
+      "PESEWA",
+      "BUY / PURCHASE",
+      "CEDI",
+      "COINS",
+      "PAY"
+    ],
+    "pageRange": "p.85-94"
+  },
+  {
+    "name": "OCCASIONS",
+    "slug": "occasions",
+    "count": 37,
+    "icon": "Calendar",
+    "sampleWords": [
+      "CELEBRATE / CELEBRATION",
+      "CHRISTMAS",
+      "BIRTHDAY",
+      "HOLIDAY",
+      "EASTER",
+      "FUNERAL"
+    ],
+    "pageRange": "p.277-284"
+  },
+  {
+    "name": "OPPOSITES AND QUESTIONS",
+    "slug": "oppositesandquestions",
+    "count": 86,
+    "icon": "Layers",
+    "sampleWords": [
+      "BEAUTIFUL / PRETTY / LOVELY",
+      "CLEAN / NICE",
+      "RICH / WEALTHY",
+      "UGLY",
+      "DIRTY",
+      "POOR / POVERTY"
+    ],
+    "pageRange": "p.95-110"
+  },
+  {
+    "name": "POLITICS",
+    "slug": "politics",
+    "count": 50,
+    "icon": "Building2",
+    "sampleWords": [
+      "GOVERNMENT",
+      "MINISTRY",
+      "DEMOCRACY",
+      "POLITICS",
+      "REPRESENTATION",
+      "PARLIAMENT"
+    ],
+    "pageRange": "p.251-260"
+  },
+  {
+    "name": "RELIGION",
+    "slug": "religion",
+    "count": 88,
+    "icon": "Church",
+    "sampleWords": [
+      "RELIGION",
+      "ASSEMBLIES OF GOD",
+      "JEHOVAH'S WITNESS",
+      "ANGLICAN",
+      "EVANGELIST",
+      "METHODIST"
+    ],
+    "pageRange": "p.261-276"
+  },
+  {
+    "name": "SCIENCE AND NATURE",
+    "slug": "scienceandnature",
+    "count": 53,
+    "icon": "Layers",
+    "sampleWords": [
+      "NATURE / NATURAL",
+      "PLANET",
+      "UNIVERSE",
+      "EARTH",
+      "WORLD",
+      "SUN / LIGHT"
+    ],
+    "pageRange": "p.139-148"
+  },
+  {
+    "name": "SPORTS AND GAMES",
+    "slug": "sportsandgames",
+    "count": 44,
+    "icon": "Layers",
+    "sampleWords": [
+      "GAME / COMPETITION / CONTEST",
+      "OWARE",
+      "SPAR",
+      "PLAY",
+      "AMPE",
+      "LUDO"
+    ],
+    "pageRange": "p.130-138"
+  },
+  {
+    "name": "TECHNOLOGY",
+    "slug": "technology",
+    "count": 23,
+    "icon": "Cpu",
+    "sampleWords": [
+      "TECHNOLOGY",
+      "COMPUTER",
+      "MOUSE (COMPUTER)",
+      "SYSTEM",
+      "LAPTOP",
+      "CLICK"
+    ],
+    "pageRange": "p.300-304"
+  },
+  {
+    "name": "TIME",
+    "slug": "time",
+    "count": 63,
+    "icon": "Clock",
+    "sampleWords": [
+      "TIME",
+      "MINUTES",
+      "DAY",
+      "SECONDS",
+      "HOUR",
+      "WEEK"
+    ],
+    "pageRange": "p.212-223"
+  },
+  {
+    "name": "TOWNS, REGIONS AND COUNTRIES",
+    "slug": "townsregionsandcountries",
+    "count": 79,
+    "icon": "Layers",
+    "sampleWords": [
+      "COMMUNITY",
+      "KINGDOM",
+      "VISIT",
+      "LOCAL",
+      "CASTLE",
+      "FOREIGN"
+    ],
+    "pageRange": "p.236-250"
+  },
+  {
+    "name": "TRAVEL AND DIRECTIONS",
+    "slug": "travelanddirections",
+    "count": 65,
+    "icon": "Layers",
+    "sampleWords": [
+      "PLACE",
+      "HOTEL",
+      "MAP",
+      "AREA",
+      "TRAVEL",
+      "RIDING"
+    ],
+    "pageRange": "p.224-235"
+  },
+  {
+    "name": "WORK",
+    "slug": "work",
+    "count": 36,
+    "icon": "Briefcase",
+    "sampleWords": [
+      "WORK",
+      "WORKSHOP",
+      "PERSONIFICATION",
+      "BUSINESS / BUSY",
+      "VOCATION",
+      "INTERPRETER"
+    ],
+    "pageRange": "p.78-84"
+  }
+]

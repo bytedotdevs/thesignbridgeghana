@@ -1,0 +1,168 @@
+/* Liquid Chrome & Glass Material Language */
+
+.liquid-chrome-surface {
+  background: var(--chrome-gradient);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow-studio-md), var(--shadow-inner-highlight);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-chrome-surface::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.frosted-glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
+  border: 1px solid var(--glass-border-subtle);
+  box-shadow: var(--shadow-studio-md);
+  border-radius: var(--radius-xl);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.frosted-glass-panel:hover {
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-studio-lg);
+}
+
+.glass-card-interactive {
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-studio-sm);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card-interactive:hover {
+  transform: translateY(-3px);
+  background: var(--glass-bg-hover);
+  border-color: rgba(37, 99, 235, 0.3);
+  box-shadow: var(--shadow-studio-lg);
+}
+
+.chrome-btn-primary {
+  background: var(--ink-primary);
+  color: var(--ink-on-dark);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.chrome-btn-primary:hover {
+  transform: translateY(-1px);
+  background: #1e293b;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.chrome-btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.2);
+}
+
+.chrome-btn-secondary {
+  background: var(--glass-bg);
+  color: var(--ink-primary);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--chrome-mid);
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: var(--shadow-studio-sm), var(--shadow-inner-highlight);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.chrome-btn-secondary:hover {
+  background: var(--glass-bg-hover);
+  border-color: var(--ink-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-studio-md);
+}
+
+.chrome-btn-secondary:active {
+  transform: translateY(1px);
+}
+
+.chrome-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(210, 222, 238, 0.8);
+  color: var(--ink-primary);
+  box-shadow: var(--shadow-inner-highlight);
+  transition: all 0.15s ease;
+}
+
+.chrome-pill.active {
+  background: var(--ink-primary);
+  color: var(--ink-on-dark);
+  border-color: var(--ink-primary);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.18);
+}
+
+.studio-glow-gold {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.12) 0%, rgba(245, 158, 11, 0) 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.studio-glow-blue {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, rgba(37, 99, 235, 0) 70%);
+  filter: blur(45px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.studio-glow-green {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(5, 150, 105, 0.09) 0%, rgba(5, 150, 105, 0) 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}

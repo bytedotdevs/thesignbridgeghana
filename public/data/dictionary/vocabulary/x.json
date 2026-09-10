@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gsl-x-ray",
+    "slug": "x-ray",
+    "word": "X-RAY",
+    "primaryWord": "X-RAY",
+    "normalizedWord": "x-ray",
+    "letter": "X",
+    "synonyms": [],
+    "definition": "1. Sign the letter \"X\". 2. Move the \"C\" hand from the eye to the left palm.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/x-ray.webp",
+      "alt": "Ghanaian Sign Language for X-RAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-xylophone",
+    "slug": "xylophone",
+    "word": "XYLOPHONE",
+    "primaryWord": "XYLOPHONE",
+    "normalizedWord": "xylophone",
+    "letter": "X",
+    "synonyms": [],
+    "definition": "Tap both modified \"A\" hands up and down as you move side-to-side.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/xylophone.webp",
+      "alt": "Ghanaian Sign Language for XYLOPHONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 271,
+      "pdfPage": 282
+    }
+  }
+]

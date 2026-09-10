@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "gsl-baby",
+    "slug": "baby",
+    "word": "BABY / INFANT",
+    "primaryWord": "BABY",
+    "normalizedWord": "baby",
+    "letter": "B",
+    "synonyms": [
+      "INFANT"
+    ],
+    "definition": "Place one upturned flat hand in the other and rock you arms back and forth.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/baby.webp",
+      "alt": "Ghanaian Sign Language for BABY / INFANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 12,
+      "pdfPage": 23
+    }
+  },
+  {
+    "id": "gsl-backbiting",
+    "slug": "backbiting",
+    "word": "BACKBITING",
+    "primaryWord": "BACKBITING",
+    "normalizedWord": "backbiting",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Jab the \"B\" hand forward toward the back of your head.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/backbiting.webp",
+      "alt": "Ghanaian Sign Language for BACKBITING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-backpack",
+    "slug": "backpack",
+    "word": "BACKPACK / BAG",
+    "primaryWord": "BACKPACK",
+    "normalizedWord": "backpack",
+    "letter": "B",
+    "synonyms": [
+      "BAG"
+    ],
+    "definition": "Place both \"A\" hands at the shoulders and then move the hands down toward your waist.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/backpack.webp",
+      "alt": "Ghanaian Sign Language for BACKPACK / BAG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 37,
+      "pdfPage": 48
+    }
+  },
+  {
+    "id": "gsl-backwards",
+    "slug": "backwards",
+    "word": "BACKWARDS",
+    "primaryWord": "BACKWARDS",
+    "normalizedWord": "backwards",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Pull both flat hands from in front of your shoulders back to align with your neck.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/backwards.webp",
+      "alt": "Ghanaian Sign Language for BACKWARDS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 220,
+      "pdfPage": 231
+    }
+  },
+  {
+    "id": "gsl-bad",
+    "slug": "bad",
+    "word": "BAD",
+    "primaryWord": "BAD",
+    "normalizedWord": "bad",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the flat right hand at the lips then move it downward and to the right.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/bad.webp",
+      "alt": "Ghanaian Sign Language for BAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 91,
+      "pdfPage": 102
+    }
+  },
+  {
+    "id": "gsl-ball",
+    "slug": "ball",
+    "word": "BALL",
+    "primaryWord": "BALL",
+    "normalizedWord": "ball",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the right index finger on the back of the left \"S\" hand then move the left hand up and down a few times.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/ball.webp",
+      "alt": "Ghanaian Sign Language for BALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 122,
+      "pdfPage": 133
+    }
+  },
+  {
+    "id": "gsl-balloon",
+    "slug": "balloon",
+    "word": "BALLOON",
+    "primaryWord": "BALLOON",
+    "normalizedWord": "balloon",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Hold the right \"S\" hand in front of your mouth then open both hands in front of your body.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/balloon.webp",
+      "alt": "Ghanaian Sign Language for BALLOON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 120,
+      "pdfPage": 131
+    }
+  },
+  {
+    "id": "gsl-banana",
+    "slug": "banana",
+    "word": "BANANA",
+    "primaryWord": "BANANA",
+    "normalizedWord": "banana",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "With your left index finger pointing up, use the right hand to make a peeling motion around it.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/banana.webp",
+      "alt": "Ghanaian Sign Language for BANANA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 50,
+      "pdfPage": 61
+    }
+  },
+  {
+    "id": "gsl-banda",
+    "slug": "banda",
+    "word": "BANDA",
+    "primaryWord": "BANDA",
+    "normalizedWord": "banda",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Alternately swing your index fingers up and down in front of your body.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/banda.webp",
+      "alt": "Ghanaian Sign Language for BANDA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 269,
+      "pdfPage": 280
+    }
+  },
+  {
+    "id": "gsl-bank",
+    "slug": "bank",
+    "word": "BANK",
+    "primaryWord": "BANK",
+    "normalizedWord": "bank",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Tap the right \"B\" hand against the back of the flat left hand a few times.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/bank.webp",
+      "alt": "Ghanaian Sign Language for BANK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 76,
+      "pdfPage": 87
+    }
+  },
+  {
+    "id": "gsl-banker",
+    "slug": "banker",
+    "word": "BANKER",
+    "primaryWord": "BANKER",
+    "normalizedWord": "banker",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Tap the back of the left hand with \"B\" hand. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/banker.webp",
+      "alt": "Ghanaian Sign Language for BANKER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 69,
+      "pdfPage": 80
+    }
+  },
+  {
+    "id": "gsl-banku",
+    "slug": "banku",
+    "word": "BANKU",
+    "primaryWord": "BANKU",
+    "normalizedWord": "banku",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "With both \"S\" hands in front of you, drive them toward the body several times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/banku.webp",
+      "alt": "Ghanaian Sign Language for BANKU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 45,
+      "pdfPage": 56
+    }
+  },
+  {
+    "id": "gsl-baptism",
+    "slug": "baptism",
+    "word": "BAPTISM",
+    "primaryWord": "BAPTISM",
+    "normalizedWord": "baptism",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands pointing in the same direction at the waist, then pull the hands up until they are vertical.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/baptism.webp",
+      "alt": "Ghanaian Sign Language for BAPTISM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 260,
+      "pdfPage": 271
+    }
+  },
+  {
+    "id": "gsl-basket",
+    "slug": "basket",
+    "word": "BASKET",
+    "primaryWord": "BASKET",
+    "normalizedWord": "basket",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the \"B\" hand at the wrist and then the elbow of the left arm.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/basket.webp",
+      "alt": "Ghanaian Sign Language for BASKET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 31,
+      "pdfPage": 42
+    }
+  },
+  {
+    "id": "gsl-bat",
+    "slug": "bat",
+    "word": "BAT",
+    "primaryWord": "BAT",
+    "normalizedWord": "bat",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Cross arms and tap opposite shoulders with the \"X\" hands.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/bat.webp",
+      "alt": "Ghanaian Sign Language for BAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 61,
+      "pdfPage": 72
+    }
+  },
+  {
+    "id": "gsl-bath",
+    "slug": "bath",
+    "word": "BATH",
+    "primaryWord": "BATH",
+    "normalizedWord": "bath",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Slide the flat side of both \"A\" hands up and down your body alternately.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/bath.webp",
+      "alt": "Ghanaian Sign Language for BATH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 31,
+      "pdfPage": 42
+    }
+  },
+  {
+    "id": "gsl-bathe",
+    "slug": "bathe",
+    "word": "BATHE / BATH",
+    "primaryWord": "BATHE",
+    "normalizedWord": "bathe",
+    "letter": "B",
+    "synonyms": [
+      "BATH"
+    ],
+    "definition": "Slide both \"A\" hands up and down your body alternately.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/bathe.webp",
+      "alt": "Ghanaian Sign Language for BATHE / BATH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 165,
+      "pdfPage": 176
+    }
+  },
+  {
+    "id": "gsl-batik",
+    "slug": "batik",
+    "word": "BATIK",
+    "primaryWord": "BATIK",
+    "normalizedWord": "batik",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Press the \"S\" hand into the left palm a few times.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/batik.webp",
+      "alt": "Ghanaian Sign Language for BATIK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 268,
+      "pdfPage": 279
+    }
+  },
+  {
+    "id": "gsl-be",
+    "slug": "be",
+    "word": "BE",
+    "primaryWord": "BE",
+    "normalizedWord": "be",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Bring the \"B\" hand straight out from the mouth.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/be.webp",
+      "alt": "Ghanaian Sign Language for BE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 26,
+      "pdfPage": 37
+    }
+  },
+  {
+    "id": "gsl-beans",
+    "slug": "beans",
+    "word": "BEANS",
+    "primaryWord": "BEANS",
+    "normalizedWord": "beans",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the right index finger between the left index finger and thumb and twist back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/beans.webp",
+      "alt": "Ghanaian Sign Language for BEANS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 48,
+      "pdfPage": 59
+    }
+  },
+  {
+    "id": "gsl-beard",
+    "slug": "beard",
+    "word": "BEARD",
+    "primaryWord": "BEARD",
+    "normalizedWord": "beard",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Stroke your chin with the right hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/beard.webp",
+      "alt": "Ghanaian Sign Language for BEARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 161,
+      "pdfPage": 172
+    }
+  },
+  {
+    "id": "gsl-beat",
+    "slug": "beat",
+    "word": "BEAT",
+    "primaryWord": "BEAT",
+    "normalizedWord": "beat",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Quickly drop the right fist over the left wrist.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/beat.webp",
+      "alt": "Ghanaian Sign Language for BEAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 104,
+      "pdfPage": 115
+    }
+  },
+  {
+    "id": "gsl-beautiful",
+    "slug": "beautiful",
+    "word": "BEAUTIFUL / PRETTY / LOVELY",
+    "primaryWord": "BEAUTIFUL",
+    "normalizedWord": "beautiful",
+    "letter": "B",
+    "synonyms": [
+      "PRETTY",
+      "LOVELY"
+    ],
+    "definition": "Circle your face with the open hand and close fingers slightly as you complete one rotation.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/beautiful.webp",
+      "alt": "Ghanaian Sign Language for BEAUTIFUL / PRETTY / LOVELY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-because",
+    "slug": "because",
+    "word": "BECAUSE",
+    "primaryWord": "BECAUSE",
+    "normalizedWord": "because",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Alternately place both index fingers on the forehead and move both hands while bending the index fingers.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/because.webp",
+      "alt": "Ghanaian Sign Language for BECAUSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 96,
+      "pdfPage": 107
+    }
+  },
+  {
+    "id": "gsl-bece",
+    "slug": "bece",
+    "word": "BECE",
+    "primaryWord": "BECE",
+    "normalizedWord": "bece",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Sign the letters \"B\" \"E\" \"C\" and \"E\" as you move the hand slightly to the right.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/bece.webp",
+      "alt": "Ghanaian Sign Language for BECE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 143,
+      "pdfPage": 154
+    }
+  },
+  {
+    "id": "gsl-bechemschoolforthedeaf",
+    "slug": "bechemschoolforthedeaf",
+    "word": "BECHEM SCHOOL FOR THE DEAF",
+    "primaryWord": "BECHEM SCHOOL FOR THE DEAF",
+    "normalizedWord": "bechem school for the deaf",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the fingertips of the \"B\" hand on the left wrist and pull back into the \"A\" hand.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/bechemschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for BECHEM SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 235,
+      "pdfPage": 246
+    }
+  },
+  {
+    "id": "gsl-become",
+    "slug": "become",
+    "word": "BECOME",
+    "primaryWord": "BECOME",
+    "normalizedWord": "become",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Press the palms of both flat hands together then rotate hands and repeat.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/become.webp",
+      "alt": "Ghanaian Sign Language for BECOME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 105,
+      "pdfPage": 116
+    }
+  },
+  {
+    "id": "gsl-bed",
+    "slug": "bed",
+    "word": "BED",
+    "primaryWord": "BED",
+    "normalizedWord": "bed",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Hold both flat hands together on the cheek and tilt your head to the side.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/bed.webp",
+      "alt": "Ghanaian Sign Language for BED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 30,
+      "pdfPage": 41
+    }
+  },
+  {
+    "id": "gsl-bee",
+    "slug": "bee",
+    "word": "BEE",
+    "primaryWord": "BEE",
+    "normalizedWord": "bee",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Bring the thumb and index finger of both hands together and tap both sides of the face alternately.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/bee.webp",
+      "alt": "Ghanaian Sign Language for BEE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 65,
+      "pdfPage": 76
+    }
+  },
+  {
+    "id": "gsl-beer",
+    "slug": "beer",
+    "word": "BEER",
+    "primaryWord": "BEER",
+    "normalizedWord": "beer",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the \"B\" hand against the cheek and rotate in a backward motion.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/beer.webp",
+      "alt": "Ghanaian Sign Language for BEER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 43,
+      "pdfPage": 54
+    }
+  },
+  {
+    "id": "gsl-before",
+    "slug": "before",
+    "word": "BEFORE",
+    "primaryWord": "BEFORE",
+    "normalizedWord": "before",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the fingertips of both bent hands together and pull the right hand back toward the body.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/before.webp",
+      "alt": "Ghanaian Sign Language for BEFORE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 219,
+      "pdfPage": 230
+    }
+  },
+  {
+    "id": "gsl-beg",
+    "slug": "beg",
+    "word": "BEG",
+    "primaryWord": "BEG",
+    "normalizedWord": "beg",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the backs of both \"B\" hands together and circle the right hand against the left.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/beg.webp",
+      "alt": "Ghanaian Sign Language for BEG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 77,
+      "pdfPage": 88
+    }
+  },
+  {
+    "id": "gsl-behaviour",
+    "slug": "behaviour",
+    "word": "BEHAVIOUR",
+    "primaryWord": "BEHAVIOUR",
+    "normalizedWord": "behaviour",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Rock both \"B\" hands back and forth in front of the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/behaviour.webp",
+      "alt": "Ghanaian Sign Language for BEHAVIOUR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 115,
+      "pdfPage": 126
+    }
+  },
+  {
+    "id": "gsl-behind",
+    "slug": "behind",
+    "word": "BEHIND",
+    "primaryWord": "BEHIND",
+    "normalizedWord": "behind",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands together with thumbs pointing up then curve the right hand backward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/behind.webp",
+      "alt": "Ghanaian Sign Language for BEHIND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-beingidle",
+    "slug": "beingidle",
+    "word": "BEING IDLE",
+    "primaryWord": "BEING IDLE",
+    "normalizedWord": "being idle",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"Q\" hands on your chest and open and close your fingers.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/beingidle.webp",
+      "alt": "Ghanaian Sign Language for BEING IDLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 274,
+      "pdfPage": 285
+    }
+  },
+  {
+    "id": "gsl-belief",
+    "slug": "belief",
+    "word": "BELIEF",
+    "primaryWord": "BELIEF",
+    "normalizedWord": "belief",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both flat hands together and pull them in opposite directions while closing into \"A\" hands.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/belief.webp",
+      "alt": "Ghanaian Sign Language for BELIEF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 262,
+      "pdfPage": 273
+    }
+  },
+  {
+    "id": "gsl-believe",
+    "slug": "believe",
+    "word": "BELIEVE",
+    "primaryWord": "BELIEVE",
+    "normalizedWord": "believe",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both flat hands together and pull them in opposite directions while closing into \"A\" hands.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/believe.webp",
+      "alt": "Ghanaian Sign Language for BELIEVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 184,
+      "pdfPage": 195
+    }
+  },
+  {
+    "id": "gsl-below",
+    "slug": "below",
+    "word": "BELOW",
+    "primaryWord": "BELOW",
+    "normalizedWord": "below",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "With both flat hands pointing downward, slide the right hand under the left.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/below.webp",
+      "alt": "Ghanaian Sign Language for BELOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 218,
+      "pdfPage": 229
+    }
+  },
+  {
+    "id": "gsl-best",
+    "slug": "best",
+    "word": "BEST",
+    "primaryWord": "BEST",
+    "normalizedWord": "best",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Sweep your flat hand across your mouth and up while closing into \"A\" hand.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/best.webp",
+      "alt": "Ghanaian Sign Language for BEST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 194,
+      "pdfPage": 205
+    }
+  },
+  {
+    "id": "gsl-better",
+    "slug": "better",
+    "word": "BETTER",
+    "primaryWord": "BETTER",
+    "normalizedWord": "better",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Sweep your flat hand across your mouth and close into \"A\" hand.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/better.webp",
+      "alt": "Ghanaian Sign Language for BETTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 194,
+      "pdfPage": 205
+    }
+  },
+  {
+    "id": "gsl-between",
+    "slug": "between",
+    "word": "BETWEEN",
+    "primaryWord": "BETWEEN",
+    "normalizedWord": "between",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Insert the right flat hand in between the left index and middle fingers then wave the hand side-to-side.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/between.webp",
+      "alt": "Ghanaian Sign Language for BETWEEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-beyond",
+    "slug": "beyond",
+    "word": "BEYOND",
+    "primaryWord": "BEYOND",
+    "normalizedWord": "beyond",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both bent hands together and move the right hand up and forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/beyond.webp",
+      "alt": "Ghanaian Sign Language for BEYOND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 222,
+      "pdfPage": 233
+    }
+  },
+  {
+    "id": "gsl-bible",
+    "slug": "bible",
+    "word": "BIBLE",
+    "primaryWord": "BIBLE",
+    "normalizedWord": "bible",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Tap the middle fingers into each palm. 2. Open and close both flat hands together.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/bible.webp",
+      "alt": "Ghanaian Sign Language for BIBLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 253,
+      "pdfPage": 264
+    }
+  },
+  {
+    "id": "gsl-bicycle",
+    "slug": "bicycle",
+    "word": "BICYCLE",
+    "primaryWord": "BICYCLE",
+    "normalizedWord": "bicycle",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Move both downturned \"S\" hands forward in alternating circles.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/bicycle.webp",
+      "alt": "Ghanaian Sign Language for BICYCLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 125,
+      "pdfPage": 136
+    }
+  },
+  {
+    "id": "gsl-bigbutt",
+    "slug": "bigbutt",
+    "word": "BIG BUTT",
+    "primaryWord": "BIG BUTT",
+    "normalizedWord": "big butt",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Trace the oultine of a large arc using both \"Y\" hands in opposite directions.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/bigbutt.webp",
+      "alt": "Ghanaian Sign Language for BIG BUTT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 276,
+      "pdfPage": 287
+    }
+  },
+  {
+    "id": "gsl-biology",
+    "slug": "biology",
+    "word": "BIOLOGY",
+    "primaryWord": "BIOLOGY",
+    "normalizedWord": "biology",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Alternate circling \"B\" hands in front of your body.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/biology.webp",
+      "alt": "Ghanaian Sign Language for BIOLOGY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 144,
+      "pdfPage": 155
+    }
+  },
+  {
+    "id": "gsl-bird",
+    "slug": "bird",
+    "word": "BIRD",
+    "primaryWord": "BIRD",
+    "normalizedWord": "bird",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both flat hands at your shoulders and flap them up and down.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/bird.webp",
+      "alt": "Ghanaian Sign Language for BIRD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 58,
+      "pdfPage": 69
+    }
+  },
+  {
+    "id": "gsl-birthday",
+    "slug": "birthday",
+    "word": "BIRTHDAY",
+    "primaryWord": "BIRTHDAY",
+    "normalizedWord": "birthday",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Swing your right hand under the left. 2. With index finger up, drop right arm on top of left.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/birthday.webp",
+      "alt": "Ghanaian Sign Language for BIRTHDAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 266,
+      "pdfPage": 277
+    }
+  },
+  {
+    "id": "gsl-biscuit",
+    "slug": "biscuit",
+    "word": "BISCUIT",
+    "primaryWord": "BISCUIT",
+    "normalizedWord": "biscuit",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Twist the clawed hand in the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/biscuit.webp",
+      "alt": "Ghanaian Sign Language for BISCUIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 56,
+      "pdfPage": 67
+    }
+  },
+  {
+    "id": "gsl-bitter",
+    "slug": "bitter",
+    "word": "BITTER",
+    "primaryWord": "BITTER",
+    "normalizedWord": "bitter",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the tip of the index finger at your cheek and twist forward.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/bitter.webp",
+      "alt": "Ghanaian Sign Language for BITTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 40,
+      "pdfPage": 51
+    }
+  },
+  {
+    "id": "gsl-bittersoup",
+    "slug": "bittersoup",
+    "word": "BITTER SOUP",
+    "primaryWord": "BITTER SOUP",
+    "normalizedWord": "bitter soup",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Shake the \"B\" hand against your cheek.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/bittersoup.webp",
+      "alt": "Ghanaian Sign Language for BITTER SOUP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 49,
+      "pdfPage": 60
+    }
+  },
+  {
+    "id": "gsl-black",
+    "slug": "black",
+    "word": "BLACK",
+    "primaryWord": "BLACK",
+    "normalizedWord": "black",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Move the index finger sideways across your forehead.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/black.webp",
+      "alt": "Ghanaian Sign Language for BLACK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-blackboard",
+    "slug": "blackboard",
+    "word": "BLACKBOARD",
+    "primaryWord": "BLACKBOARD",
+    "normalizedWord": "blackboard",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the \"B\" hand in front of your left side then move to the right side.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/blackboard.webp",
+      "alt": "Ghanaian Sign Language for BLACKBOARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-blade",
+    "slug": "blade",
+    "word": "BLADE",
+    "primaryWord": "BLADE",
+    "normalizedWord": "blade",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Slide the thumb of the \"A\" hand downward on the cheek.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/blade.webp",
+      "alt": "Ghanaian Sign Language for BLADE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 34,
+      "pdfPage": 45
+    }
+  },
+  {
+    "id": "gsl-blame",
+    "slug": "blame",
+    "word": "BLAME",
+    "primaryWord": "BLAME",
+    "normalizedWord": "blame",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "With the thumb pointing upward, push the right \"A\" hand across the top of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/blame.webp",
+      "alt": "Ghanaian Sign Language for BLAME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 103,
+      "pdfPage": 114
+    }
+  },
+  {
+    "id": "gsl-bless",
+    "slug": "bless",
+    "word": "BLESS",
+    "primaryWord": "BLESS",
+    "normalizedWord": "bless",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"A\" hands under your mouth then bring them forward while opening to flat hands.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/bless.webp",
+      "alt": "Ghanaian Sign Language for BLESS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 264,
+      "pdfPage": 275
+    }
+  },
+  {
+    "id": "gsl-blind",
+    "slug": "blind",
+    "word": "BLIND",
+    "primaryWord": "BLIND",
+    "normalizedWord": "blind",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Point the fingertips of the curved \"V\" hand in front of the eyes.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/blind.webp",
+      "alt": "Ghanaian Sign Language for BLIND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 167,
+      "pdfPage": 178
+    }
+  },
+  {
+    "id": "gsl-blood",
+    "slug": "blood",
+    "word": "BLOOD",
+    "primaryWord": "BLOOD",
+    "normalizedWord": "blood",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Slide the right open hand down the left open hand and wiggle the fingers.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/blood.webp",
+      "alt": "Ghanaian Sign Language for BLOOD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 162,
+      "pdfPage": 173
+    }
+  },
+  {
+    "id": "gsl-blue",
+    "slug": "blue",
+    "word": "BLUE",
+    "primaryWord": "BLUE",
+    "normalizedWord": "blue",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Shake the \"B\" hand at the wrist.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/blue.webp",
+      "alt": "Ghanaian Sign Language for BLUE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 5,
+      "pdfPage": 16
+    }
+  },
+  {
+    "id": "gsl-boast",
+    "slug": "boast",
+    "word": "BOAST",
+    "primaryWord": "BOAST",
+    "normalizedWord": "boast",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the thumbs of both \"A\" hands against your waist alternately.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/boast.webp",
+      "alt": "Ghanaian Sign Language for BOAST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-boat",
+    "slug": "boat",
+    "word": "BOAT",
+    "primaryWord": "BOAT",
+    "normalizedWord": "boat",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both curved hands together and gently rock them forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/boat.webp",
+      "alt": "Ghanaian Sign Language for BOAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 216,
+      "pdfPage": 227
+    }
+  },
+  {
+    "id": "gsl-body",
+    "slug": "body",
+    "word": "BODY",
+    "primaryWord": "BODY",
+    "normalizedWord": "body",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Tap your chest and then abdomen with flat hands.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/body.webp",
+      "alt": "Ghanaian Sign Language for BODY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 161,
+      "pdfPage": 172
+    }
+  },
+  {
+    "id": "gsl-bolgatanga",
+    "slug": "bolgatanga",
+    "word": "BOLGATANGA",
+    "primaryWord": "BOLGATANGA",
+    "normalizedWord": "bolgatanga",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Sign the letters \"B\" and \"G\" at your side.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/bolgatanga.webp",
+      "alt": "Ghanaian Sign Language for BOLGATANGA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 233,
+      "pdfPage": 244
+    }
+  },
+  {
+    "id": "gsl-bombshell",
+    "slug": "bombshell",
+    "word": "BOMBSHELL",
+    "primaryWord": "BOMBSHELL",
+    "normalizedWord": "bombshell",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"AND\" hands at waist level and suddenly force them upward while opening your fingers.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/bombshell.webp",
+      "alt": "Ghanaian Sign Language for BOMBSHELL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 280,
+      "pdfPage": 291
+    }
+  },
+  {
+    "id": "gsl-bone",
+    "slug": "bone",
+    "word": "BONE",
+    "primaryWord": "BONE",
+    "normalizedWord": "bone",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Grasp your left wrist in your right hand and gently shake back and forth.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/bone.webp",
+      "alt": "Ghanaian Sign Language for BONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 162,
+      "pdfPage": 173
+    }
+  },
+  {
+    "id": "gsl-book",
+    "slug": "book",
+    "word": "BOOK",
+    "primaryWord": "BOOK",
+    "normalizedWord": "book",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Open and close both flat hands while keeping the little fingers together.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/book.webp",
+      "alt": "Ghanaian Sign Language for BOOK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-borehole",
+    "slug": "borehole",
+    "word": "BOREHOLE",
+    "primaryWord": "BOREHOLE",
+    "normalizedWord": "borehole",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Bring both \"S\" hands up and down simultaneously.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/borehole.webp",
+      "alt": "Ghanaian Sign Language for BOREHOLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 31,
+      "pdfPage": 42
+    }
+  },
+  {
+    "id": "gsl-boring",
+    "slug": "boring",
+    "word": "BORING / BORE / DULL",
+    "primaryWord": "BORING",
+    "normalizedWord": "boring",
+    "letter": "B",
+    "synonyms": [
+      "BORE",
+      "DULL"
+    ],
+    "definition": "Place the right index fingertip on the side of the nose and rotate forward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/boring.webp",
+      "alt": "Ghanaian Sign Language for BORING / BORE / DULL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 95,
+      "pdfPage": 106
+    }
+  },
+  {
+    "id": "gsl-boring-2",
+    "slug": "boring-2",
+    "word": "BORING / BORED",
+    "primaryWord": "BORING",
+    "normalizedWord": "boring",
+    "letter": "B",
+    "synonyms": [
+      "BORED"
+    ],
+    "definition": "Place the index finger against your nose and rotate forward slightly.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/boring-2.webp",
+      "alt": "Ghanaian Sign Language for BORING / BORED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 195,
+      "pdfPage": 206
+    }
+  },
+  {
+    "id": "gsl-borrow",
+    "slug": "borrow",
+    "word": "BORROW",
+    "primaryWord": "BORROW",
+    "normalizedWord": "borrow",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Cross the curved \"V\" hands at the wrists and move them toward the body into modified \"V\" hands.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/borrow.webp",
+      "alt": "Ghanaian Sign Language for BORROW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 76,
+      "pdfPage": 87
+    }
+  },
+  {
+    "id": "gsl-boss",
+    "slug": "boss",
+    "word": "BOSS / MASTER",
+    "primaryWord": "BOSS",
+    "normalizedWord": "boss",
+    "letter": "B",
+    "synonyms": [
+      "MASTER"
+    ],
+    "definition": "Place the clawed hand on your right shoulder.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/boss.webp",
+      "alt": "Ghanaian Sign Language for BOSS / MASTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 69,
+      "pdfPage": 80
+    }
+  },
+  {
+    "id": "gsl-both",
+    "slug": "both",
+    "word": "BOTH",
+    "primaryWord": "BOTH",
+    "normalizedWord": "both",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Slide the right \"2\" hand down from the grasp of the left hand.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/both.webp",
+      "alt": "Ghanaian Sign Language for BOTH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 80,
+      "pdfPage": 91
+    }
+  },
+  {
+    "id": "gsl-bothofus",
+    "slug": "bothofus",
+    "word": "BOTH OF US",
+    "primaryWord": "BOTH OF US",
+    "normalizedWord": "both of us",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Rock the \"K\" hand forward and back between yourself and the person being addressed.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/bothofus.webp",
+      "alt": "Ghanaian Sign Language for BOTH OF US"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-bother",
+    "slug": "bother",
+    "word": "BOTHER / DISTURB",
+    "primaryWord": "BOTHER",
+    "normalizedWord": "bother",
+    "letter": "B",
+    "synonyms": [
+      "DISTURB"
+    ],
+    "definition": "Bring the right flat hand down between the middle and index fingers of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/bother.webp",
+      "alt": "Ghanaian Sign Language for BOTHER / DISTURB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 104,
+      "pdfPage": 115
+    }
+  },
+  {
+    "id": "gsl-bowl",
+    "slug": "bowl",
+    "word": "BOWL",
+    "primaryWord": "BOWL",
+    "normalizedWord": "bowl",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the fingertips of both curved hands together in front you and draw back in a circular motion.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/bowl.webp",
+      "alt": "Ghanaian Sign Language for BOWL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 41,
+      "pdfPage": 52
+    }
+  },
+  {
+    "id": "gsl-boxing",
+    "slug": "boxing",
+    "word": "BOXING",
+    "primaryWord": "BOXING",
+    "normalizedWord": "boxing",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Alternate punching in front of you with \"S\" hands.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/boxing.webp",
+      "alt": "Ghanaian Sign Language for BOXING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 123,
+      "pdfPage": 134
+    }
+  },
+  {
+    "id": "gsl-boy",
+    "slug": "boy",
+    "word": "BOY",
+    "primaryWord": "BOY",
+    "normalizedWord": "boy",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Pull the \"AND\" hand forward from the forehead then place your flat hand at your side.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/boy.webp",
+      "alt": "Ghanaian Sign Language for BOY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 9,
+      "pdfPage": 20
+    }
+  },
+  {
+    "id": "gsl-brain",
+    "slug": "brain",
+    "word": "BRAIN",
+    "primaryWord": "BRAIN",
+    "normalizedWord": "brain",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the thumb of the \"B\" hand against your forehead.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/brain.webp",
+      "alt": "Ghanaian Sign Language for BRAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 159,
+      "pdfPage": 170
+    }
+  },
+  {
+    "id": "gsl-brave",
+    "slug": "brave",
+    "word": "BRAVE / BOLD",
+    "primaryWord": "BRAVE",
+    "normalizedWord": "brave",
+    "letter": "B",
+    "synonyms": [
+      "BOLD"
+    ],
+    "definition": "Press the \"B\" hand into your chest then pull it forward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/brave.webp",
+      "alt": "Ghanaian Sign Language for BRAVE / BOLD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 191,
+      "pdfPage": 202
+    }
+  },
+  {
+    "id": "gsl-brazil",
+    "slug": "brazil",
+    "word": "BRAZIL",
+    "primaryWord": "BRAZIL",
+    "normalizedWord": "brazil",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the \"B\" hand facing out on your forehead then twist the hand forward and to your eyebrow.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/brazil.webp",
+      "alt": "Ghanaian Sign Language for BRAZIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 229,
+      "pdfPage": 240
+    }
+  },
+  {
+    "id": "gsl-bread",
+    "slug": "bread",
+    "word": "BREAD",
+    "primaryWord": "BREAD",
+    "normalizedWord": "bread",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Draw the fingertips of the right curved hand down over the back of the flat left hand a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/bread.webp",
+      "alt": "Ghanaian Sign Language for BREAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 45,
+      "pdfPage": 56
+    }
+  },
+  {
+    "id": "gsl-break",
+    "slug": "break",
+    "word": "BREAK",
+    "primaryWord": "BREAK",
+    "normalizedWord": "break",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both \"S\" hands together with the palms down then rotate each hand outward in opposite directions.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/break.webp",
+      "alt": "Ghanaian Sign Language for BREAK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 107,
+      "pdfPage": 118
+    }
+  },
+  {
+    "id": "gsl-breakfast",
+    "slug": "breakfast",
+    "word": "BREAKFAST",
+    "primaryWord": "BREAKFAST",
+    "normalizedWord": "breakfast",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Move the \"B\" hand up towards the mouth a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/breakfast.webp",
+      "alt": "Ghanaian Sign Language for BREAKFAST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 39,
+      "pdfPage": 50
+    }
+  },
+  {
+    "id": "gsl-breasts",
+    "slug": "breasts",
+    "word": "BREASTS",
+    "primaryWord": "BREASTS",
+    "normalizedWord": "breasts",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Bring the \"B\" hand across the chest.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/breasts.webp",
+      "alt": "Ghanaian Sign Language for BREASTS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 162,
+      "pdfPage": 173
+    }
+  },
+  {
+    "id": "gsl-breathe",
+    "slug": "breathe",
+    "word": "BREATHE",
+    "primaryWord": "BREATHE",
+    "normalizedWord": "breathe",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both open hands at your chest and move them back and forth slowly.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/breathe.webp",
+      "alt": "Ghanaian Sign Language for BREATHE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 164,
+      "pdfPage": 175
+    }
+  },
+  {
+    "id": "gsl-breeze",
+    "slug": "breeze",
+    "word": "BREEZE",
+    "primaryWord": "BREEZE",
+    "normalizedWord": "breeze",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Wave both open hands back and forth in front of your body.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/breeze.webp",
+      "alt": "Ghanaian Sign Language for BREEZE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-bribe",
+    "slug": "bribe",
+    "word": "BRIBE",
+    "primaryWord": "BRIBE",
+    "normalizedWord": "bribe",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Hide the \"B\" hand under the left hand and fan it side-to-side.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/bribe.webp",
+      "alt": "Ghanaian Sign Language for BRIBE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-bridge",
+    "slug": "bridge",
+    "word": "BRIDGE",
+    "primaryWord": "BRIDGE",
+    "normalizedWord": "bridge",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Hold your left arm in front of your body and tap the fingers of the \"V\" hand to the wrist and elbow.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/bridge.webp",
+      "alt": "Ghanaian Sign Language for BRIDGE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 214,
+      "pdfPage": 225
+    }
+  },
+  {
+    "id": "gsl-bright",
+    "slug": "bright",
+    "word": "BRIGHT / LIGHT / CLEAR / OBVIOUS",
+    "primaryWord": "BRIGHT",
+    "normalizedWord": "bright",
+    "letter": "B",
+    "synonyms": [
+      "LIGHT",
+      "CLEAR",
+      "OBVIOUS"
+    ],
+    "definition": "Hold both \"O\" hands in front of the body then raise both into open hands.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/bright.webp",
+      "alt": "Ghanaian Sign Language for BRIGHT / LIGHT / CLEAR / OBVIOUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 87,
+      "pdfPage": 98
+    }
+  },
+  {
+    "id": "gsl-bring",
+    "slug": "bring",
+    "word": "BRING",
+    "primaryWord": "BRING",
+    "normalizedWord": "bring",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Hold both flat hands with palms up and move both hands in toward the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/bring.webp",
+      "alt": "Ghanaian Sign Language for BRING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 106,
+      "pdfPage": 117
+    }
+  },
+  {
+    "id": "gsl-broke",
+    "slug": "broke",
+    "word": "BROKE",
+    "primaryWord": "BROKE",
+    "normalizedWord": "broke",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the little fingers of both flat hands on the sides of the neck.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/broke.webp",
+      "alt": "Ghanaian Sign Language for BROKE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 77,
+      "pdfPage": 88
+    }
+  },
+  {
+    "id": "gsl-brongahaforegion",
+    "slug": "brongahaforegion",
+    "word": "BRONG AHAFO REGION",
+    "primaryWord": "BRONG AHAFO REGION",
+    "normalizedWord": "brong ahafo region",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Sign the letters \"B\" and \"A\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/brongahaforegion.webp",
+      "alt": "Ghanaian Sign Language for BRONG AHAFO REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-brother",
+    "slug": "brother",
+    "word": "BROTHER",
+    "primaryWord": "BROTHER",
+    "normalizedWord": "brother",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Make the sign for \"BOY\" then point both index fingers forward and bring them together.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/brother.webp",
+      "alt": "Ghanaian Sign Language for BROTHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 9,
+      "pdfPage": 20
+    }
+  },
+  {
+    "id": "gsl-brown",
+    "slug": "brown",
+    "word": "BROWN",
+    "primaryWord": "BROWN",
+    "normalizedWord": "brown",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Rub the \"B\" hands together in a circular motion.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/brown.webp",
+      "alt": "Ghanaian Sign Language for BROWN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-bucket",
+    "slug": "bucket",
+    "word": "BUCKET",
+    "primaryWord": "BUCKET",
+    "normalizedWord": "bucket",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Pull the \"S\" hand up at the side of your body.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/bucket.webp",
+      "alt": "Ghanaian Sign Language for BUCKET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 31,
+      "pdfPage": 42
+    }
+  },
+  {
+    "id": "gsl-buffloaf",
+    "slug": "buffloaf",
+    "word": "BUFFLOAF",
+    "primaryWord": "BUFFLOAF",
+    "normalizedWord": "buffloaf",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Cup the air and then bring your hand down into a fist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/buffloaf.webp",
+      "alt": "Ghanaian Sign Language for BUFFLOAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 45,
+      "pdfPage": 56
+    }
+  },
+  {
+    "id": "gsl-builder",
+    "slug": "builder",
+    "word": "BUILDER",
+    "primaryWord": "BUILDER",
+    "normalizedWord": "builder",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Layer both arms above each other alternately 2. Slide your flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/builder.webp",
+      "alt": "Ghanaian Sign Language for BUILDER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 71,
+      "pdfPage": 82
+    }
+  },
+  {
+    "id": "gsl-burkinafaso",
+    "slug": "burkinafaso",
+    "word": "BURKINA FASO",
+    "primaryWord": "BURKINA FASO",
+    "normalizedWord": "burkina faso",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place the \"B\" hand on your wrist then place the \"F\" hand on your fingertips.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/burkinafaso.webp",
+      "alt": "Ghanaian Sign Language for BURKINA FASO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 226,
+      "pdfPage": 237
+    }
+  },
+  {
+    "id": "gsl-bury",
+    "slug": "bury",
+    "word": "BURY",
+    "primaryWord": "BURY",
+    "normalizedWord": "bury",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Place both curved hands in front of the body and pull both hands back into the body simultaneously.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/bury.webp",
+      "alt": "Ghanaian Sign Language for BURY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 109,
+      "pdfPage": 120
+    }
+  },
+  {
+    "id": "gsl-bus",
+    "slug": "bus",
+    "word": "BUS",
+    "primaryWord": "BUS",
+    "normalizedWord": "bus",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Hold \"A\" hands in front and twist back and forth. 2. Place \"C\" hands together and pull back the right.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/bus.webp",
+      "alt": "Ghanaian Sign Language for BUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 215,
+      "pdfPage": 226
+    }
+  },
+  {
+    "id": "gsl-business",
+    "slug": "business",
+    "word": "BUSINESS / BUSY",
+    "primaryWord": "BUSINESS",
+    "normalizedWord": "business",
+    "letter": "B",
+    "synonyms": [
+      "BUSY"
+    ],
+    "definition": "Tap the right \"B\" hand against the left wrist twice.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/business.webp",
+      "alt": "Ghanaian Sign Language for BUSINESS / BUSY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-businessperson",
+    "slug": "businessperson",
+    "word": "BUSINESS PERSON",
+    "primaryWord": "BUSINESS PERSON",
+    "normalizedWord": "business person",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "1. Tap the right \"B\" hand against the left wrist. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/businessperson.webp",
+      "alt": "Ghanaian Sign Language for BUSINESS PERSON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 69,
+      "pdfPage": 80
+    }
+  },
+  {
+    "id": "gsl-butter",
+    "slug": "butter",
+    "word": "BUTTER",
+    "primaryWord": "BUTTER",
+    "normalizedWord": "butter",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Brush the fingertips of the \"H\" hand across the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/butter.webp",
+      "alt": "Ghanaian Sign Language for BUTTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 55,
+      "pdfPage": 66
+    }
+  },
+  {
+    "id": "gsl-butterfly",
+    "slug": "butterfly",
+    "word": "BUTTERFLY",
+    "primaryWord": "BUTTERFLY",
+    "normalizedWord": "butterfly",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Interlock the thumbs of both open hands facing your body and wiggle the fingers.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/butterfly.webp",
+      "alt": "Ghanaian Sign Language for BUTTERFLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 65,
+      "pdfPage": 76
+    }
+  },
+  {
+    "id": "gsl-buy",
+    "slug": "buy",
+    "word": "BUY / PURCHASE",
+    "primaryWord": "BUY",
+    "normalizedWord": "buy",
+    "letter": "B",
+    "synonyms": [
+      "PURCHASE"
+    ],
+    "definition": "Place the right upturned hand in the left then lift the right hand upward and forward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/buy.webp",
+      "alt": "Ghanaian Sign Language for BUY / PURCHASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 74,
+      "pdfPage": 85
+    }
+  },
+  {
+    "id": "gsl-by",
+    "slug": "by",
+    "word": "BY",
+    "primaryWord": "BY",
+    "normalizedWord": "by",
+    "letter": "B",
+    "synonyms": [],
+    "definition": "Keep the left \"B\" hand steady as the right \"B\" hand rotates forward around it.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/by.webp",
+      "alt": "Ghanaian Sign Language for BY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 25,
+      "pdfPage": 36
+    }
+  }
+]

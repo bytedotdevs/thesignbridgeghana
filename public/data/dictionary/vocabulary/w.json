@@ -1,0 +1,1624 @@
+[
+  {
+    "id": "gsl-wa",
+    "slug": "wa",
+    "word": "WA",
+    "primaryWord": "WA",
+    "normalizedWord": "wa",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Sign the letters \"W\" and \"A\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/wa.webp",
+      "alt": "Ghanaian Sign Language for WA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 233,
+      "pdfPage": 244
+    }
+  },
+  {
+    "id": "gsl-waschoolforthedeaf",
+    "slug": "waschoolforthedeaf",
+    "word": "WA SCHOOL FOR THE DEAF",
+    "primaryWord": "WA SCHOOL FOR THE DEAF",
+    "normalizedWord": "wa school for the deaf",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Sign the letters \"W\" and \"A\" while slightly moving the hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/waschoolforthedeaf.webp",
+      "alt": "Ghanaian Sign Language for WA SCHOOL FOR THE DEAF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 236,
+      "pdfPage": 247
+    }
+  },
+  {
+    "id": "gsl-waakye",
+    "slug": "waakye",
+    "word": "WAAKYE",
+    "primaryWord": "WAAKYE",
+    "normalizedWord": "waakye",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Bring together both \"W\" hands at the thumbs and twist back and forth while flexing the fingers.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/waakye.webp",
+      "alt": "Ghanaian Sign Language for WAAKYE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 46,
+      "pdfPage": 57
+    }
+  },
+  {
+    "id": "gsl-wait",
+    "slug": "wait",
+    "word": "WAIT",
+    "primaryWord": "WAIT",
+    "normalizedWord": "wait",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both open hands with palms up and one slightly in front of the other then wiggle the fingers.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/wait.webp",
+      "alt": "Ghanaian Sign Language for WAIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 101,
+      "pdfPage": 112
+    }
+  },
+  {
+    "id": "gsl-walk",
+    "slug": "walk",
+    "word": "WALK / STEP",
+    "primaryWord": "WALK",
+    "normalizedWord": "walk",
+    "letter": "W",
+    "synonyms": [
+      "STEP"
+    ],
+    "definition": "Alternate pushing both flat hands in front of each other.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/walk.webp",
+      "alt": "Ghanaian Sign Language for WALK / STEP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 101,
+      "pdfPage": 112
+    }
+  },
+  {
+    "id": "gsl-wall",
+    "slug": "wall",
+    "word": "WALL",
+    "primaryWord": "WALL",
+    "normalizedWord": "wall",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Hold both \"W\" hands in front of you with palms out and circle them forward to touch ring fingers.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/wall.webp",
+      "alt": "Ghanaian Sign Language for WALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 28,
+      "pdfPage": 39
+    }
+  },
+  {
+    "id": "gsl-want",
+    "slug": "want",
+    "word": "WANT",
+    "primaryWord": "WANT",
+    "normalizedWord": "want",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Pull both upturned clawed hands towards your body.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/want.webp",
+      "alt": "Ghanaian Sign Language for WANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 184,
+      "pdfPage": 195
+    }
+  },
+  {
+    "id": "gsl-war",
+    "slug": "war",
+    "word": "WAR",
+    "primaryWord": "WAR",
+    "normalizedWord": "war",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both \"W\" hands in front of yout chest and slide them back and forth together.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/war.webp",
+      "alt": "Ghanaian Sign Language for WAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 244,
+      "pdfPage": 255
+    }
+  },
+  {
+    "id": "gsl-warn",
+    "slug": "warn",
+    "word": "WARN",
+    "primaryWord": "WARN",
+    "normalizedWord": "warn",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Tap the fingers of the \"W\" hand against the top of the left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/warn.webp",
+      "alt": "Ghanaian Sign Language for WARN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 112,
+      "pdfPage": 123
+    }
+  },
+  {
+    "id": "gsl-wash",
+    "slug": "wash",
+    "word": "WASH / LAUNDRY",
+    "primaryWord": "WASH",
+    "normalizedWord": "wash",
+    "letter": "W",
+    "synonyms": [
+      "LAUNDRY"
+    ],
+    "definition": "Rub both \"A\" hands together at the knuckles.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/wash.webp",
+      "alt": "Ghanaian Sign Language for WASH / LAUNDRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 31,
+      "pdfPage": 42
+    }
+  },
+  {
+    "id": "gsl-washmyhandsofyou",
+    "slug": "washmyhandsofyou",
+    "word": "WASH MY HANDS OF YOU",
+    "primaryWord": "WASH MY HANDS OF YOU",
+    "normalizedWord": "wash my hands of you",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Wipe both flat hands against each other and repeat in the opposite direction.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/washmyhandsofyou.webp",
+      "alt": "Ghanaian Sign Language for WASH MY HANDS OF YOU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 286,
+      "pdfPage": 297
+    }
+  },
+  {
+    "id": "gsl-wassce",
+    "slug": "wassce",
+    "word": "WASSCE",
+    "primaryWord": "WASSCE",
+    "normalizedWord": "wassce",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Sign the letters \"W\" \"A\" \"S\" \"S\" \"C\" and \"E\" as you move the hand slightly to the right.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/wassce.webp",
+      "alt": "Ghanaian Sign Language for WASSCE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 143,
+      "pdfPage": 154
+    }
+  },
+  {
+    "id": "gsl-watch",
+    "slug": "watch",
+    "word": "WATCH",
+    "primaryWord": "WATCH",
+    "normalizedWord": "watch",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place the right \"D\" hand on top of the left wrist and rotate the index finger back slightly.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/watch.webp",
+      "alt": "Ghanaian Sign Language for WATCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 211,
+      "pdfPage": 222
+    }
+  },
+  {
+    "id": "gsl-water",
+    "slug": "water",
+    "word": "WATER",
+    "primaryWord": "WATER",
+    "normalizedWord": "water",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Touch the mouth several times with the index finger of the \"W\" hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/water.webp",
+      "alt": "Ghanaian Sign Language for WATER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 42,
+      "pdfPage": 53
+    }
+  },
+  {
+    "id": "gsl-watermelon",
+    "slug": "watermelon",
+    "word": "WATERMELON",
+    "primaryWord": "WATERMELON",
+    "normalizedWord": "watermelon",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both curved hands at the mouth and move them downward as you close your mouth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/watermelon.webp",
+      "alt": "Ghanaian Sign Language for WATERMELON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 51,
+      "pdfPage": 62
+    }
+  },
+  {
+    "id": "gsl-we",
+    "slug": "we",
+    "word": "WE",
+    "primaryWord": "WE",
+    "normalizedWord": "we",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Touch the index finger on the right side of the chest, then move it to the left side of the chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/we.webp",
+      "alt": "Ghanaian Sign Language for WE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  },
+  {
+    "id": "gsl-weak",
+    "slug": "weak",
+    "word": "WEAK / FEEBLE",
+    "primaryWord": "WEAK",
+    "normalizedWord": "weak",
+    "letter": "W",
+    "synonyms": [
+      "FEEBLE"
+    ],
+    "definition": "Rock the right curved hand back and forth in the left palm.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/weak.webp",
+      "alt": "Ghanaian Sign Language for WEAK / FEEBLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 85,
+      "pdfPage": 96
+    }
+  },
+  {
+    "id": "gsl-wear",
+    "slug": "wear",
+    "word": "WEAR",
+    "primaryWord": "WEAR",
+    "normalizedWord": "wear",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With both open palms facing the chest, drop the hands down.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/wear.webp",
+      "alt": "Ghanaian Sign Language for WEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 34,
+      "pdfPage": 45
+    }
+  },
+  {
+    "id": "gsl-weather",
+    "slug": "weather",
+    "word": "WEATHER",
+    "primaryWord": "WEATHER",
+    "normalizedWord": "weather",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Touch the thumbs of both \"W\" hands and rotate both hands back and forth.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/weather.webp",
+      "alt": "Ghanaian Sign Language for WEATHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 130,
+      "pdfPage": 141
+    }
+  },
+  {
+    "id": "gsl-weave",
+    "slug": "weave",
+    "word": "WEAVE",
+    "primaryWord": "WEAVE",
+    "normalizedWord": "weave",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Interlock your right index finger through the left fingers.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/weave.webp",
+      "alt": "Ghanaian Sign Language for WEAVE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 268,
+      "pdfPage": 279
+    }
+  },
+  {
+    "id": "gsl-wedding",
+    "slug": "wedding",
+    "word": "WEDDING",
+    "primaryWord": "WEDDING",
+    "normalizedWord": "wedding",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both flat hands pointing down, then move the right hand to the inner thumb of the left hand.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/wedding.webp",
+      "alt": "Ghanaian Sign Language for WEDDING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 11,
+      "pdfPage": 22
+    }
+  },
+  {
+    "id": "gsl-wednesday",
+    "slug": "wednesday",
+    "word": "WEDNESDAY",
+    "primaryWord": "WEDNESDAY",
+    "normalizedWord": "wednesday",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With your wrist pointing toward your body, rotate the \"W\" hand.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/wednesday.webp",
+      "alt": "Ghanaian Sign Language for WEDNESDAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 203,
+      "pdfPage": 214
+    }
+  },
+  {
+    "id": "gsl-wee",
+    "slug": "wee",
+    "word": "WEE / MARIJUANA",
+    "primaryWord": "WEE",
+    "normalizedWord": "wee",
+    "letter": "W",
+    "synonyms": [
+      "MARIJUANA"
+    ],
+    "definition": "Place the thumb and index finger of the \"F\" hand against your mouth.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/wee.webp",
+      "alt": "Ghanaian Sign Language for WEE / MARIJUANA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 176,
+      "pdfPage": 187
+    }
+  },
+  {
+    "id": "gsl-week",
+    "slug": "week",
+    "word": "WEEK",
+    "primaryWord": "WEEK",
+    "normalizedWord": "week",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With the index finger forward, slide the right hand across the left palm.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/week.webp",
+      "alt": "Ghanaian Sign Language for WEEK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 201,
+      "pdfPage": 212
+    }
+  },
+  {
+    "id": "gsl-weigh",
+    "slug": "weigh",
+    "word": "WEIGH",
+    "primaryWord": "WEIGH",
+    "normalizedWord": "weigh",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With palms facing up, move both \"W\" hands up and down alternately.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/weigh.webp",
+      "alt": "Ghanaian Sign Language for WEIGH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 79,
+      "pdfPage": 90
+    }
+  },
+  {
+    "id": "gsl-welcome",
+    "slug": "welcome",
+    "word": "WELCOME / INVITED",
+    "primaryWord": "WELCOME",
+    "normalizedWord": "welcome",
+    "letter": "W",
+    "synonyms": [
+      "INVITED"
+    ],
+    "definition": "Sweep the right curved hand in toward the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/welcome.webp",
+      "alt": "Ghanaian Sign Language for WELCOME / INVITED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 102,
+      "pdfPage": 113
+    }
+  },
+  {
+    "id": "gsl-welder",
+    "slug": "welder",
+    "word": "WELDER",
+    "primaryWord": "WELDER",
+    "normalizedWord": "welder",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "1. Push the \"G\" hand finger toward the left palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/welder.webp",
+      "alt": "Ghanaian Sign Language for WELDER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 71,
+      "pdfPage": 82
+    }
+  },
+  {
+    "id": "gsl-well",
+    "slug": "well",
+    "word": "WELL / CURE",
+    "primaryWord": "WELL",
+    "normalizedWord": "well",
+    "letter": "W",
+    "synonyms": [
+      "CURE"
+    ],
+    "definition": "Place the fingers of both hands against your shoulders then pull forward into \"S\" hands.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/well.webp",
+      "alt": "Ghanaian Sign Language for WELL / CURE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-west",
+    "slug": "west",
+    "word": "WEST",
+    "primaryWord": "WEST",
+    "normalizedWord": "west",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Slide the left \"W\" hand to the left.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/west.webp",
+      "alt": "Ghanaian Sign Language for WEST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 217,
+      "pdfPage": 228
+    }
+  },
+  {
+    "id": "gsl-westernregion",
+    "slug": "westernregion",
+    "word": "WESTERN REGION",
+    "primaryWord": "WESTERN REGION",
+    "normalizedWord": "western region",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Sign the letters \"W\" and \"R\" while moving your hand slightly to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/westernregion.webp",
+      "alt": "Ghanaian Sign Language for WESTERN REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-wet",
+    "slug": "wet",
+    "word": "WET / DEW",
+    "primaryWord": "WET",
+    "normalizedWord": "wet",
+    "letter": "W",
+    "synonyms": [
+      "DEW"
+    ],
+    "definition": "With open hands in front of your body, pull them both down into \"AND\" hands.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/wet.webp",
+      "alt": "Ghanaian Sign Language for WET / DEW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 86,
+      "pdfPage": 97
+    }
+  },
+  {
+    "id": "gsl-what",
+    "slug": "what",
+    "word": "WHAT",
+    "primaryWord": "WHAT",
+    "normalizedWord": "what",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Pass the tip of the right index finger down over the left palm.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/what.webp",
+      "alt": "Ghanaian Sign Language for WHAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 97,
+      "pdfPage": 108
+    }
+  },
+  {
+    "id": "gsl-whatdiditellyou",
+    "slug": "whatdiditellyou",
+    "word": "WHAT DID I TELL YOU",
+    "primaryWord": "WHAT DID I TELL YOU",
+    "normalizedWord": "what did i tell you",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Point to your ear and lean forward while slightly shaking your head side-to-side.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/whatdiditellyou.webp",
+      "alt": "Ghanaian Sign Language for WHAT DID I TELL YOU"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 287,
+      "pdfPage": 298
+    }
+  },
+  {
+    "id": "gsl-whatsapp",
+    "slug": "whatsapp",
+    "word": "WHATSAPP",
+    "primaryWord": "WHATSAPP",
+    "normalizedWord": "whatsapp",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Pull the right \"W\" hand up from behind the flat left hand.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/whatsapp.webp",
+      "alt": "Ghanaian Sign Language for WHATSAPP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 291,
+      "pdfPage": 302
+    }
+  },
+  {
+    "id": "gsl-wheat",
+    "slug": "wheat",
+    "word": "WHEAT",
+    "primaryWord": "WHEAT",
+    "normalizedWord": "wheat",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place the right hand on the left index finger and wiggle the right hand fingers.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/wheat.webp",
+      "alt": "Ghanaian Sign Language for WHEAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 48,
+      "pdfPage": 59
+    }
+  },
+  {
+    "id": "gsl-wheel",
+    "slug": "wheel",
+    "word": "WHEEL / TYRE",
+    "primaryWord": "WHEEL",
+    "normalizedWord": "wheel",
+    "letter": "W",
+    "synonyms": [
+      "TYRE"
+    ],
+    "definition": "While pointing the left index finger forward, circle the right index finger towards the side of the hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/wheel.webp",
+      "alt": "Ghanaian Sign Language for WHEEL / TYRE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 215,
+      "pdfPage": 226
+    }
+  },
+  {
+    "id": "gsl-wheelchair",
+    "slug": "wheelchair",
+    "word": "WHEELCHAIR",
+    "primaryWord": "WHEELCHAIR",
+    "normalizedWord": "wheelchair",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Point both index fingers at your waist and circle them forward in a large motion.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/wheelchair.webp",
+      "alt": "Ghanaian Sign Language for WHEELCHAIR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-when",
+    "slug": "when",
+    "word": "WHEN",
+    "primaryWord": "WHEN",
+    "normalizedWord": "when",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Hold both index fingers forward at your side with palms up then twist both hands so palms face down.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/when.webp",
+      "alt": "Ghanaian Sign Language for WHEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 97,
+      "pdfPage": 108
+    }
+  },
+  {
+    "id": "gsl-where",
+    "slug": "where",
+    "word": "WHERE",
+    "primaryWord": "WHERE",
+    "normalizedWord": "where",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Hold the right index finger up and shake it rapidly back and forth.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/where.webp",
+      "alt": "Ghanaian Sign Language for WHERE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 97,
+      "pdfPage": 108
+    }
+  },
+  {
+    "id": "gsl-which",
+    "slug": "which",
+    "word": "WHICH",
+    "primaryWord": "WHICH",
+    "normalizedWord": "which",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With the thumbs pointed upward, move the \"A\" hands alternately up and down.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/which.webp",
+      "alt": "Ghanaian Sign Language for WHICH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 96,
+      "pdfPage": 107
+    }
+  },
+  {
+    "id": "gsl-while",
+    "slug": "while",
+    "word": "WHILE / DURING",
+    "primaryWord": "WHILE",
+    "normalizedWord": "while",
+    "letter": "W",
+    "synonyms": [
+      "DURING"
+    ],
+    "definition": "Push both \"D\" hands forward in front of you.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/while.webp",
+      "alt": "Ghanaian Sign Language for WHILE / DURING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 210,
+      "pdfPage": 221
+    }
+  },
+  {
+    "id": "gsl-white",
+    "slug": "white",
+    "word": "WHITE",
+    "primaryWord": "WHITE",
+    "normalizedWord": "white",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Open the hand on your chest and pull forward into the \"AND\" hand.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/white.webp",
+      "alt": "Ghanaian Sign Language for WHITE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-whiteman",
+    "slug": "whiteman",
+    "word": "WHITE MAN / WOMAN / FAIR SKINNED",
+    "primaryWord": "WHITE MAN",
+    "normalizedWord": "white man",
+    "letter": "W",
+    "synonyms": [
+      "WOMAN",
+      "FAIR SKINNED"
+    ],
+    "definition": "Rub the underside of your arm with your hand.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/whiteman.webp",
+      "alt": "Ghanaian Sign Language for WHITE MAN / WOMAN / FAIR SKINNED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 16,
+      "pdfPage": 27
+    }
+  },
+  {
+    "id": "gsl-who",
+    "slug": "who",
+    "word": "WHO",
+    "primaryWord": "WHO",
+    "normalizedWord": "who",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Make a small circle in front of the lips with your right index finger.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/who.webp",
+      "alt": "Ghanaian Sign Language for WHO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 97,
+      "pdfPage": 108
+    }
+  },
+  {
+    "id": "gsl-why",
+    "slug": "why",
+    "word": "WHY",
+    "primaryWord": "WHY",
+    "normalizedWord": "why",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Touch the forehead with the flat right hand then pull forward into the \"Y\" hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/why.webp",
+      "alt": "Ghanaian Sign Language for WHY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 97,
+      "pdfPage": 108
+    }
+  },
+  {
+    "id": "gsl-wicked",
+    "slug": "wicked",
+    "word": "WICKED",
+    "primaryWord": "WICKED",
+    "normalizedWord": "wicked",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Touch your index finger to your temple and pull away into \"X\" hand.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/wicked.webp",
+      "alt": "Ghanaian Sign Language for WICKED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 198,
+      "pdfPage": 209
+    }
+  },
+  {
+    "id": "gsl-wife",
+    "slug": "wife",
+    "word": "WIFE",
+    "primaryWord": "WIFE",
+    "normalizedWord": "wife",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Make the sign for \"GIRL\" then clasp both hands together.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/wife.webp",
+      "alt": "Ghanaian Sign Language for WIFE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 11,
+      "pdfPage": 22
+    }
+  },
+  {
+    "id": "gsl-will",
+    "slug": "will",
+    "word": "WILL",
+    "primaryWord": "WILL",
+    "normalizedWord": "will",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place the \"W\" hand near your right ear and draw it forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/will.webp",
+      "alt": "Ghanaian Sign Language for WILL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 208,
+      "pdfPage": 219
+    }
+  },
+  {
+    "id": "gsl-wimp",
+    "slug": "wimp",
+    "word": "WIMP",
+    "primaryWord": "WIMP",
+    "normalizedWord": "wimp",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Move the \"Y\" hand from the corner of your mouth to a flat hand facing upward across your waist.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/wimp.webp",
+      "alt": "Ghanaian Sign Language for WIMP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 275,
+      "pdfPage": 286
+    }
+  },
+  {
+    "id": "gsl-wind",
+    "slug": "wind",
+    "word": "WIND",
+    "primaryWord": "WIND",
+    "normalizedWord": "wind",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Fan both open hands side to side.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/wind.webp",
+      "alt": "Ghanaian Sign Language for WIND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 130,
+      "pdfPage": 141
+    }
+  },
+  {
+    "id": "gsl-window",
+    "slug": "window",
+    "word": "WINDOW",
+    "primaryWord": "WINDOW",
+    "normalizedWord": "window",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both \"B\" hands in front with palms facing the body and rotate both hands so the palms face down.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/window.webp",
+      "alt": "Ghanaian Sign Language for WINDOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 29,
+      "pdfPage": 40
+    }
+  },
+  {
+    "id": "gsl-wine",
+    "slug": "wine",
+    "word": "WINE",
+    "primaryWord": "WINE",
+    "normalizedWord": "wine",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place the \"W\" hand against the cheek and rotate in a backward motion.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/wine.webp",
+      "alt": "Ghanaian Sign Language for WINE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 44,
+      "pdfPage": 55
+    }
+  },
+  {
+    "id": "gsl-winneba",
+    "slug": "winneba",
+    "word": "WINNEBA",
+    "primaryWord": "WINNEBA",
+    "normalizedWord": "winneba",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Tap the index finger of the \"W\" hand to your temple twice.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/winneba.webp",
+      "alt": "Ghanaian Sign Language for WINNEBA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 138,
+      "pdfPage": 149
+    }
+  },
+  {
+    "id": "gsl-wise",
+    "slug": "wise",
+    "word": "WISE",
+    "primaryWord": "WISE",
+    "normalizedWord": "wise",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Pull the \"X\" hand down your forward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/wise.webp",
+      "alt": "Ghanaian Sign Language for WISE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 198,
+      "pdfPage": 209
+    }
+  },
+  {
+    "id": "gsl-wish",
+    "slug": "wish",
+    "word": "WISH",
+    "primaryWord": "WISH",
+    "normalizedWord": "wish",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Slide both \"C\" hands down your abdomen with one above the other.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/wish.webp",
+      "alt": "Ghanaian Sign Language for WISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 183,
+      "pdfPage": 194
+    }
+  },
+  {
+    "id": "gsl-witch",
+    "slug": "witch",
+    "word": "WITCH",
+    "primaryWord": "WITCH",
+    "normalizedWord": "witch",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both \"S\" hands by the eyes and open the fingers a few times.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/witch.webp",
+      "alt": "Ghanaian Sign Language for WITCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 272,
+      "pdfPage": 283
+    }
+  },
+  {
+    "id": "gsl-with",
+    "slug": "with",
+    "word": "WITH",
+    "primaryWord": "WITH",
+    "normalizedWord": "with",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Bring both \"A\" hands together with knuckles touching.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/with.webp",
+      "alt": "Ghanaian Sign Language for WITH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 94,
+      "pdfPage": 105
+    }
+  },
+  {
+    "id": "gsl-without",
+    "slug": "without",
+    "word": "WITHOUT",
+    "primaryWord": "WITHOUT",
+    "normalizedWord": "without",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With \"A\" hands together at the knuckles, separate both into open hands.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/without.webp",
+      "alt": "Ghanaian Sign Language for WITHOUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 94,
+      "pdfPage": 105
+    }
+  },
+  {
+    "id": "gsl-witness",
+    "slug": "witness",
+    "word": "WITNESS",
+    "primaryWord": "WITNESS",
+    "normalizedWord": "witness",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Pull the \"W\" hand over your left palm towards your body then rotate it and place it in the palm again.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/witness.webp",
+      "alt": "Ghanaian Sign Language for WITNESS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 247,
+      "pdfPage": 258
+    }
+  },
+  {
+    "id": "gsl-woman",
+    "slug": "woman",
+    "word": "WOMAN",
+    "primaryWord": "WOMAN",
+    "normalizedWord": "woman",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Make the sign for \"GIRL\" and raise the hand to the top of the forehead.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/woman.webp",
+      "alt": "Ghanaian Sign Language for WOMAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 13,
+      "pdfPage": 24
+    }
+  },
+  {
+    "id": "gsl-wonderful",
+    "slug": "wonderful",
+    "word": "WONDERFUL / AMAZING",
+    "primaryWord": "WONDERFUL",
+    "normalizedWord": "wonderful",
+    "letter": "W",
+    "synonyms": [
+      "AMAZING"
+    ],
+    "definition": "Move the flat open hands up and forward a few times with palms facing out.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/wonderful.webp",
+      "alt": "Ghanaian Sign Language for WONDERFUL / AMAZING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 91,
+      "pdfPage": 102
+    }
+  },
+  {
+    "id": "gsl-wood",
+    "slug": "wood",
+    "word": "WOOD",
+    "primaryWord": "WOOD",
+    "normalizedWord": "wood",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With both \"W\" hands, rub the right hand against the left backward and forward.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/wood.webp",
+      "alt": "Ghanaian Sign Language for WOOD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 134,
+      "pdfPage": 145
+    }
+  },
+  {
+    "id": "gsl-word",
+    "slug": "word",
+    "word": "WORD",
+    "primaryWord": "WORD",
+    "normalizedWord": "word",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Slide the \"Q\" hand fingertips to your left index finger from the right.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/word.webp",
+      "alt": "Ghanaian Sign Language for WORD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 149,
+      "pdfPage": 160
+    }
+  },
+  {
+    "id": "gsl-work",
+    "slug": "work",
+    "word": "WORK",
+    "primaryWord": "WORK",
+    "normalizedWord": "work",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Tap both \"S\" hand wrists together together at the wrists twice.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/work.webp",
+      "alt": "Ghanaian Sign Language for WORK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-workshop",
+    "slug": "workshop",
+    "word": "WORKSHOP",
+    "primaryWord": "WORKSHOP",
+    "normalizedWord": "workshop",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both \"W\" hands together at the index fingers and circle them downward into \"S\" hands.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/workshop.webp",
+      "alt": "Ghanaian Sign Language for WORKSHOP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-world",
+    "slug": "world",
+    "word": "WORLD",
+    "primaryWord": "WORLD",
+    "normalizedWord": "world",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "With both \"W\" hands, circle the right hand around the left.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/world.webp",
+      "alt": "Ghanaian Sign Language for WORLD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 128,
+      "pdfPage": 139
+    }
+  },
+  {
+    "id": "gsl-worm",
+    "slug": "worm",
+    "word": "WORM",
+    "primaryWord": "WORM",
+    "normalizedWord": "worm",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Wiggle the index finger as it moves forward along the left palm.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/worm.webp",
+      "alt": "Ghanaian Sign Language for WORM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 65,
+      "pdfPage": 76
+    }
+  },
+  {
+    "id": "gsl-worry",
+    "slug": "worry",
+    "word": "WORRY",
+    "primaryWord": "WORRY",
+    "normalizedWord": "worry",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "In small circles, rotate both \"W\" hands at your forehead.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/worry.webp",
+      "alt": "Ghanaian Sign Language for WORRY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 192,
+      "pdfPage": 203
+    }
+  },
+  {
+    "id": "gsl-worse",
+    "slug": "worse",
+    "word": "WORSE",
+    "primaryWord": "WORSE",
+    "normalizedWord": "worse",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Hold both \"W\" hands at the sides of the body with palms up then cross one on top of the other.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/worse.webp",
+      "alt": "Ghanaian Sign Language for WORSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 91,
+      "pdfPage": 102
+    }
+  },
+  {
+    "id": "gsl-worship",
+    "slug": "worship",
+    "word": "WORSHIP",
+    "primaryWord": "WORSHIP",
+    "normalizedWord": "worship",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Cup one hand around the other and pull them down slightly in front of your face.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/worship.webp",
+      "alt": "Ghanaian Sign Language for WORSHIP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 262,
+      "pdfPage": 273
+    }
+  },
+  {
+    "id": "gsl-would",
+    "slug": "would",
+    "word": "WOULD",
+    "primaryWord": "WOULD",
+    "normalizedWord": "would",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place the right flat hand beside the head and push the hand forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/would.webp",
+      "alt": "Ghanaian Sign Language for WOULD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 211,
+      "pdfPage": 222
+    }
+  },
+  {
+    "id": "gsl-wrap",
+    "slug": "wrap",
+    "word": "WRAP",
+    "primaryWord": "WRAP",
+    "normalizedWord": "wrap",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Place both hands palms up in front of the body and flip up and over, one before the other.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/wrap.webp",
+      "alt": "Ghanaian Sign Language for WRAP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 105,
+      "pdfPage": 116
+    }
+  },
+  {
+    "id": "gsl-wrestling",
+    "slug": "wrestling",
+    "word": "WRESTLING",
+    "primaryWord": "WRESTLING",
+    "normalizedWord": "wrestling",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Interlock the fingers of both hands then rock them from side-to-side.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/wrestling.webp",
+      "alt": "Ghanaian Sign Language for WRESTLING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 123,
+      "pdfPage": 134
+    }
+  },
+  {
+    "id": "gsl-write",
+    "slug": "write",
+    "word": "WRITE",
+    "primaryWord": "WRITE",
+    "normalizedWord": "write",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "Swipe the modified \"A\" hand across the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/write.webp",
+      "alt": "Ghanaian Sign Language for WRITE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 146,
+      "pdfPage": 157
+    }
+  },
+  {
+    "id": "gsl-writer",
+    "slug": "writer",
+    "word": "WRITER",
+    "primaryWord": "WRITER",
+    "normalizedWord": "writer",
+    "letter": "W",
+    "synonyms": [],
+    "definition": "1. Wave the modified \"A\" hand across your left palm. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/writer.webp",
+      "alt": "Ghanaian Sign Language for WRITER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 71,
+      "pdfPage": 82
+    }
+  },
+  {
+    "id": "gsl-wrong",
+    "slug": "wrong",
+    "word": "WRONG / MISTAKE / ERROR",
+    "primaryWord": "WRONG",
+    "normalizedWord": "wrong",
+    "letter": "W",
+    "synonyms": [
+      "MISTAKE",
+      "ERROR"
+    ],
+    "definition": "Place the \"Y\" hand at the chin with the palm facing back.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/wrong.webp",
+      "alt": "Ghanaian Sign Language for WRONG / MISTAKE / ERROR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 94,
+      "pdfPage": 105
+    }
+  }
+]

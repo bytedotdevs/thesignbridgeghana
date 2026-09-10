@@ -1,0 +1,152 @@
+[
+  {
+    "id": "gsl-qualification",
+    "slug": "qualification",
+    "word": "QUALIFICATION",
+    "primaryWord": "QUALIFICATION",
+    "normalizedWord": "qualification",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "Place the \"Q\" hand over the left shoulder then rotate it back to your heart while closing the fingers together.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/qualification.webp",
+      "alt": "Ghanaian Sign Language for QUALIFICATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 139,
+      "pdfPage": 150
+    }
+  },
+  {
+    "id": "gsl-queenmother",
+    "slug": "queenmother",
+    "word": "QUEEN MOTHER",
+    "primaryWord": "QUEEN MOTHER",
+    "normalizedWord": "queen mother",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "1. Move the \"Q\" hand from shoulder to your waist. 2. Place the open hand thumb against your chin.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/queenmother.webp",
+      "alt": "Ghanaian Sign Language for QUEEN MOTHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 271,
+      "pdfPage": 282
+    }
+  },
+  {
+    "id": "gsl-questionmark",
+    "slug": "questionmark",
+    "word": "QUESTION MARK",
+    "primaryWord": "QUESTION MARK",
+    "normalizedWord": "question mark",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "Use the index finger to draw a question mark in the air in front of the body.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/questionmark.webp",
+      "alt": "Ghanaian Sign Language for QUESTION MARK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-quiet",
+    "slug": "quiet",
+    "word": "QUIET / CALM / PEACEFUL",
+    "primaryWord": "QUIET",
+    "normalizedWord": "quiet",
+    "letter": "Q",
+    "synonyms": [
+      "CALM",
+      "PEACEFUL"
+    ],
+    "definition": "Place the right index finger against your mouth.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/quiet.webp",
+      "alt": "Ghanaian Sign Language for QUIET / CALM / PEACEFUL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 197,
+      "pdfPage": 208
+    }
+  },
+  {
+    "id": "gsl-quit",
+    "slug": "quit",
+    "word": "QUIT",
+    "primaryWord": "QUIT",
+    "normalizedWord": "quit",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "Move the right \"H\" hand up and out of the grasp of the left hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/quit.webp",
+      "alt": "Ghanaian Sign Language for QUIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 92,
+      "pdfPage": 103
+    }
+  },
+  {
+    "id": "gsl-quotationmarks",
+    "slug": "quotationmarks",
+    "word": "QUOTATION MARKS",
+    "primaryWord": "QUOTATION MARKS",
+    "normalizedWord": "quotation marks",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "Hold both curved \"V\" hands to the front with palms facing forward and twist them slightly, twice.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/quotationmarks.webp",
+      "alt": "Ghanaian Sign Language for QUOTATION MARKS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-quran",
+    "slug": "quran",
+    "word": "QURAN",
+    "primaryWord": "QURAN",
+    "normalizedWord": "quran",
+    "letter": "Q",
+    "synonyms": [],
+    "definition": "Move the \"Q\" hand from your fingertips to your palm.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/quran.webp",
+      "alt": "Ghanaian Sign Language for QURAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 253,
+      "pdfPage": 264
+    }
+  }
+]

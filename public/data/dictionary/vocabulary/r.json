@@ -1,0 +1,1113 @@
+[
+  {
+    "id": "gsl-rabbit",
+    "slug": "rabbit",
+    "word": "RABBIT",
+    "primaryWord": "RABBIT",
+    "normalizedWord": "rabbit",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Cross the wrists of both \"H\" hands so palms face the body and wiggle the fingers.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/rabbit.webp",
+      "alt": "Ghanaian Sign Language for RABBIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 61,
+      "pdfPage": 72
+    }
+  },
+  {
+    "id": "gsl-race",
+    "slug": "race",
+    "word": "RACE",
+    "primaryWord": "RACE",
+    "normalizedWord": "race",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "With knuckles touching, shake both \"A\" hands at the wrists as one follows the other forward.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/race.webp",
+      "alt": "Ghanaian Sign Language for RACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 122,
+      "pdfPage": 133
+    }
+  },
+  {
+    "id": "gsl-radio",
+    "slug": "radio",
+    "word": "RADIO",
+    "primaryWord": "RADIO",
+    "normalizedWord": "radio",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Swing the \"R\" hand back and forth at your ear.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/radio.webp",
+      "alt": "Ghanaian Sign Language for RADIO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 156,
+      "pdfPage": 167
+    }
+  },
+  {
+    "id": "gsl-rain",
+    "slug": "rain",
+    "word": "RAIN",
+    "primaryWord": "RAIN",
+    "normalizedWord": "rain",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place both clawed hands above your head and drop the fingers down a few times.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/rain.webp",
+      "alt": "Ghanaian Sign Language for RAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 129,
+      "pdfPage": 140
+    }
+  },
+  {
+    "id": "gsl-rainbow",
+    "slug": "rainbow",
+    "word": "RAINBOW",
+    "primaryWord": "RAINBOW",
+    "normalizedWord": "rainbow",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "1. Wiggle fingers as you pull your hand down the face. 2. Sweep your arm over your head in an arc.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/rainbow.webp",
+      "alt": "Ghanaian Sign Language for RAINBOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 129,
+      "pdfPage": 140
+    }
+  },
+  {
+    "id": "gsl-rasta",
+    "slug": "rasta",
+    "word": "RASTA",
+    "primaryWord": "RASTA",
+    "normalizedWord": "rasta",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Wave both \"R\" hands up and down at the sides of the head.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/rasta.webp",
+      "alt": "Ghanaian Sign Language for RASTA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 15,
+      "pdfPage": 26
+    }
+  },
+  {
+    "id": "gsl-rat",
+    "slug": "rat",
+    "word": "RAT",
+    "primaryWord": "RAT",
+    "normalizedWord": "rat",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Brush across the tip of the nose with the \"R\" fingers.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/rat.webp",
+      "alt": "Ghanaian Sign Language for RAT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 61,
+      "pdfPage": 72
+    }
+  },
+  {
+    "id": "gsl-read",
+    "slug": "read",
+    "word": "READ",
+    "primaryWord": "READ",
+    "normalizedWord": "read",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Fan the right \"V\" hand up and down over the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/read.webp",
+      "alt": "Ghanaian Sign Language for READ"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 150,
+      "pdfPage": 161
+    }
+  },
+  {
+    "id": "gsl-reason",
+    "slug": "reason",
+    "word": "REASON",
+    "primaryWord": "REASON",
+    "normalizedWord": "reason",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Circle the \"R\" hand against your temple.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/reason.webp",
+      "alt": "Ghanaian Sign Language for REASON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 185,
+      "pdfPage": 196
+    }
+  },
+  {
+    "id": "gsl-receive",
+    "slug": "receive",
+    "word": "RECEIVE / GET",
+    "primaryWord": "RECEIVE",
+    "normalizedWord": "receive",
+    "letter": "R",
+    "synonyms": [
+      "GET"
+    ],
+    "definition": "With the right open hand above the left, bring both hands back while forming \"S\" hands.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/receive.webp",
+      "alt": "Ghanaian Sign Language for RECEIVE / GET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 115,
+      "pdfPage": 126
+    }
+  },
+  {
+    "id": "gsl-recently",
+    "slug": "recently",
+    "word": "RECENTLY / LATELY",
+    "primaryWord": "RECENTLY",
+    "normalizedWord": "recently",
+    "letter": "R",
+    "synonyms": [
+      "LATELY"
+    ],
+    "definition": "Place the \"X\" hand next to your ear facing back and pull your index finger down.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/recently.webp",
+      "alt": "Ghanaian Sign Language for RECENTLY / LATELY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 207,
+      "pdfPage": 218
+    }
+  },
+  {
+    "id": "gsl-red",
+    "slug": "red",
+    "word": "RED",
+    "primaryWord": "RED",
+    "normalizedWord": "red",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Move the index finger down your chin.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/red.webp",
+      "alt": "Ghanaian Sign Language for RED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 5,
+      "pdfPage": 16
+    }
+  },
+  {
+    "id": "gsl-reduce",
+    "slug": "reduce",
+    "word": "REDUCE / DECREASE",
+    "primaryWord": "REDUCE",
+    "normalizedWord": "reduce",
+    "letter": "R",
+    "synonyms": [
+      "DECREASE"
+    ],
+    "definition": "With the left palm facing right, lower the right flat hand from the left palm downward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/reduce.webp",
+      "alt": "Ghanaian Sign Language for REDUCE / DECREASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 76,
+      "pdfPage": 87
+    }
+  },
+  {
+    "id": "gsl-referee",
+    "slug": "referee",
+    "word": "REFEREE",
+    "primaryWord": "REFEREE",
+    "normalizedWord": "referee",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Bring the right curved \"U\" hand to your mouth.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/referee.webp",
+      "alt": "Ghanaian Sign Language for REFEREE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 121,
+      "pdfPage": 132
+    }
+  },
+  {
+    "id": "gsl-refrigerator",
+    "slug": "refrigerator",
+    "word": "REFRIGERATOR",
+    "primaryWord": "REFRIGERATOR",
+    "normalizedWord": "refrigerator",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Shake both hands at the side of the body with fists clenched.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/refrigerator.webp",
+      "alt": "Ghanaian Sign Language for REFRIGERATOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 30,
+      "pdfPage": 41
+    }
+  },
+  {
+    "id": "gsl-refuse",
+    "slug": "refuse",
+    "word": "REFUSE",
+    "primaryWord": "REFUSE",
+    "normalizedWord": "refuse",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place your \"A\" hand at your waist with the thumb upward and draw the arm over your right shoulder.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/refuse.webp",
+      "alt": "Ghanaian Sign Language for REFUSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 181,
+      "pdfPage": 192
+    }
+  },
+  {
+    "id": "gsl-refusing",
+    "slug": "refusing",
+    "word": "REFUSING",
+    "primaryWord": "REFUSING",
+    "normalizedWord": "refusing",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Rotate your index fingers from downward to upward while you accentuate the movement with your elbows.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/refusing.webp",
+      "alt": "Ghanaian Sign Language for REFUSING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-region",
+    "slug": "region",
+    "word": "REGION",
+    "primaryWord": "REGION",
+    "normalizedWord": "region",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Slide the \"R\" hand across your left thumb.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/region.webp",
+      "alt": "Ghanaian Sign Language for REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 236,
+      "pdfPage": 247
+    }
+  },
+  {
+    "id": "gsl-rejected",
+    "slug": "rejected",
+    "word": "REJECTED",
+    "primaryWord": "REJECTED",
+    "normalizedWord": "rejected",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Slide the right flat hand across the left hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/rejected.webp",
+      "alt": "Ghanaian Sign Language for REJECTED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 282,
+      "pdfPage": 293
+    }
+  },
+  {
+    "id": "gsl-relationship",
+    "slug": "relationship",
+    "word": "RELATIONSHIP",
+    "primaryWord": "RELATIONSHIP",
+    "normalizedWord": "relationship",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "With both \"R\" hands fingertips touching, move the hands back and forth.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/relationship.webp",
+      "alt": "Ghanaian Sign Language for RELATIONSHIP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-relax",
+    "slug": "relax",
+    "word": "RELAX",
+    "primaryWord": "RELAX",
+    "normalizedWord": "relax",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Cross both arms and rest them on opposite shoulders then brush the \"R\" hand fingertips down the shoulders.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/relax.webp",
+      "alt": "Ghanaian Sign Language for RELAX"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 114,
+      "pdfPage": 125
+    }
+  },
+  {
+    "id": "gsl-relieved",
+    "slug": "relieved",
+    "word": "RELIEVED",
+    "primaryWord": "RELIEVED",
+    "normalizedWord": "relieved",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place your right hand against your chest with thumb turned down and press all fingers together.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/relieved.webp",
+      "alt": "Ghanaian Sign Language for RELIEVED"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 278,
+      "pdfPage": 289
+    }
+  },
+  {
+    "id": "gsl-religion",
+    "slug": "religion",
+    "word": "RELIGION",
+    "primaryWord": "RELIGION",
+    "normalizedWord": "religion",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Pull the \"R\" hand up the abdomen.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/religion.webp",
+      "alt": "Ghanaian Sign Language for RELIGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 250,
+      "pdfPage": 261
+    }
+  },
+  {
+    "id": "gsl-remember",
+    "slug": "remember",
+    "word": "REMEMBER",
+    "primaryWord": "REMEMBER",
+    "normalizedWord": "remember",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Pull the right \"A\" hand from the forehead to meet the other \"A\" hand at your waist by touching thumbs.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/remember.webp",
+      "alt": "Ghanaian Sign Language for REMEMBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 187,
+      "pdfPage": 198
+    }
+  },
+  {
+    "id": "gsl-remind",
+    "slug": "remind",
+    "word": "REMIND",
+    "primaryWord": "REMIND",
+    "normalizedWord": "remind",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the right bent hand on your right shoulder and pull back into a fist.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/remind.webp",
+      "alt": "Ghanaian Sign Language for REMIND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 187,
+      "pdfPage": 198
+    }
+  },
+  {
+    "id": "gsl-repent",
+    "slug": "repent",
+    "word": "REPENT",
+    "primaryWord": "REPENT",
+    "normalizedWord": "repent",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place both \"R\" hands together at the wrist, then rotate hands and switch their positions.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/repent.webp",
+      "alt": "Ghanaian Sign Language for REPENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 260,
+      "pdfPage": 271
+    }
+  },
+  {
+    "id": "gsl-representation",
+    "slug": "representation",
+    "word": "REPRESENTATION",
+    "primaryWord": "REPRESENTATION",
+    "normalizedWord": "representation",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the \"R\" fingertips in the left palm and pull both hands upward.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/representation.webp",
+      "alt": "Ghanaian Sign Language for REPRESENTATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 240,
+      "pdfPage": 251
+    }
+  },
+  {
+    "id": "gsl-respect",
+    "slug": "respect",
+    "word": "RESPECT",
+    "primaryWord": "RESPECT",
+    "normalizedWord": "respect",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the right \"R\" hand against your forehead and the left pointed outward, then curve both hands forward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/respect.webp",
+      "alt": "Ghanaian Sign Language for RESPECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 197,
+      "pdfPage": 208
+    }
+  },
+  {
+    "id": "gsl-responsible",
+    "slug": "responsible",
+    "word": "RESPONSIBLE",
+    "primaryWord": "RESPONSIBLE",
+    "normalizedWord": "responsible",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Tap your left shoulder with both \"R\" hands.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/responsible.webp",
+      "alt": "Ghanaian Sign Language for RESPONSIBLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 197,
+      "pdfPage": 208
+    }
+  },
+  {
+    "id": "gsl-restaurant",
+    "slug": "restaurant",
+    "word": "RESTAURANT",
+    "primaryWord": "RESTAURANT",
+    "normalizedWord": "restaurant",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Pull the \"R\" hand fingers down the right side of the mouth then the left.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/restaurant.webp",
+      "alt": "Ghanaian Sign Language for RESTAURANT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 40,
+      "pdfPage": 51
+    }
+  },
+  {
+    "id": "gsl-result",
+    "slug": "result",
+    "word": "RESULT",
+    "primaryWord": "RESULT",
+    "normalizedWord": "result",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Wave both \"R\" hands down from your shoulders.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/result.webp",
+      "alt": "Ghanaian Sign Language for RESULT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 143,
+      "pdfPage": 154
+    }
+  },
+  {
+    "id": "gsl-revise",
+    "slug": "revise",
+    "word": "REVISE / REVIEW / REVISION",
+    "primaryWord": "REVISE",
+    "normalizedWord": "revise",
+    "letter": "R",
+    "synonyms": [
+      "REVIEW",
+      "REVISION"
+    ],
+    "definition": "Slide the fingers of both \"R\" hands back and forth against each other.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/revise.webp",
+      "alt": "Ghanaian Sign Language for REVISE / REVIEW / REVISION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 142,
+      "pdfPage": 153
+    }
+  },
+  {
+    "id": "gsl-rhinocerous",
+    "slug": "rhinocerous",
+    "word": "RHINOCEROUS",
+    "primaryWord": "RHINOCEROUS",
+    "normalizedWord": "rhinocerous",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Rest the \"I\" hand on the nose with the little finger facing forward.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/rhinocerous.webp",
+      "alt": "Ghanaian Sign Language for RHINOCEROUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 63,
+      "pdfPage": 74
+    }
+  },
+  {
+    "id": "gsl-rice",
+    "slug": "rice",
+    "word": "RICE",
+    "primaryWord": "RICE",
+    "normalizedWord": "rice",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the \"X\" hand at the left index finger and flick the right index finger down a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/rice.webp",
+      "alt": "Ghanaian Sign Language for RICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 46,
+      "pdfPage": 57
+    }
+  },
+  {
+    "id": "gsl-riceball",
+    "slug": "riceball",
+    "word": "RICE BALL",
+    "primaryWord": "RICE BALL",
+    "normalizedWord": "rice ball",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "1. Flick the right index finger against the left finger. 2. Form both open hands into a ball shape.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/riceball.webp",
+      "alt": "Ghanaian Sign Language for RICE BALL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 46,
+      "pdfPage": 57
+    }
+  },
+  {
+    "id": "gsl-rich",
+    "slug": "rich",
+    "word": "RICH / WEALTHY",
+    "primaryWord": "RICH",
+    "normalizedWord": "rich",
+    "letter": "R",
+    "synonyms": [
+      "WEALTHY"
+    ],
+    "definition": "Put the back of the right curved hand in the upturned left hand then move the right hand up.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/rich.webp",
+      "alt": "Ghanaian Sign Language for RICH / WEALTHY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-riding",
+    "slug": "riding",
+    "word": "RIDING",
+    "primaryWord": "RIDING",
+    "normalizedWord": "riding",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "With the right hand inserted into the left, push both hands forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/riding.webp",
+      "alt": "Ghanaian Sign Language for RIDING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 213,
+      "pdfPage": 224
+    }
+  },
+  {
+    "id": "gsl-right",
+    "slug": "right",
+    "word": "RIGHT",
+    "primaryWord": "RIGHT",
+    "normalizedWord": "right",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Slide the right \"R\" hand to the right.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/right.webp",
+      "alt": "Ghanaian Sign Language for RIGHT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 217,
+      "pdfPage": 228
+    }
+  },
+  {
+    "id": "gsl-right-2",
+    "slug": "right-2",
+    "word": "RIGHT / JUST",
+    "primaryWord": "RIGHT",
+    "normalizedWord": "right",
+    "letter": "R",
+    "synonyms": [
+      "JUST"
+    ],
+    "definition": "Place both hands on top of each other with index fingers pointed forward.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/right-2.webp",
+      "alt": "Ghanaian Sign Language for RIGHT / JUST"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 245,
+      "pdfPage": 256
+    }
+  },
+  {
+    "id": "gsl-rights-basedapproach",
+    "slug": "rights-basedapproach",
+    "word": "RIGHTS-BASED APPROACH",
+    "primaryWord": "RIGHTS-BASED APPROACH",
+    "normalizedWord": "rights-based approach",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "1. Slide the right flat hand over the left palm. 2. Circle the right \"B\" hand under the left hand.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/rights-basedapproach.webp",
+      "alt": "Ghanaian Sign Language for RIGHTS-BASED APPROACH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 246,
+      "pdfPage": 257
+    }
+  },
+  {
+    "id": "gsl-river",
+    "slug": "river",
+    "word": "RIVER",
+    "primaryWord": "RIVER",
+    "normalizedWord": "river",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place both \"R\" hands next to each other and wave them forward.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/river.webp",
+      "alt": "Ghanaian Sign Language for RIVER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 132,
+      "pdfPage": 143
+    }
+  },
+  {
+    "id": "gsl-road",
+    "slug": "road",
+    "word": "ROAD",
+    "primaryWord": "ROAD",
+    "normalizedWord": "road",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Hold both \"R\" hands in front of you and wave them forward.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/road.webp",
+      "alt": "Ghanaian Sign Language for ROAD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 214,
+      "pdfPage": 225
+    }
+  },
+  {
+    "id": "gsl-robber",
+    "slug": "robber",
+    "word": "ROBBER",
+    "primaryWord": "ROBBER",
+    "normalizedWord": "robber",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the \"R\" hand under your nose then draw the hand outward.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/robber.webp",
+      "alt": "Ghanaian Sign Language for ROBBER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 15,
+      "pdfPage": 26
+    }
+  },
+  {
+    "id": "gsl-rock",
+    "slug": "rock",
+    "word": "ROCK / HARD",
+    "primaryWord": "ROCK",
+    "normalizedWord": "rock",
+    "letter": "R",
+    "synonyms": [
+      "HARD"
+    ],
+    "definition": "Strike both \"S \"hand wrists together with the right hand turned upward.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/rock.webp",
+      "alt": "Ghanaian Sign Language for ROCK / HARD"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 134,
+      "pdfPage": 145
+    }
+  },
+  {
+    "id": "gsl-romancatholic",
+    "slug": "romancatholic",
+    "word": "ROMAN CATHOLIC",
+    "primaryWord": "ROMAN CATHOLIC",
+    "normalizedWord": "roman catholic",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Using the \"R\" hand, draw a cross over your forehead.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/romancatholic.webp",
+      "alt": "Ghanaian Sign Language for ROMAN CATHOLIC"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 251,
+      "pdfPage": 262
+    }
+  },
+  {
+    "id": "gsl-roof",
+    "slug": "roof",
+    "word": "ROOF",
+    "primaryWord": "ROOF",
+    "normalizedWord": "roof",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place both hands with palms facing down above the head and move them forward simultaneously.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/roof.webp",
+      "alt": "Ghanaian Sign Language for ROOF"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 28,
+      "pdfPage": 39
+    }
+  },
+  {
+    "id": "gsl-room",
+    "slug": "room",
+    "word": "ROOM",
+    "primaryWord": "ROOM",
+    "normalizedWord": "room",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place the \"R\" hands to the front with fingers facing forward and form the shape of a box.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/room.webp",
+      "alt": "Ghanaian Sign Language for ROOM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 29,
+      "pdfPage": 40
+    }
+  },
+  {
+    "id": "gsl-rough",
+    "slug": "rough",
+    "word": "ROUGH / SCRATCH",
+    "primaryWord": "ROUGH",
+    "normalizedWord": "rough",
+    "letter": "R",
+    "synonyms": [
+      "SCRATCH"
+    ],
+    "definition": "Place the right clawed fingertips on top of the flat left palm then drag the right hand backward.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/rough.webp",
+      "alt": "Ghanaian Sign Language for ROUGH / SCRATCH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 96,
+      "pdfPage": 107
+    }
+  },
+  {
+    "id": "gsl-rule",
+    "slug": "rule",
+    "word": "RULE",
+    "primaryWord": "RULE",
+    "normalizedWord": "rule",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Move the \"R\" hand from your fingertips to your palm.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/rule.webp",
+      "alt": "Ghanaian Sign Language for RULE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 246,
+      "pdfPage": 257
+    }
+  },
+  {
+    "id": "gsl-ruler",
+    "slug": "ruler",
+    "word": "RULER",
+    "primaryWord": "RULER",
+    "normalizedWord": "ruler",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Trace the index finger of the left \"L\" hand with the right index finger.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/ruler.webp",
+      "alt": "Ghanaian Sign Language for RULER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 148,
+      "pdfPage": 159
+    }
+  },
+  {
+    "id": "gsl-run",
+    "slug": "run",
+    "word": "RUN / JOG",
+    "primaryWord": "RUN",
+    "normalizedWord": "run",
+    "letter": "R",
+    "synonyms": [
+      "JOG"
+    ],
+    "definition": "Interlock the right index finger around the thumb of the left \"G\" hand and wave both hands forward.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/run.webp",
+      "alt": "Ghanaian Sign Language for RUN / JOG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 101,
+      "pdfPage": 112
+    }
+  },
+  {
+    "id": "gsl-russia",
+    "slug": "russia",
+    "word": "RUSSIA",
+    "primaryWord": "RUSSIA",
+    "normalizedWord": "russia",
+    "letter": "R",
+    "synonyms": [],
+    "definition": "Place both open hands at your waist with thumbs touching your body and wiggle the fingers.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/russia.webp",
+      "alt": "Ghanaian Sign Language for RUSSIA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 230,
+      "pdfPage": 241
+    }
+  }
+]

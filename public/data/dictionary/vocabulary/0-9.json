@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gsl-50-50",
+    "slug": "50-50",
+    "word": "50-50",
+    "primaryWord": "50-50",
+    "normalizedWord": "50-50",
+    "letter": "#",
+    "synonyms": [],
+    "definition": "Move both \"AND\" hands back and forth with a push-pull motion.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/50-50.webp",
+      "alt": "Ghanaian Sign Language for 50-50"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 287,
+      "pdfPage": 298
+    }
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "gsl-ugly",
+    "slug": "ugly",
+    "word": "UGLY",
+    "primaryWord": "UGLY",
+    "normalizedWord": "ugly",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Place your index finger just below the nose then bend the index finger as the hand moves to the right.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/ugly.webp",
+      "alt": "Ghanaian Sign Language for UGLY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-umbrella",
+    "slug": "umbrella",
+    "word": "UMBRELLA",
+    "primaryWord": "UMBRELLA",
+    "normalizedWord": "umbrella",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Hold both \"S\" hands over each other then raise the right hand into the \"X\" hand.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/umbrella.webp",
+      "alt": "Ghanaian Sign Language for UMBRELLA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 34,
+      "pdfPage": 45
+    }
+  },
+  {
+    "id": "gsl-uncle",
+    "slug": "uncle",
+    "word": "UNCLE",
+    "primaryWord": "UNCLE",
+    "normalizedWord": "uncle",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Shake the wrist of the \"U\" hand at the side of your head.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/uncle.webp",
+      "alt": "Ghanaian Sign Language for UNCLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 10,
+      "pdfPage": 21
+    }
+  },
+  {
+    "id": "gsl-understand",
+    "slug": "understand",
+    "word": "UNDERSTAND",
+    "primaryWord": "UNDERSTAND",
+    "normalizedWord": "understand",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Place the \"S\" hand on your temple and flick open the index finger.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/understand.webp",
+      "alt": "Ghanaian Sign Language for UNDERSTAND"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 180,
+      "pdfPage": 191
+    }
+  },
+  {
+    "id": "gsl-unitedstatesofamerica",
+    "slug": "unitedstatesofamerica",
+    "word": "UNITED STATES OF AMERICA",
+    "primaryWord": "UNITED STATES OF AMERICA",
+    "normalizedWord": "united states of america",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Interlock your fingers and circle both arms in front of your body.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/unitedstatesofamerica.webp",
+      "alt": "Ghanaian Sign Language for UNITED STATES OF AMERICA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 228,
+      "pdfPage": 239
+    }
+  },
+  {
+    "id": "gsl-universe",
+    "slug": "universe",
+    "word": "UNIVERSE",
+    "primaryWord": "UNIVERSE",
+    "normalizedWord": "universe",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "With both \"U\" hands, circle the right hand around the left.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/universe.webp",
+      "alt": "Ghanaian Sign Language for UNIVERSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 128,
+      "pdfPage": 139
+    }
+  },
+  {
+    "id": "gsl-university",
+    "slug": "university",
+    "word": "UNIVERSITY",
+    "primaryWord": "UNIVERSITY",
+    "normalizedWord": "university",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Sweep the \"U\" hand forward over your left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/university.webp",
+      "alt": "Ghanaian Sign Language for UNIVERSITY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 140,
+      "pdfPage": 151
+    }
+  },
+  {
+    "id": "gsl-until",
+    "slug": "until",
+    "word": "UNTIL",
+    "primaryWord": "UNTIL",
+    "normalizedWord": "until",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Connect both index fingertips together in front of your body.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/until.webp",
+      "alt": "Ghanaian Sign Language for UNTIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 210,
+      "pdfPage": 221
+    }
+  },
+  {
+    "id": "gsl-up",
+    "slug": "up",
+    "word": "UP",
+    "primaryWord": "UP",
+    "normalizedWord": "up",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Move the \"U\" hand upward changing it into the \"P\" hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/up.webp",
+      "alt": "Ghanaian Sign Language for UP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 88,
+      "pdfPage": 99
+    }
+  },
+  {
+    "id": "gsl-uppereastregion",
+    "slug": "uppereastregion",
+    "word": "UPPER EAST REGION",
+    "primaryWord": "UPPER EAST REGION",
+    "normalizedWord": "upper east region",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Draw the \"U\" hand up from the waist then slide the \"E\" hand to the right.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/uppereastregion.webp",
+      "alt": "Ghanaian Sign Language for UPPER EAST REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 238,
+      "pdfPage": 249
+    }
+  },
+  {
+    "id": "gsl-upperwestregion",
+    "slug": "upperwestregion",
+    "word": "UPPER WEST REGION",
+    "primaryWord": "UPPER WEST REGION",
+    "normalizedWord": "upper west region",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Draw the \"U\" hand up from the waist then slide the \"W\" hand to the left.",
+    "category": "TOWNS, REGIONS AND COUNTRIES",
+    "categorySlug": "townsregionsandcountries",
+    "image": {
+      "src": "/data/dictionary/images/townsregionsandcountries/upperwestregion.webp",
+      "alt": "Ghanaian Sign Language for UPPER WEST REGION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 237,
+      "pdfPage": 248
+    }
+  },
+  {
+    "id": "gsl-urinate",
+    "slug": "urinate",
+    "word": "URINATE",
+    "primaryWord": "URINATE",
+    "normalizedWord": "urinate",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Swing the \"T\" hand out from the waist a few times.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/urinate.webp",
+      "alt": "Ghanaian Sign Language for URINATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 164,
+      "pdfPage": 175
+    }
+  },
+  {
+    "id": "gsl-us",
+    "slug": "us",
+    "word": "US",
+    "primaryWord": "US",
+    "normalizedWord": "us",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Touch the \"U\" hand on the right chest, then rotate it forward until it touches the left chest.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/us.webp",
+      "alt": "Ghanaian Sign Language for US"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 17,
+      "pdfPage": 28
+    }
+  },
+  {
+    "id": "gsl-usb",
+    "slug": "usb",
+    "word": "USB",
+    "primaryWord": "USB",
+    "normalizedWord": "usb",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Sign the letters \"U\" \"S\" and \"B\" while moving the hand to the right.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/usb.webp",
+      "alt": "Ghanaian Sign Language for USB"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 292,
+      "pdfPage": 303
+    }
+  },
+  {
+    "id": "gsl-use",
+    "slug": "use",
+    "word": "USE",
+    "primaryWord": "USE",
+    "normalizedWord": "use",
+    "letter": "U",
+    "synonyms": [],
+    "definition": "Move the right \"U' hand in a small circle in front of the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/use.webp",
+      "alt": "Ghanaian Sign Language for USE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 113,
+      "pdfPage": 124
+    }
+  }
+]

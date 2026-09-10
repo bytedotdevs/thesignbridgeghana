@@ -1,0 +1,2124 @@
+[
+  {
+    "id": "gsl-pain",
+    "slug": "pain",
+    "word": "PAIN",
+    "primaryWord": "PAIN",
+    "normalizedWord": "pain",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Point and twist both index fingers at the area being addressed on the body.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/pain.webp",
+      "alt": "Ghanaian Sign Language for PAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 169,
+      "pdfPage": 180
+    }
+  },
+  {
+    "id": "gsl-paint",
+    "slug": "paint",
+    "word": "PAINT",
+    "primaryWord": "PAINT",
+    "normalizedWord": "paint",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Brush the right \"B\" hand up and down against the left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/paint.webp",
+      "alt": "Ghanaian Sign Language for PAINT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 145,
+      "pdfPage": 156
+    }
+  },
+  {
+    "id": "gsl-palmoil",
+    "slug": "palmoil",
+    "word": "PALM OIL",
+    "primaryWord": "PALM OIL",
+    "normalizedWord": "palm oil",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Draw the index finger down your lips. 2. Pull the fingers down from the left palm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/palmoil.webp",
+      "alt": "Ghanaian Sign Language for PALM OIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 55,
+      "pdfPage": 66
+    }
+  },
+  {
+    "id": "gsl-paper",
+    "slug": "paper",
+    "word": "PAPER",
+    "primaryWord": "PAPER",
+    "normalizedWord": "paper",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Tap both flat hand plams together twice.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/paper.webp",
+      "alt": "Ghanaian Sign Language for PAPER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-parachuting",
+    "slug": "parachuting",
+    "word": "PARACHUTING",
+    "primaryWord": "PARACHUTING",
+    "normalizedWord": "parachuting",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Slide both \"S\" hands down the front of your body. 2. Swing the right \"V\" hand side-to-side downward.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/parachuting.webp",
+      "alt": "Ghanaian Sign Language for PARACHUTING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 125,
+      "pdfPage": 136
+    }
+  },
+  {
+    "id": "gsl-paragraph",
+    "slug": "paragraph",
+    "word": "PARAGRAPH",
+    "primaryWord": "PARAGRAPH",
+    "normalizedWord": "paragraph",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the fingertips of the modified \"C\" hand on the left fingers then the palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/paragraph.webp",
+      "alt": "Ghanaian Sign Language for PARAGRAPH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 150,
+      "pdfPage": 161
+    }
+  },
+  {
+    "id": "gsl-parents",
+    "slug": "parents",
+    "word": "PARENTS",
+    "primaryWord": "PARENTS",
+    "normalizedWord": "parents",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the middle finger of the \"P\" hand on the middle of the forehead and then on the chin.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/parents.webp",
+      "alt": "Ghanaian Sign Language for PARENTS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 8,
+      "pdfPage": 19
+    }
+  },
+  {
+    "id": "gsl-parkedcar",
+    "slug": "parkedcar",
+    "word": "PARKED CAR",
+    "primaryWord": "PARKED CAR",
+    "normalizedWord": "parked car",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the right \"3\" hand into the left palm.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/parkedcar.webp",
+      "alt": "Ghanaian Sign Language for PARKED CAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 214,
+      "pdfPage": 225
+    }
+  },
+  {
+    "id": "gsl-parliament",
+    "slug": "parliament",
+    "word": "PARLIAMENT",
+    "primaryWord": "PARLIAMENT",
+    "normalizedWord": "parliament",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the \"P\" hand on your right chest then move it to the left chest.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/parliament.webp",
+      "alt": "Ghanaian Sign Language for PARLIAMENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 240,
+      "pdfPage": 251
+    }
+  },
+  {
+    "id": "gsl-party",
+    "slug": "party",
+    "word": "PARTY",
+    "primaryWord": "PARTY",
+    "normalizedWord": "party",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Swing the right \"P\" hand from side-to- side over the left palm.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/party.webp",
+      "alt": "Ghanaian Sign Language for PARTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 120,
+      "pdfPage": 131
+    }
+  },
+  {
+    "id": "gsl-pass",
+    "slug": "pass",
+    "word": "PASS",
+    "primaryWord": "PASS",
+    "normalizedWord": "pass",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Bring both \"A\" hands together in front of the body and slide the right hand ahead of the left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/pass.webp",
+      "alt": "Ghanaian Sign Language for PASS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 142,
+      "pdfPage": 153
+    }
+  },
+  {
+    "id": "gsl-pasttense",
+    "slug": "pasttense",
+    "word": "PAST TENSE / BACK",
+    "primaryWord": "PAST TENSE",
+    "normalizedWord": "past tense",
+    "letter": "P",
+    "synonyms": [
+      "BACK"
+    ],
+    "definition": "Move the upraised flat hand backward over the right shoulder with palm facing the body.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/pasttense.webp",
+      "alt": "Ghanaian Sign Language for PAST TENSE / BACK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 208,
+      "pdfPage": 219
+    }
+  },
+  {
+    "id": "gsl-paste",
+    "slug": "paste",
+    "word": "PASTE",
+    "primaryWord": "PASTE",
+    "normalizedWord": "paste",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Place hand in the palm and pull to \"AND\" hand. 2. Open the \"AND\" hand to the side.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/paste.webp",
+      "alt": "Ghanaian Sign Language for PASTE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 290,
+      "pdfPage": 301
+    }
+  },
+  {
+    "id": "gsl-patient",
+    "slug": "patient",
+    "word": "PATIENT",
+    "primaryWord": "PATIENT",
+    "normalizedWord": "patient",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Roll the \"A\" hand across the lips.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/patient.webp",
+      "alt": "Ghanaian Sign Language for PATIENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 197,
+      "pdfPage": 208
+    }
+  },
+  {
+    "id": "gsl-paul",
+    "slug": "paul",
+    "word": "PAUL",
+    "primaryWord": "PAUL",
+    "normalizedWord": "paul",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the \"P\" hand fingertip on the wrist of your downturned left hand.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/paul.webp",
+      "alt": "Ghanaian Sign Language for PAUL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 256,
+      "pdfPage": 267
+    }
+  },
+  {
+    "id": "gsl-pawpaw",
+    "slug": "pawpaw",
+    "word": "PAWPAW",
+    "primaryWord": "PAWPAW",
+    "normalizedWord": "pawpaw",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Starting at the fingertips of the left curved hand, draw the right \"P\" hand down to the wrist.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/pawpaw.webp",
+      "alt": "Ghanaian Sign Language for PAWPAW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 51,
+      "pdfPage": 62
+    }
+  },
+  {
+    "id": "gsl-pay",
+    "slug": "pay",
+    "word": "PAY",
+    "primaryWord": "PAY",
+    "normalizedWord": "pay",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the middle finger of the right \"P\" hand into the palm and swing the hand forward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/pay.webp",
+      "alt": "Ghanaian Sign Language for PAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 74,
+      "pdfPage": 85
+    }
+  },
+  {
+    "id": "gsl-payback",
+    "slug": "payback",
+    "word": "PAYBACK",
+    "primaryWord": "PAYBACK",
+    "normalizedWord": "payback",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Flick the \"P\" hand across the left palm. 2. Push the right flat hand over your right shoulder.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/payback.webp",
+      "alt": "Ghanaian Sign Language for PAYBACK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 285,
+      "pdfPage": 296
+    }
+  },
+  {
+    "id": "gsl-peace",
+    "slug": "peace",
+    "word": "PEACE",
+    "primaryWord": "PEACE",
+    "normalizedWord": "peace",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the fingertips of both flat hands together at the mouth then pull hands down in opposite directions.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/peace.webp",
+      "alt": "Ghanaian Sign Language for PEACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 264,
+      "pdfPage": 275
+    }
+  },
+  {
+    "id": "gsl-pear",
+    "slug": "pear",
+    "word": "PEAR",
+    "primaryWord": "PEAR",
+    "normalizedWord": "pear",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Bring the right \"P\" hand over the top of the curved hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/pear.webp",
+      "alt": "Ghanaian Sign Language for PEAR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 54,
+      "pdfPage": 65
+    }
+  },
+  {
+    "id": "gsl-peep",
+    "slug": "peep",
+    "word": "PEEP",
+    "primaryWord": "PEEP",
+    "normalizedWord": "peep",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Encircle the eye with \"F\" hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/peep.webp",
+      "alt": "Ghanaian Sign Language for PEEP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 283,
+      "pdfPage": 294
+    }
+  },
+  {
+    "id": "gsl-pen",
+    "slug": "pen",
+    "word": "PEN",
+    "primaryWord": "PEN",
+    "normalizedWord": "pen",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Pull the \"I\" hand little finger out from the left fist and shake the right wrist.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/pen.webp",
+      "alt": "Ghanaian Sign Language for PEN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-pencil",
+    "slug": "pencil",
+    "word": "PENCIL",
+    "primaryWord": "PENCIL",
+    "normalizedWord": "pencil",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the modified \"A\" hand at your mouth then pull down and sweep it over your left palm.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/pencil.webp",
+      "alt": "Ghanaian Sign Language for PENCIL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 147,
+      "pdfPage": 158
+    }
+  },
+  {
+    "id": "gsl-penis",
+    "slug": "penis",
+    "word": "PENIS",
+    "primaryWord": "PENIS",
+    "normalizedWord": "penis",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the middle fingertip of the \"P\" hand on the tip of your nose.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/penis.webp",
+      "alt": "Ghanaian Sign Language for PENIS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 163,
+      "pdfPage": 174
+    }
+  },
+  {
+    "id": "gsl-pentecostal",
+    "slug": "pentecostal",
+    "word": "PENTECOSTAL",
+    "primaryWord": "PENTECOSTAL",
+    "normalizedWord": "pentecostal",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Draw the right \"P\" hand forward from the mouth. 2. Place the right \"C\" hand on the left wrist.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/pentecostal.webp",
+      "alt": "Ghanaian Sign Language for PENTECOSTAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 252,
+      "pdfPage": 263
+    }
+  },
+  {
+    "id": "gsl-people",
+    "slug": "people",
+    "word": "PEOPLE",
+    "primaryWord": "PEOPLE",
+    "normalizedWord": "people",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Make alternating forward circles with both \"P\" hands.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/people.webp",
+      "alt": "Ghanaian Sign Language for PEOPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-peopleturnandlookatme",
+    "slug": "peopleturnandlookatme",
+    "word": "PEOPLE TURN AND LOOK AT ME",
+    "primaryWord": "PEOPLE TURN AND LOOK AT ME",
+    "normalizedWord": "people turn and look at me",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Face both \"4\" hands forward and swing them around to point at your face.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/peopleturnandlookatme.webp",
+      "alt": "Ghanaian Sign Language for PEOPLE TURN AND LOOK AT ME"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 277,
+      "pdfPage": 288
+    }
+  },
+  {
+    "id": "gsl-pepper",
+    "slug": "pepper",
+    "word": "PEPPER",
+    "primaryWord": "PEPPER",
+    "normalizedWord": "pepper",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Grind the \"A\" hand back and forth against the palm of the left hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/pepper.webp",
+      "alt": "Ghanaian Sign Language for PEPPER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 53,
+      "pdfPage": 64
+    }
+  },
+  {
+    "id": "gsl-perfect",
+    "slug": "perfect",
+    "word": "PERFECT",
+    "primaryWord": "PERFECT",
+    "normalizedWord": "perfect",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Bring the middle fingers of both \"P\" hands together.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/perfect.webp",
+      "alt": "Ghanaian Sign Language for PERFECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 80,
+      "pdfPage": 91
+    }
+  },
+  {
+    "id": "gsl-person",
+    "slug": "person",
+    "word": "PERSON",
+    "primaryWord": "PERSON",
+    "normalizedWord": "person",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place both \"P\" hands forward and move them downward at the same time.",
+    "category": "FAMILY, PEOPLE AND PRONOUNS",
+    "categorySlug": "familypeopleandpronouns",
+    "image": {
+      "src": "/data/dictionary/images/familypeopleandpronouns/person.webp",
+      "alt": "Ghanaian Sign Language for PERSON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 14,
+      "pdfPage": 25
+    }
+  },
+  {
+    "id": "gsl-personification",
+    "slug": "personification",
+    "word": "PERSONIFICATION",
+    "primaryWord": "PERSONIFICATION",
+    "normalizedWord": "personification",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Move both flat hands down the body with fingers facing front.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/personification.webp",
+      "alt": "Ghanaian Sign Language for PERSONIFICATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 67,
+      "pdfPage": 78
+    }
+  },
+  {
+    "id": "gsl-pesewa",
+    "slug": "pesewa",
+    "word": "PESEWA",
+    "primaryWord": "PESEWA",
+    "normalizedWord": "pesewa",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Snap the right \"P\" hand to the right.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/pesewa.webp",
+      "alt": "Ghanaian Sign Language for PESEWA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 74,
+      "pdfPage": 85
+    }
+  },
+  {
+    "id": "gsl-petrol",
+    "slug": "petrol",
+    "word": "PETROL",
+    "primaryWord": "PETROL",
+    "normalizedWord": "petrol",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Insert the index finger of the right \"G\" hand into the left hand.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/petrol.webp",
+      "alt": "Ghanaian Sign Language for PETROL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 214,
+      "pdfPage": 225
+    }
+  },
+  {
+    "id": "gsl-philosophy",
+    "slug": "philosophy",
+    "word": "PHILOSOPHY",
+    "primaryWord": "PHILOSOPHY",
+    "normalizedWord": "philosophy",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the flat edge of the index finger of the \"P\" hand on the forehead and move down slightly twice.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/philosophy.webp",
+      "alt": "Ghanaian Sign Language for PHILOSOPHY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 145,
+      "pdfPage": 156
+    }
+  },
+  {
+    "id": "gsl-photocopy",
+    "slug": "photocopy",
+    "word": "PHOTOCOPY",
+    "primaryWord": "PHOTOCOPY",
+    "normalizedWord": "photocopy",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the open right hand on the back of the left and pull down into the \"AND\" hand.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/photocopy.webp",
+      "alt": "Ghanaian Sign Language for PHOTOCOPY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 290,
+      "pdfPage": 301
+    }
+  },
+  {
+    "id": "gsl-photographer",
+    "slug": "photographer",
+    "word": "PHOTOGRAPHER",
+    "primaryWord": "PHOTOGRAPHER",
+    "normalizedWord": "photographer",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Hold hands up and pull the right index finger down. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/photographer.webp",
+      "alt": "Ghanaian Sign Language for PHOTOGRAPHER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 72,
+      "pdfPage": 83
+    }
+  },
+  {
+    "id": "gsl-photography",
+    "slug": "photography",
+    "word": "PHOTOGRAPHY / CAMERA",
+    "primaryWord": "PHOTOGRAPHY",
+    "normalizedWord": "photography",
+    "letter": "P",
+    "synonyms": [
+      "CAMERA"
+    ],
+    "definition": "Hold your hands up as if holding a camera and press down with your right index finger.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/photography.webp",
+      "alt": "Ghanaian Sign Language for PHOTOGRAPHY / CAMERA"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 216,
+      "pdfPage": 227
+    }
+  },
+  {
+    "id": "gsl-picksomebody",
+    "slug": "picksomebody",
+    "word": "PICK SOMEBODY",
+    "primaryWord": "PICK SOMEBODY",
+    "normalizedWord": "pick somebody",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Pull upward from the clawed hand into the \"S\" hand.",
+    "category": "IDIOMATIC EXPRESSIONS",
+    "categorySlug": "idiomaticexpressions",
+    "image": {
+      "src": "/data/dictionary/images/idiomaticexpressions/picksomebody.webp",
+      "alt": "Ghanaian Sign Language for PICK SOMEBODY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 279,
+      "pdfPage": 290
+    }
+  },
+  {
+    "id": "gsl-picture",
+    "slug": "picture",
+    "word": "PICTURE",
+    "primaryWord": "PICTURE",
+    "normalizedWord": "picture",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the right \"C\" hand around your eye then place it flat against your left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/picture.webp",
+      "alt": "Ghanaian Sign Language for PICTURE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 156,
+      "pdfPage": 167
+    }
+  },
+  {
+    "id": "gsl-pig",
+    "slug": "pig",
+    "word": "PIG",
+    "primaryWord": "PIG",
+    "normalizedWord": "pig",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the back of the \"E\" hand under the chin and wiggle it up and down from the wrist.",
+    "category": "ANIMALS",
+    "categorySlug": "animals",
+    "image": {
+      "src": "/data/dictionary/images/animals/pig.webp",
+      "alt": "Ghanaian Sign Language for PIG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 60,
+      "pdfPage": 71
+    }
+  },
+  {
+    "id": "gsl-pilot",
+    "slug": "pilot",
+    "word": "PILOT",
+    "primaryWord": "PILOT",
+    "normalizedWord": "pilot",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Glide your right \"ILY\" hand over the left hand. 2. Slide the flat hands down the body.",
+    "category": "WORK",
+    "categorySlug": "work",
+    "image": {
+      "src": "/data/dictionary/images/work/pilot.webp",
+      "alt": "Ghanaian Sign Language for PILOT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 70,
+      "pdfPage": 81
+    }
+  },
+  {
+    "id": "gsl-pineapple",
+    "slug": "pineapple",
+    "word": "PINEAPPLE",
+    "primaryWord": "PINEAPPLE",
+    "normalizedWord": "pineapple",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place both flat hands with fingertips down and slide the right hand over the left hand a few times.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/pineapple.webp",
+      "alt": "Ghanaian Sign Language for PINEAPPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 51,
+      "pdfPage": 62
+    }
+  },
+  {
+    "id": "gsl-pink",
+    "slug": "pink",
+    "word": "PINK",
+    "primaryWord": "PINK",
+    "normalizedWord": "pink",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Move the middle finger of the \"P\" hand down your lips.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/pink.webp",
+      "alt": "Ghanaian Sign Language for PINK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-pito",
+    "slug": "pito",
+    "word": "PITO",
+    "primaryWord": "PITO",
+    "normalizedWord": "pito",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the middle finger of the \"P\" hand against the cheek and twist it back and forth.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/pito.webp",
+      "alt": "Ghanaian Sign Language for PITO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 43,
+      "pdfPage": 54
+    }
+  },
+  {
+    "id": "gsl-place",
+    "slug": "place",
+    "word": "PLACE",
+    "primaryWord": "PLACE",
+    "normalizedWord": "place",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Touch the fingertips of both 'P\" hands together then curve them backward into the same position.",
+    "category": "TRAVEL AND DIRECTIONS",
+    "categorySlug": "travelanddirections",
+    "image": {
+      "src": "/data/dictionary/images/travelanddirections/place.webp",
+      "alt": "Ghanaian Sign Language for PLACE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 213,
+      "pdfPage": 224
+    }
+  },
+  {
+    "id": "gsl-plaiting",
+    "slug": "plaiting",
+    "word": "PLAITING",
+    "primaryWord": "PLAITING",
+    "normalizedWord": "plaiting",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Lift your right hand up and back to yourself then repeat with the opposite hand.",
+    "category": "OCCASIONS",
+    "categorySlug": "occasions",
+    "image": {
+      "src": "/data/dictionary/images/occasions/plaiting.webp",
+      "alt": "Ghanaian Sign Language for PLAITING"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 268,
+      "pdfPage": 279
+    }
+  },
+  {
+    "id": "gsl-plan",
+    "slug": "plan",
+    "word": "PLAN / SCHEDULE",
+    "primaryWord": "PLAN",
+    "normalizedWord": "plan",
+    "letter": "P",
+    "synonyms": [
+      "SCHEDULE"
+    ],
+    "definition": "Place both \"P\" hands in front of the body and bounce them slightly to the right.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/plan.webp",
+      "alt": "Ghanaian Sign Language for PLAN / SCHEDULE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 108,
+      "pdfPage": 119
+    }
+  },
+  {
+    "id": "gsl-planet",
+    "slug": "planet",
+    "word": "PLANET",
+    "primaryWord": "PLANET",
+    "normalizedWord": "planet",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "With both \"P\" hands, circle the right hand around the left.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/planet.webp",
+      "alt": "Ghanaian Sign Language for PLANET"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 128,
+      "pdfPage": 139
+    }
+  },
+  {
+    "id": "gsl-plantain",
+    "slug": "plantain",
+    "word": "PLANTAIN",
+    "primaryWord": "PLANTAIN",
+    "normalizedWord": "plantain",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Starting at your wrist, draw the thumb of the \"A\" hand up your forearm.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/plantain.webp",
+      "alt": "Ghanaian Sign Language for PLANTAIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 47,
+      "pdfPage": 58
+    }
+  },
+  {
+    "id": "gsl-plate",
+    "slug": "plate",
+    "word": "PLATE",
+    "primaryWord": "PLATE",
+    "normalizedWord": "plate",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the fingertips of both flat hands together in front you and draw back in a flat circular motion.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/plate.webp",
+      "alt": "Ghanaian Sign Language for PLATE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 41,
+      "pdfPage": 52
+    }
+  },
+  {
+    "id": "gsl-play",
+    "slug": "play",
+    "word": "PLAY",
+    "primaryWord": "PLAY",
+    "normalizedWord": "play",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Hold both \"Y\" hands in front of the chest and shake them at the wrists a few times.",
+    "category": "SPORTS AND GAMES",
+    "categorySlug": "sportsandgames",
+    "image": {
+      "src": "/data/dictionary/images/sportsandgames/play.webp",
+      "alt": "Ghanaian Sign Language for PLAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 119,
+      "pdfPage": 130
+    }
+  },
+  {
+    "id": "gsl-please",
+    "slug": "please",
+    "word": "PLEASE",
+    "primaryWord": "PLEASE",
+    "normalizedWord": "please",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place your flat right hand on your chest and rotate in a circle.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/please.webp",
+      "alt": "Ghanaian Sign Language for PLEASE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 155,
+      "pdfPage": 166
+    }
+  },
+  {
+    "id": "gsl-pnc",
+    "slug": "pnc",
+    "word": "PNC",
+    "primaryWord": "PNC",
+    "normalizedWord": "pnc",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Sign the letters \"P\" \"N\" \"C\" while slightly moving the hand to the right.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/pnc.webp",
+      "alt": "Ghanaian Sign Language for PNC"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-poison",
+    "slug": "poison",
+    "word": "POISON",
+    "primaryWord": "POISON",
+    "normalizedWord": "poison",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Touch the fingertip of the \"P\" hand to your plam and wiggle the hand.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/poison.webp",
+      "alt": "Ghanaian Sign Language for POISON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 176,
+      "pdfPage": 187
+    }
+  },
+  {
+    "id": "gsl-police",
+    "slug": "police",
+    "word": "POLICE",
+    "primaryWord": "POLICE",
+    "normalizedWord": "police",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Tap the left shoulder with the clawed \"3\" hand.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/police.webp",
+      "alt": "Ghanaian Sign Language for POLICE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 247,
+      "pdfPage": 258
+    }
+  },
+  {
+    "id": "gsl-policy",
+    "slug": "policy",
+    "word": "POLICY",
+    "primaryWord": "POLICY",
+    "normalizedWord": "policy",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Use the \"P\" hand to touch the opposite open hand.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/policy.webp",
+      "alt": "Ghanaian Sign Language for POLICY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 248,
+      "pdfPage": 259
+    }
+  },
+  {
+    "id": "gsl-politicalparty",
+    "slug": "politicalparty",
+    "word": "POLITICAL PARTY",
+    "primaryWord": "POLITICAL PARTY",
+    "normalizedWord": "political party",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "1. Rotate \"P\" hand to tap forehead. 2. Place both \"P\" hands together and rotate forward,.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/politicalparty.webp",
+      "alt": "Ghanaian Sign Language for POLITICAL PARTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-politics",
+    "slug": "politics",
+    "word": "POLITICS",
+    "primaryWord": "POLITICS",
+    "normalizedWord": "politics",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Starting at the temple, swing the \"P\" hand around to the forehead.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/politics.webp",
+      "alt": "Ghanaian Sign Language for POLITICS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 240,
+      "pdfPage": 251
+    }
+  },
+  {
+    "id": "gsl-poor",
+    "slug": "poor",
+    "word": "POOR / POVERTY",
+    "primaryWord": "POOR",
+    "normalizedWord": "poor",
+    "letter": "P",
+    "synonyms": [
+      "POVERTY"
+    ],
+    "definition": "Grasp your left elbow in the right hand then pull the hand down into the \"AND\" hand.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/poor.webp",
+      "alt": "Ghanaian Sign Language for POOR / POVERTY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 84,
+      "pdfPage": 95
+    }
+  },
+  {
+    "id": "gsl-porridge",
+    "slug": "porridge",
+    "word": "PORRIDGE / KOKO",
+    "primaryWord": "PORRIDGE",
+    "normalizedWord": "porridge",
+    "letter": "P",
+    "synonyms": [
+      "KOKO"
+    ],
+    "definition": "Place your index finger over your mouth and bend the finger into the \"X\" hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/porridge.webp",
+      "alt": "Ghanaian Sign Language for PORRIDGE / KOKO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 45,
+      "pdfPage": 56
+    }
+  },
+  {
+    "id": "gsl-positive",
+    "slug": "positive",
+    "word": "POSITIVE / PLUS",
+    "primaryWord": "POSITIVE",
+    "normalizedWord": "positive",
+    "letter": "P",
+    "synonyms": [
+      "PLUS"
+    ],
+    "definition": "Cross the right index finger horizontally over the left vertical index finger.",
+    "category": "OPPOSITES AND QUESTIONS",
+    "categorySlug": "oppositesandquestions",
+    "image": {
+      "src": "/data/dictionary/images/oppositesandquestions/positive.webp",
+      "alt": "Ghanaian Sign Language for POSITIVE / PLUS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 93,
+      "pdfPage": 104
+    }
+  },
+  {
+    "id": "gsl-poster",
+    "slug": "poster",
+    "word": "POSTER",
+    "primaryWord": "POSTER",
+    "normalizedWord": "poster",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place both \"A\" hand thumbs together at the mouth and trace your hands in opposite right angles.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/poster.webp",
+      "alt": "Ghanaian Sign Language for POSTER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 149,
+      "pdfPage": 160
+    }
+  },
+  {
+    "id": "gsl-postpone",
+    "slug": "postpone",
+    "word": "POSTPONE",
+    "primaryWord": "POSTPONE",
+    "normalizedWord": "postpone",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "With both \"F\" hands in front of you, slightly lift upward and forward.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/postpone.webp",
+      "alt": "Ghanaian Sign Language for POSTPONE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 210,
+      "pdfPage": 221
+    }
+  },
+  {
+    "id": "gsl-potato",
+    "slug": "potato",
+    "word": "POTATO",
+    "primaryWord": "POTATO",
+    "normalizedWord": "potato",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Swing the \"N\" hand fingers over the back of the left hand.",
+    "category": "FOOD",
+    "categorySlug": "food",
+    "image": {
+      "src": "/data/dictionary/images/food/potato.webp",
+      "alt": "Ghanaian Sign Language for POTATO"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 48,
+      "pdfPage": 59
+    }
+  },
+  {
+    "id": "gsl-power",
+    "slug": "power",
+    "word": "POWER",
+    "primaryWord": "POWER",
+    "normalizedWord": "power",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place both \"S\" hands at shoulder level then repeat on the other side.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/power.webp",
+      "alt": "Ghanaian Sign Language for POWER"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 177,
+      "pdfPage": 188
+    }
+  },
+  {
+    "id": "gsl-ppp",
+    "slug": "ppp",
+    "word": "PPP",
+    "primaryWord": "PPP",
+    "normalizedWord": "ppp",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Sign the letters \"P\" \"P\" \"P\" while slightly moving the hand to the right.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/ppp.webp",
+      "alt": "Ghanaian Sign Language for PPP"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 243,
+      "pdfPage": 254
+    }
+  },
+  {
+    "id": "gsl-pray",
+    "slug": "pray",
+    "word": "PRAY",
+    "primaryWord": "PRAY",
+    "normalizedWord": "pray",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place both flat hands together in front of your mouth.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/pray.webp",
+      "alt": "Ghanaian Sign Language for PRAY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 262,
+      "pdfPage": 273
+    }
+  },
+  {
+    "id": "gsl-preach",
+    "slug": "preach",
+    "word": "PREACH",
+    "primaryWord": "PREACH",
+    "normalizedWord": "preach",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Point both \"F\" hands forward at the level of your head.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/preach.webp",
+      "alt": "Ghanaian Sign Language for PREACH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 260,
+      "pdfPage": 271
+    }
+  },
+  {
+    "id": "gsl-presbyterian",
+    "slug": "presbyterian",
+    "word": "PRESBYTERIAN",
+    "primaryWord": "PRESBYTERIAN",
+    "normalizedWord": "presbyterian",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Tap the middle finger of the \"P\" hand into the left palm twice.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/presbyterian.webp",
+      "alt": "Ghanaian Sign Language for PRESBYTERIAN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 251,
+      "pdfPage": 262
+    }
+  },
+  {
+    "id": "gsl-present",
+    "slug": "present",
+    "word": "PRESENT / NOW",
+    "primaryWord": "PRESENT",
+    "normalizedWord": "present",
+    "letter": "P",
+    "synonyms": [
+      "NOW"
+    ],
+    "definition": "Drop the \"Y\" hands together in front of the body.",
+    "category": "TIME",
+    "categorySlug": "time",
+    "image": {
+      "src": "/data/dictionary/images/time/present.webp",
+      "alt": "Ghanaian Sign Language for PRESENT / NOW"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 209,
+      "pdfPage": 220
+    }
+  },
+  {
+    "id": "gsl-president",
+    "slug": "president",
+    "word": "PRESIDENT",
+    "primaryWord": "PRESIDENT",
+    "normalizedWord": "president",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the \"O\" hands against your forehead on both sides then pull the hands upward and close into fists.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/president.webp",
+      "alt": "Ghanaian Sign Language for PRESIDENT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 241,
+      "pdfPage": 252
+    }
+  },
+  {
+    "id": "gsl-pressure",
+    "slug": "pressure",
+    "word": "PRESSURE",
+    "primaryWord": "PRESSURE",
+    "normalizedWord": "pressure",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the right flat hand onto the left fist and slightly push down.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/pressure.webp",
+      "alt": "Ghanaian Sign Language for PRESSURE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 186,
+      "pdfPage": 197
+    }
+  },
+  {
+    "id": "gsl-prevent",
+    "slug": "prevent",
+    "word": "PREVENT / BLOCK",
+    "primaryWord": "PREVENT",
+    "normalizedWord": "prevent",
+    "letter": "P",
+    "synonyms": [
+      "BLOCK"
+    ],
+    "definition": "With left hand facing you, bring the little finger of the right flat hand against the flat left hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/prevent.webp",
+      "alt": "Ghanaian Sign Language for PREVENT / BLOCK"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 114,
+      "pdfPage": 125
+    }
+  },
+  {
+    "id": "gsl-priest",
+    "slug": "priest",
+    "word": "PRIEST / PASTOR",
+    "primaryWord": "PRIEST",
+    "normalizedWord": "priest",
+    "letter": "P",
+    "synonyms": [
+      "PASTOR"
+    ],
+    "definition": "Slide the fingers of the \"H\" hand back and forth across your throat.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/priest.webp",
+      "alt": "Ghanaian Sign Language for PRIEST / PASTOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 253,
+      "pdfPage": 264
+    }
+  },
+  {
+    "id": "gsl-primary",
+    "slug": "primary",
+    "word": "PRIMARY",
+    "primaryWord": "PRIMARY",
+    "normalizedWord": "primary",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Hold the right \"P\" hand under the left palm and wave the hand back and forth slightly.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/primary.webp",
+      "alt": "Ghanaian Sign Language for PRIMARY"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 141,
+      "pdfPage": 152
+    }
+  },
+  {
+    "id": "gsl-print",
+    "slug": "print",
+    "word": "PRINT",
+    "primaryWord": "PRINT",
+    "normalizedWord": "print",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the right flat hand under the left hand and draw backwards.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/print.webp",
+      "alt": "Ghanaian Sign Language for PRINT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 290,
+      "pdfPage": 301
+    }
+  },
+  {
+    "id": "gsl-prison",
+    "slug": "prison",
+    "word": "PRISON",
+    "primaryWord": "PRISON",
+    "normalizedWord": "prison",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Drop the right open hand to the left wrist while closing all fingers.",
+    "category": "POLITICS",
+    "categorySlug": "politics",
+    "image": {
+      "src": "/data/dictionary/images/politics/prison.webp",
+      "alt": "Ghanaian Sign Language for PRISON"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 247,
+      "pdfPage": 258
+    }
+  },
+  {
+    "id": "gsl-problem",
+    "slug": "problem",
+    "word": "PROBLEM",
+    "primaryWord": "PROBLEM",
+    "normalizedWord": "problem",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Knock the knuckles of both clawed \"V\" hands together.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/problem.webp",
+      "alt": "Ghanaian Sign Language for PROBLEM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 186,
+      "pdfPage": 197
+    }
+  },
+  {
+    "id": "gsl-process",
+    "slug": "process",
+    "word": "PROCESS",
+    "primaryWord": "PROCESS",
+    "normalizedWord": "process",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Alternate bringing one flat hand up and over the other in a forward motion.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/process.webp",
+      "alt": "Ghanaian Sign Language for PROCESS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-professional",
+    "slug": "professional",
+    "word": "PROFESSIONAL",
+    "primaryWord": "PROFESSIONAL",
+    "normalizedWord": "professional",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Slide the middle finger of the right \"P\" hand forward over the top of the left \"B\" hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/professional.webp",
+      "alt": "Ghanaian Sign Language for PROFESSIONAL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 139,
+      "pdfPage": 150
+    }
+  },
+  {
+    "id": "gsl-profit",
+    "slug": "profit",
+    "word": "PROFIT",
+    "primaryWord": "PROFIT",
+    "normalizedWord": "profit",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Move the right \"F\" hand down slightly over your heart with thumb and index finger facing downward.",
+    "category": "MONEY",
+    "categorySlug": "money",
+    "image": {
+      "src": "/data/dictionary/images/money/profit.webp",
+      "alt": "Ghanaian Sign Language for PROFIT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 75,
+      "pdfPage": 86
+    }
+  },
+  {
+    "id": "gsl-program",
+    "slug": "program",
+    "word": "PROGRAM",
+    "primaryWord": "PROGRAM",
+    "normalizedWord": "program",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Press \"P\" hand into the left palm then the \"P\" hand to the back of the left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/program.webp",
+      "alt": "Ghanaian Sign Language for PROGRAM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-project",
+    "slug": "project",
+    "word": "PROJECT",
+    "primaryWord": "PROJECT",
+    "normalizedWord": "project",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Press \"P\" hand into the left palm then lift the \"J\" hand to the back of the left hand.",
+    "category": "EDUCATION AND COMMUNICATION",
+    "categorySlug": "educationandcommunication",
+    "image": {
+      "src": "/data/dictionary/images/educationandcommunication/project.webp",
+      "alt": "Ghanaian Sign Language for PROJECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 151,
+      "pdfPage": 162
+    }
+  },
+  {
+    "id": "gsl-projector",
+    "slug": "projector",
+    "word": "PROJECTOR",
+    "primaryWord": "PROJECTOR",
+    "normalizedWord": "projector",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Grasp the right fist in the left hand and open the right hand while moving the arms forward slightly.",
+    "category": "TECHNOLOGY",
+    "categorySlug": "technology",
+    "image": {
+      "src": "/data/dictionary/images/technology/projector.webp",
+      "alt": "Ghanaian Sign Language for PROJECTOR"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 292,
+      "pdfPage": 303
+    }
+  },
+  {
+    "id": "gsl-promise",
+    "slug": "promise",
+    "word": "PROMISE",
+    "primaryWord": "PROMISE",
+    "normalizedWord": "promise",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Touch the right middle finger to your lips then tap the left fist with a flat hand.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/promise.webp",
+      "alt": "Ghanaian Sign Language for PROMISE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 182,
+      "pdfPage": 193
+    }
+  },
+  {
+    "id": "gsl-pronoun",
+    "slug": "pronoun",
+    "word": "PRONOUN",
+    "primaryWord": "PRONOUN",
+    "normalizedWord": "pronoun",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the middle finger of the \"P\" hand under the chin and move it forward.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/pronoun.webp",
+      "alt": "Ghanaian Sign Language for PRONOUN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 22,
+      "pdfPage": 33
+    }
+  },
+  {
+    "id": "gsl-prostitute",
+    "slug": "prostitute",
+    "word": "PROSTITUTE",
+    "primaryWord": "PROSTITUTE",
+    "normalizedWord": "prostitute",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Bring index finger to the center of body then slide flat hand down the body.",
+    "category": "HEALTH",
+    "categorySlug": "health",
+    "image": {
+      "src": "/data/dictionary/images/health/prostitute.webp",
+      "alt": "Ghanaian Sign Language for PROSTITUTE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 173,
+      "pdfPage": 184
+    }
+  },
+  {
+    "id": "gsl-protect",
+    "slug": "protect",
+    "word": "PROTECT",
+    "primaryWord": "PROTECT",
+    "normalizedWord": "protect",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Firmly place the right \"S\" hand against the left \"S\" hand.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/protect.webp",
+      "alt": "Ghanaian Sign Language for PROTECT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 107,
+      "pdfPage": 118
+    }
+  },
+  {
+    "id": "gsl-protein",
+    "slug": "protein",
+    "word": "PROTEIN",
+    "primaryWord": "PROTEIN",
+    "normalizedWord": "protein",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Use \"P\" hand to touch the bicep top to bottom with the middle finger.",
+    "category": "SCIENCE AND NATURE",
+    "categorySlug": "scienceandnature",
+    "image": {
+      "src": "/data/dictionary/images/scienceandnature/protein.webp",
+      "alt": "Ghanaian Sign Language for PROTEIN"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 136,
+      "pdfPage": 147
+    }
+  },
+  {
+    "id": "gsl-proud",
+    "slug": "proud",
+    "word": "PROUD / PRIDE",
+    "primaryWord": "PROUD",
+    "normalizedWord": "proud",
+    "letter": "P",
+    "synonyms": [
+      "PRIDE"
+    ],
+    "definition": "Pull the right \"A\" hand up from your waist to your chest with the thumb turned inward.",
+    "category": "EMOTIONS AND CHARACTER",
+    "categorySlug": "emotionsandcharacter",
+    "image": {
+      "src": "/data/dictionary/images/emotionsandcharacter/proud.webp",
+      "alt": "Ghanaian Sign Language for PROUD / PRIDE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 197,
+      "pdfPage": 208
+    }
+  },
+  {
+    "id": "gsl-proverbs",
+    "slug": "proverbs",
+    "word": "PROVERBS",
+    "primaryWord": "PROVERBS",
+    "normalizedWord": "proverbs",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Pull the \"P\" hand down your forehead.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/proverbs.webp",
+      "alt": "Ghanaian Sign Language for PROVERBS"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 254,
+      "pdfPage": 265
+    }
+  },
+  {
+    "id": "gsl-psalm",
+    "slug": "psalm",
+    "word": "PSALM",
+    "primaryWord": "PSALM",
+    "normalizedWord": "psalm",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Wave the right \"P\" hand back and forth over the upturned left palm.",
+    "category": "RELIGION",
+    "categorySlug": "religion",
+    "image": {
+      "src": "/data/dictionary/images/religion/psalm.webp",
+      "alt": "Ghanaian Sign Language for PSALM"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 254,
+      "pdfPage": 265
+    }
+  },
+  {
+    "id": "gsl-pull",
+    "slug": "pull",
+    "word": "PULL",
+    "primaryWord": "PULL",
+    "normalizedWord": "pull",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place one modified \"A\" hand slightly in front of the other then move both hands together into the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/pull.webp",
+      "alt": "Ghanaian Sign Language for PULL"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 112,
+      "pdfPage": 123
+    }
+  },
+  {
+    "id": "gsl-punctuation",
+    "slug": "punctuation",
+    "word": "PUNCTUATION",
+    "primaryWord": "PUNCTUATION",
+    "normalizedWord": "punctuation",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "With the index finger and thumb touching at the tips, make a point in the air in front of the body.",
+    "category": "GRAMMAR AND PARTS OF SPEECH",
+    "categorySlug": "grammarandpartsofspeech",
+    "image": {
+      "src": "/data/dictionary/images/grammarandpartsofspeech/punctuation.webp",
+      "alt": "Ghanaian Sign Language for PUNCTUATION"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 23,
+      "pdfPage": 34
+    }
+  },
+  {
+    "id": "gsl-punish",
+    "slug": "punish",
+    "word": "PUNISH",
+    "primaryWord": "PUNISH",
+    "normalizedWord": "punish",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Strike your left elbow with the right index finger.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/punish.webp",
+      "alt": "Ghanaian Sign Language for PUNISH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 104,
+      "pdfPage": 115
+    }
+  },
+  {
+    "id": "gsl-purple",
+    "slug": "purple",
+    "word": "PURPLE",
+    "primaryWord": "PURPLE",
+    "normalizedWord": "purple",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Place the index finger of the \"P\" hand on your temple and rotate your hand at the wrist.",
+    "category": "COLORS",
+    "categorySlug": "colors",
+    "image": {
+      "src": "/data/dictionary/images/colors/purple.webp",
+      "alt": "Ghanaian Sign Language for PURPLE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 6,
+      "pdfPage": 17
+    }
+  },
+  {
+    "id": "gsl-purpose",
+    "slug": "purpose",
+    "word": "PURPOSE",
+    "primaryWord": "PURPOSE",
+    "normalizedWord": "purpose",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Circle the \"P\" hand against your temple.",
+    "category": "IDEAS AND MENTAL ACTION",
+    "categorySlug": "ideasandmentalaction",
+    "image": {
+      "src": "/data/dictionary/images/ideasandmentalaction/purpose.webp",
+      "alt": "Ghanaian Sign Language for PURPOSE"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 184,
+      "pdfPage": 195
+    }
+  },
+  {
+    "id": "gsl-purse",
+    "slug": "purse",
+    "word": "PURSE / HAND BAG",
+    "primaryWord": "PURSE",
+    "normalizedWord": "purse",
+    "letter": "P",
+    "synonyms": [
+      "HAND BAG"
+    ],
+    "definition": "Place the \"S\" hand at the top of the shoulder then move the hand down to your hip.",
+    "category": "HOME AND CLOTHING",
+    "categorySlug": "homeandclothing",
+    "image": {
+      "src": "/data/dictionary/images/homeandclothing/purse.webp",
+      "alt": "Ghanaian Sign Language for PURSE / HAND BAG"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 37,
+      "pdfPage": 48
+    }
+  },
+  {
+    "id": "gsl-push",
+    "slug": "push",
+    "word": "PUSH",
+    "primaryWord": "PUSH",
+    "normalizedWord": "push",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Move both open hands forward from the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/push.webp",
+      "alt": "Ghanaian Sign Language for PUSH"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 112,
+      "pdfPage": 123
+    }
+  },
+  {
+    "id": "gsl-put",
+    "slug": "put",
+    "word": "PUT",
+    "primaryWord": "PUT",
+    "normalizedWord": "put",
+    "letter": "P",
+    "synonyms": [],
+    "definition": "Move both \"AND\" hands simultaneously from left to right across the body.",
+    "category": "ACTIVITIES",
+    "categorySlug": "activities",
+    "image": {
+      "src": "/data/dictionary/images/activities/put.webp",
+      "alt": "Ghanaian Sign Language for PUT"
+    },
+    "source": {
+      "title": "Ghanaian Sign Language Dictionary (3rd Edition)",
+      "page": 111,
+      "pdfPage": 122
+    }
+  }
+]
