@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { DictionaryProvider } from './context/DictionaryContext';
 import { FavoritesProvider } from './context/FavoritesContext';
 import { AppHeader } from './components/common/AppHeader';
 import { AppFooter } from './components/common/AppFooter';
 import { ToastContainer } from './components/common/Toast';
+import { PWAInstallPrompt } from './components/common/PWAInstallPrompt';
 import { HomePage } from './pages/HomePage';
 import { DictionaryPage } from './pages/DictionaryPage';
 import { VocabularyDetailPage } from './pages/VocabularyDetailPage';
@@ -16,131 +18,137 @@ import { FavoritesPage } from './pages/FavoritesPage';
 import { AboutPage } from './pages/AboutPage';
 import { GSLSearchIndexItem } from './types/dictionary';
 
-export const AppContent: React.FC = () => {
-  const [currentPath, setCurrentPath] = useState<string>(() => {
-    return window.location.pathname || '/';
-  });
+const NotFoundPage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavigate }) => (
+  <div style={{ paddingTop: '80px', paddingBottom: '80px', textAlign: 'center' }}>
+    <div className="app-container" style={{ maxWidth: '600px' }}>
+      <h2 style={{ fontSize: '48px', fontWeight: 800, marginBottom: '8px', color: 'var(--ink-primary)' }}>404</h2>
+      <p style={{ fontSize: '18px', fontWeight: 600, color: 'var(--ink-secondary)', marginBottom: '8px' }}>Page Not Found</p>
+      <p style={{ color: 'var(--ink-muted)', marginBottom: '24px' }}>
+        The requested page does not exist on SignBridgeGhana.
+      </p>
+      <button
+        onClick={() => onNavigate('/')}
+        className="chrome-btn-primary"
+        style={{ padding: '10px 24px' }}
+      >
+        Return Home
+      </button>
+    </div>
+  </div>
+);
 
-  // Listen to browser popstate (back/forward)
-  useEffect(() => {
-    const handlePopState = () => {
-      setCurrentPath(window.location.pathname || '/');
-    };
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
+const AppContent: React.FC = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const currentPath = location.pathname;
 
-  const navigate = (path: string) => {
-    if (path !== currentPath) {
-      window.history.pushState({}, '', path);
-      setCurrentPath(path);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+  const handleNavigate = (path: string) => {
+    navigate(path);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectSignItem = (item: GSLSearchIndexItem) => {
     navigate(`/dictionary/${item.slug}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectSignBySlug = (slug: string) => {
     navigate(`/dictionary/${slug}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  // Extract query parameters if any
-  const urlParams = new URLSearchParams(window.location.search);
-  const categoryParam = urlParams.get('category');
-  const letterParam = urlParams.get('letter');
-
-  // Simple clean router
-  let pageContent: React.ReactNode = null;
-
-  if (currentPath === '/' || currentPath === '') {
-    pageContent = (
-      <HomePage
-        onNavigate={navigate}
-        onSelectSign={handleSelectSignItem}
-      />
-    );
-  } else if (currentPath === '/dictionary') {
-    pageContent = (
-      <DictionaryPage
-        onSelectSign={handleSelectSignItem}
-        initialCategory={categoryParam}
-        initialLetter={letterParam}
-      />
-    );
-  } else if (currentPath.startsWith('/dictionary/')) {
-    const slug = currentPath.replace('/dictionary/', '');
-    pageContent = (
-      <VocabularyDetailPage
-        slug={slug}
-        onNavigate={navigate}
-        onSelectSign={handleSelectSignBySlug}
-      />
-    );
-  } else if (currentPath === '/categories') {
-    pageContent = <CategoriesPage onNavigate={navigate} />;
-  } else if (currentPath === '/alphabet') {
-    pageContent = <AlphabetPage onNavigate={navigate} />;
-  } else if (currentPath === '/numerals') {
-    pageContent = <NumeralsPage onNavigate={navigate} />;
-  } else if (currentPath === '/schools') {
-    pageContent = <SchoolsPage onNavigate={navigate} />;
-  } else if (currentPath === '/translate') {
-    pageContent = <TranslatorPage onSelectSign={handleSelectSignBySlug} />;
-  } else if (currentPath === '/favorites') {
-    pageContent = (
-      <FavoritesPage
-        onNavigate={navigate}
-        onSelectSign={handleSelectSignBySlug}
-      />
-    );
-  } else if (currentPath === '/about') {
-    pageContent = <AboutPage onNavigate={navigate} />;
-  } else {
-    // 404 fallback
-    pageContent = (
-      <div style={{ paddingTop: '60px', paddingBottom: '80px', textAlign: 'center' }}>
-        <div className="app-container" style={{ maxWidth: '600px' }}>
-          <h2 style={{ fontSize: '32px', fontWeight: 800, marginBottom: '12px' }}>
-            404 — Page Not Found
-          </h2>
-          <p style={{ color: 'var(--ink-secondary)', marginBottom: '24px' }}>
-            The requested page does not exist on SignBridgeGhana.
-          </p>
-          <button
-            onClick={() => navigate('/')}
-            className="chrome-btn-primary"
-            style={{ padding: '10px 24px' }}
-          >
-            Return Home
-          </button>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <AppHeader
         currentPath={currentPath}
-        onNavigate={navigate}
-        onOpenSearch={() => navigate('/dictionary')}
+        onNavigate={handleNavigate}
+        onOpenSearch={() => handleNavigate('/dictionary')}
       />
-      <main style={{ flex: 1 }}>{pageContent}</main>
-      <AppFooter onNavigate={navigate} />
+      <main style={{ flex: 1 }}>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <HomePage
+                onNavigate={handleNavigate}
+                onSelectSign={handleSelectSignItem}
+              />
+            }
+          />
+          <Route
+            path="/dictionary"
+            element={
+              <DictionaryPage
+                onSelectSign={handleSelectSignItem}
+                initialCategory={new URLSearchParams(location.search).get('category')}
+                initialLetter={new URLSearchParams(location.search).get('letter')}
+              />
+            }
+          />
+          <Route
+            path="/dictionary/:slug"
+            element={
+              <VocabularyDetailPageWrapper
+                onNavigate={handleNavigate}
+                onSelectSign={handleSelectSignBySlug}
+              />
+            }
+          />
+          <Route path="/categories" element={<CategoriesPage onNavigate={handleNavigate} />} />
+          <Route path="/alphabet" element={<AlphabetPage onNavigate={handleNavigate} />} />
+          <Route path="/numerals" element={<NumeralsPage onNavigate={handleNavigate} />} />
+          <Route path="/schools" element={<SchoolsPage onNavigate={handleNavigate} />} />
+          <Route
+            path="/translate"
+            element={<TranslatorPage onSelectSign={handleSelectSignBySlug} />}
+          />
+          <Route
+            path="/favorites"
+            element={
+              <FavoritesPage
+                onNavigate={handleNavigate}
+                onSelectSign={handleSelectSignBySlug}
+              />
+            }
+          />
+          <Route path="/about" element={<AboutPage onNavigate={handleNavigate} />} />
+          <Route path="*" element={<NotFoundPage onNavigate={handleNavigate} />} />
+        </Routes>
+      </main>
+      <AppFooter onNavigate={handleNavigate} />
       <ToastContainer />
+      <PWAInstallPrompt />
     </div>
+  );
+};
+
+/**
+ * Wrapper to extract :slug param for VocabularyDetailPage
+ */
+const VocabularyDetailPageWrapper: React.FC<{
+  onNavigate: (path: string) => void;
+  onSelectSign: (slug: string) => void;
+}> = ({ onNavigate, onSelectSign }) => {
+  const location = useLocation();
+  const slug = location.pathname.replace('/dictionary/', '');
+  return (
+    <VocabularyDetailPage
+      slug={slug}
+      onNavigate={onNavigate}
+      onSelectSign={onSelectSign}
+    />
   );
 };
 
 export const App: React.FC = () => {
   return (
-    <DictionaryProvider>
-      <FavoritesProvider>
-        <AppContent />
-      </FavoritesProvider>
-    </DictionaryProvider>
+    <BrowserRouter>
+      <DictionaryProvider>
+        <FavoritesProvider>
+          <AppContent />
+        </FavoritesProvider>
+      </DictionaryProvider>
+    </BrowserRouter>
   );
 };
 
