@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./public/favicon.png" alt="SignBridgeGhana Logo" width="96" height="96" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+  <img src="./public/icons/favicon.png" alt="SignBridgeGhana Logo" width="96" height="96" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
 
   # 🇬🇭 SignBridgeGhana
   ### **Ghanaian Sign Language (GSL) Digital Dictionary & Real-Time Translation Platform**
@@ -18,12 +18,11 @@
   </p>
 
   <p align="center">
-    <a href="#-table-of-contents">Explore Docs</a> •
-    <a href="#-whats-new-in-v20">What's New in v2.0</a> •
+    <a href="#-central-documentation-hub">Docs Hub</a> •
+    <a href="docs/COLLAB.md">Collaborator Guide</a> •
+    <a href="docs/PROJECT_PHASE.md">Phase Tracker</a> •
     <a href="#-key-platform-features">Features</a> •
-    <a href="#-bidirectional-translation-engine">Translation Engine</a> •
-    <a href="#-progressive-web-app--mobile-readiness">PWA & Mobile</a> •
-    <a href="#-collaborator-briefing">Collaborator Guide</a> •
+    <a href="#-translation-studio-architecture">Translator Studio</a> •
     <a href="#-quickstart--local-development">Quickstart</a>
   </p>
 
@@ -31,38 +30,29 @@
 
 ---
 
-## 📖 Table of Contents
+## 📚 Central Documentation Hub
 
-- [🌟 Project Overview & Vision](#-project-overview--vision)
-- [🚀 What's New in v2.0](#-whats-new-in-v20)
-- [✨ Key Platform Features](#-key-platform-features)
-- [🤖 Bidirectional Translation Engine & Infrastructure](#-bidirectional-translation-engine--infrastructure)
-  - [1. Sign → Text & Audio (Camera AI)](#1-sign--text--audio-camera-ai)
-  - [2. Text/Voice → Sign (3D Avatar Engine)](#2-textvoice--sign-3d-avatar-engine)
-  - [3. Interactive Sign Composer](#3-interactive-sign-composer)
-- [📱 Progressive Web App (PWA) & Mobile Readiness](#-progressive-web-app-pwa--mobile-readiness)
-- [💎 Design Guidelines & Aesthetic System](#-design-guidelines--aesthetic-system)
-- [🛠️ Tech Stack & Dependencies](#️-tech-stack--dependencies)
-- [📁 Repository & Data Architecture](#-repository--data-architecture)
-- [🚀 Quickstart & Local Development](#-quickstart--local-development)
-- [🧪 Data Pipeline & Validation](#-data-pipeline--validation)
-- [🏛️ Deaf Schools of Ghana Directory](#️-deaf-schools-of-ghana-directory)
-- [🤝 Collaborator Briefing & Onboarding](#-collaborator-briefing--onboarding)
-- [📜 Attribution & Provenance](#-attribution--provenance)
-- [📄 License](#-license)
+All detailed documentation, architectural blueprints, design tokens, and project phase tracking are organized in the [`/docs`](docs/) directory:
+
+| Document | Purpose & Summary |
+| :--- | :--- |
+| 🤝 **[`docs/COLLAB.md`](docs/COLLAB.md)** | **Collaborator & System Architecture Guide** — Detailed inventory of all 10 pages, component registries, service APIs, CV/3D systems, design token specs, and onboarding protocols. |
+| 🗺️ **[`docs/PROJECT_PHASE.md`](docs/PROJECT_PHASE.md)** | **Project Phase & Progression Tracker** — Chronological ledger tracking changes across all 6 phases, live status matrix, and milestone progress. |
+| 💎 **[`docs/DESIGN.md`](docs/DESIGN.md)** | **Design System Specifications** — High-contrast monochrome palettes, Liquid Chrome specular borders, frosted glass slabs, and typography tokens. |
+| 📖 **[`docs/README.md`](docs/README.md)** | **Complete Platform Manual** — In-depth overview of the entire dataset, offline PWA caching, dictionary partitioning, and validation reports. |
 
 ---
 
 ## 🌟 Project Overview & Vision
 
-**SignBridgeGhana** is a high-performance web-native platform and cross-platform PWA engineered to preserve, teach, and elevate **Ghanaian Sign Language (GSL)**. Over 110,000 Deaf and hard-of-hearing Ghanaians use GSL daily as their primary language, yet digital tools and two-way translation accessibility have historically been sparse.
+**SignBridgeGhana** is a high-performance web-native platform and cross-platform PWA engineered to preserve, teach, and elevate **Ghanaian Sign Language (GSL)**. Over 110,000 Deaf and hard-of-hearing Ghanaians use GSL daily as their primary language.
 
 SignBridgeGhana bridges deaf and hearing communities through:
-1. **Authoritative Preservation**: Full digital preservation of all 1,514 official GSL signs from the GNAD/GES national curriculum.
+1. **Authoritative Preservation**: Digital preservation of all 1,514 official GSL signs with 300 DPI illustration crops and movement breakdowns.
 2. **Two-Way Real-Time Translation**:
-   - Watching someone sign through their webcam/camera and translating into English text and spoken audio.
-   - Typing or speaking an English sentence and watching an animated 3D avatar perform the sign sequence alongside synchronized official GSL dictionary cards.
-3. **Zero-Latency Offline Access**: Full PWA precaching ensuring the dictionary works seamlessly without internet in classrooms, clinics, and rural communities across Ghana.
+   - **Sign ➔ Text & Audio (Deaf to Hearing)**: Watches gestures via camera, classifies them against the GSL index with MediaPipe Holistic, outputs live text, and reads aloud via Web Speech Synthesis (TTS).
+   - **Text/Voice ➔ Sign (Hearing to Deaf)**: Types or dictates English speech, animates a 3D procedural humanoid avatar (Three.js), and synchronizes official dictionary cards.
+3. **Zero-Latency Offline Access**: Full PWA precaching ensuring the dictionary works seamlessly without internet across schools and clinics in Ghana.
 
 ```
        ┌──────────────────────────────────────────────────────────────┐
@@ -94,24 +84,11 @@ SignBridgeGhana bridges deaf and hearing communities through:
 
 ---
 
-## 🚀 What's New in v2.0
-
-Version 2.0 transforms SignBridgeGhana from a static digital dictionary into an **active, bidirectional communication studio**:
-
-- 🎥 **Real-Time Camera Sign-to-Text AI**: MediaPipe Holistic spatial tracking with 21 hand landmarks, 33 body pose points, and 468 face mesh keypoints. Matches gestures against the GSL dictionary corpus with live confidence scores.
-- 🗣️ **Text-to-Speech (TTS) Narration**: Hearing partners can listen to the detected signs spoken aloud in real-time using the Web Speech Synthesis API.
-- 🧍 **3D Avatar GSL Signing Engine**: Three.js procedural skeletal avatar with humanoid joint IK rotations, smooth Euler/quaternion interpolation, speed control (0.5x to 2.0x), and looping.
-- 🎙️ **Speech-to-Sign Input**: Hearing users can speak directly into their microphone (Web Speech Recognition) to translate spoken English into GSL sign sequences.
-- 🧩 **Interactive Sign Composer**: Build, arrange, and preview custom GSL sign sentences with timing indicators and sign illustration cards.
-- 📲 **Full PWA & Offline Support**: Workbox service worker precaching 1,537 assets. Installable on desktop, iOS (Safari "Add to Home Screen"), and Android.
-
----
-
 ## ✨ Key Platform Features
 
 | Feature | Description |
 | :--- | :--- |
-| 🔍 **Zero-Latency Global Search** | In-memory MiniSearch index supporting exact matches, prefix completion, fuzzy typo tolerance (`sch` ➔ `School`), and instant live dropdown previews. |
+| 🔍 **Zero-Latency Global Search** | In-memory MiniSearch index supporting exact matches, prefix completion, fuzzy typo tolerance (`sch` ➔ `School`), and live dropdown previews. |
 | 🔤 **A–Z Alphabetical Navigation** | Interactive ribbon with live sign counts for every letter of the alphabet (e.g. `A · 90`, `B · 106`, `S · 163`). |
 | 📚 **24 Thematic GSL Categories** | Complete organization into official chapters including *Family & People*, *Food*, *Education & Communication*, *Towns & Regions*, *Technology*, *Health*, and *Idiomatic Expressions*. |
 | 🖼️ **High-Resolution Sign Plates** | Crystal-clear 200–300 DPI sign illustration crops, phonetic breakdowns, step-by-step signing movements, and book page attributions. |
@@ -124,141 +101,60 @@ Version 2.0 transforms SignBridgeGhana from a static digital dictionary into an 
 
 ---
 
-## 🤖 Bidirectional Translation Engine & Infrastructure
+## 🤖 Translation Studio Architecture
 
 The Translation Studio (`/translate`) consists of three production subsystems:
 
-### 1. Sign → Text & Audio (Camera AI)
-- **Component**: [`src/components/translator/SignToTextView.tsx`](src/components/translator/SignToTextView.tsx)
-- **Service**: [`src/services/gestureRecognitionService.ts`](src/services/gestureRecognitionService.ts)
-- **Computer Vision Pipeline**:
-  - Connects to front/rear camera streams via `navigator.mediaDevices.getUserMedia`.
-  - Uses `@mediapipe/holistic` to extract 21 3D hand keypoints per hand, 33 body pose landmarks, and facial orientation.
-  - Normalizes coordinate spaces relative to wrist and shoulder references.
-  - Feature vector extraction computes finger extensions, knuckle curl angles, and spatial positions.
-  - Nearest-neighbor matcher checks feature vectors against the 1,514 GSL sign index with confidence thresholds.
-  - Temporal phoneme buffer prevents flickering and confirms repeated sign frames before publishing word events.
-  - Integrated **Web Speech API SpeechSynthesis** speaks detected words aloud for hearing conversation partners.
-
-### 2. Text/Voice → Sign (3D Avatar Engine)
-- **Component**: [`src/components/translator/TextToSignAvatar.tsx`](src/components/translator/TextToSignAvatar.tsx)
-- **Service**: [`src/services/avatarSigningService.ts`](src/services/avatarSigningService.ts)
-- **3D Graphics & Animation Pipeline**:
-  - Procedural Three.js humanoid rig built with geometric segments (head, torso, shoulders, upper arms, forearms, hands) with studio lighting and shadow mapping.
-  - User can type text or speak via microphone (**Web Speech Recognition API**).
-  - Lexical token parser queries the in-memory GSL dictionary for matching vocabulary cards.
-  - Words with dictionary matches trigger procedural pose sequences (Shoulder, Elbow, Wrist, Spine, and Head Euler rotation angles).
-  - Unmatched words fallback to fingerspelling character sequences.
-  - Real-time slerp/Euler interpolation provides fluid 60fps transitions between poses.
-  - UI synchronizes the 3D avatar animation with the official high-resolution GSL dictionary card preview.
-
-### 3. Interactive Sign Composer
-- **Component**: [`src/components/translator/SignComposer.tsx`](src/components/translator/SignComposer.tsx)
-- Allows educators, interpreters, and learners to construct complex GSL sentence sequences.
-- Step-by-step playback with customizable dwell times per sign.
-- Direct links from sequenced cards into the full vocabulary detail pages.
+1. **Sign → Text & Audio (Camera AI)**:
+   - Uses `@mediapipe/holistic` to track 21 hand landmarks, 33 body pose landmarks, and 468 face mesh points.
+   - Computes normalized hand shape vectors and matches against GSL sign signatures with confidence thresholds.
+   - Temporal confirmation buffer prevents false positives and jitter.
+   - Speaks detected words aloud using **Web Speech API SpeechSynthesis**.
+2. **Text/Voice → Sign (3D Avatar Engine)**:
+   - Procedural Three.js humanoid skeletal rig with directional key lights and soft VSM shadow maps.
+   - Accepts typed English or speech via **Web Speech Recognition**.
+   - Pose interpolation (Euler / slerp) delivers smooth 60fps transitions between GSL sign poses.
+   - Synchronizes playback with official GSL dictionary cards.
+3. **Interactive Sign Composer**:
+   - Allows educators and learners to arrange custom GSL sign sequences with timing and dwell controls.
 
 ---
 
-## 📱 Progressive Web App (PWA) & Mobile Readiness
+## 📁 Repository Architecture
 
-SignBridgeGhana is architected as an installable PWA that functions seamlessly on web, mobile browsers, and packaged native shells:
-
-- **Service Worker Engine**: Built using `vite-plugin-pwa` and Google Workbox (`sw.js`).
-- **Precache Corpus**: 1,537 essential application bundles, styles, icons, and dictionary files precached for instant offline loading.
-- **Runtime Caching**:
-  - Dictionary images & JSON assets cached via `CacheFirst` strategy with 30-day persistence.
-  - Google Fonts cached with `StaleWhileRevalidate` and `CacheFirst`.
-- **Web App Manifest**: Configured in `vite.config.ts` and `public/manifest.webmanifest` with standalone display mode, orientation support, shortcuts (`/translate`, `/dictionary`), and high-res maskable icons.
-- **Install Prompt UI**: Custom [`PWAInstallPrompt.tsx`](src/components/common/PWAInstallPrompt.tsx) non-intrusively notifies users when the app can be installed to their desktop or home screen.
-- **Mobile Wrapper Compatibility**: Ready to be wrapped into iOS/Android native app stores via Capacitor or Cordova.
-
----
-
-## 💎 Design Guidelines & Aesthetic System
-
-SignBridgeGhana adopts a **Liquid Chrome & Frosted Glassmorphism** visual language inspired by luxury industrial product design:
-
-### 1. Liquid Chrome Material Surface
-- High-frequency specular border highlights (`rgba(255, 255, 255, 0.75)` with inner refraction glows).
-- Tactile dimensional transitions on hover and active click states.
-- Restrained metallic reflection bands (`linear-gradient(135deg, #ffffff 0%, #eef2f7 35%, #d8e1ed 70%, #ffffff 100%)`).
-
-### 2. Multi-Layer Frosted Glass Slabs
-- Hardware-accelerated backdrop blur (`backdrop-filter: blur(16px) saturate(180%)`).
-- Dual softbox studio drop shadows (`0 8px 30px rgba(15, 23, 42, 0.05)`).
-- High text-contrast ratios for pristine readability against frosted panels.
-
-### 3. Typography & Micro-Interactions
-- **Display Sans**: `Space Grotesk` for display headings and numerals.
-- **Body & Metadata**: `Plus Jakarta Sans` with high legibility across all viewport sizes.
-- **Monospace**: `JetBrains Mono` for source page badges and keyboard shortcuts.
-
-### 4. Design Documentation
-- See [`DESIGN-uber (1).md`](DESIGN-uber%20(1).md) for the foundational design tokens, color scales, and layout specifications.
-- See [`COLLAB.md`](COLLAB.md) for full design system component mappings.
-
----
-
-## 🛠️ Tech Stack & Dependencies
-
-| Area | Technologies |
-| :--- | :--- |
-| **Core Framework** | [React 18.3](https://react.dev/) • [TypeScript 5.7](https://www.typescriptlang.org/) |
-| **Bundler & Tooling** | [Vite 6.1](https://vitejs.dev/) • [vite-plugin-pwa 0.21](https://vite-pwa-org.netlify.app/) |
-| **Routing** | [React Router v7](https://reactrouter.com/) |
-| **3D Rendering** | [Three.js 0.177](https://threejs.org/) |
-| **Computer Vision** | [@mediapipe/holistic](https://developers.google.com/mediapipe) • [@mediapipe/camera_utils](https://developers.google.com/mediapipe) • [react-webcam](https://github.com/mozmorris/react-webcam) |
-| **Speech APIs** | Web Speech API (`SpeechRecognition` & `SpeechSynthesis`) |
-| **Search Engine** | [MiniSearch 7.1](https://github.com/lucaong/minisearch) |
-| **Animation & Icons** | [Framer Motion 12.12](https://www.framer.com/motion/) • [Lucide React 0.475](https://lucide.dev/) |
-| **Styling** | Vanilla CSS Design Tokens + Hardware-Accelerated Glassmorphism |
-| **Data Extraction** | Python 3.10+ • [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/) • [Pillow](https://pillow.readthedocs.io/) |
-
----
-
-## 📁 Repository & Data Architecture
+The repository maintains a clean, clutter-free root layout with all documentation centralized in `/docs` and assets organized in `/public`:
 
 ```text
 thesignbridge/
-├── COLLAB.md                  # Comprehensive collaborator onboarding & system guide
-├── DESIGN-uber (1).md         # Design system specifications & token analysis
-├── README.md                  # Main project documentation (this file)
-├── package.json               # Scripts and dependencies
-├── vite.config.ts             # Vite configuration + PWA Workbox settings
-├── tsconfig.json              # TypeScript strict compiler configuration
+├── docs/                      # Central Documentation Hub
+│   ├── COLLAB.md              # Collaborator onboarding & systems breakdown
+│   ├── PROJECT_PHASE.md       # Project phase tracker & progression ledger
+│   ├── DESIGN.md              # Design system specifications & tokens
+│   └── README.md              # In-depth platform manual
 │
 ├── public/                    # Static assets & partitioned GSL dataset
-│   ├── favicon.png            # High-resolution brand logo & PWA icon
+│   ├── icons/                 # Brand favicons & PWA icons (favicon.png, etc.)
+│   ├── images/                # Community & cultural assets
 │   ├── robots.txt             # Search crawler directives
-│   └── data/dictionary/
-│       ├── vocabulary/        # Partitioned alphabetical sign files (a.json ... z.json)
-│       ├── images/            # Optimized 300 DPI WebP sign crops
-│       ├── index.json         # 1,514 compact search records
-│       ├── categories.json    # 24 thematic categories
-│       ├── schools.json       # 9 historic Deaf schools in Ghana
-│       └── manifest.json      # Dataset metadata, version & checksums
+│   ├── manifest.webmanifest   # PWA web manifest
+│   └── data/dictionary/       # Partitioned GSL dataset (1,514 signs)
 │
 ├── scripts/                   # Data engineering tools
 │   ├── extract_dictionary.py  # PDF to JSON + WebP image cropper
 │   └── validate_dictionary.py # Dataset integrity audit & verification
 │
-└── src/                       # Application source code
-    ├── components/
-    │   ├── common/            # LiquidChromeButton, FrostedGlassCard, Badge, PWA prompt
-    │   ├── dictionary/        # SignCard, SearchBar, CategoryFilter, Ribbon
-    │   └── translator/        # SignToTextView, TextToSignAvatar, SignComposer, CameraView
-    ├── context/               # DictionaryContext, FavoritesContext
-    ├── pages/                 # Home, Dictionary, VocabularyDetail, Categories,
-    │                          # Alphabet, Numerals, Schools, Favorites, Translator, About
-    ├── services/
-    │   ├── avatarSigningService.ts     # Three.js 3D avatar rig & pose interpolator
-    │   ├── gestureRecognitionService.ts # MediaPipe Holistic & GSL feature matcher
-    │   ├── searchService.ts            # MiniSearch client indexing
-    │   ├── dictionaryService.ts        # Data loader & vocabulary cache
-    │   └── storageService.ts           # LocalStorage favorites & study notes
-    ├── styles/                # design-tokens.css, chrome-glass.css, index.css
-    └── types/                 # dictionary.ts (data schemas & models)
+├── src/                       # Application source code
+│   ├── components/            # common/, dictionary/, translator/
+│   ├── context/               # DictionaryContext, FavoritesContext
+│   ├── pages/                 # All 10 views (Home, Dictionary, Translator, etc.)
+│   ├── services/              # 3D avatar, camera AI, search, storage
+│   ├── styles/                # design-tokens.css, chrome-glass.css, index.css
+│   └── types/                 # dictionary.ts schemas
+│
+├── package.json               # Scripts and dependencies
+├── tsconfig.json              # TypeScript configuration
+├── vite.config.ts             # Vite + PWA Workbox settings
+└── README.md                  # Project landing page (this file)
 ```
 
 ---
@@ -293,50 +189,10 @@ npm run build
 ```
 This compiles TypeScript (`tsc --noEmit`), bundles client assets via Vite, and generates the offline service worker (`dist/sw.js`).
 
-### 5. Preview Production Bundle
+### 5. Type Checking & Code Quality
 ```bash
-npm run preview
-```
-
----
-
-## 🧪 Data Pipeline & Validation
-
-To rebuild or validate the GSL dictionary dataset from the source PDF:
-
-```bash
-# Extract vocabulary, plates, and optimize images to WebP
-npm run dictionary:extract
-
-# Validate all 1,514 entries, images, and schema integrity
-npm run dictionary:validate
-
-# Combined extraction + validation pipeline
-npm run dictionary:build
-```
-
-### Validation Report Output
-```text
-============================================================
-      GHANAIAN SIGN LANGUAGE DICTIONARY VALIDATION
-============================================================
-Manifest Version: 1.0.0 (3rd Edition)
-Total Declared Entries: 1514
-Search Index Records: 1514
-Categories Count: 24
-Deaf Schools in Ghana: 9
-
---- DETAILED AUDIT RESULTS ---
-Vocabulary Entries Audited: 1514
-Valid Sign Images:          1514
-Missing/Broken Images:      0
-Empty Definitions:          0
-Duplicate IDs:              0
-Special Plates Validated:   5/5
-
-============================================================
-STATUS: PASSED - PRODUCTION READY DATASET
-============================================================
+npm run typecheck
+npm run lint
 ```
 
 ---
@@ -356,17 +212,9 @@ SignBridgeGhana honors the institutions that nurtured Ghanaian Sign Language:
 
 ---
 
-## 🤝 Collaborator Briefing & Onboarding
+## 🤝 Contributing & Community
 
-Are you contributing code, refining the 3D avatar rig, training sign recognition models, or contributing design assets?
-
-👉 **Please read [`COLLAB.md`](COLLAB.md) first!**
-
-[`COLLAB.md`](COLLAB.md) contains:
-- Deep breakdown of all systems in place (Data, Search, CV, 3D Graphics, PWA, Persistence).
-- Comprehensive catalog of all design files, tokens, and component guidelines.
-- Technical roadmap for upcoming milestones (TFLite models, skinned GLTF avatars, Capacitor packaging).
-- Contribution standards and coding conventions.
+Please read [`docs/COLLAB.md`](docs/COLLAB.md) before submitting code, 3D animations, or translation models. Check [`docs/PROJECT_PHASE.md`](docs/PROJECT_PHASE.md) for current sprint priorities and the progression ledger.
 
 ---
 

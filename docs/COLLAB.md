@@ -267,9 +267,9 @@ All services are located under [`src/services/`](file:///c:/Users/Theo-Kyei/Desk
 
 ## 4. Design Files, Aesthetic System & Tokens
 
-### Design Specification File: `DESIGN-uber (1).md`
+### Design Specification File: `docs/DESIGN.md`
 
-In the root directory, [`DESIGN-uber (1).md`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/DESIGN-uber%20(1).md) provides our comprehensive design benchmark. It outlines:
+In the `docs/` directory, [`DESIGN.md`](DESIGN.md) (and `DESIGN-uber (1).md`) provides our comprehensive design benchmark. It outlines:
 - High-contrast monochromatic foundations (`#000000` canvas/ink, `#ffffff` card slabs, `#5e5e5e` muted body).
 - Signature pill geometry (`border-radius: 9999px`) on all primary buttons and badges.
 - Strict typography scale based on UberMove / Space Grotesk geometry (display-xxl down to body-sm).
@@ -325,15 +325,19 @@ Configured in `index.html` via Google Fonts:
 
 ```text
 thesignbridge/
-├── COLLAB.md                               # ◄── YOU ARE HERE: Collaborator Guide & Architecture
-├── DESIGN-uber (1).md                      # Foundational design token analysis
-├── README.md                               # Public-facing repository documentation
+├── docs/                                   # Central Documentation Hub
+│   ├── COLLAB.md                           # ◄── YOU ARE HERE: Collaborator Guide & Architecture
+│   ├── PROJECT_PHASE.md                    # Project phase tracker & progression ledger
+│   ├── DESIGN.md                           # Foundational design token analysis
+│   └── README.md                           # Comprehensive platform manual
+├── README.md                               # Root landing page & portal to /docs
 ├── package.json                            # Scripts, dependencies, and project metadata
 ├── vite.config.ts                          # Vite 6 config, PWA Workbox precache & runtime caching
 ├── tsconfig.json                           # TypeScript strict compiler config
 │
 ├── public/                                 # Public static files and partitioned dataset
-│   ├── favicon.png                         # High-res logo & PWA icon (512x512)
+│   ├── icons/                              # Brand favicons & PWA icons (favicon.png, etc.)
+│   ├── favicon.png                         # Root web fallback icon
 │   ├── robots.txt                          # Web crawler indexing instructions
 │   └── data/dictionary/
 │       ├── index.json                      # 1,514 compact search index records
@@ -492,5 +496,7 @@ Whenever you make changes to the repository:
    Update the [Tech Stack](#3-the-systems-in-place--technical-architecture) and [Developer Workflows](#6-developer-workflows--commands).
 5. **Milestone Completed?**  
    Move items from [Roadmap](#7-roadmap--opportunities-for-collaborators) to [What We Have Built](#2-what-we-have-built-current-state--inventory).
+6. **Progress Logged?**  
+   Record your changes in [`docs/PROJECT_PHASE.md`](PROJECT_PHASE.md) under the Chronological Progression Ledger.
 
 Thank you for contributing to **SignBridgeGhana** and making Ghanaian Sign Language accessible to everyone! 🇬🇭

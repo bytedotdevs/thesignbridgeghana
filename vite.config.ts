@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.png', 'robots.txt'],
+      includeAssets: ['favicon.png', 'icons/favicon.png', 'robots.txt'],
       manifest: {
         name: 'SignBridgeGhana — GSL Translation Platform',
         short_name: 'SignBridge',
