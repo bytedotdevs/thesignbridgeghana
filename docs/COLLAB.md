@@ -95,7 +95,7 @@ All pages are located under [`src/pages/`](file:///c:/Users/Theo-Kyei/Desktop/th
 
 #### Translation Studio Components ([`src/components/translator/`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator))
 - [`SignToTextView.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/SignToTextView.tsx): Camera AI feed with MediaPipe landmark canvas overlay, detected sign cards, streaming transcript buffer, and Text-to-Speech (TTS) voice reading.
-- [`TextToSignAvatar.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TextToSignAvatar.tsx): 3D Three.js avatar canvas, text input + speech-to-text mic input, procedural playback controls, speed slider, and synced GSL dictionary cards.
+- [`TextToSignAvatar.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TextToSignAvatar.tsx): **2D canvas skeletal avatar** (HTML5 Canvas) with detailed finger poses (MCP/PIP/DIP joints per finger), facial expressions (eyebrows, pupils, mouth), movement direction arrows, text input + speech-to-text mic input, dictionary image preview, and GSL sign playlist.
 - [`SignComposer.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/SignComposer.tsx): Sentence sequence builder allowing users to assemble custom sign sequences with dwell time and loop controls.
 - [`CameraView.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/CameraView.tsx): Lightweight camera viewport wrapper with 21-point hand landmark overlay for testing and diagnostics.
 - [`TranslationPipelineInfo.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TranslationPipelineInfo.tsx): Expandable architecture modal/drawer explaining the computer vision and animation pipelines to learners and developers.
@@ -107,19 +107,23 @@ All pages are located under [`src/pages/`](file:///c:/Users/Theo-Kyei/Desktop/th
 All services are located under [`src/services/`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services):
 
 1. [`avatarSigningService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/avatarSigningService.ts):
-   - **Role**: Three.js 3D animation engine.
-   - Builds a procedural humanoid skeletal rig (geometric primitives for head, neck, torso, shoulders, elbows, wrists, hands).
-   - Manages pose archetypes (`SignPose`) with Euler rotation angles for all major joints.
-   - Implements `interpolatePose(poseA, poseB, t)` with smooth sinusoidal/slerp transitions.
-   - Compiles word tokens into sign frames via `buildSignSequence(sentence, searchIndex)`.
-   - Houses speech synthesis utility `speakWord(text)`.
+   - **Role**: 2D Canvas skeletal avatar engine (no Three.js dependency).
+   - Provides `AvatarRig` (canvas + ctx), `SignPose2D`, `FingerPose`, `FaceExpression`, `ArmPose`, `MovementArrow` types.
+   - `buildAvatarRig(canvas)` sets up the 2D render surface.
+   - `applyPoseToRig(rig, pose)` renders the full 2D human figure: head, torso, arms with detailed 3-segment finger joints, facial expressions, and directional arrows.
+   - `buildSignSequence(word, sign)` selects category-appropriate GSL poses from a multi-category library.
+   - `interpolatePose(a, b, t)` with `easeInOutCubic` for smooth keyframe transitions.
+   - GSL pose library keyed to 12+ categories (greeting, family, education, food, colors, emotions, time, verbs, places, health, nature, numbers, religion).
+   - `MovementArrow` support with straight, arc, and circular arrow paths indicating hand movement direction as shown in the dictionary.
 
 2. [`gestureRecognitionService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/gestureRecognitionService.ts):
    - **Role**: Real-time sign classification from video streams.
-   - Integrates `@mediapipe/holistic` to capture 21 hand landmarks, 33 body pose points, and 468 face mesh points.
-   - Computes normalized hand shape vectors (finger curl ratios, palm orientation, wrist distance).
-   - Matches incoming frames against indexed GSL signs using nearest-neighbor similarity.
-   - Employs a temporal confirmation buffer to eliminate jitter before emitting `RecognitionResult` events.
+   - Integrates `@mediapipe/holistic` capturing 21 hand landmarks, 33 body pose points, and 468 face mesh points.
+   - `extractHandFeatures()`: Extracts spread, height, per-finger extension (MCP/PIP/DIP check), closeness, finger count, palm facing.
+   - `matchSignFromFeatures()`: Scores GSL index candidates using category + definition keyword mapping against detected gesture type.
+   - 8 gesture types: `open-hand`, `fist`, `point`, `two-fingers`, `three-fingers`, `thumbs`, `curved`, `generic` — each mapped to GSL categories.
+   - Simulation fallback mode: Emits real dictionary matches from the GSL index when MediaPipe is unavailable.
+   - `onRecognition()` / `onFrame()` pub-sub API for decoupled component updates.
 
 3. [`searchService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/searchService.ts):
    - **Role**: High-speed, client-side full-text search.
@@ -226,20 +230,26 @@ All services are located under [`src/services/`](file:///c:/Users/Theo-Kyei/Desk
 
 ---
 
-### System 4: Procedural 3D Avatar Signing Engine
+### System 4: 2D Canvas Skeletal Avatar Signing Engine
 
 - **Location**: [`src/services/avatarSigningService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/avatarSigningService.ts) and [`TextToSignAvatar.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TextToSignAvatar.tsx).
-- **Core Engine**: `three` v0.177.
-- **Rig Structure**:
-  - Procedural humanoid avatar constructed from Three.js cylinder and sphere primitives with metallic and matte materials.
-  - Hierarchy: `Torso` ➔ `Shoulder Pivot` ➔ `Upper Arm` ➔ `Elbow Pivot` ➔ `Forearm` ➔ `Wrist Pivot` ➔ `Hand`.
-  - Studio Three.js scene configured with ambient light, directional key light with `VSMShadowMap`, and rim lighting.
-- **Animation Execution**:
-  - User sentence is tokenized into words.
-  - Each word maps to a sequence of `SignPose` keyframes.
-  - An animation loop executes at 60fps using `requestAnimationFrame`, interpolating angles between `poseA` and `poseB` using smooth easing.
-  - Playback speed slider allows learners to slow down playback (0.5x) or speed it up (2.0x).
-  - Microphone input powered by `webkitSpeechRecognition` lets hearing users speak sentences hands-free.
+- **Core Engine**: HTML5 Canvas 2D API — pure canvas rendering, no Three.js.
+- **Coordinate System**: Avatar-local, centered at shoulder midpoint. Right arm (avatar perspective) is on **screen left** at x=-75. Left arm at x=+75. Y increases downward.
+- **Forward-Kinematics Arm System**:
+  - `shoulderAngle`: Measured from the downward vertical. 0 = arm hanging down, -π/2 = arm horizontal outward for right arm. Drives `elbowX/Y` correctly.
+  - `elbowAngle`: Forearm bend. 0 = arm straight, positive = arm bends upward (toward face).
+  - `handTargetX/Y`: Optional overrides to place the wrist at an absolute avatar-local position. Used for face-level signs — e.g. `handTargetY = -75` places hand at forehead. This is how "hello", "eat", "thank you", "father", "mother", etc. work.
+- **Avatar Shape**: Face (oval head + eyebrows + eyes + nose + mouth), neck, trapezoid torso, two arms. **No legs**.
+- **Finger Rendering**:
+  - All 5 fingers per hand, each with 3 segments: MCP (18–24px), PIP (13–19px), DIP (10–14px).
+  - Fingers extend from the palm in `handAngle` direction with lateral spread proportional to `FINGER_SPREAD`.
+  - Curl model: each segment's `curl` value rotates the next segment perpendicular to the current direction (positive = curls toward palm).
+  - Color-coded: thumb=purple, index=blue, middle=green, ring=orange, pinky=pink.
+- **Facial Expressions**: Eyebrow raise/furrow, eye open/squint with pupils + catchlight, mouth open/smile/frown. Driven by `FaceExpression` data attached to each pose.
+- **Movement Arrows**: Straight, arc-up, arc-down, circular path arrows rendered near hand position. Colors: blue for right hand, green for left.
+- **Sign Library**: Named categories keyed to specific, anatomically-correct GSL poses: `greeting`, `thankyou`, `please`, `yes`, `no`, `food`, `drink`, `family`, `father`, `mother`, `family_bro`, `family_sis`, `education`, `teacher`, `friend`, `health`, `nature`, `emotion`, `sad`, `good`, `bad`, `love`, `beautiful`, `work`, `home`, `help`, `water`, `book`, `morning`, `night`, `time`, `religion`, `place`, `color`, `number`, `me`, `you`, `we`, `come`, `go`, `stop`.
+- **Rylo-Style Aesthetic**: Light background (`#f8faff`) with subtle dot grid. Joint dots are blue with white ring. Arms are red (right) / green (left). Clean minimal look.
+- **Animation**: `easeInOutCubic` interpolation between keyframes at ~60fps via `requestAnimationFrame`.
 
 ---
 
@@ -422,8 +432,11 @@ thesignbridge/
 # Install dependencies
 npm install
 
-# Start development server on http://localhost:3000
+# Start development server on http://localhost:5173 (Vite default)
 npm run dev
+
+# Watch for changes and rebuild (using nodemon)
+npm run dev:watch
 ```
 
 ### Production Build & PWA Testing

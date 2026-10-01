@@ -1,9 +1,13 @@
 /**
- * TextToSignAvatar — Text/Speech → 3D Avatar GSL Signing
+ * TextToSignAvatar — Text/Speech → 2D Skeletal Avatar GSL Signing
  *
  * User types or speaks a sentence. The app looks up each word in the
- * GSL dictionary, builds a sign sequence, and plays it on a 3D skeletal
- * avatar rendered with Three.js.
+ * GSL dictionary, builds a sign sequence, and plays it on a 2D skeletal
+ * canvas avatar that shows:
+ *  - Full finger poses (all 5 fingers with MCP/PIP/DIP joints)
+ *  - Realistic facial expressions (eyebrows, eyes, mouth)
+ *  - Movement direction arrows (indicating hand motion direction)
+ *  - Category-based animations mapped directly from the GSL dictionary
  */
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
@@ -20,6 +24,7 @@ import {
   Volume2,
   BookOpen,
   ChevronRight,
+  Info,
 } from 'lucide-react';
 import { LiquidChromeButton } from '../common/LiquidChromeButton';
 import { Badge } from '../common/Badge';
@@ -36,9 +41,7 @@ import type { AvatarRig, SignSequence } from '../../services/avatarSigningServic
 
 const getNeutralPose = () => NEUTRAL_POSE;
 
-
 const SAMPLE_SENTENCES = [
-
   'Hello welcome friend',
   'School family teacher',
   'Good morning Ghana',
@@ -53,6 +56,7 @@ export const TextToSignAvatar: React.FC = () => {
   const rigRef = useRef<AvatarRig | null>(null);
   const rafRef = useRef<number | null>(null);
   const recognitionRef = useRef<any>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const [inputText, setInputText] = useState('Hello welcome friend');
   const [signSequences, setSignSequences] = useState<SignSequence[]>([]);
@@ -61,10 +65,9 @@ export const TextToSignAvatar: React.FC = () => {
   const [isListening, setIsListening] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(false);
   const [ttsEnabled, setTtsEnabled] = useState(true);
-  const [canvasReady, setCanvasReady] = useState(false);
   const [frameLabel, setFrameLabel] = useState('');
 
-  // Animation state
+  // Animation state (ref to avoid stale closures)
   const playStateRef = useRef({
     isPlaying: false,
     sequenceIdx: 0,
@@ -72,66 +75,77 @@ export const TextToSignAvatar: React.FC = () => {
     frameProgress: 0,
     lastTime: 0,
   });
+  const signSequencesRef = useRef<SignSequence[]>([]);
 
-  // ── Three.js Setup ──────────────────────────────────────────────────────
+  // Keep ref in sync with state
+  useEffect(() => {
+    signSequencesRef.current = signSequences;
+  }, [signSequences]);
+
+  // ── 2D Canvas Setup ──────────────────────────────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const rig = buildAvatarRig(canvas);
-    rigRef.current = rig;
-    setCanvasReady(true);
+    const updateSize = () => {
+      const parent = canvas.parentElement;
+      if (!parent) return;
+      const w = Math.max(parent.clientWidth, 300);
+      // Aspect ratio: taller canvas gives more room for face + torso + raised arms
+      const h = Math.round(w * 0.72);
+      canvas.style.width  = `${w}px`;
+      canvas.style.height = `${h}px`;
+      canvas.width  = w;
+      canvas.height = h;
 
-    // Apply neutral pose
-    applyPoseToRig(rig, getNeutralPose());
+      // Rebuild rig with new dimensions
+      const rig = buildAvatarRig(canvas);
+      rigRef.current = rig;
+      applyPoseToRig(rig, getNeutralPose());
+    };
+
+    updateSize();
 
     // Idle breathing animation
     let t = 0;
     const idle = () => {
-      if (!playStateRef.current.isPlaying) {
-        t += 0.01;
-        rig.skeleton.spine.position.y = Math.sin(t * 0.8) * 0.006;
-        rig.skeleton.hips.rotation.y = Math.sin(t * 0.3) * 0.02;
+      if (!playStateRef.current.isPlaying && rigRef.current) {
+        // gentle idle — just re-render neutral with slight breathing
+        t += 0.016;
+        const breathPose = {
+          ...NEUTRAL_POSE,
+          torsoBend: Math.sin(t * 0.8) * 0.012,
+        };
+        applyPoseToRig(rigRef.current, breathPose);
       }
-      rig.renderer.render(rig.scene, rig.camera);
       rafRef.current = requestAnimationFrame(idle);
     };
     idle();
 
-    // Resize handler
-    const onResize = () => {
-      if (!canvas.parentElement) return;
-      const w = canvas.parentElement.clientWidth;
-      const h = Math.round(w * 0.56);
-      rig.renderer.setSize(w, h, false);
-      rig.camera.aspect = w / h;
-      rig.camera.updateProjectionMatrix();
-    };
-    window.addEventListener('resize', onResize);
-    onResize();
+    const ro = new ResizeObserver(updateSize);
+    if (canvas.parentElement) ro.observe(canvas.parentElement);
 
     return () => {
-      window.removeEventListener('resize', onResize);
+      ro.disconnect();
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rig.renderer.dispose();
     };
   }, []);
 
-  // ── Check Speech Recognition Support ───────────────────────────────────
+  // ── Speech Recognition Support ──────────────────────────────────────────
   useEffect(() => {
     const SpeechRecognition =
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     setSpeechSupported(!!SpeechRecognition);
   }, []);
 
-  // ── Compose Sign Sequence from Text ────────────────────────────────────
+  // ── Compose Sign Sequence from Text ─────────────────────────────────────
   const composeSequence = useCallback(
     (text: string) => {
       if (!searchIndex.length) return;
       const words = text
         .trim()
         .split(/\s+/)
-        .map((w) => w.replace(/[^a-zA-Z0-9]/g, ''))
+        .map((w) => w.replace(/[^a-zA-Z0-9'-]/g, ''))
         .filter((w) => w.length > 0);
 
       const sequences: SignSequence[] = words.map((word) => {
@@ -146,6 +160,7 @@ export const TextToSignAvatar: React.FC = () => {
       });
 
       setSignSequences(sequences);
+      signSequencesRef.current = sequences;
       setCurrentWordIdx(0);
       setIsPlaying(false);
       playStateRef.current = {
@@ -169,9 +184,9 @@ export const TextToSignAvatar: React.FC = () => {
     if (searchIndex.length > 0) {
       composeSequence(inputText);
     }
-  }, [searchIndex]);
+  }, [searchIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ── Play Animation Loop ─────────────────────────────────────────────────
+  // ── Play Animation Loop ──────────────────────────────────────────────────
   const playAnimation = useCallback(() => {
     const ps = playStateRef.current;
     ps.isPlaying = true;
@@ -185,7 +200,7 @@ export const TextToSignAvatar: React.FC = () => {
       const dt = now - ps.lastTime;
       ps.lastTime = now;
 
-      const seqs = signSequences;
+      const seqs = signSequencesRef.current;
       if (!seqs.length || ps.sequenceIdx >= seqs.length) {
         ps.isPlaying = false;
         setIsPlaying(false);
@@ -196,6 +211,7 @@ export const TextToSignAvatar: React.FC = () => {
 
       const seq = seqs[ps.sequenceIdx];
       const frames = seq.frames;
+
       if (ps.frameIdx >= frames.length) {
         // Move to next word
         ps.sequenceIdx++;
@@ -233,12 +249,12 @@ export const TextToSignAvatar: React.FC = () => {
     };
 
     // Speak first word
-    if (signSequences.length > 0 && ttsEnabled) {
-      speakWord(signSequences[0].word);
+    if (signSequencesRef.current.length > 0 && ttsEnabled) {
+      speakWord(signSequencesRef.current[0].word);
     }
 
     requestAnimationFrame(animate);
-  }, [signSequences, ttsEnabled]);
+  }, [ttsEnabled]);
 
   const handlePlay = () => {
     if (isPlaying) {
@@ -265,6 +281,10 @@ export const TextToSignAvatar: React.FC = () => {
     playStateRef.current.sequenceIdx = newIdx;
     playStateRef.current.frameIdx = 0;
     playStateRef.current.frameProgress = 0;
+    // Preview the first frame of the target sign
+    if (rigRef.current && signSequences[newIdx]?.frames[1]) {
+      applyPoseToRig(rigRef.current, signSequences[newIdx].frames[1].pose);
+    }
   };
 
   const handleNext = () => {
@@ -273,9 +293,12 @@ export const TextToSignAvatar: React.FC = () => {
     playStateRef.current.sequenceIdx = newIdx;
     playStateRef.current.frameIdx = 0;
     playStateRef.current.frameProgress = 0;
+    if (rigRef.current && signSequences[newIdx]?.frames[1]) {
+      applyPoseToRig(rigRef.current, signSequences[newIdx].frames[1].pose);
+    }
   };
 
-  // ── Speech Recognition ──────────────────────────────────────────────────
+  // ── Speech Recognition ───────────────────────────────────────────────────
   const toggleListening = () => {
     if (isListening) {
       recognitionRef.current?.stop();
@@ -306,7 +329,8 @@ export const TextToSignAvatar: React.FC = () => {
   };
 
   const currentSequence = signSequences[currentWordIdx];
-  const progress = signSequences.length > 0 ? ((currentWordIdx) / signSequences.length) * 100 : 0;
+  const progress =
+    signSequences.length > 0 ? ((currentWordIdx) / signSequences.length) * 100 : 0;
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -323,8 +347,9 @@ export const TextToSignAvatar: React.FC = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
           <Type size={20} color="var(--brand-blue)" />
           <h3 style={{ fontSize: '17px', fontWeight: 800, color: 'var(--ink-primary)' }}>
-            Type or Speak → 3D Avatar Signs
+            Type or Speak → 2D Avatar Signs
           </h3>
+          <Badge variant="blue" size="sm">GSL Dictionary</Badge>
         </div>
 
         <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '12px' }}>
@@ -387,59 +412,71 @@ export const TextToSignAvatar: React.FC = () => {
                 color: '#475569', cursor: 'pointer',
               }}
             >
-              "{phrase.slice(0, 20)}{phrase.length > 20 ? '…' : ''}"
+              "{phrase.slice(0, 22)}{phrase.length > 22 ? '…' : ''}"
             </button>
           ))}
         </div>
       </div>
 
-      {/* 3D Avatar Canvas */}
+      {/* 2D Avatar Canvas */}
       <div
+        ref={containerRef}
         style={{
-          backgroundColor: '#0f172a',
+          backgroundColor: '#f0f4ff',
           borderRadius: '24px',
           overflow: 'hidden',
-          border: '1px solid rgba(59,130,246,0.25)',
-          boxShadow: '0 0 40px rgba(59,130,246,0.08)',
+          border: '1.5px solid rgba(99,130,220,0.22)',
+          boxShadow: '0 4px 32px rgba(30,60,180,0.10), 0 0 0 1px rgba(99,130,220,0.10)',
         }}
       >
         {/* Avatar Header */}
         <div
           style={{
             padding: '12px 20px',
-            borderBottom: '1px solid rgba(255,255,255,0.08)',
+            borderBottom: '1px solid rgba(80,100,200,0.12)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
+            backgroundColor: 'rgba(255,255,255,0.7)',
+            backdropFilter: 'blur(8px)',
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <span style={{ color: '#ffffff', fontSize: '14px', fontWeight: 700 }}>
-              GSL 3D Signing Avatar
+            <span style={{ color: '#1e293b', fontSize: '14px', fontWeight: 700 }}>
+              GSL Signing Avatar
             </span>
-            <Badge variant="blue" size="sm">Three.js</Badge>
+            <Badge variant="blue" size="sm">2D Skeletal</Badge>
           </div>
-          <button
-            onClick={() => setTtsEnabled(!ttsEnabled)}
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: '5px',
-              padding: '5px 10px', borderRadius: '9999px',
-              backgroundColor: ttsEnabled ? 'rgba(34,197,94,0.15)' : 'rgba(255,255,255,0.08)',
-              border: `1px solid ${ttsEnabled ? 'rgba(34,197,94,0.3)' : 'rgba(255,255,255,0.15)'}`,
-              color: ttsEnabled ? '#86efac' : '#94a3b8',
-              fontSize: '12px', fontWeight: 600, cursor: 'pointer',
-            }}
-          >
-            <Volume2 size={13} />
-            {ttsEnabled ? 'Voice On' : 'Voice Off'}
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            {/* Legend */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', color: '#64748b' }}>
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#ef4444', display: 'inline-block' }} />
+              <span>R.Arm</span>
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#22c55e', display: 'inline-block', marginLeft: '4px' }} />
+              <span>L.Arm</span>
+            </div>
+            <button
+              onClick={() => setTtsEnabled(!ttsEnabled)}
+              style={{
+                display: 'inline-flex', alignItems: 'center', gap: '5px',
+                padding: '5px 10px', borderRadius: '9999px',
+                backgroundColor: ttsEnabled ? 'rgba(37,99,235,0.12)' : 'rgba(100,116,139,0.1)',
+                border: `1px solid ${ttsEnabled ? 'rgba(37,99,235,0.3)' : 'rgba(100,116,139,0.2)'}`,
+                color: ttsEnabled ? '#2563eb' : '#94a3b8',
+                fontSize: '12px', fontWeight: 600, cursor: 'pointer',
+              }}
+            >
+              <Volume2 size={13} />
+              {ttsEnabled ? 'Voice On' : 'Voice Off'}
+            </button>
+          </div>
         </div>
 
         {/* Canvas */}
         <div style={{ position: 'relative', width: '100%' }}>
           <canvas
             ref={canvasRef}
-            style={{ width: '100%', display: 'block', aspectRatio: '16/9', maxHeight: '480px' }}
+            style={{ width: '100%', display: 'block' }}
           />
 
           {/* Current Word Overlay */}
@@ -447,29 +484,31 @@ export const TextToSignAvatar: React.FC = () => {
             <div
               style={{
                 position: 'absolute',
-                bottom: '16px',
+                bottom: '14px',
                 left: '50%',
                 transform: 'translateX(-50%)',
-                backgroundColor: 'rgba(15,23,42,0.9)',
-                border: '1px solid rgba(59,130,246,0.4)',
+                backgroundColor: 'rgba(255,255,255,0.92)',
+                border: '1.5px solid rgba(37,99,235,0.25)',
                 borderRadius: '14px',
-                padding: '10px 20px',
+                padding: '8px 18px',
                 textAlign: 'center',
-                backdropFilter: 'blur(8px)',
+                backdropFilter: 'blur(10px)',
+                boxShadow: '0 4px 16px rgba(30,60,180,0.12)',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '2px',
+                gap: '1px',
+                minWidth: '140px',
               }}
             >
-              <span style={{ color: '#60a5fa', fontSize: '11px', fontWeight: 600, letterSpacing: '0.08em' }}>
+              <span style={{ color: '#2563eb', fontSize: '10px', fontWeight: 700, letterSpacing: '0.10em' }}>
                 SIGNING
               </span>
-              <span style={{ color: '#ffffff', fontSize: '22px', fontWeight: 800, letterSpacing: '-0.02em' }}>
+              <span style={{ color: '#0f172a', fontSize: '20px', fontWeight: 800, letterSpacing: '-0.02em' }}>
                 {currentSequence.word.toUpperCase()}
               </span>
               {currentSequence.sign && (
-                <span style={{ color: '#94a3b8', fontSize: '11px' }}>
+                <span style={{ color: '#64748b', fontSize: '10px' }}>
                   {currentSequence.sign.category.split(',')[0]}
                 </span>
               )}
@@ -478,13 +517,42 @@ export const TextToSignAvatar: React.FC = () => {
               )}
             </div>
           )}
+
+          {/* Dictionary image preview */}
+          {currentSequence?.sign?.image && (
+            <div
+              style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                backgroundColor: 'rgba(255,255,255,0.92)',
+                borderRadius: '12px',
+                border: '1.5px solid rgba(37,99,235,0.2)',
+                padding: '6px',
+                backdropFilter: 'blur(8px)',
+                boxShadow: '0 2px 12px rgba(30,60,180,0.08)',
+              }}
+            >
+              <div style={{ fontSize: '9px', color: '#2563eb', fontWeight: 700, textAlign: 'center', marginBottom: '4px', letterSpacing: '0.08em' }}>
+                REFERENCE
+              </div>
+              <img
+                src={currentSequence.sign.image}
+                alt={currentSequence.word}
+                style={{ width: '60px', height: '60px', objectFit: 'contain', borderRadius: '6px' }}
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+              />
+            </div>
+          )}
         </div>
 
         {/* Playback Controls */}
         <div
           style={{
-            padding: '16px 20px',
-            borderTop: '1px solid rgba(255,255,255,0.08)',
+            padding: '14px 20px',
+            borderTop: '1px solid rgba(80,100,200,0.12)',
+            backgroundColor: 'rgba(255,255,255,0.7)',
+            backdropFilter: 'blur(8px)',
           }}
         >
           {/* Progress Bar */}
@@ -493,7 +561,7 @@ export const TextToSignAvatar: React.FC = () => {
               <div
                 style={{
                   height: '4px',
-                  backgroundColor: 'rgba(255,255,255,0.1)',
+                  backgroundColor: 'rgba(37,99,235,0.12)',
                   borderRadius: '9999px',
                   overflow: 'hidden',
                 }}
@@ -508,19 +576,19 @@ export const TextToSignAvatar: React.FC = () => {
                   }}
                 />
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '6px', fontSize: '11px', color: '#475569' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '6px', fontSize: '11px', color: '#64748b' }}>
                 <span>{currentWordIdx + 1} / {signSequences.length} words</span>
-                <span>{frameLabel}</span>
+                <span style={{ color: '#3b82f6' }}>{frameLabel}</span>
               </div>
             </div>
           )}
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px' }}>
             <button onClick={handleRestart} title="Restart" style={controlBtnStyle}>
-              <RefreshCw size={16} color="#94a3b8" />
+              <RefreshCw size={16} color="#475569" />
             </button>
             <button onClick={handlePrev} disabled={currentWordIdx === 0} title="Previous word" style={controlBtnStyle}>
-              <SkipBack size={18} color="#94a3b8" />
+              <SkipBack size={18} color="#475569" />
             </button>
             <button
               onClick={handlePlay}
@@ -540,7 +608,7 @@ export const TextToSignAvatar: React.FC = () => {
               title="Next word"
               style={controlBtnStyle}
             >
-              <SkipForward size={18} color="#94a3b8" />
+              <SkipForward size={18} color="#475569" />
             </button>
           </div>
         </div>
@@ -582,6 +650,10 @@ export const TextToSignAvatar: React.FC = () => {
                     playStateRef.current.sequenceIdx = i;
                     playStateRef.current.frameIdx = 0;
                     playStateRef.current.frameProgress = 0;
+                    // Preview pose
+                    if (rigRef.current && seq.frames[1]) {
+                      applyPoseToRig(rigRef.current, seq.frames[1].pose);
+                    }
                   }}
                   style={{
                     display: 'flex',
@@ -618,6 +690,10 @@ export const TextToSignAvatar: React.FC = () => {
                       src={seq.sign.image}
                       alt={seq.word}
                       style={{ width: '64px', height: '64px', objectFit: 'contain' }}
+                      onError={(e) => {
+                        const el = e.target as HTMLImageElement;
+                        el.style.display = 'none';
+                      }}
                     />
                   ) : (
                     <div
@@ -655,6 +731,14 @@ export const TextToSignAvatar: React.FC = () => {
               );
             })}
           </div>
+
+          {/* Info note */}
+          <div style={{ marginTop: '16px', padding: '10px 14px', backgroundColor: '#f0f9ff', borderRadius: '10px', display: 'flex', gap: '8px', alignItems: 'flex-start' }}>
+            <Info size={14} color="#0ea5e9" style={{ flexShrink: 0, marginTop: '1px' }} />
+            <p style={{ fontSize: '12px', color: '#0369a1', lineHeight: '1.5', margin: 0 }}>
+              The 2D skeletal avatar renders finger poses, facial expressions and movement arrows derived from the GSL 3rd Edition dictionary. Colored arrows show hand motion direction as documented in the dictionary.
+            </p>
+          </div>
         </div>
       )}
 
@@ -675,13 +759,11 @@ const controlBtnStyle: React.CSSProperties = {
   width: '42px',
   height: '42px',
   borderRadius: '9999px',
-  backgroundColor: 'rgba(255,255,255,0.08)',
-  border: '1px solid rgba(255,255,255,0.12)',
+  backgroundColor: 'rgba(37,99,235,0.08)',
+  border: '1px solid rgba(37,99,235,0.16)',
   cursor: 'pointer',
 };
 
 function easeInOutCubic(t: number): number {
   return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 }
-
-

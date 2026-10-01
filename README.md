@@ -51,7 +51,7 @@ SignBridgeGhana bridges deaf and hearing communities through:
 1. **Authoritative Preservation**: Digital preservation of all 1,514 official GSL signs with 300 DPI illustration crops and movement breakdowns.
 2. **Two-Way Real-Time Translation**:
    - **Sign ➔ Text & Audio (Deaf to Hearing)**: Watches gestures via camera, classifies them against the GSL index with MediaPipe Holistic, outputs live text, and reads aloud via Web Speech Synthesis (TTS).
-   - **Text/Voice ➔ Sign (Hearing to Deaf)**: Types or dictates English speech, animates a 3D procedural humanoid avatar (Three.js), and synchronizes official dictionary cards.
+   - **Text/Voice ➔ Sign (Hearing to Deaf)**: Types or dictates English speech, animates a 2D Canvas skeletal avatar with complete 5-finger articulation, facial expressions, and directional arrows, synchronizing official dictionary cards.
 3. **Zero-Latency Offline Access**: Full PWA precaching ensuring the dictionary works seamlessly without internet across schools and clinics in Ghana.
 
 ```
@@ -110,11 +110,11 @@ The Translation Studio (`/translate`) consists of three production subsystems:
    - Computes normalized hand shape vectors and matches against GSL sign signatures with confidence thresholds.
    - Temporal confirmation buffer prevents false positives and jitter.
    - Speaks detected words aloud using **Web Speech API SpeechSynthesis**.
-2. **Text/Voice → Sign (3D Avatar Engine)**:
-   - Procedural Three.js humanoid skeletal rig with directional key lights and soft VSM shadow maps.
-   - Accepts typed English or speech via **Web Speech Recognition**.
-   - Pose interpolation (Euler / slerp) delivers smooth 60fps transitions between GSL sign poses.
-   - Synchronizes playback with official GSL dictionary cards.
+2. **Text/Voice → Sign (2D Skeletal Avatar Engine)**:
+   - High-fidelity 2D Canvas skeletal avatar with forward-kinematics arm articulation and face-level sign reach (e.g., forehead, chin, mouth).
+   - Detailed 5-finger articulation with 3 segments per finger (MCP, PIP, DIP) and directional movement arrows directly matching GSL dictionary notations.
+   - Realistic facial expressions (eyebrows, eyes with catchlights, mouth shapes) synchronized with sign categories.
+   - Accepts typed English or speech via **Web Speech Recognition** and synchronizes with official GSL dictionary cards.
 3. **Interactive Sign Composer**:
    - Allows educators and learners to arrange custom GSL sign sequences with timing and dwell controls.
 

@@ -117,7 +117,7 @@ Version 2.0 transforms SignBridgeGhana from a static digital dictionary into an 
 | 🖼️ **High-Resolution Sign Plates** | Crystal-clear 200–300 DPI sign illustration crops, phonetic breakdowns, step-by-step signing movements, and book page attributions. |
 | ✋ **Manual Alphabet & Numerals** | High-fidelity interactive plates for GSL Fingerspelling (A–Z) and GSL Base Numerals (1–1,000). |
 | 🏫 **Deaf Schools of Ghana Directory** | Interactive historical guide to Ghana's 9 specialized deaf institutions founded since 1957 (Mampong-Akuapem, Bechem, Cape Coast, SEC-TECH, etc.). |
-| 🤖 **GSL Translation Studio** | Multi-mode studio: Camera Sign-to-Text, 3D Avatar Text-to-Sign, and Sign Sequence Composer. |
+| 🤖 **GSL Translation Studio** | Multi-mode studio: Camera Sign-to-Text, 2D Skeletal Avatar Text-to-Sign, and Sign Sequence Composer. |
 | ⭐ **Offline Favorites & Study Notes** | LocalStorage-persisted bookmarks with custom study notes and JSON export/import. |
 | 📱 **PWA & Mobile Installable** | Add to Home Screen on mobile and desktop, full offline capability with service worker precaching. |
 | ♿ **Accessible & High-Contrast** | WCAG high-contrast compliance, screen-reader semantic HTML, keyboard shortcuts (`/` to search, `Esc` to close), and mobile-first glassmorphism. |
@@ -140,17 +140,20 @@ The Translation Studio (`/translate`) consists of three production subsystems:
   - Temporal phoneme buffer prevents flickering and confirms repeated sign frames before publishing word events.
   - Integrated **Web Speech API SpeechSynthesis** speaks detected words aloud for hearing conversation partners.
 
-### 2. Text/Voice → Sign (3D Avatar Engine)
+### 2. Text/Voice → Sign (2D Skeletal Avatar Engine)
 - **Component**: [`src/components/translator/TextToSignAvatar.tsx`](src/components/translator/TextToSignAvatar.tsx)
 - **Service**: [`src/services/avatarSigningService.ts`](src/services/avatarSigningService.ts)
-- **3D Graphics & Animation Pipeline**:
-  - Procedural Three.js humanoid rig built with geometric segments (head, torso, shoulders, upper arms, forearms, hands) with studio lighting and shadow mapping.
+- **2D Canvas Skeletal Animation Engine**:
+  - High-performance HTML5 Canvas 2D engine rendering human skeletal figure (head, neck, torso, articulated arms, hands). No legs, Rylo-inspired light theme.
+  - Full finger articulation with all 5 fingers and 3 anatomical segments (MCP, PIP, DIP) color-coded for visual clarity.
+  - Forward kinematics with absolute hand targets (`handTargetX/Y`) allowing hands to reach face level (forehead, chin, lips, cheeks) for facial signs.
+  - Directional movement arrows (straight, arc, circular) matching the movement cues in the authoritative GSL dictionary plates.
+  - Dynamic facial expressions (eyebrows furrowed/raised, eyes open/squint with pupils and catchlights, mouth smile/open/neutral) tied to sign semantics.
   - User can type text or speak via microphone (**Web Speech Recognition API**).
-  - Lexical token parser queries the in-memory GSL dictionary for matching vocabulary cards.
-  - Words with dictionary matches trigger procedural pose sequences (Shoulder, Elbow, Wrist, Spine, and Head Euler rotation angles).
-  - Unmatched words fallback to fingerspelling character sequences.
-  - Real-time slerp/Euler interpolation provides fluid 60fps transitions between poses.
-  - UI synchronizes the 3D avatar animation with the official high-resolution GSL dictionary card preview.
+  - Lexical token parser queries the in-memory GSL dictionary for matching vocabulary cards and category-specific poses.
+  - Unmatched words fallback to fingerspelling A–Z pose sequences.
+  - Real-time cubic easing interpolation delivers smooth 60fps transitions between keyframes.
+  - UI synchronizes the 2D avatar animation with the official high-resolution GSL dictionary card preview.
 
 ### 3. Interactive Sign Composer
 - **Component**: [`src/components/translator/SignComposer.tsx`](src/components/translator/SignComposer.tsx)
