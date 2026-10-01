@@ -140,6 +140,12 @@ All services are located under [`src/services/`](file:///c:/Users/Theo-Kyei/Desk
    - Handles saving, removing, and updating favorite signs and notes.
    - Provides JSON export and import for backing up user notes.
 
+6. [`vocabularySuggestionService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/vocabularySuggestionService.ts):
+   - **Role**: Context-aware, typo-tolerant fuzzy vocabulary resolution and numbers processing.
+   - Fast Levenshtein distance combined with phonetic sound key hashing (`phoneticKey`) to recognize phonetic typos (e.g. "skool" ➔ "SCHOOL", "doktor" ➔ "DOCTOR", "wter" ➔ "WATER", "fone" ➔ "PHONE").
+   - Confidence scoring and semantic category-based suggestion generation.
+   - Numeric input parser (`parseNumberInput`): extracts raw digits ("5", "42"), compound numerals, and English number words ("seven", "forty") for dedicated GSL number sign sequence generation.
+
 ---
 
 ### Contexts & State Management
@@ -232,24 +238,32 @@ All services are located under [`src/services/`](file:///c:/Users/Theo-Kyei/Desk
 
 ### System 4: 2D Canvas Skeletal Avatar Signing Engine
 
-- **Location**: [`src/services/avatarSigningService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/avatarSigningService.ts) and [`TextToSignAvatar.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TextToSignAvatar.tsx).
-- **Core Engine**: HTML5 Canvas 2D API — pure canvas rendering, no Three.js.
+- **Location**: [`src/services/avatarSigningService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/avatarSigningService.ts), [`vocabularySuggestionService.ts`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/services/vocabularySuggestionService.ts), and [`TextToSignAvatar.tsx`](file:///c:/Users/Theo-Kyei/Desktop/thesignbridge/src/components/translator/TextToSignAvatar.tsx).
+- **Core Engine**: HTML5 Canvas 2D API — pure hardware-accelerated canvas rendering with zero external 3D runtime overhead.
 - **Coordinate System**: Avatar-local, centered at shoulder midpoint. Right arm (avatar perspective) is on **screen left** at x=-75. Left arm at x=+75. Y increases downward.
-- **Forward-Kinematics Arm System**:
-  - `shoulderAngle`: Measured from the downward vertical. 0 = arm hanging down, -π/2 = arm horizontal outward for right arm. Drives `elbowX/Y` correctly.
-  - `elbowAngle`: Forearm bend. 0 = arm straight, positive = arm bends upward (toward face).
-  - `handTargetX/Y`: Optional overrides to place the wrist at an absolute avatar-local position. Used for face-level signs — e.g. `handTargetY = -75` places hand at forehead. This is how "hello", "eat", "thank you", "father", "mother", etc. work.
-- **Avatar Shape**: Face (oval head + eyebrows + eyes + nose + mouth), neck, trapezoid torso, two arms. **No legs**.
-- **Finger Rendering**:
-  - All 5 fingers per hand, each with 3 segments: MCP (18–24px), PIP (13–19px), DIP (10–14px).
-  - Fingers extend from the palm in `handAngle` direction with lateral spread proportional to `FINGER_SPREAD`.
-  - Curl model: each segment's `curl` value rotates the next segment perpendicular to the current direction (positive = curls toward palm).
-  - Color-coded: thumb=purple, index=blue, middle=green, ring=orange, pinky=pink.
-- **Facial Expressions**: Eyebrow raise/furrow, eye open/squint with pupils + catchlight, mouth open/smile/frown. Driven by `FaceExpression` data attached to each pose.
-- **Movement Arrows**: Straight, arc-up, arc-down, circular path arrows rendered near hand position. Colors: blue for right hand, green for left.
-- **Sign Library**: Named categories keyed to specific, anatomically-correct GSL poses: `greeting`, `thankyou`, `please`, `yes`, `no`, `food`, `drink`, `family`, `father`, `mother`, `family_bro`, `family_sis`, `education`, `teacher`, `friend`, `health`, `nature`, `emotion`, `sad`, `good`, `bad`, `love`, `beautiful`, `work`, `home`, `help`, `water`, `book`, `morning`, `night`, `time`, `religion`, `place`, `color`, `number`, `me`, `you`, `we`, `come`, `go`, `stop`.
-- **Rylo-Style Aesthetic**: Light background (`#f8faff`) with subtle dot grid. Joint dots are blue with white ring. Arms are red (right) / green (left). Clean minimal look.
-- **Animation**: `easeInOutCubic` interpolation between keyframes at ~60fps via `requestAnimationFrame`.
+- **2-Bone Inverse Kinematics (IK) & Forward Kinematics Engine**:
+  - `solve2BoneIK(sx, sy, tx, ty, l1, l2, isRight)`: Closed-form analytical IK solver based on the Law of Cosines. Ensures natural human outward elbow bend without limb stretching or snapping.
+  - `computeArmFK`: Seamlessly switches between 2-bone IK (when absolute spatial wrist targets `handTargetX/Y` are defined) and forward kinematics when floating freely.
+- **Human Signing Fluidity & Organic Physics**:
+  - **Parabolic Arc Hand Lifting**: Hand travel paths follow dynamic curved parabolic arcs ($arcY = -\sin(\pi t) \cdot \min(26, dist \cdot 0.22)$) to simulate natural human arm lifting during transitions instead of robotic straight-line lerping.
+  - **Lateral Flare**: Hands flare outward slightly during flight, preventing intersecting with the chest.
+  - **Trailing Wrist Lag**: Realistic secondary wrist flexion ($dy \cdot 0.0018 \cdot \sin(\pi t)$) trailing arm motion.
+  - **Secondary Finger Transit Relaxation**: Fingers soften into a relaxed neutral curve (`RELAXED_TRANSIT`) between $t \in [0.15, 0.78]$ and snap into the target handshape upon arrival.
+  - **Dynamic Breathing & Weight Shifting**: Subtle chest breathing ($1.5 \sin(0.0016 t)$) and torso counter-balance when reaching high.
+  - **Natural Eye Blinking**: Periodic human blinking every ~3.5s (`now % 3600 < 95ms`).
+- **Complete GSL Number Signing System (0–1,000)**:
+  - Exact manual signing for numbers 0–20, 30, 40, 50, 60, 70, 80, 90, 100, and 1,000 derived from GSL 3rd Edition Plates 13–14.
+  - Multi-digit compound numbers (e.g. "42", "2024") automatically broken into sequential digit poses with fluid intermediate transitions.
+  - Horizontal interactive scrollable GSL Number Signs ribbon for instant single-click sign inspection.
+- **Context-Aware & Typo-Tolerant Vocabulary Resolution**:
+  - Auto-resolves typos using Levenshtein distance combined with phonetic sound key hashing (`phoneticKey`).
+  - Typo Alert Banner showing original query, resolved dictionary sign, and match confidence percentage.
+  - Related vocabulary chips dynamically surfaced by category and semantic similarity.
+- **Finger & Joint Rendering**:
+  - Tapered limbs with specular highlights, contoured palm with knuckle crease lines, and specular joint dots.
+  - All 5 colored fingers per hand (Thumb: Purple, Index: Blue, Middle: Green, Ring: Orange, Pinky: Pink) with 3 articulated joint segments (MCP, PIP, DIP).
+- **Movement Arrows**: Straight, arc-up, arc-down, and circular path arrows indicating hand movement direction matching the official dictionary plates.
+- **Speed Selector**: Interactive playback speed controls (`0.75x`, `1.0x`, `1.25x`) for learning and practice.
 
 ---
 

@@ -12,6 +12,7 @@
  */
 
 import { GSLSearchIndexItem } from '../types/dictionary';
+import { parseNumberInput, NUMBER_WORD_MAP, matchCloseVocabulary } from './vocabularySuggestionService';
 
 // ─── Types ─────────────────────────────────────────────────────────────────────
 
@@ -998,6 +999,583 @@ const POSES: Record<string, SignPose2D[]> = {
   ],
 };
 
+// ─── GSL Number Poses (0–20, 30, 40, 50, 60, 70, 80, 90, 100, 1000) ───────────
+
+export const NUMBER_POSES: Record<string, SignPose2D[]> = {
+  '0': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '1': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...POINT, palmFacing: 'forward' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '2': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...PEACE, palmFacing: 'forward' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '3': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0, 0, 0],
+        index: [0, 0, 0],
+        middle: [0, 0, 0],
+        ring: [1.5, 1.5, 1.3],
+        pinky: [1.5, 1.4, 1.2],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '4': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [1.2, 1.2, 1.0],
+        index: [0, 0, 0],
+        middle: [0, 0, 0],
+        ring: [0, 0, 0],
+        pinky: [0, 0, 0],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '5': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...OPEN, palmFacing: 'forward' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '6': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.6, 0.8, 0.6],
+        index: [0, 0, 0],
+        middle: [0, 0, 0],
+        ring: [0, 0, 0],
+        pinky: [1.1, 1.3, 1.0],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '7': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5],
+        index: [0, 0, 0],
+        middle: [0, 0, 0],
+        ring: [1.1, 1.3, 1.0],
+        pinky: [0, 0, 0],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '8': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5],
+        index: [0, 0, 0],
+        middle: [1.1, 1.3, 1.0],
+        ring: [0, 0, 0],
+        pinky: [0, 0, 0],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '9': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5],
+        index: [1.1, 1.3, 1.0],
+        middle: [0, 0, 0],
+        ring: [0, 0, 0],
+        pinky: [0, 0, 0],
+        wristAngle: 0,
+        palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '10': [
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(45, 'arc-up', 22),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0.35, -48, 28),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '11': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...FIST, palmFacing: 'back' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...POINT, palmFacing: 'back' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '12': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...FIST, palmFacing: 'back' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(90, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...PEACE, palmFacing: 'back' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '13': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0, 0, 0], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2],
+        wristAngle: 0, palmFacing: 'back',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(270, 'arc-down', 18),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0, 0, 0], index: [0.8, 0.8, 0.6], middle: [0.8, 0.8, 0.6],
+        ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2],
+        wristAngle: 0, palmFacing: 'back',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '14': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [1.2, 1.2, 1.0], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0, palmFacing: 'back',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(270, 'arc-down', 18),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [1.2, 1.2, 1.0], index: [0.8, 0.8, 0.6], middle: [0.8, 0.8, 0.6],
+        ring: [0.8, 0.8, 0.6], pinky: [0.8, 0.8, 0.6],
+        wristAngle: 0, palmFacing: 'back',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '15': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...OPEN, palmFacing: 'back' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(270, 'arc-down', 18),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0, 0, 0], index: [0.8, 0.8, 0.6], middle: [0.8, 0.8, 0.6],
+        ring: [0.8, 0.8, 0.6], pinky: [0.8, 0.8, 0.6],
+        wristAngle: 0, palmFacing: 'back',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '16': [
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(45, 'arc-up', 25),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.6, 0.8, 0.6], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [1.1, 1.3, 1.0],
+        wristAngle: 0.3, palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '17': [
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(45, 'arc-up', 25),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [1.1, 1.3, 1.0], pinky: [0, 0, 0],
+        wristAngle: 0.3, palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '18': [
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(45, 'arc-up', 25),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [0, 0, 0], middle: [1.1, 1.3, 1.0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0.3, palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '19': [
+    {
+      rightArm: arm(-0.6, 0.9, { ...FIST, thumb: [0, 0, 0], palmFacing: 'right' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(45, 'arc-up', 25),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [1.1, 1.3, 1.0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0.3, palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '20': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...L_HAND, palmFacing: 'forward' }, 0, -48, 25),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 18),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.4, 0.7, 0.5], index: [0.7, 0.9, 0.7], middle: [1.5, 1.5, 1.3],
+        ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 25),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '30': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0, 0, 0], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '40': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [1.2, 1.2, 1.0], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '50': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...OPEN, palmFacing: 'forward' }, 0, -48, 20),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '60': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.6, 0.8, 0.6], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [1.1, 1.3, 1.0],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '70': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [0, 0, 0], middle: [0, 0, 0],
+        ring: [1.1, 1.3, 1.0], pinky: [0, 0, 0],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '80': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [0, 0, 0], middle: [1.1, 1.3, 1.0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '90': [
+    {
+      rightArm: arm(-0.6, 1.0, {
+        thumb: [0.5, 0.7, 0.5], index: [1.1, 1.3, 1.0], middle: [0, 0, 0],
+        ring: [0, 0, 0], pinky: [0, 0, 0],
+        wristAngle: 0, palmFacing: 'forward',
+      }, 0, -48, 20),
+      leftArm: arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 15),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...O_HAND, palmFacing: 'forward' }, 0, -48, 30),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '100': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...POINT, palmFacing: 'forward' }, 0, -48, 20),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.6, 1.0, { ...C_HAND, palmFacing: 'forward' }, 0, -48, 32),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: null,
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+  '1000': [
+    {
+      rightArm: arm(-0.6, 1.0, { ...POINT, palmFacing: 'forward' }, 0, -48, 20),
+      leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(0, 'straight', 20),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+    {
+      rightArm: arm(-0.5, 1.1, { ...FIST, palmFacing: 'down' }, 0, 25, 0),
+      leftArm:  arm( 0.5, 0.9, { ...FLAT_DOWN, palmFacing: 'up' }),
+      face: NEUTRAL,
+      rightHandArrow: arrow(270, 'straight', 18),
+      leftHandArrow: null,
+      torsoBend: 0,
+    },
+  ],
+};
+
 // ─── Fingerspelling A–Z ────────────────────────────────────────────────────────
 
 export const FINGERSPELL: Record<string, FingerPose> = {
@@ -1105,56 +1683,358 @@ function getPoses(sign: GSLSearchIndexItem | null): SignPose2D[] {
   return POSES.default;
 }
 
-export function buildSignSequence(word: string, sign: GSLSearchIndexItem | null): SignSequence {
-  const poses = getPoses(sign);
-  const frameDuration = 480;
+// ─── Number Sign Sequence Builder ─────────────────────────────────────────────
 
-  const frames: AvatarSignFrame[] = [
-    { pose: NEUTRAL_POSE, duration: 200, label: 'ready' },
-    ...poses.map((pose, i) => ({
-      pose,
-      duration: frameDuration,
-      label: `sign-${i + 1}`,
-    })),
-    { pose: NEUTRAL_POSE, duration: 300, label: 'rest' },
-  ];
+export function getNumberSignSequence(numStr: string, numVal: number): SignSequence {
+  // Check single number key in NUMBER_POSES
+  if (NUMBER_POSES[numStr]) {
+    const poses = NUMBER_POSES[numStr];
+    const frames: AvatarSignFrame[] = [
+      ...poses.map((pose, i) => ({
+        pose,
+        duration: 1200,
+        label: `${numVal} · GSL Number`,
+      })),
+      { pose: poses[poses.length - 1], duration: 400, label: 'hold' },
+    ];
+    return {
+      word: `${numVal}`,
+      sign: null,
+      frames,
+      duration: frames.reduce((s, f) => s + f.duration, 0),
+    };
+  }
+
+  // Compound multi-digit number (e.g. "42", "2024"): sign each digit in sequence
+  const digits = numStr.split('');
+  const frames: AvatarSignFrame[] = [];
+
+  digits.forEach((d, idx) => {
+    const dPoses = NUMBER_POSES[d] || NUMBER_POSES['0'];
+    frames.push({
+      pose: dPoses[0],
+      duration: 500,
+      label: `Digit ${d} (${idx + 1}/${digits.length})`,
+    });
+    // Brief fluid transition between digits
+    if (idx < digits.length - 1) {
+      frames.push({
+        pose: {
+          ...dPoses[0],
+          rightArm: {
+            ...dPoses[0].rightArm,
+            handTargetY: (dPoses[0].rightArm.handTargetY || -48) + 6,
+          },
+        },
+        duration: 110,
+        label: 'transit',
+      });
+    }
+  });
+
+  frames.push({ pose: NEUTRAL_POSE, duration: 250, label: 'rest' });
 
   return {
-    word,
-    sign,
+    word: `${numVal}`,
+    sign: null,
     frames,
     duration: frames.reduce((s, f) => s + f.duration, 0),
   };
 }
 
-// ─── Interpolation ─────────────────────────────────────────────────────────────
+export function buildSignSequence(
+  word: string,
+  sign: GSLSearchIndexItem | null,
+  searchIndex?: GSLSearchIndexItem[]
+): SignSequence {
+  const norm = word.trim().toLowerCase();
 
-function ln(a: number, b: number, t: number) { return a + (b - a) * t; }
+  // 1. Check if word is a number (numeric digits or English number word)
+  const numVal = parseNumberInput(norm);
+  if (numVal !== null) {
+    return getNumberSignSequence(`${numVal}`, numVal);
+  }
+
+  // 2. Exact or typo-tolerant dictionary sign
+  let matchedSign = sign;
+  let isTypoCorrection = false;
+
+  if (!matchedSign && searchIndex && searchIndex.length > 0) {
+    const typoCheck = matchCloseVocabulary(word, searchIndex, 1);
+    if (typoCheck.bestMatch && typoCheck.confidence >= 0.58) {
+      matchedSign = typoCheck.bestMatch;
+      isTypoCorrection = true;
+    }
+  }
+
+  // 3. Fallback to fingerspelling if word has no sign match
+  if (!matchedSign && word.length > 0 && !getPoses(null).length) {
+    const letters = word.toUpperCase().split('');
+    const frames: AvatarSignFrame[] = [
+      { pose: NEUTRAL_POSE, duration: 180, label: 'ready' },
+    ];
+    letters.forEach((ch) => {
+      const fpose = FINGERSPELL[ch] || OPEN;
+      frames.push({
+        pose: {
+          rightArm: arm(-0.6, 1.0, fpose, 0, 10, 25),
+          leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
+          face: NEUTRAL,
+          rightHandArrow: null,
+          leftHandArrow: null,
+          torsoBend: 0,
+        },
+        duration: 380,
+        label: `Spell: ${ch}`,
+      });
+    });
+    frames.push({ pose: NEUTRAL_POSE, duration: 220, label: 'rest' });
+    return {
+      word,
+      sign: null,
+      frames,
+      duration: frames.reduce((s, f) => s + f.duration, 0),
+    };
+  }
+
+  const poses = getPoses(matchedSign);
+  const frameDuration = 480;
+
+  const frames: AvatarSignFrame[] = [
+    { pose: NEUTRAL_POSE, duration: 180, label: 'ready' },
+    ...poses.map((pose, i) => ({
+      pose,
+      duration: frameDuration,
+      label: isTypoCorrection
+        ? `sign-${i + 1} (${matchedSign?.primaryWord})`
+        : `sign-${i + 1}`,
+    })),
+    { pose: NEUTRAL_POSE, duration: 260, label: 'rest' },
+  ];
+
+  return {
+    word,
+    sign: matchedSign,
+    frames,
+    duration: frames.reduce((s, f) => s + f.duration, 0),
+  };
+}
+
+// ─── Rig Configuration ─────────────────────────────────────────────────────────
+
+export function buildAvatarRig(canvas: HTMLCanvasElement): AvatarRig {
+  const ctx = canvas.getContext('2d')!;
+  const w   = canvas.width  || 500;
+  const h   = canvas.height || 420;
+  return { canvas, ctx, width: w, height: h };
+}
+
+// ─── Avatar Geometry Constants ─────────────────────────────────────────────────
+
+const AV = {
+  // Layout
+  SHOULDER_Y:    0,
+  SHOULDER_W:   75,   // half-width of shoulders
+  NECK_H:       30,   // neck height above shoulders
+  HEAD_H:       65,   // head oval half-height
+  HEAD_W:       46,   // head oval half-width
+  TORSO_H:     120,   // torso height below shoulders
+  TORSO_BOT_W:  55,   // torso half-width at waist
+  UPPER_ARM:    68,   // upper arm bone length
+  FORE_ARM:     60,   // forearm bone length
+  // Colors (Rylo-inspired clean light theme)
+  BODY:      '#1a1a2e',
+  BODY_FILL: 'rgba(235,242,255,0.7)',
+  SKIN:      '#e8c9a0',
+  SKIN_LIGHT:'#fae5cf',
+  SKIN_SHADOW:'#d4b082',
+  BONE_R:    '#ef4444',
+  BONE_R_HL: '#fca5a5',
+  BONE_L:    '#22c55e',
+  BONE_L_HL: '#86efac',
+  JOINT:     '#3b82f6',
+  JOINT_W:   '#ffffff',
+  THUMB_C:   '#a855f7',
+  INDEX_C:   '#3b82f6',
+  MIDDLE_C:  '#22c55e',
+  RING_C:    '#f97316',
+  PINKY_C:   '#ec4899',
+  ARROW_R:   'rgba(59,130,246,0.95)',
+  ARROW_L:   'rgba(34,197,94,0.95)',
+  FACE_LINE: '#1a1a2e',
+};
+
+// ─── Analytic 2-Bone Inverse Kinematics (IK) ───────────────────────────────────
+
+/**
+ * Solves 2-bone analytical inverse kinematics for human arm anatomy.
+ * Given shoulder (sx, sy) and target wrist (tx, ty), computes the natural
+ * outward elbow position (elbowX, elbowY) with non-stretching bone lengths.
+ */
+export function solve2BoneIK(
+  sx: number, sy: number,
+  tx: number, ty: number,
+  l1: number, l2: number,
+  isRight: boolean
+): { elbowX: number; elbowY: number; wristX: number; wristY: number } {
+  const dx = tx - sx;
+  const dy = ty - sy;
+  const dist = Math.hypot(dx, dy);
+
+  // Clamp reach within physical limits
+  const minReach = Math.abs(l1 - l2) + 2.0;
+  const maxReach = (l1 + l2) - 0.8;
+  const clampedDist = Math.max(minReach, Math.min(dist, maxReach));
+
+  // Law of Cosines: l2^2 = l1^2 + d^2 - 2*l1*d*cos(alpha)
+  const cosAlpha = (l1 * l1 + clampedDist * clampedDist - l2 * l2) / (2 * l1 * clampedDist);
+  const alpha = Math.acos(Math.max(-1, Math.min(1, cosAlpha)));
+  const baseAngle = Math.atan2(dy, dx);
+
+  // Outward elbow bend: right arm bends screen-left (-), left arm bends screen-right (+)
+  const bendSign = isRight ? -1 : 1;
+  const elbowAngle = baseAngle + bendSign * alpha;
+
+  const elbowX = sx + Math.cos(elbowAngle) * l1;
+  const elbowY = sy + Math.sin(elbowAngle) * l1;
+
+  const wristX = sx + (dx / (dist || 1)) * clampedDist;
+  const wristY = sy + (dy / (dist || 1)) * clampedDist;
+
+  return { elbowX, elbowY, wristX, wristY };
+}
+
+/**
+ * Computes screen-space arm joint coordinates.
+ * Seamlessly integrates 2-bone IK whenever an absolute wrist target is specified,
+ * and standard screen-space forward-kinematics when floating.
+ */
+function computeArmFK(
+  sx: number, sy: number,
+  a: ArmPose,
+  isRight: boolean
+): { elbowX: number; elbowY: number; wristX: number; wristY: number; handAngle: number } {
+  const sign = isRight ? -1 : 1;
+
+  if (a.handTargetX !== undefined || a.handTargetY !== undefined) {
+    const tX = a.handTargetX !== undefined ? a.handTargetX * sign : sx + sign * 20;
+    const tY = a.handTargetY !== undefined ? a.handTargetY : 35;
+
+    const ik = solve2BoneIK(sx, sy, tX, tY, AV.UPPER_ARM, AV.FORE_ARM, isRight);
+    const handAngle = Math.atan2(ik.wristY - ik.elbowY, ik.wristX - ik.elbowX) + a.wristAngle;
+    return { ...ik, handAngle };
+  }
+
+  // Forward Kinematics fallback
+  const uaAngle = Math.PI / 2 + sign * a.shoulderAngle;
+  const elbowX = sx + Math.cos(uaAngle) * AV.UPPER_ARM;
+  const elbowY = sy + Math.sin(uaAngle) * AV.UPPER_ARM;
+
+  const faAngle = uaAngle - a.elbowAngle * sign;
+  const wristX = elbowX + Math.cos(faAngle) * AV.FORE_ARM;
+  const wristY = elbowY + Math.sin(faAngle) * AV.FORE_ARM;
+
+  const handAngle = Math.atan2(wristY - elbowY, wristX - elbowX) + a.wristAngle;
+  return { elbowX, elbowY, wristX, wristY, handAngle };
+}
+
+// ─── Fluid Interpolation Engine ────────────────────────────────────────────────
+
+function ln(a: number, b: number, t: number): number {
+  return a + (b - a) * t;
+}
+
+/**
+ * Natural relaxed hand shape used for secondary transit finger relaxation.
+ */
+const RELAXED_TRANSIT: FingerPose = {
+  thumb:  [0.25, 0.35, 0.25],
+  index:  [0.35, 0.45, 0.35],
+  middle: [0.38, 0.48, 0.38],
+  ring:   [0.40, 0.50, 0.40],
+  pinky:  [0.35, 0.45, 0.35],
+  wristAngle: 0,
+  palmFacing: 'forward',
+};
+
+function blendFingerWithRelaxed(finger: FingerPose, weight: number): FingerPose {
+  const w = Math.max(0, Math.min(1, weight));
+  const b = (cur: [number, number, number], rel: [number, number, number]): [number, number, number] => [
+    ln(cur[0], rel[0], w),
+    ln(cur[1], rel[1], w),
+    ln(cur[2], rel[2], w),
+  ];
+  return {
+    thumb:  b(finger.thumb, RELAXED_TRANSIT.thumb),
+    index:  b(finger.index, RELAXED_TRANSIT.index),
+    middle: b(finger.middle, RELAXED_TRANSIT.middle),
+    ring:   b(finger.ring, RELAXED_TRANSIT.ring),
+    pinky:  b(finger.pinky, RELAXED_TRANSIT.pinky),
+    wristAngle: finger.wristAngle,
+    palmFacing: finger.palmFacing,
+  };
+}
 
 function lerpFinger(a: FingerPose, b: FingerPose, t: number): FingerPose {
   return {
-    thumb:  a.thumb.map((v, i)  => ln(v, b.thumb[i], t))  as [number,number,number],
-    index:  a.index.map((v, i)  => ln(v, b.index[i], t))  as [number,number,number],
-    middle: a.middle.map((v, i) => ln(v, b.middle[i], t)) as [number,number,number],
-    ring:   a.ring.map((v, i)   => ln(v, b.ring[i], t))   as [number,number,number],
-    pinky:  a.pinky.map((v, i)  => ln(v, b.pinky[i], t))  as [number,number,number],
-    wristAngle:  ln(a.wristAngle,  b.wristAngle,  t),
+    thumb:  a.thumb.map((v, i)  => ln(v, b.thumb[i], t))  as [number, number, number],
+    index:  a.index.map((v, i)  => ln(v, b.index[i], t))  as [number, number, number],
+    middle: a.middle.map((v, i) => ln(v, b.middle[i], t)) as [number, number, number],
+    ring:   a.ring.map((v, i)   => ln(v, b.ring[i], t))   as [number, number, number],
+    pinky:  a.pinky.map((v, i)  => ln(v, b.pinky[i], t))  as [number, number, number],
+    wristAngle: ln(a.wristAngle, b.wristAngle, t),
     palmFacing: t < 0.5 ? a.palmFacing : b.palmFacing,
   };
 }
 
-function lerpArm(a: ArmPose, b: ArmPose, t: number): ArmPose {
+/**
+ * Interpolates arms using curved 3D/2D parabolic arcs and secondary finger relaxation.
+ * Eliminates rigid linear movement and mimics the fluid arcs of human signers.
+ */
+function lerpArm(
+  a: ArmPose,
+  b: ArmPose,
+  t: number,
+  isRight: boolean,
+  sx: number,
+  sy: number
+): ArmPose {
+  const posA = computeArmFK(sx, sy, a, isRight);
+  const posB = computeArmFK(sx, sy, b, isRight);
+
+  const dx = posB.wristX - posA.wristX;
+  const dy = posB.wristY - posA.wristY;
+  const dist = Math.hypot(dx, dy);
+
+  // Parabolic upward arc lift: human arms naturally lift during travel
+  const arcLift = -Math.sin(Math.PI * t) * Math.min(26, Math.max(5, dist * 0.22));
+  // Outward lateral flare
+  const sign = isRight ? -1 : 1;
+  const arcOut = Math.sin(Math.PI * t) * sign * Math.min(14, dist * 0.09);
+
+  const targetX = ln(posA.wristX, posB.wristX, t) + arcOut;
+  const targetY = ln(posA.wristY, posB.wristY, t) + arcLift;
+
+  // Secondary finger transit relaxation: fingers soften mid-flight and snap into place at arrival
+  let handPose: FingerPose;
+  if (t > 0.15 && t < 0.78) {
+    const transitWeight = Math.sin(((t - 0.15) / 0.63) * Math.PI);
+    const directLerp = lerpFinger(a.hand, b.hand, t);
+    handPose = blendFingerWithRelaxed(directLerp, transitWeight * 0.42);
+  } else {
+    handPose = lerpFinger(a.hand, b.hand, t);
+  }
+
+  // Trailing wrist flex lag
+  const wristTrailingLag = Math.sin(Math.PI * t) * (dy * 0.0018);
+
   return {
     shoulderAngle: ln(a.shoulderAngle, b.shoulderAngle, t),
     elbowAngle:    ln(a.elbowAngle,    b.elbowAngle,    t),
-    wristAngle:    ln(a.wristAngle,    b.wristAngle,    t),
-    hand: lerpFinger(a.hand, b.hand, t),
-    handTargetY: (a.handTargetY !== undefined && b.handTargetY !== undefined)
-      ? ln(a.handTargetY, b.handTargetY, t)
-      : (a.handTargetY ?? b.handTargetY),
-    handTargetX: (a.handTargetX !== undefined && b.handTargetX !== undefined)
-      ? ln(a.handTargetX, b.handTargetX, t)
-      : (a.handTargetX ?? b.handTargetX),
+    wristAngle:    ln(a.wristAngle,    b.wristAngle,    t) + wristTrailingLag,
+    hand: handPose,
+    handTargetX: targetX * (isRight ? -1 : 1),
+    handTargetY: targetY,
   };
 }
 
@@ -1171,76 +2051,35 @@ function lerpFace(a: FaceExpression, b: FaceExpression, t: number): FaceExpressi
 }
 
 export function interpolatePose(a: SignPose2D, b: SignPose2D, t: number): SignPose2D {
+  const rightArm = lerpArm(a.rightArm, b.rightArm, t, true,  -AV.SHOULDER_W, AV.SHOULDER_Y);
+  const leftArm  = lerpArm(a.leftArm,  b.leftArm,  t, false,  AV.SHOULDER_W, AV.SHOULDER_Y);
+  const face     = lerpFace(a.face, b.face, t);
+
+  // Subtle weight shifting: when hand reaches high, torso subtly counter-balances
+  const rightHeightBonus = rightArm.handTargetY !== undefined && rightArm.handTargetY < -30 ? -0.025 : 0;
+  const torsoBend = ln(a.torsoBend, b.torsoBend, t) + rightHeightBonus * Math.sin(Math.PI * t);
+
   return {
-    rightArm:       lerpArm(a.rightArm, b.rightArm, t),
-    leftArm:        lerpArm(a.leftArm,  b.leftArm,  t),
-    face:           lerpFace(a.face, b.face, t),
-    rightHandArrow: t < 0.5 ? a.rightHandArrow : b.rightHandArrow,
-    leftHandArrow:  t < 0.5 ? a.leftHandArrow  : b.leftHandArrow,
-    torsoBend:      ln(a.torsoBend, b.torsoBend, t),
+    rightArm,
+    leftArm,
+    face,
+    rightHandArrow: t > 0.35 && t < 0.95 ? (b.rightHandArrow || a.rightHandArrow) : null,
+    leftHandArrow:  t > 0.35 && t < 0.95 ? (b.leftHandArrow  || a.leftHandArrow)  : null,
+    torsoBend,
   };
 }
 
-// ─── Avatar Rig ────────────────────────────────────────────────────────────────
-
-export function buildAvatarRig(canvas: HTMLCanvasElement): AvatarRig {
-  const ctx = canvas.getContext('2d')!;
-  const w   = canvas.width  || 500;
-  const h   = canvas.height || 420;
-  return { canvas, ctx, width: w, height: h };
-}
-
-// ─── Renderer ──────────────────────────────────────────────────────────────────
-//
-// COORDINATE SYSTEM (avatar-local, centered at shoulder midpoint):
-//   X: positive = screen right
-//   Y: positive = screen down
-//
-//   Shoulder midpoint = (0, 0)
-//   Head top          ≈ (0, -200)
-//   Waist             ≈ (0, +120)
-//   Left shoulder     ≈ (+75, 0)  [avatar left = screen right]
-//   Right shoulder    ≈ (-75, 0)  [avatar right = screen left]
-//
-// Avatar is "facing the viewer", so avatar's right hand is on screen LEFT.
-
-const AV = {
-  // Layout
-  SHOULDER_Y:    0,
-  SHOULDER_W:   75,   // half-width of shoulders
-  NECK_H:       30,   // neck height above shoulders
-  HEAD_H:       65,   // head oval half-height
-  HEAD_W:       46,   // head oval half-width
-  TORSO_H:     120,   // torso height below shoulders
-  TORSO_BOT_W:  55,   // torso half-width at waist
-  UPPER_ARM:    68,   // upper arm bone length
-  FORE_ARM:     60,   // forearm bone length
-  // Colors (Rylo-inspired: dark lines on light bg)
-  BODY:      '#1a1a2e',
-  SKIN:      '#e8c9a0',
-  BONE_R:    '#ef4444',
-  BONE_L:    '#22c55e',
-  JOINT:     '#3b82f6',
-  JOINT_W:   '#ffffff',
-  THUMB_C:   '#a855f7',
-  INDEX_C:   '#3b82f6',
-  MIDDLE_C:  '#22c55e',
-  RING_C:    '#f97316',
-  PINKY_C:   '#ec4899',
-  ARROW_R:   'rgba(59,130,246,0.9)',
-  ARROW_L:   'rgba(34,197,94,0.9)',
-  FACE_LINE: '#1a1a2e',
-};
+// ─── Rendering Engine ──────────────────────────────────────────────────────────
 
 export function applyPoseToRig(rig: AvatarRig, pose: SignPose2D): void {
   const { ctx, width, height } = rig;
   ctx.clearRect(0, 0, width, height);
 
-  // Light background
+  // Clean light canvas background
   ctx.fillStyle = '#f8faff';
   ctx.fillRect(0, 0, width, height);
 
-  // Subtle dot grid (Rylo-style)
+  // Subtle dot grid
   ctx.fillStyle = 'rgba(100,130,180,0.12)';
   for (let x = 20; x < width; x += 28) {
     for (let y = 20; y < height; y += 28) {
@@ -1250,22 +2089,26 @@ export function applyPoseToRig(rig: AvatarRig, pose: SignPose2D): void {
     }
   }
 
-  // Scale to fit canvas — avatar design space is roughly 340×380
-  const scale = Math.min(width / 340, height / 380) * 0.9;
+  // Scale to fit canvas
+  const scale = Math.min(width / 340, height / 360) * 0.88;
   const cx    = width  / 2;
-  const cy    = height * 0.42;  // shoulder center sits slightly above mid
+  const cy    = height * 0.44;
+
+  // Natural subtle breathing
+  const now = performance.now();
+  const breathY = Math.sin(now * 0.0016) * 1.5;
 
   ctx.save();
-  ctx.translate(cx, cy);
+  ctx.translate(cx, cy + breathY);
   ctx.scale(scale, scale);
   ctx.rotate(pose.torsoBend);
 
-  drawAvatarBody(ctx, pose);
+  drawAvatarBody(ctx, pose, now);
 
   ctx.restore();
 }
 
-function drawAvatarBody(ctx: CanvasRenderingContext2D, pose: SignPose2D): void {
+function drawAvatarBody(ctx: CanvasRenderingContext2D, pose: SignPose2D, timeNow: number): void {
   const f = pose.face;
 
   // ── 1. TORSO ──────────────────────────────────────────────────────────────
@@ -1279,7 +2122,7 @@ function drawAvatarBody(ctx: CanvasRenderingContext2D, pose: SignPose2D): void {
   ctx.lineWidth   = 5;
   ctx.lineJoin    = 'round';
   ctx.stroke();
-  ctx.fillStyle = 'rgba(230,235,255,0.5)';
+  ctx.fillStyle = AV.BODY_FILL;
   ctx.fill();
 
   // Shoulder line
@@ -1311,16 +2154,20 @@ function drawAvatarBody(ctx: CanvasRenderingContext2D, pose: SignPose2D): void {
   ctx.translate(headCX, headCY);
   ctx.rotate(f.headTilt);
 
-  // Head oval
+  // Head oval with subtle gradient
   ctx.beginPath();
   ctx.ellipse(0, 0, AV.HEAD_W, AV.HEAD_H, 0, 0, Math.PI * 2);
   ctx.strokeStyle = AV.FACE_LINE;
   ctx.lineWidth   = 4;
   ctx.stroke();
-  ctx.fillStyle = AV.SKIN;
+
+  const headGrad = ctx.createRadialGradient(-10, -15, 5, 0, 0, AV.HEAD_H);
+  headGrad.addColorStop(0, AV.SKIN_LIGHT);
+  headGrad.addColorStop(1, AV.SKIN);
+  ctx.fillStyle = headGrad;
   ctx.fill();
 
-  drawFace(ctx, f);
+  drawFace(ctx, f, timeNow);
   ctx.restore();
 
   // ── 4. ARMS ───────────────────────────────────────────────────────────────
@@ -1331,8 +2178,12 @@ function drawAvatarBody(ctx: CanvasRenderingContext2D, pose: SignPose2D): void {
   drawArm(ctx,  AV.SHOULDER_W, AV.SHOULDER_Y, pose.leftArm, false, pose.leftHandArrow);
 }
 
-function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression): void {
+function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression, timeNow: number): void {
   const HW = AV.HEAD_W;
+
+  // ── Periodic Eye Blinking ────────────────────────────────────────────────
+  // Every ~3.5s, eyes blink for ~90ms
+  const isBlinking = (timeNow % 3600) < 95;
 
   // ── Eyebrows ─────────────────────────────────────────────────────────────
   const lBy = -22 - f.leftBrow  * 9;
@@ -1342,7 +2193,7 @@ function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression): void {
   ctx.lineWidth   = 3.5;
   ctx.lineCap     = 'round';
 
-  // Left brow (on screen left = avatar's right)
+  // Left brow (screen left = avatar's right)
   ctx.beginPath();
   ctx.moveTo(-HW * 0.65, lBy + 4);
   ctx.quadraticCurveTo(-HW * 0.38, lBy - 2, -HW * 0.12, lBy + 2);
@@ -1355,29 +2206,32 @@ function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression): void {
   ctx.stroke();
 
   // ── Eyes ──────────────────────────────────────────────────────────────────
-  const eyeH = Math.max(2, 7 * (0.5 + f.leftEye * 0.35));
-  const reyeH = Math.max(2, 7 * (0.5 + f.rightEye * 0.35));
+  const baseEyeH = isBlinking ? 1.0 : Math.max(2, 7 * (0.5 + f.leftEye * 0.35));
+  const reyeH    = isBlinking ? 1.0 : Math.max(2, 7 * (0.5 + f.rightEye * 0.35));
 
-  // Left eye (screen left)
+  // Left eye
   ctx.beginPath();
-  ctx.ellipse(-HW * 0.38, -8, 9, eyeH, 0, 0, Math.PI * 2);
+  ctx.ellipse(-HW * 0.38, -8, 9, baseEyeH, 0, 0, Math.PI * 2);
   ctx.strokeStyle = AV.FACE_LINE;
   ctx.lineWidth = 2;
   ctx.stroke();
   ctx.fillStyle = 'white';
   ctx.fill();
 
-  ctx.beginPath();
-  ctx.ellipse(-HW * 0.38, -8, 4.5, Math.max(1, eyeH * 0.75), 0, 0, Math.PI * 2);
-  ctx.fillStyle = '#1a1a3e';
-  ctx.fill();
+  if (!isBlinking) {
+    ctx.beginPath();
+    ctx.ellipse(-HW * 0.38, -8, 4.5, Math.max(1, baseEyeH * 0.75), 0, 0, Math.PI * 2);
+    ctx.fillStyle = '#1a1a3e';
+    ctx.fill();
 
-  ctx.beginPath();
-  ctx.ellipse(-HW * 0.36, -10, 1.5, 1.5, 0, 0, Math.PI * 2);
-  ctx.fillStyle = 'white';
-  ctx.fill();
+    // Specular catchlight
+    ctx.beginPath();
+    ctx.ellipse(-HW * 0.36, -10, 1.5, 1.5, 0, 0, Math.PI * 2);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+  }
 
-  // Right eye (screen right)
+  // Right eye
   ctx.beginPath();
   ctx.ellipse(HW * 0.38, -8, 9, reyeH, 0, 0, Math.PI * 2);
   ctx.strokeStyle = AV.FACE_LINE;
@@ -1386,15 +2240,18 @@ function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression): void {
   ctx.fillStyle = 'white';
   ctx.fill();
 
-  ctx.beginPath();
-  ctx.ellipse(HW * 0.38, -8, 4.5, Math.max(1, reyeH * 0.75), 0, 0, Math.PI * 2);
-  ctx.fillStyle = '#1a1a3e';
-  ctx.fill();
+  if (!isBlinking) {
+    ctx.beginPath();
+    ctx.ellipse(HW * 0.38, -8, 4.5, Math.max(1, reyeH * 0.75), 0, 0, Math.PI * 2);
+    ctx.fillStyle = '#1a1a3e';
+    ctx.fill();
 
-  ctx.beginPath();
-  ctx.ellipse(HW * 0.40, -10, 1.5, 1.5, 0, 0, Math.PI * 2);
-  ctx.fillStyle = 'white';
-  ctx.fill();
+    // Specular catchlight
+    ctx.beginPath();
+    ctx.ellipse(HW * 0.40, -10, 1.5, 1.5, 0, 0, Math.PI * 2);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+  }
 
   // ── Nose ──────────────────────────────────────────────────────────────────
   ctx.beginPath();
@@ -1428,65 +2285,6 @@ function drawFace(ctx: CanvasRenderingContext2D, f: FaceExpression): void {
   }
 }
 
-// ─── FK Arm Computation ───────────────────────────────────────────────────────
-//
-// shoulderAngle:
-//   Measured from the downward vertical (-Y direction).
-//   Positive = outward (away from body center).
-//   For right arm (shoulder at -75, 0):
-//     shoulderAngle = 0   → arm hangs straight down
-//     shoulderAngle = -π/2 → arm points straight left (outward from right shoulder)
-//     shoulderAngle = +π/2 → arm crosses body toward right
-//
-//   For left arm (shoulder at +75, 0):
-//     shoulderAngle = 0   → arm hangs straight down
-//     shoulderAngle = +π/2 → arm points straight right (outward from left shoulder)
-//     shoulderAngle = -π/2 → arm crosses body toward left
-//
-// elbowAngle:
-//   Additional rotation at elbow (bend). 0 = arm straight, positive = bends the forearm
-//   toward the viewer (upward in screen). π/2 = forearm points straight up.
-
-function computeArmFK(
-  sx: number, sy: number,
-  a: ArmPose,
-  isRight: boolean
-): { elbowX: number; elbowY: number; wristX: number; wristY: number; handAngle: number } {
-
-  // Upper arm direction (screen space)
-  // For right arm (sx < 0), outward = more negative X → shoulderAngle pushes left → subtract
-  // For left  arm (sx > 0), outward = more positive X → shoulderAngle pushes right → add
-  const sign = isRight ? -1 : 1;
-
-  // Upper arm angle in screen space (0 = pointing down = +Y)
-  const uaAngle = Math.PI / 2 + sign * a.shoulderAngle;  // 0=down, adjusted
-
-  const elbowX = sx + Math.cos(uaAngle) * AV.UPPER_ARM;
-  const elbowY = sy + Math.sin(uaAngle) * AV.UPPER_ARM;
-
-  // Forearm bends further in the same outward direction
-  const faAngle = uaAngle - a.elbowAngle * sign;
-
-  let wristX: number;
-  let wristY: number;
-
-  if (a.handTargetX !== undefined || a.handTargetY !== undefined) {
-    // Override FK to place wrist at target position
-    const tX = a.handTargetX !== undefined ? a.handTargetX * sign : sx;
-    const tY = a.handTargetY !== undefined ? a.handTargetY : elbowY + 30;
-    wristX = tX;
-    wristY = tY;
-  } else {
-    wristX = elbowX + Math.cos(faAngle) * AV.FORE_ARM;
-    wristY = elbowY + Math.sin(faAngle) * AV.FORE_ARM;
-  }
-
-  // Hand pointing direction (used for finger layout)
-  const handAngle = Math.atan2(wristY - elbowY, wristX - elbowX) + a.wristAngle;
-
-  return { elbowX, elbowY, wristX, wristY, handAngle };
-}
-
 function drawArm(
   ctx: CanvasRenderingContext2D,
   sx: number, sy: number,
@@ -1495,81 +2293,95 @@ function drawArm(
   arrowDef: MovementArrow | null | undefined
 ): void {
   const boneColor = isRight ? AV.BONE_R : AV.BONE_L;
+  const boneHighlight = isRight ? AV.BONE_R_HL : AV.BONE_L_HL;
   const { elbowX, elbowY, wristX, wristY, handAngle } = computeArmFK(sx, sy, armPose, isRight);
 
-  // Upper arm
+  // ── Upper Arm (tapered capsule with highlight) ───────────────────────────
   ctx.beginPath();
   ctx.moveTo(sx, sy);
   ctx.lineTo(elbowX, elbowY);
   ctx.strokeStyle = boneColor;
-  ctx.lineWidth   = 10;
+  ctx.lineWidth   = 11;
   ctx.lineCap     = 'round';
   ctx.stroke();
 
-  // Shoulder joint
+  ctx.beginPath();
+  ctx.moveTo(sx, sy);
+  ctx.lineTo(elbowX, elbowY);
+  ctx.strokeStyle = boneHighlight;
+  ctx.lineWidth   = 3;
+  ctx.lineCap     = 'round';
+  ctx.stroke();
+
+  // Shoulder Joint
   ctx.beginPath();
   ctx.arc(sx, sy, 8, 0, Math.PI * 2);
   ctx.fillStyle = AV.JOINT;
   ctx.fill();
-  ctx.strokeStyle = AV.JOINT_W;
-  ctx.lineWidth = 1.5;
-  ctx.stroke();
-
-  // Elbow joint
   ctx.beginPath();
-  ctx.arc(elbowX, elbowY, 6, 0, Math.PI * 2);
+  ctx.arc(sx - 1.5, sy - 1.5, 3, 0, Math.PI * 2);
+  ctx.fillStyle = AV.JOINT_W;
+  ctx.fill();
+
+  // Elbow Joint
+  ctx.beginPath();
+  ctx.arc(elbowX, elbowY, 6.5, 0, Math.PI * 2);
   ctx.fillStyle = AV.JOINT;
   ctx.fill();
-  ctx.strokeStyle = AV.JOINT_W;
-  ctx.lineWidth = 1.5;
-  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(elbowX - 1.2, elbowY - 1.2, 2.5, 0, Math.PI * 2);
+  ctx.fillStyle = AV.JOINT_W;
+  ctx.fill();
 
-  // Forearm
+  // ── Forearm (tapered capsule) ───────────────────────────────────────────
   ctx.beginPath();
   ctx.moveTo(elbowX, elbowY);
   ctx.lineTo(wristX, wristY);
   ctx.strokeStyle = boneColor;
-  ctx.lineWidth   = 8;
+  ctx.lineWidth   = 9;
   ctx.lineCap     = 'round';
   ctx.stroke();
 
-  // Wrist joint
   ctx.beginPath();
-  ctx.arc(wristX, wristY, 5, 0, Math.PI * 2);
-  ctx.fillStyle = AV.JOINT;
-  ctx.fill();
-  ctx.strokeStyle = AV.JOINT_W;
-  ctx.lineWidth = 1.5;
+  ctx.moveTo(elbowX, elbowY);
+  ctx.lineTo(wristX, wristY);
+  ctx.strokeStyle = boneHighlight;
+  ctx.lineWidth   = 2.5;
+  ctx.lineCap     = 'round';
   ctx.stroke();
 
-  // Hand + fingers
+  // Wrist Joint
+  ctx.beginPath();
+  ctx.arc(wristX, wristY, 5.5, 0, Math.PI * 2);
+  ctx.fillStyle = AV.JOINT;
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(wristX - 1, wristY - 1, 2, 0, Math.PI * 2);
+  ctx.fillStyle = AV.JOINT_W;
+  ctx.fill();
+
+  // ── Hand + Fingers ────────────────────────────────────────────────────────
   drawHand(ctx, wristX, wristY, armPose.hand, isRight, handAngle);
 
-  // Arrow
-  if (arrowDef) drawMovementArrow(ctx, wristX, wristY, arrowDef, isRight);
+  // ── Directional Movement Arrow ───────────────────────────────────────────
+  if (arrowDef) {
+    drawMovementArrow(ctx, wristX, wristY, arrowDef, isRight);
+  }
 }
 
-// ─── Hand + Finger Renderer ────────────────────────────────────────────────────
-//
-// The hand is drawn in world space at (wx, wy).
-// handAngle: the direction the forearm is pointing (the "away from body" direction).
-// Fingers extend from the palm in the direction of handAngle, spread laterally.
+// ─── Hand & Finger Geometry ────────────────────────────────────────────────────
 
 const FINGER_COLORS = [AV.THUMB_C, AV.INDEX_C, AV.MIDDLE_C, AV.RING_C, AV.PINKY_C];
 
-// Segment lengths for each finger [MCP, PIP, DIP]
 const FINGER_SEGS: [number, number, number][] = [
-  [18, 14, 10],  // thumb (shorter)
+  [18, 14, 10],  // thumb
   [22, 18, 13],  // index
-  [24, 19, 14],  // middle (longest)
+  [24, 19, 14],  // middle
   [21, 17, 12],  // ring
-  [17, 13, 10],  // pinky (shortest)
+  [17, 13, 10],  // pinky
 ];
 
-// Lateral spread of each finger relative to palm center, in palm-local space
-// positive = toward pinky side, negative = toward thumb side
-// (in palm-local coords, X axis = across fingers, Y axis = along fingers outward)
-const FINGER_SPREAD = [-0.55, -0.28, 0, 0.28, 0.55]; // normalized spread
+const FINGER_SPREAD = [-0.55, -0.28, 0, 0.28, 0.55];
 
 function drawHand(
   ctx: CanvasRenderingContext2D,
@@ -1578,39 +2390,41 @@ function drawHand(
   isRight: boolean,
   handAngle: number
 ): void {
-  const PALM_W = 22; // half-width of palm
-  const PALM_H = 20; // palm height
-
-  // The "forward" direction of the hand (fingers extend from palm in this direction)
-  // handAngle points from elbow toward wrist.
-  // Fingers extend further in the same direction.
-  // "Lateral" is perpendicular: for right hand, lateral positive = toward pinky (screen up/right depending on arm angle)
+  const PALM_W = 23;
+  const PALM_H = 21;
 
   const fwdX  = Math.cos(handAngle);
   const fwdY  = Math.sin(handAngle);
   const latX  = -Math.sin(handAngle) * (isRight ? 1 : -1);
   const latY  =  Math.cos(handAngle) * (isRight ? 1 : -1);
 
-  // Palm base center (slightly forward from wrist)
-  const palmCX = wx + fwdX * 8;
-  const palmCY = wy + fwdY * 8;
+  const palmCX = wx + fwdX * 9;
+  const palmCY = wy + fwdY * 9;
 
-  // Draw palm
+  // Draw contoured palm with skin gradient
   ctx.save();
   ctx.translate(palmCX, palmCY);
   ctx.rotate(handAngle + (isRight ? 0 : Math.PI));
 
-  // Bevel rect for palm
   ctx.beginPath();
-  ctx.roundRect(-PALM_W * 0.8, -PALM_H * 0.25, PALM_W * 1.6, PALM_H, 5);
+  ctx.roundRect(-PALM_W * 0.8, -PALM_H * 0.28, PALM_W * 1.6, PALM_H, 6);
   ctx.fillStyle = AV.SKIN;
   ctx.strokeStyle = AV.BODY;
-  ctx.lineWidth = 1.5;
+  ctx.lineWidth = 1.6;
   ctx.fill();
   ctx.stroke();
+
+  // Subtle knuckle line across palm
+  ctx.beginPath();
+  ctx.moveTo(-PALM_W * 0.6, PALM_H * 0.35);
+  ctx.lineTo(PALM_W * 0.6, PALM_H * 0.35);
+  ctx.strokeStyle = AV.SKIN_SHADOW;
+  ctx.lineWidth = 1.2;
+  ctx.stroke();
+
   ctx.restore();
 
-  // ── Fingers ───────────────────────────────────────────────────────────────
+  // Draw 5 Articulated Fingers
   const fingerPoses = [hand.thumb, hand.index, hand.middle, hand.ring, hand.pinky];
 
   fingerPoses.forEach((fpose, fi) => {
@@ -1618,51 +2432,43 @@ function drawHand(
     const segs  = FINGER_SEGS[fi];
     const spread = FINGER_SPREAD[fi] * PALM_W;
 
-    // Thumb has a different base offset (from thumb side of palm)
-    // For right hand, thumb is on the far left side of hand (toward screen-right when arm is down)
     let baseX: number, baseY: number;
     if (fi === 0) {
-      // Thumb: offset laterally toward outside of hand
       const thumbSide = isRight ? -1 : 1;
-      baseX = palmCX + latX * PALM_W * thumbSide * 0.7 + fwdX * 5;
-      baseY = palmCY + latY * PALM_W * thumbSide * 0.7 + fwdY * 5;
+      baseX = palmCX + latX * PALM_W * thumbSide * 0.72 + fwdX * 5;
+      baseY = palmCY + latY * PALM_W * thumbSide * 0.72 + fwdY * 5;
     } else {
-      // Other fingers: spread along knuckle line (lateral axis), base at palm top
-      baseX = palmCX + latX * spread + fwdX * PALM_H * 0.7;
-      baseY = palmCY + latY * spread + fwdY * PALM_H * 0.7;
+      baseX = palmCX + latX * spread + fwdX * PALM_H * 0.72;
+      baseY = palmCY + latY * spread + fwdY * PALM_H * 0.72;
     }
 
-    // Current direction of finger (starts along handAngle, modified by curl)
     let curX = baseX;
     let curY = baseY;
 
-    // Thumb direction is more lateral
     let curAngle = fi === 0
       ? handAngle + (isRight ? -Math.PI / 4 : Math.PI / 4)
       : handAngle;
 
     for (let seg = 0; seg < 3; seg++) {
       const curl = fpose[seg];
-      // Curl bends the segment perpendicular to its current direction (curling toward palm)
-      // Positive curl = bend away from hand direction = curls back toward palm
       curAngle = curAngle + curl * (isRight ? 0.65 : -0.65);
 
       const segLen = segs[seg];
       const endX = curX + Math.cos(curAngle) * segLen;
       const endY = curY + Math.sin(curAngle) * segLen;
 
-      // Segment line
+      // Segment bone with rounded cap
       ctx.beginPath();
       ctx.moveTo(curX, curY);
       ctx.lineTo(endX, endY);
       ctx.strokeStyle = color;
-      ctx.lineWidth   = fi === 0 ? 5 - seg * 0.7 : 4 - seg * 0.6;
+      ctx.lineWidth   = fi === 0 ? 5 - seg * 0.7 : 4.2 - seg * 0.6;
       ctx.lineCap     = 'round';
       ctx.stroke();
 
-      // Joint dot
+      // Knuckle Joint Dot
       ctx.beginPath();
-      ctx.arc(endX, endY, fi === 0 ? 3 - seg * 0.4 : 2.5 - seg * 0.3, 0, Math.PI * 2);
+      ctx.arc(endX, endY, fi === 0 ? 3.2 - seg * 0.4 : 2.6 - seg * 0.3, 0, Math.PI * 2);
       ctx.fillStyle = color;
       ctx.fill();
 
@@ -1672,7 +2478,7 @@ function drawHand(
   });
 }
 
-// ─── Movement Arrow ────────────────────────────────────────────────────────────
+// ─── Glowing Movement Direction Arrows ─────────────────────────────────────────
 
 function drawMovementArrow(
   ctx: CanvasRenderingContext2D,
@@ -1681,46 +2487,75 @@ function drawMovementArrow(
   isRight: boolean
 ): void {
   const col = isRight ? AV.ARROW_R : AV.ARROW_L;
-  // Convert angleDeg (0=right, 90=up) to screen radians (0=right, π/2=down because Y flips)
   const rad = -(a.angleDeg * Math.PI / 180);
   const len = a.length;
 
   ctx.save();
   ctx.strokeStyle = col;
   ctx.fillStyle   = col;
-  ctx.lineWidth   = 2.5;
-  ctx.globalAlpha = 0.82;
   ctx.lineCap     = 'round';
 
   if (a.style === 'circular') {
     const r  = 18;
-    const ox = x + (isRight ? 22 : -22);
+    const ox = x + (isRight ? 24 : -24);
+    // Outer glow
+    ctx.lineWidth = 5;
+    ctx.globalAlpha = 0.25;
     ctx.beginPath();
     ctx.arc(ox, y - 10, r, 0, Math.PI * 1.75);
     ctx.stroke();
+
+    // Sharp line
+    ctx.lineWidth = 2.6;
+    ctx.globalAlpha = 0.95;
+    ctx.beginPath();
+    ctx.arc(ox, y - 10, r, 0, Math.PI * 1.75);
+    ctx.stroke();
+
     const ex = ox + r * Math.cos(Math.PI * 1.75);
     const ey = y - 10 + r * Math.sin(Math.PI * 1.75);
-    arrowHead(ctx, ex - 3, ey - 3, ex, ey, 7);
+    arrowHead(ctx, ex - 3, ey - 3, ex, ey, 7.5);
   } else if (a.style === 'arc-up' || a.style === 'arc-down') {
     const sign = a.style === 'arc-up' ? -1 : 1;
     const ex = x + Math.cos(rad) * len;
     const ey = y + Math.sin(rad) * len;
     const cpx = (x + ex) / 2 + Math.sin(rad) * len * 0.4 * sign;
     const cpy = (y + ey) / 2 - Math.cos(rad) * len * 0.4 * sign;
+
+    ctx.lineWidth = 5;
+    ctx.globalAlpha = 0.25;
     ctx.beginPath();
     ctx.moveTo(x, y);
     ctx.quadraticCurveTo(cpx, cpy, ex, ey);
     ctx.stroke();
-    arrowHead(ctx, cpx, cpy, ex, ey, 8);
+
+    ctx.lineWidth = 2.6;
+    ctx.globalAlpha = 0.95;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.quadraticCurveTo(cpx, cpy, ex, ey);
+    ctx.stroke();
+
+    arrowHead(ctx, cpx, cpy, ex, ey, 8.5);
   } else {
-    // straight
     const ex = x + Math.cos(rad) * len;
     const ey = y + Math.sin(rad) * len;
+
+    ctx.lineWidth = 5;
+    ctx.globalAlpha = 0.25;
     ctx.beginPath();
     ctx.moveTo(x, y);
     ctx.lineTo(ex, ey);
     ctx.stroke();
-    arrowHead(ctx, x, y, ex, ey, 9);
+
+    ctx.lineWidth = 2.6;
+    ctx.globalAlpha = 0.95;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(ex, ey);
+    ctx.stroke();
+
+    arrowHead(ctx, x, y, ex, ey, 9.5);
   }
 
   ctx.globalAlpha = 1;
@@ -1742,7 +2577,7 @@ function arrowHead(
   ctx.fill();
 }
 
-// ─── TTS helper ───────────────────────────────────────────────────────────────
+// ─── Text-to-Speech Helper ────────────────────────────────────────────────────
 
 export function speakWord(word: string, lang = 'en-US'): void {
   if (!window.speechSynthesis) return;
@@ -1753,3 +2588,4 @@ export function speakWord(word: string, lang = 'en-US'): void {
   u.pitch = 1;
   window.speechSynthesis.speak(u);
 }
+

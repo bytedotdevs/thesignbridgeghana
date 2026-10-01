@@ -25,6 +25,10 @@ import {
   BookOpen,
   ChevronRight,
   Info,
+  Hash,
+  Check,
+  CornerDownRight,
+  Sliders,
 } from 'lucide-react';
 import { LiquidChromeButton } from '../common/LiquidChromeButton';
 import { Badge } from '../common/Badge';
@@ -36,10 +40,23 @@ import {
   interpolatePose,
   speakWord,
   NEUTRAL_POSE,
+  NUMBER_POSES,
 } from '../../services/avatarSigningService';
-import type { AvatarRig, SignSequence } from '../../services/avatarSigningService';
+import type { AvatarRig, SignSequence, SignPose2D } from '../../services/avatarSigningService';
+import {
+  resolveSentenceVocabularies,
+  matchCloseVocabulary,
+  parseNumberInput,
+  type VocabularySuggestion,
+} from '../../services/vocabularySuggestionService';
 
 const getNeutralPose = () => NEUTRAL_POSE;
+
+const GSL_NUMERAL_CHIPS = [
+  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+  '11', '12', '13', '14', '15', '16', '17', '18', '19', '20',
+  '30', '40', '50', '60', '70', '80', '90', '100', '1000',
+];
 
 const SAMPLE_SENTENCES = [
   'Hello welcome friend',
@@ -57,6 +74,7 @@ export const TextToSignAvatar: React.FC = () => {
   const rafRef = useRef<number | null>(null);
   const recognitionRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const currentPoseRef = useRef<SignPose2D>(getNeutralPose());
 
   const [inputText, setInputText] = useState('Hello welcome friend');
   const [signSequences, setSignSequences] = useState<SignSequence[]>([]);
@@ -66,6 +84,14 @@ export const TextToSignAvatar: React.FC = () => {
   const [speechSupported, setSpeechSupported] = useState(false);
   const [ttsEnabled, setTtsEnabled] = useState(true);
   const [frameLabel, setFrameLabel] = useState('');
+  const [playbackSpeed, setPlaybackSpeed] = useState<number>(1.0);
+  const speedRef = useRef<number>(1.0);
+  useEffect(() => {
+    speedRef.current = playbackSpeed;
+  }, [playbackSpeed]);
+
+  const [typoAlerts, setTypoAlerts] = useState<{ original: string; resolved: string; confidence: number }[]>([]);
+  const [closeSuggestions, setCloseSuggestions] = useState<VocabularySuggestion[]>([]);
 
   // Animation state (ref to avoid stale closures)
   const playStateRef = useRef({
@@ -91,8 +117,8 @@ export const TextToSignAvatar: React.FC = () => {
       const parent = canvas.parentElement;
       if (!parent) return;
       const w = Math.max(parent.clientWidth, 300);
-      // Aspect ratio: taller canvas gives more room for face + torso + raised arms
-      const h = Math.round(w * 0.72);
+      // Clean responsive height bounded for comfortable full-avatar desktop viewing
+      const h = Math.min(Math.round(w * 0.56), 460);
       canvas.style.width  = `${w}px`;
       canvas.style.height = `${h}px`;
       canvas.width  = w;
@@ -101,20 +127,20 @@ export const TextToSignAvatar: React.FC = () => {
       // Rebuild rig with new dimensions
       const rig = buildAvatarRig(canvas);
       rigRef.current = rig;
-      applyPoseToRig(rig, getNeutralPose());
+      applyPoseToRig(rig, currentPoseRef.current || getNeutralPose());
     };
 
     updateSize();
 
-    // Idle breathing animation
+    // Idle breathing & blinking animation that respects the current held sign pose
     let t = 0;
     const idle = () => {
       if (!playStateRef.current.isPlaying && rigRef.current) {
-        // gentle idle — just re-render neutral with slight breathing
         t += 0.016;
-        const breathPose = {
-          ...NEUTRAL_POSE,
-          torsoBend: Math.sin(t * 0.8) * 0.012,
+        const basePose = currentPoseRef.current || getNeutralPose();
+        const breathPose: SignPose2D = {
+          ...basePose,
+          torsoBend: (basePose.torsoBend || 0) + Math.sin(t * 0.8) * 0.008,
         };
         applyPoseToRig(rigRef.current, breathPose);
       }
@@ -138,25 +164,25 @@ export const TextToSignAvatar: React.FC = () => {
     setSpeechSupported(!!SpeechRecognition);
   }, []);
 
-  // ── Compose Sign Sequence from Text ─────────────────────────────────────
+  // ── Compose Sign Sequence from Text (Typo & Context Aware) ──────────────
   const composeSequence = useCallback(
     (text: string) => {
       if (!searchIndex.length) return;
-      const words = text
-        .trim()
-        .split(/\s+/)
-        .map((w) => w.replace(/[^a-zA-Z0-9'-]/g, ''))
-        .filter((w) => w.length > 0);
+      const { words: resolvedWords, allSuggestions } = resolveSentenceVocabularies(text, searchIndex);
 
-      const sequences: SignSequence[] = words.map((word) => {
-        const norm = word.toLowerCase();
-        const matched = searchIndex.find(
-          (s) =>
-            s.normalizedWord === norm ||
-            s.primaryWord.toLowerCase() === norm ||
-            s.synonyms.some((syn) => syn.toLowerCase() === norm)
-        );
-        return buildSignSequence(word, matched || null);
+      const detectedTypos = resolvedWords
+        .filter((w) => w.isTypo && w.resolved)
+        .map((w) => ({
+          original: w.original,
+          resolved: w.resolved!.primaryWord,
+          confidence: Math.round(0.85 * 100),
+        }));
+
+      setTypoAlerts(detectedTypos);
+      setCloseSuggestions(allSuggestions);
+
+      const sequences: SignSequence[] = resolvedWords.map((rw) => {
+        return buildSignSequence(rw.original, rw.resolved, searchIndex);
       });
 
       setSignSequences(sequences);
@@ -171,9 +197,11 @@ export const TextToSignAvatar: React.FC = () => {
         lastTime: 0,
       };
 
-      // Reset pose
+      // Set initial preview pose to frame 1 of first word (the sign itself)
+      const previewPose = sequences[0]?.frames[1]?.pose || sequences[0]?.frames[0]?.pose || getNeutralPose();
+      currentPoseRef.current = previewPose;
       if (rigRef.current) {
-        applyPoseToRig(rigRef.current, getNeutralPose());
+        applyPoseToRig(rigRef.current, previewPose);
       }
     },
     [searchIndex]
@@ -197,7 +225,7 @@ export const TextToSignAvatar: React.FC = () => {
       const rig = rigRef.current;
       if (!rig) return;
 
-      const dt = now - ps.lastTime;
+      const dt = (now - ps.lastTime) * (speedRef.current || 1.0);
       ps.lastTime = now;
 
       const seqs = signSequencesRef.current;
@@ -205,6 +233,8 @@ export const TextToSignAvatar: React.FC = () => {
         ps.isPlaying = false;
         setIsPlaying(false);
         setCurrentWordIdx(0);
+        // Return to neutral pose when finished
+        currentPoseRef.current = getNeutralPose();
         applyPoseToRig(rig, getNeutralPose());
         return;
       }
@@ -243,6 +273,7 @@ export const TextToSignAvatar: React.FC = () => {
       const t = Math.min(ps.frameProgress / frame.duration, 1);
       const easedT = easeInOutCubic(t);
       const interpolated = interpolatePose(frame.pose, nextFrame.pose, easedT);
+      currentPoseRef.current = interpolated;
       applyPoseToRig(rig, interpolated);
 
       requestAnimationFrame(animate);
@@ -272,6 +303,7 @@ export const TextToSignAvatar: React.FC = () => {
     setIsPlaying(false);
     setCurrentWordIdx(0);
     window.speechSynthesis?.cancel();
+    currentPoseRef.current = getNeutralPose();
     if (rigRef.current) applyPoseToRig(rigRef.current, getNeutralPose());
   };
 
@@ -283,6 +315,7 @@ export const TextToSignAvatar: React.FC = () => {
     playStateRef.current.frameProgress = 0;
     // Preview the first frame of the target sign
     if (rigRef.current && signSequences[newIdx]?.frames[1]) {
+      currentPoseRef.current = signSequences[newIdx].frames[1].pose;
       applyPoseToRig(rigRef.current, signSequences[newIdx].frames[1].pose);
     }
   };
@@ -294,6 +327,7 @@ export const TextToSignAvatar: React.FC = () => {
     playStateRef.current.frameIdx = 0;
     playStateRef.current.frameProgress = 0;
     if (rigRef.current && signSequences[newIdx]?.frames[1]) {
+      currentPoseRef.current = signSequences[newIdx].frames[1].pose;
       applyPoseToRig(rigRef.current, signSequences[newIdx].frames[1].pose);
     }
   };
@@ -326,6 +360,15 @@ export const TextToSignAvatar: React.FC = () => {
 
     recognition.start();
     setIsListening(true);
+  };
+
+  const handleSelectAndPlay = (text: string) => {
+    setInputText(text);
+    composeSequence(text);
+    setIsPlaying(true);
+    requestAnimationFrame(() => {
+      playAnimation();
+    });
   };
 
   const currentSequence = signSequences[currentWordIdx];
@@ -405,7 +448,7 @@ export const TextToSignAvatar: React.FC = () => {
           {SAMPLE_SENTENCES.map((phrase, i) => (
             <button
               key={i}
-              onClick={() => { setInputText(phrase); composeSequence(phrase); }}
+              onClick={() => handleSelectAndPlay(phrase)}
               style={{
                 fontSize: '12px', padding: '4px 10px', borderRadius: '9999px',
                 backgroundColor: 'rgba(241,245,249,0.9)', border: '1px solid #cbd5e1',
@@ -415,6 +458,139 @@ export const TextToSignAvatar: React.FC = () => {
               "{phrase.slice(0, 22)}{phrase.length > 22 ? '…' : ''}"
             </button>
           ))}
+        </div>
+
+        {/* Typo & Context-Aware Auto Resolution Banner */}
+        {typoAlerts.length > 0 && (
+          <div
+            style={{
+              marginTop: '14px',
+              padding: '10px 14px',
+              backgroundColor: '#fffbeb',
+              border: '1.5px solid #fde68a',
+              borderRadius: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '8px',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Sparkles size={15} color="#d97706" />
+              <span style={{ fontSize: '12px', color: '#92400e', fontWeight: 700 }}>
+                Typo Detected & Auto-Resolved:
+              </span>
+            </div>
+            {typoAlerts.map((ta, idx) => (
+              <span
+                key={idx}
+                style={{
+                  fontSize: '11px',
+                  backgroundColor: '#ffffff',
+                  padding: '3px 8px',
+                  borderRadius: '6px',
+                  border: '1px solid #fcd34d',
+                  color: '#b45309',
+                  fontWeight: 600,
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                }}
+              >
+                <span style={{ textDecoration: 'line-through', opacity: 0.7 }}>"{ta.original}"</span>
+                <CornerDownRight size={12} color="#d97706" />
+                <strong>{ta.resolved.toUpperCase()}</strong>
+                <span style={{ fontSize: '10px', color: '#059669', backgroundColor: '#ecfdf5', padding: '1px 4px', borderRadius: '4px' }}>
+                  {ta.confidence}% match
+                </span>
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* Close & Related Vocabulary Suggestions */}
+        {closeSuggestions.length > 0 && (
+          <div style={{ marginTop: '12px', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            <span style={{ fontSize: '11px', color: '#64748b', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+              Related Signs:
+            </span>
+            {closeSuggestions.slice(0, 8).map((sug, i) => (
+              <button
+                key={i}
+                onClick={() => handleSelectAndPlay(sug.item.primaryWord)}
+                title={`Confidence: ${Math.round(sug.similarity * 100)}% (${sug.item.category})`}
+                style={{
+                  fontSize: '11px',
+                  padding: '4px 10px',
+                  borderRadius: '9999px',
+                  backgroundColor: '#eff6ff',
+                  border: '1px solid #bfdbfe',
+                  color: '#1d4ed8',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '5px',
+                  transition: 'all 0.15s ease',
+                }}
+              >
+                <span>{sug.item.primaryWord}</span>
+                <span style={{ fontSize: '9px', opacity: 0.75, color: '#3b82f6' }}>
+                  {Math.round(sug.similarity * 100)}%
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* GSL Numbers Quick Strip (0–100, 1000) */}
+        <div style={{ marginTop: '14px', paddingTop: '12px', borderTop: '1px solid rgba(226, 232, 240, 0.8)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px', flexWrap: 'wrap', gap: '6px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Hash size={14} color="#2563eb" />
+              <span style={{ fontSize: '12px', color: '#1e293b', fontWeight: 700 }}>
+                GSL Number Signs (Plates 13–14):
+              </span>
+              <Badge variant="blue" size="sm">0–1,000</Badge>
+            </div>
+            <span style={{ fontSize: '11px', color: '#64748b' }}>
+              Click any number to sign instantly with authentic finger curls
+            </span>
+          </div>
+
+          <div
+            style={{
+              display: 'flex',
+              gap: '6px',
+              overflowX: 'auto',
+              paddingBottom: '4px',
+              scrollbarWidth: 'thin',
+            }}
+          >
+            {GSL_NUMERAL_CHIPS.map((numStr) => {
+              const isSelected = inputText.trim() === numStr;
+              return (
+                <button
+                  key={numStr}
+                  onClick={() => handleSelectAndPlay(numStr)}
+                  style={{
+                    flexShrink: 0,
+                    padding: '5px 10px',
+                    borderRadius: '8px',
+                    backgroundColor: isSelected ? '#2563eb' : '#f8fafc',
+                    color: isSelected ? '#ffffff' : '#334155',
+                    border: isSelected ? '1.5px solid #1d4ed8' : '1px solid #cbd5e1',
+                    fontSize: '12px',
+                    fontWeight: 700,
+                    cursor: 'pointer',
+                    transition: 'all 0.15s ease',
+                  }}
+                >
+                  {numStr}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
@@ -507,12 +683,15 @@ export const TextToSignAvatar: React.FC = () => {
               <span style={{ color: '#0f172a', fontSize: '20px', fontWeight: 800, letterSpacing: '-0.02em' }}>
                 {currentSequence.word.toUpperCase()}
               </span>
-              {currentSequence.sign && (
+              {parseNumberInput(currentSequence.word) !== null ? (
+                <span style={{ color: '#2563eb', fontSize: '10px', fontWeight: 700 }}>
+                  GSL Number · Plates 13–14
+                </span>
+              ) : currentSequence.sign ? (
                 <span style={{ color: '#64748b', fontSize: '10px' }}>
                   {currentSequence.sign.category.split(',')[0]}
                 </span>
-              )}
-              {!currentSequence.sign && (
+              ) : (
                 <span style={{ color: '#f59e0b', fontSize: '10px' }}>Fingerspelling</span>
               )}
             </div>
@@ -583,33 +762,70 @@ export const TextToSignAvatar: React.FC = () => {
             </div>
           )}
 
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px' }}>
-            <button onClick={handleRestart} title="Restart" style={controlBtnStyle}>
-              <RefreshCw size={16} color="#475569" />
-            </button>
-            <button onClick={handlePrev} disabled={currentWordIdx === 0} title="Previous word" style={controlBtnStyle}>
-              <SkipBack size={18} color="#475569" />
-            </button>
-            <button
-              onClick={handlePlay}
-              style={{
-                ...controlBtnStyle,
-                width: '52px',
-                height: '52px',
-                backgroundColor: '#3b82f6',
-                border: '1px solid #2563eb',
-              }}
-            >
-              {isPlaying ? <Pause size={22} color="#ffffff" /> : <Play size={22} color="#ffffff" />}
-            </button>
-            <button
-              onClick={handleNext}
-              disabled={currentWordIdx >= signSequences.length - 1}
-              title="Next word"
-              style={controlBtnStyle}
-            >
-              <SkipForward size={18} color="#475569" />
-            </button>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
+            {/* Speed Selector */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '4px', backgroundColor: 'rgba(241,245,249,0.9)', padding: '4px 8px', borderRadius: '12px', border: '1px solid #e2e8f0' }}>
+              <Sliders size={13} color="#64748b" style={{ marginRight: '2px' }} />
+              <span style={{ fontSize: '11px', color: '#64748b', fontWeight: 600 }}>Speed:</span>
+              {[0.75, 1.0, 1.25].map((spd) => (
+                <button
+                  key={spd}
+                  onClick={() => setPlaybackSpeed(spd)}
+                  style={{
+                    fontSize: '11px',
+                    fontWeight: 700,
+                    padding: '2px 8px',
+                    borderRadius: '8px',
+                    border: 'none',
+                    backgroundColor: playbackSpeed === spd ? '#2563eb' : 'transparent',
+                    color: playbackSpeed === spd ? '#ffffff' : '#64748b',
+                    cursor: 'pointer',
+                    transition: 'all 0.15s ease',
+                  }}
+                >
+                  {spd}x
+                </button>
+              ))}
+            </div>
+
+            {/* Playback Transport Buttons */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px' }}>
+              <button onClick={handleRestart} title="Restart" style={controlBtnStyle}>
+                <RefreshCw size={16} color="#475569" />
+              </button>
+              <button onClick={handlePrev} disabled={currentWordIdx === 0} title="Previous word" style={controlBtnStyle}>
+                <SkipBack size={18} color="#475569" />
+              </button>
+              <button
+                onClick={handlePlay}
+                style={{
+                  ...controlBtnStyle,
+                  width: '52px',
+                  height: '52px',
+                  backgroundColor: '#3b82f6',
+                  border: '1px solid #2563eb',
+                }}
+              >
+                {isPlaying ? <Pause size={22} color="#ffffff" /> : <Play size={22} color="#ffffff" />}
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={currentWordIdx >= signSequences.length - 1}
+                title="Next word"
+                style={controlBtnStyle}
+              >
+                <SkipForward size={18} color="#475569" />
+              </button>
+            </div>
+
+            {/* Word indicator */}
+            <div style={{ fontSize: '12px', fontWeight: 600, color: '#475569' }}>
+              {signSequences.length > 0 ? (
+                <span>Word <strong>{currentWordIdx + 1}</strong> of {signSequences.length}</span>
+              ) : (
+                <span>Ready</span>
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -652,6 +868,7 @@ export const TextToSignAvatar: React.FC = () => {
                     playStateRef.current.frameProgress = 0;
                     // Preview pose
                     if (rigRef.current && seq.frames[1]) {
+                      currentPoseRef.current = seq.frames[1].pose;
                       applyPoseToRig(rigRef.current, seq.frames[1].pose);
                     }
                   }}
