@@ -2,34 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- ── Favicon & PWA Icons ──────────────────────────────────────────── -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
     <link rel="icon" type="image/png" href="/icons/favicon.png" />
+
+    <!-- ── Viewport & Mobile ────────────────────────────────────────────── -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ── Apple / iOS PWA ──────────────────────────────────────────────── -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="SignBridge" />
-    <link rel="apple-touch-icon" href="/icons/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+
+    <!-- ── Web App Manifest ──────────────────────────────────────────────── -->
     <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#0f172a" />
 
+    <!-- ── Primary SEO ──────────────────────────────────────────────────── -->
     <title>SignBridgeGhana — Ghanaian Sign Language (GSL) Digital Dictionary &amp; Translation Platform</title>
     <meta name="description" content="Real-time Ghanaian Sign Language translation with camera recognition, 3D avatar signing, and 1,500+ authentic GSL vocabulary signs. Bridging deaf and hearing communities." />
     <meta name="keywords" content="Ghanaian Sign Language, GSL, SignBridgeGhana, GSL Dictionary, Ghana Deaf, GNAD, Sign Language Translation, Real-time Sign Detection, 3D Avatar" />
-    
-    <!-- Open Graph / Facebook -->
+    <meta name="author" content="SignBridgeGhana" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://signbridgeghana.org/" />
+
+    <!-- ── Open Graph / Facebook / LinkedIn ─────────────────────────────── -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SignBridgeGhana" />
     <meta property="og:url" content="https://signbridgeghana.org/" />
     <meta property="og:title" content="SignBridgeGhana — Ghanaian Sign Language Platform" />
-    <meta property="og:description" content="Real-time GSL translation with camera recognition, 3D avatar signing, and 1,500+ authentic vocabulary signs." />
-    <meta property="og:image" content="/images/community-1.jpg" />
+    <meta property="og:description" content="Real-time GSL translation with camera recognition, 3D avatar signing, and 1,500+ authentic vocabulary signs. Bridging deaf and hearing communities in Ghana." />
+    <meta property="og:image" content="https://signbridgeghana.org/images/og-social-share.png" />
+    <meta property="og:image:secure_url" content="https://signbridgeghana.org/images/og-social-share.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SignBridgeGhana — Bridging Deaf and Hearing Communities in Ghana" />
+    <meta property="og:locale" content="en_GH" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="SignBridgeGhana — Ghanaian Sign Language Digital Platform" />
-    <meta property="twitter:description" content="Real-time GSL camera translation, 3D avatar signing, and 1,500+ signs from the GSL 3rd Edition Dictionary." />
-    <meta property="twitter:image" content="/images/community-1.jpg" />
+    <!-- ── Twitter / X Card ─────────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@SignBridgeGhana" />
+    <meta name="twitter:creator" content="@SignBridgeGhana" />
+    <meta name="twitter:url" content="https://signbridgeghana.org/" />
+    <meta name="twitter:title" content="SignBridgeGhana — Ghanaian Sign Language Digital Platform" />
+    <meta name="twitter:description" content="Real-time GSL camera translation, 3D avatar signing, and 1,500+ signs from the GSL 3rd Edition Dictionary." />
+    <meta name="twitter:image" content="https://signbridgeghana.org/images/og-social-share.png" />
+    <meta name="twitter:image:alt" content="SignBridgeGhana — Bridging Deaf and Hearing Communities in Ghana" />
 
-    <!-- Google Fonts -->
+    <!-- ── Google Fonts ──────────────────────────────────────────────────── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />

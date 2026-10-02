@@ -4,38 +4,72 @@
   "description": "Real-time Ghanaian Sign Language translation, dictionary, and 3D avatar signing — accessible communication for everyone.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4f6f9",
+  "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "orientation": "any",
+  "lang": "en-GH",
+  "categories": ["education", "accessibility", "utilities"],
   "icons": [
     {
-      "src": "/icons/favicon.png",
-      "sizes": "192x192",
+      "src": "/icons/favicon-16.png",
+      "sizes": "16x16",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "/icons/favicon.png",
+      "src": "/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/shortcut-icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/pwa-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any maskable"
     }
   ],
-  "categories": ["education", "accessibility", "utilities"],
+  "screenshots": [
+    {
+      "src": "/images/og-social-share.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "SignBridgeGhana — Ghanaian Sign Language Platform"
+    }
+  ],
   "shortcuts": [
     {
       "name": "Translate",
       "short_name": "Translate",
       "description": "Open the real-time translation studio",
       "url": "/translate",
-      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/icons/shortcut-icon-96.png", "sizes": "96x96" }]
     },
     {
       "name": "Dictionary",
       "short_name": "Dictionary",
       "description": "Browse the GSL dictionary",
       "url": "/dictionary",
-      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/icons/shortcut-icon-96.png", "sizes": "96x96" }]
     }
   ]
 }

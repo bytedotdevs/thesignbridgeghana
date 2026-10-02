@@ -12,7 +12,8 @@
     "lint": "eslint src --ext .ts,.tsx --report-unused-disable-directives",
     "dictionary:extract": "python scripts/extract_dictionary.py",
     "dictionary:validate": "python scripts/validate_dictionary.py",
-    "dictionary:build": "python scripts/extract_dictionary.py && python scripts/validate_dictionary.py"
+    "dictionary:build": "python scripts/extract_dictionary.py && python scripts/validate_dictionary.py",
+    "generate:icons": "node scripts/generate-icons.mjs"
   },
   "dependencies": {
     "@mediapipe/camera_utils": "^0.3.1675466862",
@@ -36,6 +37,7 @@
     "@types/three": "^0.177.0",
     "@vitejs/plugin-react": "^4.3.4",
     "nodemon": "^3.1.14",
+    "sharp": "^0.35.5",
     "typescript": "^5.7.3",
     "vite": "^6.1.0",
     "vite-plugin-pwa": "^0.21.1"
