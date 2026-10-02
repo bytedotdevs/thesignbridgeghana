@@ -37,6 +37,7 @@ import {
   buildAvatarRig,
   applyPoseToRig,
   buildSignSequence,
+  fingerspellWord,
   interpolatePose,
   speakWord,
   NEUTRAL_POSE,
@@ -116,9 +117,12 @@ export const TextToSignAvatar: React.FC = () => {
     const updateSize = () => {
       const parent = canvas.parentElement;
       if (!parent) return;
-      const w = Math.max(parent.clientWidth, 300);
-      // Clean responsive height bounded for comfortable full-avatar desktop viewing
-      const h = Math.min(Math.round(w * 0.56), 460);
+      const w = Math.max(parent.clientWidth, 280);
+      // On mobile, use a taller ratio so the avatar isn't squished
+      // On desktop, cap at 460px for comfortable viewing
+      const isMobile = w < 500;
+      const aspectRatio = isMobile ? 0.72 : 0.56;
+      const h = Math.min(Math.round(w * aspectRatio), isMobile ? 380 : 460);
       canvas.style.width  = `${w}px`;
       canvas.style.height = `${h}px`;
       canvas.width  = w;

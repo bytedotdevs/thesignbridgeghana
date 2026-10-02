@@ -1576,36 +1576,353 @@ export const NUMBER_POSES: Record<string, SignPose2D[]> = {
   ],
 };
 
-// ─── Fingerspelling A–Z ────────────────────────────────────────────────────────
+// ─── Fingerspelling A–Z (GSL Dictionary 3rd Edition — Plate 8) ────────────────
+//
+// Poses derived directly from the official GSL Alphabet dictionary plate.
+// Each letter faithfully represents the handshape as photographed in the GSL dict.
+// palmFacing conventions:
+//   'forward' = palm faces viewer
+//   'right'   = palm / flat side faces right (hand horizontal)
+//   'back'    = back of hand faces viewer
+//   'down'    = palm faces down
 
 export const FINGERSPELL: Record<string, FingerPose> = {
-  A: { ...FIST, thumb: [0, 0, 0], palmFacing: 'forward' },
-  B: B_HAND,
-  C: C_HAND,
-  D: { thumb: [0.5, 1.0, 0.8], index: [0, 0.1, 0], middle: [0.9, 0.9, 0.7], ring: [0.9, 0.9, 0.7], pinky: [0.8, 0.8, 0.6], wristAngle: 0, palmFacing: 'forward' },
-  E: { thumb: [0.6, 0.5, 0.4], index: [0.6, 1.1, 0.9], middle: [0.6, 1.1, 0.9], ring: [0.6, 1.1, 0.9], pinky: [0.5, 1.0, 0.8], wristAngle: 0, palmFacing: 'forward' },
-  F: { thumb: [0.3, 0.8, 0.6], index: [0.6, 1.0, 0.8], middle: [0, 0, 0], ring: [0, 0, 0], pinky: [0, 0, 0], wristAngle: 0, palmFacing: 'forward' },
-  G: { thumb: [0, 0, 0], index: [0, 0, 0], middle: [1.5, 1.5, 1.3], ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2], wristAngle: 0, palmFacing: 'right' },
-  H: { thumb: [0.5, 0.8, 0.6], index: [0, 0, 0], middle: [0, 0, 0], ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2], wristAngle: 0, palmFacing: 'right' },
-  I: { thumb: [0.6, 0.9, 0.7], index: [1.5, 1.5, 1.3], middle: [1.5, 1.5, 1.3], ring: [1.5, 1.5, 1.3], pinky: [0, 0, 0], wristAngle: 0, palmFacing: 'forward' },
-  J: { thumb: [0.6, 0.9, 0.7], index: [1.5, 1.5, 1.3], middle: [1.5, 1.5, 1.3], ring: [1.5, 1.5, 1.3], pinky: [0, 0, 0], wristAngle: -0.4, palmFacing: 'forward' },
-  K: L_HAND,
-  L: L_HAND,
-  M: { thumb: [0.4, 0.3, 0.2], index: [1.2, 1.3, 1.1], middle: [1.2, 1.3, 1.1], ring: [1.2, 1.3, 1.1], pinky: [1.4, 1.4, 1.2], wristAngle: 0, palmFacing: 'forward' },
-  N: { thumb: [0.4, 0.3, 0.2], index: [1.2, 1.3, 1.1], middle: [1.2, 1.3, 1.1], ring: [1.4, 1.4, 1.2], pinky: [1.4, 1.4, 1.2], wristAngle: 0, palmFacing: 'forward' },
-  O: O_HAND,
-  P: POINT,
-  Q: { thumb: [0, 0, 0], index: [0, 0, 0], middle: [1.5, 1.5, 1.3], ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2], wristAngle: 0, palmFacing: 'down' },
-  R: { thumb: [0.6, 0.8, 0.6], index: [0, 0.15, 0], middle: [0.2, 0, 0], ring: [1.5, 1.5, 1.3], pinky: [1.5, 1.4, 1.2], wristAngle: 0.25, palmFacing: 'forward' },
-  S: { thumb: [0.3, 0.2, 0.1], index: [1.4, 1.4, 1.2], middle: [1.4, 1.4, 1.2], ring: [1.4, 1.4, 1.2], pinky: [1.4, 1.3, 1.1], wristAngle: 0, palmFacing: 'forward' },
-  T: { thumb: [0.15, 0.1, 0.05], index: [1.1, 1.3, 1.1], middle: [1.4, 1.4, 1.2], ring: [1.4, 1.4, 1.2], pinky: [1.4, 1.3, 1.1], wristAngle: 0, palmFacing: 'forward' },
-  U: PEACE,
-  V: PEACE,
-  W: THREE,
-  X: { thumb: [0.5, 0.8, 0.6], index: [0.7, 1.1, 0.9], middle: [1.4, 1.4, 1.2], ring: [1.4, 1.4, 1.2], pinky: [1.4, 1.3, 1.1], wristAngle: 0, palmFacing: 'forward' },
-  Y: Y_HAND,
-  Z: POINT,
+  // A — Fist with thumb resting on side (GSL: thumb alongside index)
+  A: {
+    thumb:  [0.2,  0.1,  0.0],
+    index:  [1.4,  1.3,  1.0],
+    middle: [1.5,  1.4,  1.1],
+    ring:   [1.5,  1.4,  1.1],
+    pinky:  [1.4,  1.3,  1.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // B — Flat B-hand, all four fingers extended and together, thumb folded
+  B: {
+    thumb:  [0.8,  0.5,  0.3],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [0.0,  0.0,  0.0],
+    pinky:  [0.0,  0.0,  0.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // C — Curved C-shape, thumb and fingers form a C
+  C: {
+    thumb:  [0.15, 0.45, 0.35],
+    index:  [0.5,  0.5,  0.35],
+    middle: [0.55, 0.55, 0.4],
+    ring:   [0.55, 0.55, 0.4],
+    pinky:  [0.45, 0.45, 0.35],
+    wristAngle: 0,
+    palmFacing: 'right',
+  },
+  // D — D-shape: index points up, others form a circle with thumb
+  D: {
+    thumb:  [0.3,  0.75, 0.55],
+    index:  [0.0,  0.05, 0.0],
+    middle: [0.85, 0.85, 0.65],
+    ring:   [0.85, 0.85, 0.65],
+    pinky:  [0.75, 0.75, 0.55],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // E — Bent fingers, all curled to mid-joint level
+  E: {
+    thumb:  [0.5,  0.5,  0.35],
+    index:  [0.6,  0.9,  0.7],
+    middle: [0.6,  0.9,  0.7],
+    ring:   [0.6,  0.9,  0.7],
+    pinky:  [0.55, 0.85, 0.65],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // F — OK/F-shape: thumb+index touch, other three extended
+  F: {
+    thumb:  [0.25, 0.7,  0.55],
+    index:  [0.6,  0.9,  0.7],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [0.0,  0.0,  0.0],
+    pinky:  [0.0,  0.0,  0.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // G — L-shape pointing sideways (index + thumb point left/right)
+  G: {
+    thumb:  [0.0,  0.0,  0.0],
+    index:  [0.0,  0.0,  0.0],
+    middle: [1.5,  1.5,  1.3],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'right',
+  },
+  // H — Two fingers extended horizontally (index + middle horizontal)
+  H: {
+    thumb:  [0.4,  0.7,  0.5],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'right',
+  },
+  // I — Pinky only extended (little finger sign)
+  I: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [1.4,  1.4,  1.2],
+    middle: [1.4,  1.4,  1.2],
+    ring:   [1.4,  1.4,  1.2],
+    pinky:  [0.0,  0.0,  0.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // J — Like I but with a hook/J motion (wrist rotated)
+  J: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [1.4,  1.4,  1.2],
+    middle: [1.4,  1.4,  1.2],
+    ring:   [1.4,  1.4,  1.2],
+    pinky:  [0.0,  0.0,  0.0],
+    wristAngle: -0.5,
+    palmFacing: 'forward',
+  },
+  // K — Like V but thumb sticks out between index and middle
+  K: {
+    thumb:  [0.0,  0.0,  0.0],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.15, 0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // L — L-shape: thumb up, index pointing, rest curled
+  L: {
+    thumb:  [0.0,  0.0,  0.0],
+    index:  [0.0,  0.0,  0.0],
+    middle: [1.5,  1.5,  1.3],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // M — Three fingers (index+middle+ring) folded over thumb
+  M: {
+    thumb:  [0.3,  0.2,  0.1],
+    index:  [1.1,  1.2,  1.0],
+    middle: [1.1,  1.2,  1.0],
+    ring:   [1.1,  1.2,  1.0],
+    pinky:  [1.4,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // N — Two fingers (index+middle) folded over thumb
+  N: {
+    thumb:  [0.3,  0.2,  0.1],
+    index:  [1.1,  1.2,  1.0],
+    middle: [1.1,  1.2,  1.0],
+    ring:   [1.4,  1.4,  1.2],
+    pinky:  [1.4,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // O — O-shape: all fingers curved to meet thumb tip
+  O: {
+    thumb:  [0.25, 0.7,  0.55],
+    index:  [0.65, 0.85, 0.65],
+    middle: [0.7,  0.85, 0.65],
+    ring:   [0.7,  0.85, 0.65],
+    pinky:  [0.6,  0.75, 0.55],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // P — Like K but pointing downward
+  P: {
+    thumb:  [0.0,  0.0,  0.0],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.15, 0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0.3,
+    palmFacing: 'down',
+  },
+  // Q — Pinch pointing downward
+  Q: {
+    thumb:  [0.0,  0.0,  0.0],
+    index:  [0.0,  0.0,  0.0],
+    middle: [1.5,  1.5,  1.3],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'down',
+  },
+  // R — Crossed/twisted index and middle fingers
+  R: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [0.0,  0.1,  0.0],
+    middle: [0.15, 0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0.3,
+    palmFacing: 'forward',
+  },
+  // S — Fist with thumb over fingers
+  S: {
+    thumb:  [0.2,  0.15, 0.1],
+    index:  [1.4,  1.3,  1.0],
+    middle: [1.4,  1.3,  1.0],
+    ring:   [1.4,  1.3,  1.0],
+    pinky:  [1.3,  1.2,  0.9],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // T — Thumb between index and middle (T-shape)
+  T: {
+    thumb:  [0.1,  0.05, 0.02],
+    index:  [1.0,  1.2,  1.0],
+    middle: [1.4,  1.4,  1.2],
+    ring:   [1.4,  1.4,  1.2],
+    pinky:  [1.3,  1.2,  1.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // U — Two fingers (index+middle) extended upward together
+  U: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // V — Peace/V sign: index+middle extended and spread
+  V: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0.15,
+    palmFacing: 'forward',
+  },
+  // W — Three fingers (index+middle+ring) extended
+  W: {
+    thumb:  [0.4,  0.6,  0.45],
+    index:  [0.0,  0.0,  0.0],
+    middle: [0.0,  0.0,  0.0],
+    ring:   [0.0,  0.0,  0.0],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // X — Index finger hooked/crooked
+  X: {
+    thumb:  [0.4,  0.7,  0.5],
+    index:  [0.6,  1.0,  0.8],
+    middle: [1.4,  1.4,  1.2],
+    ring:   [1.4,  1.4,  1.2],
+    pinky:  [1.3,  1.2,  1.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // Y — Thumb and pinky extended (ILY shape without index)
+  Y: {
+    thumb:  [0.1,  0.05, 0.0],
+    index:  [1.5,  1.5,  1.3],
+    middle: [1.5,  1.5,  1.3],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [0.0,  0.0,  0.0],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
+  // Z — Index pointing, draws Z in air (wrist rotation hint)
+  Z: {
+    thumb:  [0.5,  0.8,  0.6],
+    index:  [0.0,  0.05, 0.0],
+    middle: [1.5,  1.5,  1.3],
+    ring:   [1.5,  1.5,  1.3],
+    pinky:  [1.5,  1.4,  1.2],
+    wristAngle: 0,
+    palmFacing: 'forward',
+  },
 };
+
+/**
+ * Builds a fingerspelling sign sequence for a given word.
+ * Used as the intelligent fallback when a word is not found in the GSL dictionary.
+ * Each letter gets its own frame with a smooth transition between letters.
+ */
+export function fingerspellWord(word: string): SignSequence {
+  const letters = word.toUpperCase().replace(/[^A-Z]/g, '').split('');
+
+  if (letters.length === 0) {
+    return {
+      word,
+      sign: null,
+      frames: [{ pose: NEUTRAL_POSE, duration: 300, label: 'empty' }],
+      duration: 300,
+    };
+  }
+
+  // Precompute sign position for consistent placement
+  const SPELL_Y = -10;   // slight raise above neutral
+  const SPELL_X = 22;    // centered in front of chest/neutral zone
+
+  const frames: AvatarSignFrame[] = [
+    { pose: NEUTRAL_POSE, duration: 150, label: `fingerspell: ${word}` },
+  ];
+
+  letters.forEach((ch, idx) => {
+    const fpose = FINGERSPELL[ch] ?? FINGERSPELL['A']; // fallback to A if unknown
+
+    // J and Z have movement arrows (they trace paths)
+    const arrowDef: MovementArrow | null =
+      ch === 'Z' ? arrow(315, 'arc-down', 28) :
+      ch === 'J' ? arrow(270, 'arc-down', 22) :
+      null;
+
+    frames.push({
+      pose: {
+        rightArm: arm(-0.55, 0.95, fpose, fpose.wristAngle, SPELL_Y, SPELL_X),
+        leftArm:  arm( 0.2,  0.3,  { ...OPEN, palmFacing: 'back' }),
+        face: NEUTRAL,
+        rightHandArrow: arrowDef,
+        leftHandArrow: null,
+        torsoBend: 0,
+      },
+      duration: letters.length > 6 ? 300 : 380,  // faster for longer words
+      label: `${word}: ${ch} (${idx + 1}/${letters.length})`,
+    });
+
+    // Brief micro-lift between letters for readability
+    if (idx < letters.length - 1) {
+      const nextPose = FINGERSPELL[letters[idx + 1]] ?? FINGERSPELL['A'];
+      frames.push({
+        pose: {
+          rightArm: arm(-0.55, 0.95, nextPose, 0, SPELL_Y - 4, SPELL_X),
+          leftArm:  arm( 0.2,  0.3,  { ...OPEN, palmFacing: 'back' }),
+          face: NEUTRAL,
+          rightHandArrow: null,
+          leftHandArrow: null,
+          torsoBend: 0,
+        },
+        duration: 80,
+        label: 'letter-transit',
+      });
+    }
+  });
+
+  frames.push({ pose: NEUTRAL_POSE, duration: 220, label: 'rest' });
+
+  return {
+    word,
+    sign: null,
+    frames,
+    duration: frames.reduce((s, f) => s + f.duration, 0),
+  };
+}
 
 // ─── Pose selection ────────────────────────────────────────────────────────────
 
@@ -1767,34 +2084,10 @@ export function buildSignSequence(
     }
   }
 
-  // 3. Fallback to fingerspelling if word has no sign match
-  if (!matchedSign && word.length > 0 && !getPoses(null).length) {
-    const letters = word.toUpperCase().split('');
-    const frames: AvatarSignFrame[] = [
-      { pose: NEUTRAL_POSE, duration: 180, label: 'ready' },
-    ];
-    letters.forEach((ch) => {
-      const fpose = FINGERSPELL[ch] || OPEN;
-      frames.push({
-        pose: {
-          rightArm: arm(-0.6, 1.0, fpose, 0, 10, 25),
-          leftArm:  arm( 0.2, 0.3, { ...OPEN, palmFacing: 'back' }),
-          face: NEUTRAL,
-          rightHandArrow: null,
-          leftHandArrow: null,
-          torsoBend: 0,
-        },
-        duration: 380,
-        label: `Spell: ${ch}`,
-      });
-    });
-    frames.push({ pose: NEUTRAL_POSE, duration: 220, label: 'rest' });
-    return {
-      word,
-      sign: null,
-      frames,
-      duration: frames.reduce((s, f) => s + f.duration, 0),
-    };
+  // 3. Intelligent fingerspelling fallback — triggers whenever no dictionary match found.
+  //    Uses the dedicated fingerspellWord() function for accurate per-letter handshapes.
+  if (!matchedSign && word.length > 0) {
+    return fingerspellWord(word);
   }
 
   const poses = getPoses(matchedSign);

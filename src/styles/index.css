@@ -157,3 +157,112 @@ button, input, select, textarea {
     display: none !important;
   }
 }
+
+/* ─── Mobile Optimization ──────────────────────────────────────────────────── */
+
+/* Prevent horizontal overflow on all mobile devices */
+html, body {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Better tap targets for touch devices */
+@media (max-width: 768px) {
+  button, a, [role="button"] {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  /* Prevent text overflow in cards */
+  .glass-card-interactive,
+  [class*="card"] {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Avatar canvas — full width on mobile */
+  canvas {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  /* Reduce padding on inputs for mobile */
+  input[type="text"],
+  input[type="search"],
+  textarea {
+    font-size: 16px !important; /* Prevent iOS zoom on focus */
+  }
+}
+
+/* Very small phones (< 400px) */
+@media (max-width: 400px) {
+  .app-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  h1 {
+    font-size: clamp(20px, 7vw, 30px) !important;
+  }
+}
+
+/* Touch scrolling for horizontal rows (chip bars, etc.) */
+.scroll-x-mobile {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.scroll-x-mobile::-webkit-scrollbar {
+  display: none;
+}
+
+/* Grid helpers for responsive layouts */
+.grid-auto-fill-160 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr));
+  gap: 16px;
+}
+
+.grid-auto-fill-120 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(120px, 100%), 1fr));
+  gap: 12px;
+}
+
+/* Safe-area insets for notched/gesture phones */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .app-footer-mobile-safe {
+    padding-bottom: calc(16px + env(safe-area-inset-bottom));
+  }
+}
+
+/* Smooth scroll for iOS */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Sticky bottom navigation improvement on mobile */
+@media (max-width: 640px) {
+  .bottom-nav {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* Flex-wrap improvements for tight mobile viewports */
+@media (max-width: 540px) {
+  .flex-wrap-mobile {
+    flex-wrap: wrap;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* Tooltip / popover safe positioning on mobile */
+@media (max-width: 640px) {
+  [role="tooltip"] {
+    max-width: min(280px, 90vw);
+  }
+}
+
