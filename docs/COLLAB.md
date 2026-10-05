@@ -373,7 +373,8 @@ thesignbridge/
 │       │   └── 0-9.json                    # Numeric vocabulary records
 │       └── images/                         # 1,514 WebP sign illustration crops (300 DPI)
 │
-├── scripts/                                # Python automation and validation tools
+├── scripts/                                # Python automation, brand tools, and validation
+│   ├── generate-icons.mjs                  # Brand identity generator (SVG → PNG, all sizes + OG card)
 │   ├── extract_dictionary.py               # PyMuPDF extractor (PDF -> JSON & WebP)
 │   └── validate_dictionary.py              # 100% integrity validation auditor
 │
@@ -470,6 +471,31 @@ npm run typecheck
 # Run ESLint across TypeScript source files
 npm run lint
 ```
+
+### Brand Identity Asset Pipeline
+*(Requires Node.js 18+ and `sharp` already installed via `npm install`)*
+```bash
+# Regenerate the full brand icon suite and OG social share card from SVG source
+npm run generate:icons
+```
+
+This runs `scripts/generate-icons.mjs` which procedurally renders the **SignBridgeGhana Hand-Bridge glyph** (SVG) through `sharp` and writes the following assets:
+
+| Output File | Size | Purpose |
+| :--- | :--- | :--- |
+| `public/favicon.png` | 512×512 | Root HTML fallback favicon |
+| `public/icons/favicon.png` | 512×512 | Primary brand favicon |
+| `public/icons/favicon-32.png` | 32×32 | Browser tab favicon |
+| `public/icons/favicon-16.png` | 16×16 | Legacy browser favicon |
+| `public/icons/pwa-icon-512.png` | 512×512 | PWA maskable icon |
+| `public/icons/pwa-icon-192.png` | 192×192 | PWA maskable icon |
+| `public/icons/apple-touch-icon.png` | 180×180 | iOS Add-to-Home-Screen icon |
+| `public/icons/shortcut-icon-96.png` | 96×96 | PWA shortcut icon |
+| `public/images/og-social-share.png` | 1200×630 | Open Graph / Twitter social card |
+
+> **To update the brand**: edit the SVG vectors in `getIconSvg()` or `getOgImageSvg()` inside `scripts/generate-icons.mjs`, then run `npm run generate:icons` to regenerate all assets.
+
+---
 
 ### Dataset Re-extraction & Validation
 *(Requires Python 3.10+ and the source PDF in root)*
