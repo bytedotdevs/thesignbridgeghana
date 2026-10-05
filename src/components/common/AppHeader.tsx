@@ -98,7 +98,7 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
               <img
                 src="/favicon.png"
                 alt="SignBridgeGhana Logo"
-                style={{ width: '32px', height: '32px', objectFit: 'contain' }}
+                style={{ width: '32px', height: '32px', objectFit: 'contain', borderRadius: '8px' }}
                 onError={(e) => {
                   // Fallback icon if logo image not yet loaded
                   (e.target as HTMLElement).style.display = 'none';

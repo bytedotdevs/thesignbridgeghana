@@ -232,8 +232,19 @@ thesignbridge/
 ├── tsconfig.json              # TypeScript strict compiler configuration
 │
 ├── public/                    # Static assets & partitioned GSL dataset
-│   ├── favicon.png            # High-resolution brand logo & PWA icon
+│   ├── favicon.png            # Root fallback brand favicon (512×512)
+│   ├── manifest.webmanifest   # PWA web app manifest
 │   ├── robots.txt             # Search crawler directives
+│   ├── icons/                 # Full PWA & platform icon suite
+│   │   ├── favicon.png        # Primary brand favicon (512×512)
+│   │   ├── favicon-32.png     # Browser tab favicon (32×32)
+│   │   ├── favicon-16.png     # Legacy favicon (16×16)
+│   │   ├── pwa-icon-512.png   # PWA maskable icon (512×512)
+│   │   ├── pwa-icon-192.png   # PWA maskable icon (192×192)
+│   │   ├── apple-touch-icon.png # iOS Add-to-Home-Screen icon (180×180)
+│   │   └── shortcut-icon-96.png # PWA shortcut icon (96×96)
+│   ├── images/
+│   │   └── og-social-share.png  # Open Graph / Twitter social share card (1200×630)
 │   └── data/dictionary/
 │       ├── vocabulary/        # Partitioned alphabetical sign files (a.json ... z.json)
 │       ├── images/            # Optimized 300 DPI WebP sign crops
@@ -242,7 +253,8 @@ thesignbridge/
 │       ├── schools.json       # 9 historic Deaf schools in Ghana
 │       └── manifest.json      # Dataset metadata, version & checksums
 │
-├── scripts/                   # Data engineering tools
+├── scripts/                   # Data engineering & brand asset tools
+│   ├── generate-icons.mjs     # Brand identity generator — all icons & OG card
 │   ├── extract_dictionary.py  # PDF to JSON + WebP image cropper
 │   └── validate_dictionary.py # Dataset integrity audit & verification
 │
@@ -255,11 +267,11 @@ thesignbridge/
     ├── pages/                 # Home, Dictionary, VocabularyDetail, Categories,
     │                          # Alphabet, Numerals, Schools, Favorites, Translator, About
     ├── services/
-    │   ├── avatarSigningService.ts     # Three.js 3D avatar rig & pose interpolator
+    │   ├── avatarSigningService.ts      # Three.js 3D avatar rig & pose interpolator
     │   ├── gestureRecognitionService.ts # MediaPipe Holistic & GSL feature matcher
-    │   ├── searchService.ts            # MiniSearch client indexing
-    │   ├── dictionaryService.ts        # Data loader & vocabulary cache
-    │   └── storageService.ts           # LocalStorage favorites & study notes
+    │   ├── searchService.ts             # MiniSearch client indexing
+    │   ├── dictionaryService.ts         # Data loader & vocabulary cache
+    │   └── storageService.ts            # LocalStorage favorites & study notes
     ├── styles/                # design-tokens.css, chrome-glass.css, index.css
     └── types/                 # dictionary.ts (data schemas & models)
 ```
@@ -284,19 +296,25 @@ cd thesignbridgeghana
 npm install
 ```
 
-### 3. Start Development Server
+### 3. Generate Brand Assets
+```bash
+npm run generate:icons
+```
+This runs `scripts/generate-icons.mjs` using `sharp` to render the SVG brand glyph into the full icon suite: `public/icons/` (all PWA, favicon, and Apple Touch sizes) and `public/images/og-social-share.png` (1200×630 social share card). **Run this whenever the brand identity is updated.**
+
+### 4. Start Development Server
 ```bash
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 4. Build for Production & PWA
+### 5. Build for Production & PWA
 ```bash
 npm run build
 ```
 This compiles TypeScript (`tsc --noEmit`), bundles client assets via Vite, and generates the offline service worker (`dist/sw.js`).
 
-### 5. Preview Production Bundle
+### 6. Preview Production Bundle
 ```bash
 npm run preview
 ```
