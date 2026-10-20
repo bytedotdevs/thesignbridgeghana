@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
 
     <!-- ── Favicon & PWA Icons ──────────────────────────────────────────── -->
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/favicon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
-    <link rel="icon" type="image/png" href="/icons/favicon.png" />
+    <link rel="shortcut icon" href="/icons/favicon-32.png" />
 
     <!-- ── Viewport & Mobile ────────────────────────────────────────────── -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -16,7 +17,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="SignBridge" />
+    <!-- Apple touch icons — multiple sizes ensure best match across all iOS devices -->
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/pwa-icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/pwa-icon-512.png" />
+
+    <!-- ── Windows Tiles ────────────────────────────────────────────────── -->
+    <meta name="msapplication-TileImage" content="/icons/pwa-icon-192.png" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+    <meta name="msapplication-config" content="none" />
 
     <!-- ── Web App Manifest ──────────────────────────────────────────────── -->
     <link rel="manifest" href="/manifest.webmanifest" />
