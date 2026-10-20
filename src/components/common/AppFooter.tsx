@@ -38,24 +38,31 @@ export const AppFooter: React.FC<{ onNavigate: (path: string) => void }> = ({ on
         >
           {/* Brand & Mission */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
               <div
                 style={{
-                  width: '36px',
-                  height: '36px',
+                  width: '40px',
+                  height: '40px',
                   borderRadius: '10px',
                   backgroundColor: '#ffffff',
-                  padding: '2px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
+                  overflow: 'hidden',
+                  flexShrink: 0,
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.25)',
                 }}
               >
-                <img src="/favicon.png" alt="Logo" style={{ width: '28px', height: '28px' }} />
+                <img src="/icons/favicon.png" alt="SignBridgeGhana Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
               </div>
-              <span style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800 }}>
-                SignBridge<span style={{ color: '#60a5fa' }}>Ghana</span>
-              </span>
+              <div>
+                <span style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800 }}>
+                  SignBridge<span style={{ color: '#E52B2B' }}>G</span><span style={{ color: '#F59E0B' }}>h</span><span style={{ color: '#009739' }}>ana</span>
+                </span>
+                <p style={{ color: '#94a3b8', fontSize: '10px', fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', marginTop: '-2px' }}>
+                  Ghanaian Sign Language
+                </p>
+              </div>
             </div>
             <p style={{ color: '#94a3b8', fontSize: '14px', lineHeight: '1.7', marginBottom: '16px' }}>
               The authoritative digital gateway to Ghanaian Sign Language (GSL). Preserving, teaching, and bridging deaf and hearing communities through interactive technology.

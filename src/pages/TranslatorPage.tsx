@@ -224,7 +224,7 @@ export const TranslatorPage: React.FC<{ onSelectSign?: (slug: string) => void }>
 
         {/* Active Mode Content */}
         <div className="animate-fade-in">
-          {mode === 'sign-to-text' && <SignToTextView />}
+          {mode === 'sign-to-text' && <SignToTextView onSelectSign={onSelectSign} />}
           {mode === 'text-to-sign' && <TextToSignAvatar />}
           {mode === 'composer' && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>

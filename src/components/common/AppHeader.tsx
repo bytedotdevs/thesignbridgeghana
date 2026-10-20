@@ -83,26 +83,21 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
           >
             <div
               style={{
-                width: '42px',
-                height: '42px',
+                width: '44px',
+                height: '44px',
                 borderRadius: '12px',
-                padding: '2px',
-                background: 'linear-gradient(135deg, #ffffff 0%, #dbeafe 50%, #93c5fd 100%)',
-                boxShadow: '0 4px 12px rgba(37, 99, 235, 0.18), inset 0 1px 1px #fff',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                border: '1px solid rgba(255, 255, 255, 0.9)',
+                overflow: 'hidden',
+                flexShrink: 0,
+                boxShadow: '0 4px 14px rgba(0, 0, 0, 0.08)',
               }}
             >
               <img
-                src="/favicon.png"
-                alt="SignBridgeGhana Logo"
-                style={{ width: '32px', height: '32px', objectFit: 'contain', borderRadius: '8px' }}
-                onError={(e) => {
-                  // Fallback icon if logo image not yet loaded
-                  (e.target as HTMLElement).style.display = 'none';
-                }}
+                src="/icons/favicon.png"
+                alt="SignBridgeGhana Favicon"
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>
             <div>
@@ -110,13 +105,13 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
                 <span
                   style={{
                     fontFamily: 'var(--font-display)',
-                    fontSize: '19px',
+                    fontSize: '20px',
                     fontWeight: 800,
                     letterSpacing: '-0.03em',
                     color: 'var(--ink-primary)',
                   }}
                 >
-                  SignBridge<span style={{ color: 'var(--brand-blue)' }}>Ghana</span>
+                  SignBridge<span style={{ color: '#E52B2B' }}>G</span><span style={{ color: '#F59E0B' }}>h</span><span style={{ color: '#009739' }}>ana</span>
                 </span>
                 <Badge variant="ghana" size="sm">
                   GSL 3rd Ed.
@@ -125,12 +120,14 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
               <p
                 style={{
                   fontSize: '11px',
-                  fontWeight: 500,
+                  fontWeight: 600,
                   color: 'var(--ink-muted)',
                   marginTop: '-2px',
+                  letterSpacing: '0.05em',
+                  textTransform: 'uppercase',
                 }}
               >
-                Ghanaian Sign Language Platform
+                Ghanaian Sign Language
               </p>
             </div>
           </div>

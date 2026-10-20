@@ -56,9 +56,26 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectSign }) 
         }}
       >
         <div className="app-container">
-          <div style={{ display: 'inline-flex', marginBottom: '18px' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '18px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '4px 12px 4px 6px',
+                borderRadius: '9999px',
+                backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                border: '1px solid rgba(220, 230, 245, 0.9)',
+                boxShadow: '0 2px 10px rgba(15,23,42,0.04)',
+              }}
+            >
+              <img src="/icons/favicon-32.png" alt="Logo" style={{ width: '22px', height: '22px', borderRadius: '5px' }} />
+              <span style={{ fontSize: '13px', fontWeight: 800, color: 'var(--ink-primary)', letterSpacing: '-0.02em' }}>
+                SignBridge<span style={{ color: '#E52B2B' }}>G</span><span style={{ color: '#F59E0B' }}>h</span><span style={{ color: '#009739' }}>ana</span>
+              </span>
+            </div>
             <Badge variant="ghana" size="md" icon={<ShieldCheck size={16} />}>
-              Official 3rd Edition Digital Dictionary • GNAD & GES
+              Official 3rd Edition Digital Dictionary • GNAD &amp; GES
             </Badge>
           </div>
 

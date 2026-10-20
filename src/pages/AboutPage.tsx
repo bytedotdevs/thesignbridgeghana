@@ -58,6 +58,55 @@ export const AboutPage: React.FC<{ onNavigate: (path: string) => void }> = ({ on
           </div>
         </FrostedGlassCard>
 
+        {/* Brand & Visual Identity Architecture */}
+        <FrostedGlassCard style={{ padding: '36px', marginBottom: '32px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+            <Badge variant="ghana" size="sm">Brand &amp; Visual Identity</Badge>
+            <Badge variant="chrome" size="sm">Redesign System</Badge>
+          </div>
+          <h2 style={{ fontSize: '22px', fontWeight: 800, color: 'var(--ink-primary)', marginBottom: '8px' }}>
+            The Visual Language of SignBridgeGhana
+          </h2>
+          <p style={{ fontSize: '15px', color: 'var(--ink-secondary)', lineHeight: '1.7', marginBottom: '24px' }}>
+            Our brand architecture unifies the rich heritage of Ghana with the visual essence of sign language: hands reaching, connecting, and bridging communities under the Black Star.
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
+            {/* Main Logo */}
+            <div style={{ backgroundColor: '#ffffff', border: '1px solid rgba(220,230,245,0.9)', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '88px', height: '88px', margin: '0 auto 16px auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <img src="/images/main-logo.png" alt="Main Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: 800, color: 'var(--ink-primary)', marginBottom: '6px' }}>Main Logo</h3>
+              <p style={{ fontSize: '13px', color: 'var(--ink-secondary)', lineHeight: '1.6' }}>
+                Two cupped hands cradling the Ghanaian Black Star, representing community embrace, unity, and cultural elevation.
+              </p>
+            </div>
+
+            {/* App Icon */}
+            <div style={{ backgroundColor: '#ffffff', border: '1px solid rgba(220,230,245,0.9)', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '88px', height: '88px', margin: '0 auto 16px auto', borderRadius: '50%', overflow: 'hidden', boxShadow: '0 6px 18px rgba(0,56,32,0.2)' }}>
+                <img src="/icons/app-icon.png" alt="App Icon" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: 800, color: 'var(--ink-primary)', marginBottom: '6px' }}>App Icon</h3>
+              <p style={{ fontSize: '13px', color: 'var(--ink-secondary)', lineHeight: '1.6' }}>
+                Two hands reaching across the forest green circle of life, with the star emblem centered on the signing palm.
+              </p>
+            </div>
+
+            {/* Brand Symbol & Favicon */}
+            <div style={{ backgroundColor: '#ffffff', border: '1px solid rgba(220,230,245,0.9)', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ width: '88px', height: '88px', margin: '0 auto 16px auto', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 6px 18px rgba(15,23,42,0.1)' }}>
+                <img src="/icons/favicon.png" alt="Favicon & Symbol" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: 800, color: 'var(--ink-primary)', marginBottom: '6px' }}>Favicon &amp; Symbol</h3>
+              <p style={{ fontSize: '13px', color: 'var(--ink-secondary)', lineHeight: '1.6' }}>
+                The "S" dual-hand form in national red and green with the Black Star core — power, identity, and digital agility.
+              </p>
+            </div>
+          </div>
+        </FrostedGlassCard>
+
         {/* Technical Architecture & Accessibility */}
         <FrostedGlassCard style={{ padding: '36px', marginBottom: '32px' }}>
           <h2 style={{ fontSize: '22px', fontWeight: 800, color: 'var(--ink-primary)', marginBottom: '14px' }}>
